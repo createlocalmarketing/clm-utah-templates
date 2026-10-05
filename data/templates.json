@@ -1,0 +1,490 @@
+[
+{
+"group": "Geo hubs",
+"name": "State hub (all of Utah)",
+"hash": "#/state",
+"elements": "Hero search, region/county drill-down, statewide news, market KPIs, featured homes, directory",
+"utrd_only": true,
+"url": "/utah/"
+},
+{
+"group": "Geo hubs",
+"name": "Brand home",
+"hash": "#/",
+"elements": "Hero search, area KPIs, city tiles, homes, news, events, deals, directory, Realtor spotlight",
+"utrd_only": false,
+"url": "/"
+},
+{
+"group": "Geo hubs",
+"name": "Regions index",
+"hash": "#/regions",
+"elements": "All regions with their counties",
+"utrd_only": true,
+"url": "/utah/regions/"
+},
+{
+"group": "Geo hubs",
+"name": "Region hub",
+"hash": "#/region/wasatch-back",
+"elements": "Region KPIs, counties, cities, homes, news, events",
+"utrd_only": true,
+"url": "/utah/{region}/"
+},
+{
+"group": "Geo hubs",
+"name": "Counties index",
+"hash": "#/counties",
+"elements": "Every county with population and median home value",
+"utrd_only": false,
+"url": "/counties/"
+},
+{
+"group": "Geo hubs",
+"name": "County hub",
+"hash": "#/county/summit",
+"elements": "County KPIs, cities, neighborhoods, homes, schools, news, events, directory",
+"utrd_only": false,
+"url": "/{county}-county/"
+},
+{
+"group": "Geo hubs",
+"name": "Cities index",
+"hash": "#/cities",
+"elements": "Every city tile plus full city list",
+"utrd_only": false,
+"url": "/cities/"
+},
+{
+"group": "Geo hubs",
+"name": "City hub",
+"hash": "#/city/park-city",
+"elements": "Explore every neighborhood, six ways to buy, homes, city news feed, events, deals, businesses, schools, mortgage rates, market data, FAQs",
+"utrd_only": false,
+"url": "/{county}-county/{city}/"
+},
+{
+"group": "Geo hubs",
+"name": "Neighborhoods index",
+"hash": "#/neighborhoods?g=city:park-city",
+"elements": "All neighborhoods grouped by city",
+"utrd_only": false,
+"url": "/{county}-county/{city}/neighborhoods/"
+},
+{
+"group": "Geo hubs",
+"name": "Neighborhood page",
+"hash": "#/hood/old-town-park-city",
+"elements": "Neighborhood homes, nearby businesses, schools, events, news within area of influence",
+"utrd_only": false,
+"url": "/{county}-county/{city}/{neighborhood}/"
+},
+{
+"group": "Geo hubs",
+"name": "City vs city",
+"hash": "#/compare/park-city/heber-city",
+"elements": "Side-by-side metrics table, homes in each city, schools",
+"utrd_only": false,
+"url": "/compare/{city-a}-vs-{city-b}/"
+},
+{
+"group": "Geo hubs",
+"name": "Relocation (moving from a state)",
+"hash": "#/relocation?g=city:park-city&from=California",
+"elements": "From-state picker, cost KPIs, climate, economy, utilities, homes, movers/lenders/agents",
+"utrd_only": false,
+"url": "/relocation/from-{state}/{city}/"
+},
+{
+"group": "Geo hubs",
+"name": "Things to do / lifestyle (area of influence)",
+"hash": "#/things-to-do?g=city:park-city&k=skiing",
+"elements": "Activity search by keyword, results ranked by distance from the city",
+"utrd_only": false,
+"url": "/{city}/things-to-do/{activity}/"
+},
+{
+"group": "Homes",
+"name": "MLS search (homes for sale)",
+"hash": "#/homes?g=city:park-city",
+"elements": "Filters (type, price, beds, status), six ways to buy, result grid",
+"utrd_only": false,
+"url": "/{city}/homes-for-sale/"
+},
+{
+"group": "Homes",
+"name": "Listing detail",
+"hash": "#/listing/L1246",
+"elements": "Gallery, price, facts, mortgage estimate, schools, nearby, agent contact",
+"utrd_only": false,
+"url": "/{city}/homes-for-sale/{address}-{mls}/"
+},
+{
+"group": "Homes",
+"name": "Condos",
+"hash": "#/homes?g=city:park-city&t=Condo",
+"elements": "MLS search pre-filtered to condos",
+"utrd_only": false,
+"url": "/{city}/condos-for-sale/"
+},
+{
+"group": "Homes",
+"name": "Townhomes",
+"hash": "#/homes?g=city:park-city&t=Townhome",
+"elements": "MLS search pre-filtered to townhomes",
+"utrd_only": false,
+"url": "/{city}/townhomes-for-sale/"
+},
+{
+"group": "Homes",
+"name": "New construction",
+"hash": "#/new-construction?g=city:park-city",
+"elements": "New builds, builders, communities",
+"utrd_only": false,
+"url": "/{city}/new-construction/"
+},
+{
+"group": "Homes",
+"name": "New construction listing detail",
+"hash": "#/listing/L1249",
+"elements": "Listing detail for a new build",
+"utrd_only": false,
+"url": "/{city}/new-construction/{address}/"
+},
+{
+"group": "Homes",
+"name": "Land for sale",
+"hash": "#/land?g=city:park-city",
+"elements": "Lots and acreage with acreage filters",
+"utrd_only": false,
+"url": "/{city}/land-for-sale/"
+},
+{
+"group": "Homes",
+"name": "Land listing detail",
+"hash": "#/listing/L1245",
+"elements": "Listing detail for a lot",
+"utrd_only": false,
+"url": "/{city}/land-for-sale/{address}/"
+},
+{
+"group": "Homes",
+"name": "FSBO listings",
+"hash": "#/fsbo?g=city:park-city",
+"elements": "For-sale-by-owner listings",
+"utrd_only": false,
+"url": "/{city}/fsbo/"
+},
+{
+"group": "Homes",
+"name": "Sell / FSBO plans",
+"hash": "#/sell",
+"elements": "Four seller tiers: Free, FSBO Plus MLS, Pro, full service with Adam",
+"utrd_only": false,
+"url": "/sell/"
+},
+{
+"group": "Homes",
+"name": "Market data",
+"hash": "#/market-data?g=city:park-city",
+"elements": "Median price, rent, YoY, days on market, inventory",
+"utrd_only": false,
+"url": "/{city}/market-data/"
+},
+{
+"group": "Homes",
+"name": "Mortgage calculators",
+"hash": "#/mortgage?g=city:park-city",
+"elements": "Payment, affordability, refinance, rent vs buy (working), current rates",
+"utrd_only": false,
+"url": "/mortgage-calculator/"
+},
+{
+"group": "Directory",
+"name": "Business directory (all)",
+"hash": "#/directory?g=city:park-city",
+"elements": "Vertical and category filters, ranked by service area",
+"utrd_only": false,
+"url": "/{city}/directory/"
+},
+{
+"group": "Directory",
+"name": "Directory vertical page",
+"hash": "#/directory?g=city:park-city&v=construction-home-services",
+"elements": "All categories in one vertical",
+"utrd_only": false,
+"url": "/{city}/directory/{vertical}/"
+},
+{
+"group": "Directory",
+"name": "Directory category page",
+"hash": "#/directory?g=city:park-city&c=restaurant",
+"elements": "Businesses in one category",
+"utrd_only": false,
+"url": "/{city}/directory/{vertical}/{category}/"
+},
+{
+"group": "Directory",
+"name": "Business profile",
+"hash": "#/business/B756",
+"elements": "Hours, contact, map, providers at this business, deals, reviews, claim",
+"utrd_only": false,
+"url": "/{city}/directory/{category}/{business}/"
+},
+{
+"group": "Directory",
+"name": "Business profile \u2014 real estate agency",
+"hash": "#/business/B751",
+"elements": "Brokerage profile with agents",
+"utrd_only": false,
+"url": "/{city}/directory/real-estate-agency/{business}/"
+},
+{
+"group": "Directory",
+"name": "Business profile \u2014 mortgage lender",
+"hash": "#/business/B737",
+"elements": "Lender profile with loan officers",
+"utrd_only": false,
+"url": "/{city}/directory/mortgage-lender/{business}/"
+},
+{
+"group": "Directory",
+"name": "Business profile \u2014 contractor",
+"hash": "#/business/B743",
+"elements": "Contractor profile with project leads",
+"utrd_only": false,
+"url": "/{city}/directory/general-contractor/{business}/"
+},
+{
+"group": "Directory",
+"name": "Provider profile \u2014 Realtor",
+"hash": "#/pro/P817",
+"elements": "Personal profile, portable reviews, past businesses, listings",
+"utrd_only": false,
+"url": "/pros/{name}/"
+},
+{
+"group": "Directory",
+"name": "Provider profile \u2014 loan officer",
+"hash": "#/pro/P807",
+"elements": "Loan officer profile with portable reviews",
+"utrd_only": false,
+"url": "/pros/{name}/"
+},
+{
+"group": "Directory",
+"name": "Provider profile \u2014 mortgage broker",
+"hash": "#/pro/P818",
+"elements": "Broker profile with portable reviews",
+"utrd_only": false,
+"url": "/pros/{name}/"
+},
+{
+"group": "Directory",
+"name": "Provider profile \u2014 inspector",
+"hash": "#/pro/P800",
+"elements": "Inspector profile with portable reviews",
+"utrd_only": false,
+"url": "/pros/{name}/"
+},
+{
+"group": "Directory",
+"name": "Provider profile \u2014 contractor project lead",
+"hash": "#/pro/P811",
+"elements": "Contractor lead profile with portable reviews",
+"utrd_only": false,
+"url": "/pros/{name}/"
+},
+{
+"group": "Directory",
+"name": "Provider profile \u2014 dentist",
+"hash": "#/pro/P815",
+"elements": "Medical provider profile with portable reviews",
+"utrd_only": false,
+"url": "/pros/{name}/"
+},
+{
+"group": "Directory",
+"name": "Realtor directory",
+"hash": "#/realtors?g=city:park-city",
+"elements": "Agents serving the area, featured Realtor",
+"utrd_only": false,
+"url": "/{city}/realtors/"
+},
+{
+"group": "Directory",
+"name": "Lender directory",
+"hash": "#/lenders?g=city:park-city",
+"elements": "Loan officers and brokers, rotating lender slots",
+"utrd_only": false,
+"url": "/{city}/lenders/"
+},
+{
+"group": "Directory",
+"name": "Contractors + quote request",
+"hash": "#/contractors?g=city:park-city",
+"elements": "Thumbtack-style 4-step quote wizard, matched pros",
+"utrd_only": false,
+"url": "/{city}/contractors/"
+},
+{
+"group": "Directory",
+"name": "Schools",
+"hash": "#/schools?g=city:park-city",
+"elements": "School list with level filters and ratings",
+"utrd_only": false,
+"url": "/{city}/schools/"
+},
+{
+"group": "Directory",
+"name": "School detail",
+"hash": "#/school/S98",
+"elements": "School facts, rating, homes nearby",
+"utrd_only": false,
+"url": "/{city}/schools/{school}/"
+},
+{
+"group": "Community",
+"name": "Real Estate News",
+"hash": "#/news?g=city:park-city",
+"elements": "News feed by geo (city first, then area of influence)",
+"utrd_only": false,
+"url": "/{city}/real-estate-news/"
+},
+{
+"group": "Community",
+"name": "News article",
+"hash": "#/article/N120",
+"elements": "Article, related homes, related news",
+"utrd_only": false,
+"url": "/real-estate-news/{slug}/"
+},
+{
+"group": "Community",
+"name": "Events",
+"hash": "#/events?g=city:park-city",
+"elements": "Facebook-style events feed by date and distance",
+"utrd_only": false,
+"url": "/{city}/events/"
+},
+{
+"group": "Community",
+"name": "Event detail",
+"hash": "#/event/E120",
+"elements": "Event info, location, nearby homes and businesses",
+"utrd_only": false,
+"url": "/{city}/events/{event}/"
+},
+{
+"group": "Community",
+"name": "Deals",
+"hash": "#/deals?g=city:park-city",
+"elements": "Local business deals",
+"utrd_only": false,
+"url": "/{city}/deals/"
+},
+{
+"group": "Community",
+"name": "Deal detail",
+"hash": "#/deal/D183",
+"elements": "Deal, business, redeem",
+"utrd_only": false,
+"url": "/{city}/deals/{deal}/"
+},
+{
+"group": "Community",
+"name": "Marketplace",
+"hash": "#/marketplace?g=city:park-city",
+"elements": "Facebook Marketplace-style masonry of products/services from directory businesses",
+"utrd_only": false,
+"url": "/{city}/marketplace/"
+},
+{
+"group": "Community",
+"name": "Marketplace item",
+"hash": "#/item/M295",
+"elements": "Item detail, seller business, similar items",
+"utrd_only": false,
+"url": "/{city}/marketplace/{item}/"
+},
+{
+"group": "Community",
+"name": "Classifieds",
+"hash": "#/classifieds?g=city:park-city",
+"elements": "KSL-style classifieds",
+"utrd_only": false,
+"url": "/{city}/classifieds/"
+},
+{
+"group": "Community",
+"name": "Classified detail",
+"hash": "#/classified/C120",
+"elements": "Ad detail and contact",
+"utrd_only": false,
+"url": "/{city}/classifieds/{ad}/"
+},
+{
+"group": "Community",
+"name": "Jobs",
+"hash": "#/jobs?g=city:park-city",
+"elements": "Local job board",
+"utrd_only": false,
+"url": "/{city}/jobs/"
+},
+{
+"group": "Community",
+"name": "Job detail",
+"hash": "#/job/J136",
+"elements": "Job detail and apply",
+"utrd_only": false,
+"url": "/{city}/jobs/{job}/"
+},
+{
+"group": "Account",
+"name": "Sign in",
+"hash": "#/signin",
+"elements": "Sign in / create account",
+"utrd_only": false,
+"url": "/account/"
+},
+{
+"group": "Account",
+"name": "Saved homes & searches",
+"hash": "#/saved",
+"elements": "Saved items",
+"utrd_only": false,
+"url": "/account/saved/"
+},
+{
+"group": "Account",
+"name": "Claim your business",
+"hash": "#/claim",
+"elements": "Business claim flow",
+"utrd_only": false,
+"url": "/claim/"
+},
+{
+"group": "Account",
+"name": "Contact",
+"hash": "#/contact",
+"elements": "Contact form",
+"utrd_only": false,
+"url": "/contact/"
+},
+{
+"group": "System",
+"name": "404 / not found",
+"hash": "#/no-such-page",
+"elements": "Not-found page",
+"utrd_only": false,
+"url": "\u2014"
+},
+{
+"group": "System",
+"name": "Template library (per brand)",
+"hash": "#/templates",
+"elements": "Every template on that brand with brand config",
+"utrd_only": false,
+"url": "\u2014"
+}
+]

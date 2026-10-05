@@ -147,13 +147,13 @@
   };
   // pass-through: same page on the sister brand (only if the geo is in that brand's scope)
   E.passThrough = (hash) => {
-    const other = B.key === 'utrd' ? 'pch' : 'utrd', OB = window.CLM_BRANDS[other];
     const m = hash.match(/(county|city|hood)[:/]([a-z0-9-]+)/);
-    let ok = true;
-    if (m && OB.scope) { const cs = m[1] === 'county' ? m[2] : m[1] === 'city' ? E.idx.city[m[2]]?.county : E.idx.city[E.idx.hood[m[2]]?.city]?.county; ok = OB.scope.includes(cs); }
-    if (!ok) return '';
-    return `<span class="passthru">Same template on <a href="../${window.CLM_FULL ? OB.domain : other}/index.html${hash || '#/'}">${OB.name} →</a></span>`;
+    const cs = !m ? null : m[1] === 'county' ? m[2] : m[1] === 'city' ? E.idx.city[m[2]]?.county : E.idx.city[E.idx.hood[m[2]]?.city]?.county;
+    const others = Object.values(window.CLM_BRANDS).filter((OB) => OB.key !== B.key && (!OB.scope || !cs || OB.scope.includes(cs)));
+    if (!others.length) return '';
+    return `<span class="passthru">Same template on ${others.map((OB) => `<a href="../${window.CLM_FULL ? OB.domain : OB.key}/index.html${hash || '#/'}">${OB.short}</a>`).join(' · ')}</span>`;
   };
+
 
   E.heroFor = (ctx) => {
     const c = ctx.city, k = ctx.county || (ctx.level === 'county' ? ctx.slug : null);
@@ -211,7 +211,7 @@
     <div><h5>Sell</h5><a href="#/sell">List my home</a><a href="#/realtors">Find a Realtor</a><a href="#/market-data">Market data</a><a href="#/contractors">Pre-sale contractors</a></div>
     <div><h5>Local</h5><a href="#/directory">Directory</a><a href="#/events">Events</a><a href="#/deals">Deals</a><a href="#/marketplace">Marketplace</a><a href="#/jobs">Jobs</a><a href="#/classifieds">Classifieds</a></div>
     <div><h5>Explore</h5><a href="#/news">Real Estate News</a><a href="#/schools">Schools</a><a href="#/compare">City vs city</a><a href="#/relocation">Relocation</a><a href="#/templates">Page templates</a></div></div>
-    <div class="netbar"><span>CLM Utah network</span><a href="../utrd/index.html#/">Utah Real Estate Directory</a><a href="../pch/index.html#/">Homes for Sale in Park City</a><span style="color:var(--on-dark-muted);letter-spacing:.06em">Phase 2/3 · Inside Utah Real Estate · Homes for Sale in St. George · Utah Savings Guide</span></div></div></footer>`;
+    <div class="netbar"><span>CLM Utah network</span>${Object.values(window.CLM_BRANDS).map((OB) => `<a href="../${E.dirOf(OB.key)}/index.html#/">${OB.name}</a>`).join('')}</div></div></footer>`;
 
   /* ---------- shared UI pieces ---------- */
   const U = E.ui;

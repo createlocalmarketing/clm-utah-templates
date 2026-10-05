@@ -48,7 +48,7 @@
     const homeMed = lvl === 'city' ? median(ls) : lvl === 'county' ? c.home : 0;
     const isPrimary = B.primaryCity && ctx.slug === B.primaryCity;
     const stats = [[int(pop), ' residents'], [int(ls.length), ' sample listings'], ...(lvl === 'city' ? [[int(hoods.length), ' neighborhoods'], [c.zip, ' ZIP']] : [[int(childCities.length), ' cities'], [int(hoods.length), ' neighborhoods']]), ...(lvl === 'county' ? [[money(c.home), ' median home (DB)']] : [])];
-    const eyebrow = lvl === 'state' ? (B.scope ? 'Wasatch Back · Summit & Wasatch counties' : 'Utah · 29 counties') : lvl === 'region' ? 'Region · ' + ctx.counties.length + ' counties' : lvl === 'county' ? county.region + ' · county seat ' + esc(c.seat) : esc(E.countyName(c.county)) + ' · ' + esc(c.type);
+    const eyebrow = lvl === 'state' ? (B.scope ? B.eyebrow : 'Utah · 29 counties') : lvl === 'region' ? 'Region · ' + ctx.counties.length + ' counties' : lvl === 'county' ? county.region + ' · county seat ' + esc(c.seat) : esc(E.countyName(c.county)) + ' · ' + esc(c.type);
     const h1 = lvl === 'state' ? B.headline[0] : lvl === 'city' ? (isPrimary ? 'Park City homes &amp; life' : esc(name) + ' homes &amp; life') : esc(name);
     const em = lvl === 'state' ? B.headline[1] : lvl === 'city' ? 'neighborhood by neighborhood.' : lvl === 'county' ? 'every city and neighborhood.' : 'county by county.';
     const lede = lvl === 'state' ? B.lede : lvl === 'city' ? `Every ${esc(name)} listing, neighborhood, school and local business — plus events, news and things to do across the surrounding area.` : esc(county.market || '') || `All homes, cities and local services across ${esc(name)}.`;
@@ -75,7 +75,7 @@
          <h3 class="mt40" style="margin-bottom:12px">All 29 counties</h3>${U.links(E.counties.map((k) => `<a href="${L.county(k.slug)}">${esc(k.name)}<span>${money(k.home)}</span></a>`))}`);
     } else if (lvl !== 'city') {
       const cs = lvl === 'state' ? E.counties : lvl === 'region' ? ctx.counties.map((k) => E.idx.county[k]) : [];
-      if (cs.length) html += U.sec({ eyebrow: 'Counties', title: lvl === 'state' ? 'Summit &amp; Wasatch counties' : 'Counties in ' + esc(name) }, `<div class="g g${Math.min(4, Math.max(2, cs.length))}">${cs.map((k) => `<a class="tile" href="${L.county(k.slug)}" ${bg(E.heroFor(E.ctx('county', k.slug)))}><div><b>${esc(k.name)}</b><small>${money(k.home)} median · ${(E.idx.citiesByCounty[k.slug] || []).length} cities</small></div></a>`).join('')}</div>`);
+      if (cs.length) html += U.sec({ eyebrow: 'Counties', title: lvl === 'state' ? esc(E.counties.map((k) => k.name.replace(' County', '')).join(' & ')) + (E.counties.length > 1 ? ' counties' : ' County') : 'Counties in ' + esc(name) }, `<div class="g g${Math.min(4, Math.max(2, cs.length))}">${cs.map((k) => `<a class="tile" href="${L.county(k.slug)}" ${bg(E.heroFor(E.ctx('county', k.slug)))}><div><b>${esc(k.name)}</b><small>${money(k.home)} median · ${(E.idx.citiesByCounty[k.slug] || []).length} cities</small></div></a>`).join('')}</div>`);
       html += U.sec({ id: 'cities', tint: true, eyebrow: 'Cities & towns', title: 'Cities in ' + esc(name), more: ['#/cities' + (lvl === 'state' ? '' : '?g=' + E.gKey(ctx)), 'All cities'] },
         `<div class="g g4">${childCities.slice(0, 8).map((x) => `<a class="tile" href="${L.city(x.slug)}" ${bg(E.heroFor(E.ctx('city', x.slug)))}><div><b>${esc(x.name)}</b><small>${int(x.pop)} residents · ${(E.idx.hoodsByCity[x.slug] || []).length} neighborhoods</small></div></a>`).join('')}</div>
          ${childCities.length > 8 ? '<div class="mt24">' + U.links(childCities.slice(8).map((x) => `<a href="${L.city(x.slug)}">${esc(x.name)}<span>${esc(x.type)}</span></a>`)) + '</div>' : ''}`);
@@ -99,7 +99,7 @@
        ${lvl === 'city' && homeMed ? `<p class="note mt16">${esc(name)} sample-listing median: ${money0(homeMed)} across ${ls.length} sample listings.</p>` : ''}
        <h3 class="mt40" style="margin-bottom:12px">Today's mortgage rates</h3>${U.rates()}<div class="row mt16"><a class="btn btn-dark" href="${L.list('mortgage', ctx)}">Run the numbers for ${esc(name)}</a><a class="btn btn-ghost" href="#/lenders${ctx.level !== 'state' ? '?g=' + E.gKey(ctx) : ''}">Compare lenders</a></div>`);
     // news
-    if (news.length) html += U.sec({ id: 'news', eyebrow: 'Real Estate News', title: esc(name) + ' news', sub: isLocal ? `${esc(name)} stories first, then nearby towns within ${E.R.news} miles.` : B.primaryCity ? 'Park City stories lead; every Wasatch Back town follows.' : '', more: [L.list('news', ctx), 'All news'] },
+    if (news.length) html += U.sec({ id: 'news', eyebrow: 'Real Estate News', title: esc(name) + ' news', sub: isLocal ? `${esc(name)} stories first, then nearby towns within ${E.R.news} miles.` : B.primaryCity ? `${esc(E.cityName(B.primaryCity))} stories lead; every ${esc(B.areaName.split(' & ').pop().replace('the ', ''))} town follows.` : '', more: [L.list('news', ctx), 'All news'] },
       `<div class="news-lead">${U.news(news[0], true)}<div>${news.slice(1, 6).map(U.newsRow).join('')}</div></div>`);
     // things to do
     if (acts.length) { const kinds = [...new Set(acts.map((a) => a.kind))];
@@ -377,7 +377,7 @@
 
   P.sell = () => {
     const tiers = [['List Your Home Free', '$0', ['Public FSBO listing', 'Up to 8 photos', 'Buyer contact form', 'Realtor fallback after 90 days (opt-out anytime)']],
-      ['FSBO Plus MLS', '$399', ['Everything in Free', `Listed on ${B.scope ? 'PCBOR / WFRMLS' : 'WFRMLS / PCBOR'} via our broker-of-record`, 'Syndicated across the MLS IDX network', 'Up to 25 photos', 'Utah REPC templates', '6-month term']],
+      ['FSBO Plus MLS', '$399', ['Everything in Free', `Listed on ${B.mls.split(' · ').slice(0, 2).join(' / ')} via our broker-of-record`, 'Syndicated across the MLS IDX network', 'Up to 25 photos', 'Utah REPC templates', '6-month term']],
       ['FSBO Concierge', '$1,499', ['Everything in Plus MLS', 'Pro photos + 3D tour', 'CMA from our data warehouse', 'Priority placement', 'Buyer-inquiry triage', 'E-sign + closing coordination']],
       ['List With Our Top Realtor', 'Full service', [`Handoff to ${B.featuredAgent.name}`, B.featuredAgent.team, 'Traditional full-service listing', 'Pro-rated refund of Concierge']]];
     let html = U.hero({ img: 'gen-fsbo', eyebrow: 'Sell', h1: 'Sell your way.', em: 'From free FSBO to full service.', lede: 'Four plans on one platform. Your listing appears on every CLM site that covers your address.', sm: true });

@@ -175,6 +175,24 @@
   };
   E.ICON = ICON;
   const logo = () => `<a class="logo" href="#/" aria-label="${esc(B.name)} home"><span class="logo-mark">${B.mark}</span><span class="logo-word">${esc(B.word[0])} <em>${esc(B.word[1])}</em></span></a>`;
+
+  /* ---------- primary-nav dropdowns: every page type reachable from the header ---------- */
+  const PLACES = [['state', 'Counties'], ['cities', 'Cities'], ['neighborhoods', 'Neighborhoods'], ['neighborhood-guide', 'Neighborhood guide'], ['compare', 'City vs city'], ['cost-of-living', 'Cost of living'], ['school-district', 'School districts'], ['schools', 'Schools'], ['historical-sites', 'Historical sites'], ['relocation', 'Relocation']];
+  const MENU = {
+    '#/homes': [['homes', 'Search MLS'], ['hot-searches', 'Hot searches'], ['open-houses', 'Open houses'], ['new-construction', 'New construction'], ['luxury-homes', 'Luxury homes'], ['condos-townhomes', 'Condos & townhomes'], ['land', 'Land'], ['fsbo', 'For sale by owner'], ['foreclosures', 'Foreclosures'], ['find-your-home', 'Find your home'], ['saved-searches', 'Saved searches']],
+    '#/rentals': [['rentals', 'Long-term rentals'], ['nightly-rentals', 'Nightly rentals'], ['directory?c=property-management-company', 'Property managers']],
+    '#/state': PLACES, '#/cities': PLACES, '#/neighborhoods': PLACES,
+    '#/things-to-do': [['things-to-do', 'Things to do'], ['events', 'Events'], ['calendar', 'Events calendar'], ['whats-happening', 'What’s happening'], ['reels', 'Reels'], ['historical-sites', 'Historical sites'], ['accessibility-guide', 'Accessibility guide']],
+    '#/market-data': [['market-data', 'Market data'], ['market-report', 'Market report'], ['hot-searches', 'Hot searches'], ['mortgage', 'Mortgage calculators'], ['get-pre-approved', 'Get pre-approved'], ['credit-repair', 'Credit repair']],
+    '#/realtors': [['realtors', 'Realtors'], ['brokerages', 'Brokerages'], ['lenders', 'Lenders'], ['ask-a-realtor', 'Ask a Realtor'], ['team-chat', 'Team chat'], ['sell', 'Seller plans'], ['list-my-home', 'List my home'], ['selling-guide', 'Selling guide']],
+    '#/directory': [['directory', 'Business directory'], ['verticals', 'All categories'], ['contractors', 'Contractors & quotes'], ['deals', 'Deals'], ['coupons', 'Coupons'], ['marketplace', 'Marketplace'], ['jobs', 'Jobs'], ['classifieds', 'Classifieds'], ['claim', 'Claim your business'], ['business-dashboard', 'Business dashboard']],
+    '#/news': [['news', 'Real Estate News'], ['market-report', 'Market report'], ['buying-guide', 'Buying guide'], ['selling-guide', 'Selling guide'], ['wiki', 'Wiki'], ['es', 'En español']],
+    '#/events': [['events', 'Events'], ['calendar', 'Events calendar'], ['whats-happening', 'What’s happening'], ['reels', 'Reels'], ['deals', 'Deals'], ['coupons', 'Coupons']],
+    '#/relocation': [['relocation', 'Relocation'], ['cost-of-living', 'Cost of living'], ['compare', 'City vs city'], ['buying-guide', 'Buying guide'], ['school-district', 'School districts'], ['es', 'En español']],
+    '#/more': [['ask-ai', 'Ask AI'], ['ask-a-realtor', 'Ask a Realtor'], ['faqs', 'FAQs'], ['wiki', 'Wiki'], ['help-desk', 'Help desk'], ['add-listing', 'Add a listing'], ['sitemap', 'Sitemap'], ['about', 'About'], ['templates', 'Page templates']],
+  };
+  E.navItems = () => { const n = B.nav.slice(); const i = n.findIndex(([u]) => u === '#/homes'); n.splice(i + 1, 0, ['#/rentals', 'Rentals']); n.push(['#/sitemap', 'More']); return n; };
+  MENU['#/sitemap'] = MENU['#/more'];
   const drawer = () => {
     const top = B.scope ? E.cities.slice(0, 10) : E.cities.slice(0, 8);
     return `<div class="drawer" id="drawer"><div class="drawer-bg" data-close></div><nav class="drawer-panel" aria-label="All sections">
@@ -196,7 +214,7 @@
     <div class="util"><div class="wrap"><div class="util-live"><span class="dot"></span>Live MLS feed · ${esc(B.mls)} · Updated 4 minutes ago</div>
       <div class="util-links"><a href="#/saved">Save Search</a><a href="#/signin">Sign In</a><a class="hl" href="#/sell">List My Home</a></div></div></div>
     <header class="hdr"><div class="wrap">${logo()}
-      <nav class="nav" aria-label="Primary">${B.nav.map(([u, t]) => `<a href="${u}" class="${h.startsWith(u) && u !== '#/' ? 'on' : ''}">${t}</a>`).join('')}</nav>
+      <nav class="nav" aria-label="Primary">${E.navItems().map(([u, t]) => { const m = MENU[u] || []; return `<div class="dd"><a href="${u}" class="${h.startsWith(u) && u !== '#/' ? 'on' : ''}" ${m.length ? 'aria-haspopup="true"' : ''}>${t}${m.length ? '<i class="car"></i>' : ''}</a>${m.length ? `<div class="dd-menu">${m.map(([mu, mt]) => `<a href="#/${mu}">${mt}</a>`).join('')}</div>` : ''}</div>`; }).join('')}</nav>
       <div class="hdr-cta"><a class="btn btn-ghost btn-sm" href="#/templates">Templates</a><a class="btn btn-dark btn-sm" href="#/contact">Talk to an agent</a><button class="menu-btn" data-open aria-label="Open menu">${ICON.menu}</button></div></div></header>
     <div class="crumbs"><div class="wrap"><ol>${crumbs.map(([t, u]) => `<li>${u ? `<a href="${u}">${esc(t)}</a>` : esc(t)}</li>`).join('')}</ol>
       <div class="row"><span class="prod-url" title="Production URL (subdirectory)">${esc(o.prod || (o.ctx ? E.prodUrl(o.ctx, o.tail) : 'https://' + B.domain + '/'))}</span>${E.passThrough(h)}</div></div></div>

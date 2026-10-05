@@ -21,6 +21,7 @@
 
   const inScope = (county) => !B.scope || county == null || B.scope.includes(county);
   E.inScope = inScope;
+  E.dirOf = (k) => window.CLM_FULL ? CLM_BRANDS[k].domain : k;
 
   /* ---------- data load + indexes ---------- */
   E.load = async () => {
@@ -151,7 +152,7 @@
     let ok = true;
     if (m && OB.scope) { const cs = m[1] === 'county' ? m[2] : m[1] === 'city' ? E.idx.city[m[2]]?.county : E.idx.city[E.idx.hood[m[2]]?.city]?.county; ok = OB.scope.includes(cs); }
     if (!ok) return '';
-    return `<span class="passthru">Same template on <a href="../${other}/index.html${hash || '#/'}">${OB.name} →</a></span>`;
+    return `<span class="passthru">Same template on <a href="../${window.CLM_FULL ? OB.domain : other}/index.html${hash || '#/'}">${OB.name} →</a></span>`;
   };
 
   E.heroFor = (ctx) => {

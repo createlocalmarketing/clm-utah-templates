@@ -143,7 +143,7 @@
   P.state = () => hub(E.ctx('state'));
   P.region = ([s]) => hub(E.ctx('region', s));
   P.county = ([s]) => hub(E.ctx('county', s));
-  P.city = ([s]) => { const c = E.ctx('city', s); return c.level === 'city' ? hub(c) : P.notfound([], {}, `${E.cityName(s) || s} is outside ${B.areaName}.`, `<a class="btn btn-dark mt16" href="../utrd/index.html#/city/${s}">Open ${esc(E.cityName(s))} on Utah Real Estate Directory →</a>`); };
+  P.city = ([s]) => { const c = E.ctx('city', s); return c.level === 'city' ? hub(c) : P.notfound([], {}, `${E.cityName(s) || s} is outside ${B.areaName}.`, `<a class="btn btn-dark mt16" href="../${E.dirOf('utrd')}/index.html#/city/${s}">Open ${esc(E.cityName(s))} on Utah Real Estate Directory →</a>`); };
 
   /* ---------- neighborhood ---------- */
   P.hood = ([s]) => {

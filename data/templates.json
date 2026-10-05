@@ -321,6 +321,186 @@
    }
   },
   {
+   "group": "Homes",
+   "name": "Hot searches hub",
+   "elements": "Popular saved-search tiles with live counts",
+   "url": "/{city}/hot-searches/",
+   "links": {
+    "utrd": "utrd/t-hot-searches-hub.html",
+    "iur": "iur/t-hot-searches-hub.html",
+    "pch": "pch/t-hot-searches-hub.html",
+    "sg": "sg/t-hot-searches-hub.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 homes under $500K",
+   "elements": "Saved-search landing page, price-capped",
+   "url": "/{city}/homes-under-500k/",
+   "links": {
+    "utrd": "utrd/t-hot-search-homes-under-500k.html",
+    "iur": "iur/t-hot-search-homes-under-500k.html",
+    "pch": "pch/t-hot-search-homes-under-500k.html",
+    "sg": "sg/t-hot-search-homes-under-500k.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 luxury homes $1M+",
+   "elements": "Saved-search landing page, $1M+",
+   "url": "/{city}/luxury-homes/",
+   "links": {
+    "utrd": "utrd/t-hot-search-luxury-homes-1m.html",
+    "iur": "iur/t-hot-search-luxury-homes-1m.html",
+    "pch": "pch/t-hot-search-luxury-homes-1m.html",
+    "sg": "sg/t-hot-search-luxury-homes-1m.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 waterfront & lake homes",
+   "elements": "Saved-search landing page, waterfront",
+   "url": "/{city}/waterfront-homes/",
+   "links": {
+    "utrd": "utrd/t-hot-search-waterfront-lake-homes.html",
+    "iur": "iur/t-hot-search-waterfront-lake-homes.html",
+    "pch": "pch/t-hot-search-waterfront-lake-homes.html",
+    "sg": "sg/t-hot-search-waterfront-lake-homes.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 mountain view homes",
+   "elements": "Saved-search landing page, views",
+   "url": "/{city}/mountain-view-homes/",
+   "links": {
+    "utrd": "utrd/t-hot-search-mountain-view-homes.html",
+    "iur": "iur/t-hot-search-mountain-view-homes.html",
+    "pch": "pch/t-hot-search-mountain-view-homes.html",
+    "sg": "sg/t-hot-search-mountain-view-homes.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 homes with a pool",
+   "elements": "Saved-search landing page, pool",
+   "url": "/{city}/homes-with-pool/",
+   "links": {
+    "utrd": "utrd/t-hot-search-homes-with-a-pool.html",
+    "iur": "iur/t-hot-search-homes-with-a-pool.html",
+    "pch": "pch/t-hot-search-homes-with-a-pool.html",
+    "sg": "sg/t-hot-search-homes-with-a-pool.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 large lot homes",
+   "elements": "Saved-search landing page, 0.5+ acres",
+   "url": "/{city}/large-lot-homes/",
+   "links": {
+    "utrd": "utrd/t-hot-search-large-lot-homes.html",
+    "iur": "iur/t-hot-search-large-lot-homes.html",
+    "pch": "pch/t-hot-search-large-lot-homes.html",
+    "sg": "sg/t-hot-search-large-lot-homes.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 condos & townhomes",
+   "elements": "Saved-search landing page, attached homes",
+   "url": "/{city}/condos-townhomes/",
+   "links": {
+    "utrd": "utrd/t-hot-search-condos-townhomes.html",
+    "iur": "iur/t-hot-search-condos-townhomes.html",
+    "pch": "pch/t-hot-search-condos-townhomes.html",
+    "sg": "sg/t-hot-search-condos-townhomes.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 investment properties",
+   "elements": "Saved-search landing page, SmartBuy 80+",
+   "url": "/{city}/investment-properties/",
+   "links": {
+    "utrd": "utrd/t-hot-search-investment-properties.html",
+    "iur": "iur/t-hot-search-investment-properties.html",
+    "pch": "pch/t-hot-search-investment-properties.html",
+    "sg": "sg/t-hot-search-investment-properties.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 foreclosures / bank-owned",
+   "elements": "Saved-search landing page, REO",
+   "url": "/{city}/foreclosures/",
+   "links": {
+    "utrd": "utrd/t-hot-search-foreclosures-bank-owned.html",
+    "iur": "iur/t-hot-search-foreclosures-bank-owned.html",
+    "pch": "pch/t-hot-search-foreclosures-bank-owned.html",
+    "sg": "sg/t-hot-search-foreclosures-bank-owned.html"
+   }
+  },
+  {
+   "group": "Homes",
+   "name": "Hot search \u2014 open houses this weekend",
+   "elements": "Saved-search landing page, open houses",
+   "url": "/{city}/open-houses/",
+   "links": {
+    "utrd": "utrd/t-hot-search-open-houses-this-weekend.html",
+    "iur": "iur/t-hot-search-open-houses-this-weekend.html",
+    "pch": "pch/t-hot-search-open-houses-this-weekend.html",
+    "sg": "sg/t-hot-search-open-houses-this-weekend.html"
+   }
+  },
+  {
+   "group": "Rentals",
+   "name": "Long-term rentals",
+   "elements": "Homes for rent grid, property managers",
+   "url": "/{city}/rentals/",
+   "links": {
+    "utrd": "utrd/t-long-term-rentals.html",
+    "iur": "iur/t-long-term-rentals.html",
+    "pch": "pch/t-long-term-rentals.html",
+    "sg": "sg/t-long-term-rentals.html"
+   }
+  },
+  {
+   "group": "Rentals",
+   "name": "Rental listing detail",
+   "elements": "Rent, facts, lease terms, tour request, similar rentals",
+   "url": "/{city}/rentals/{address}/",
+   "links": {
+    "utrd": "utrd/t-rental-listing-detail.html",
+    "iur": "iur/t-rental-listing-detail.html",
+    "pch": "pch/t-rental-listing-detail.html",
+    "sg": "sg/t-rental-listing-detail.html"
+   }
+  },
+  {
+   "group": "Rentals",
+   "name": "Nightly / vacation rentals",
+   "elements": "Short-term rental grid, property managers",
+   "url": "/{city}/nightly-rentals/",
+   "links": {
+    "utrd": "utrd/t-nightly-vacation-rentals.html",
+    "iur": "iur/t-nightly-vacation-rentals.html",
+    "pch": "pch/t-nightly-vacation-rentals.html",
+    "sg": "sg/t-nightly-vacation-rentals.html"
+   }
+  },
+  {
+   "group": "Rentals",
+   "name": "Nightly rental detail",
+   "elements": "Nightly rate, sleeps, house rules, booking request",
+   "url": "/{city}/nightly-rentals/{address}/",
+   "links": {
+    "utrd": "utrd/t-nightly-rental-detail.html",
+    "iur": "iur/t-nightly-rental-detail.html",
+    "pch": "pch/t-nightly-rental-detail.html",
+    "sg": "sg/t-nightly-rental-detail.html"
+   }
+  },
+  {
    "group": "Directory",
    "name": "Business directory (all)",
    "elements": "Vertical and category filters, ranked by service area",
@@ -537,6 +717,42 @@
    }
   },
   {
+   "group": "Directory",
+   "name": "All directory categories (verticals index)",
+   "elements": "Every vertical with its categories",
+   "url": "/{city}/directory/categories/",
+   "links": {
+    "utrd": "utrd/t-all-directory-categories-verticals-index.html",
+    "iur": "iur/t-all-directory-categories-verticals-index.html",
+    "pch": "pch/t-all-directory-categories-verticals-index.html",
+    "sg": "sg/t-all-directory-categories-verticals-index.html"
+   }
+  },
+  {
+   "group": "Directory",
+   "name": "Directory category \u00d7 neighborhood",
+   "elements": "Category page scoped to a neighborhood",
+   "url": "/{county}-county/{city}/{neighborhood}/{category}/",
+   "links": {
+    "utrd": "utrd/t-directory-category-neighborhood.html",
+    "iur": "iur/t-directory-category-neighborhood.html",
+    "pch": "pch/t-directory-category-neighborhood.html",
+    "sg": "sg/t-directory-category-neighborhood.html"
+   }
+  },
+  {
+   "group": "Directory",
+   "name": "Brokerage directory",
+   "elements": "Real estate brokerages serving the area",
+   "url": "/{city}/brokerages/",
+   "links": {
+    "utrd": "utrd/t-brokerage-directory.html",
+    "iur": "iur/t-brokerage-directory.html",
+    "pch": "pch/t-brokerage-directory.html",
+    "sg": "sg/t-brokerage-directory.html"
+   }
+  },
+  {
    "group": "Community",
    "name": "Real Estate News",
    "elements": "News feed by geo (city first, then area of influence)",
@@ -681,6 +897,318 @@
    }
   },
   {
+   "group": "Community",
+   "name": "Real Estate News category",
+   "elements": "News feed filtered to one category",
+   "url": "/{city}/real-estate-news/{category}/",
+   "links": {
+    "utrd": "utrd/t-real-estate-news-category.html",
+    "iur": "iur/t-real-estate-news-category.html",
+    "pch": "pch/t-real-estate-news-category.html",
+    "sg": "sg/t-real-estate-news-category.html"
+   }
+  },
+  {
+   "group": "Community",
+   "name": "News author profile",
+   "elements": "Author bio and article list",
+   "url": "/real-estate-news/author/{name}/",
+   "links": {
+    "utrd": "utrd/t-news-author-profile.html",
+    "iur": "iur/t-news-author-profile.html",
+    "pch": "pch/t-news-author-profile.html",
+    "sg": "sg/t-news-author-profile.html"
+   }
+  },
+  {
+   "group": "Community",
+   "name": "Events calendar (month view)",
+   "elements": "Month grid of events",
+   "url": "/{city}/events/calendar/",
+   "links": {
+    "utrd": "utrd/t-events-calendar-month-view.html",
+    "iur": "iur/t-events-calendar-month-view.html",
+    "pch": "pch/t-events-calendar-month-view.html",
+    "sg": "sg/t-events-calendar-month-view.html"
+   }
+  },
+  {
+   "group": "Community",
+   "name": "Coupons",
+   "elements": "Local promo codes",
+   "url": "/{city}/coupons/",
+   "links": {
+    "utrd": "utrd/t-coupons.html",
+    "iur": "iur/t-coupons.html",
+    "pch": "pch/t-coupons.html",
+    "sg": "sg/t-coupons.html"
+   }
+  },
+  {
+   "group": "Community",
+   "name": "Coupon detail",
+   "elements": "Promo code, terms, business, more coupons",
+   "url": "/{city}/coupons/{coupon}/",
+   "links": {
+    "utrd": "utrd/t-coupon-detail.html",
+    "iur": "iur/t-coupon-detail.html",
+    "pch": "pch/t-coupon-detail.html",
+    "sg": "sg/t-coupon-detail.html"
+   }
+  },
+  {
+   "group": "Community",
+   "name": "Reels & stories feed",
+   "elements": "Swipe-style vertical cards for homes, events, news",
+   "url": "/{city}/reels/",
+   "links": {
+    "utrd": "utrd/t-reels-stories-feed.html",
+    "iur": "iur/t-reels-stories-feed.html",
+    "pch": "pch/t-reels-stories-feed.html",
+    "sg": "sg/t-reels-stories-feed.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Cost of living guide",
+   "elements": "Home, rent, income, utilities KPIs",
+   "url": "/{city}/cost-of-living/",
+   "links": {
+    "utrd": "utrd/t-cost-of-living-guide.html",
+    "iur": "iur/t-cost-of-living-guide.html",
+    "pch": "pch/t-cost-of-living-guide.html",
+    "sg": "sg/t-cost-of-living-guide.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Market report",
+   "elements": "Monthly market KPIs, newest listings, market news",
+   "url": "/{city}/market-report/",
+   "links": {
+    "utrd": "utrd/t-market-report.html",
+    "iur": "iur/t-market-report.html",
+    "pch": "pch/t-market-report.html",
+    "sg": "sg/t-market-report.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Home buying guide",
+   "elements": "Six steps, rates, buyer agents",
+   "url": "/{city}/buying-a-home/",
+   "links": {
+    "utrd": "utrd/t-home-buying-guide.html",
+    "iur": "iur/t-home-buying-guide.html",
+    "pch": "pch/t-home-buying-guide.html",
+    "sg": "sg/t-home-buying-guide.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Home selling guide",
+   "elements": "Six steps, seller plans, prep pros",
+   "url": "/{city}/selling-a-home/",
+   "links": {
+    "utrd": "utrd/t-home-selling-guide.html",
+    "iur": "iur/t-home-selling-guide.html",
+    "pch": "pch/t-home-selling-guide.html",
+    "sg": "sg/t-home-selling-guide.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Neighborhood guide",
+   "elements": "Neighborhood cards with notes, homes",
+   "url": "/{city}/neighborhood-guide/",
+   "links": {
+    "utrd": "utrd/t-neighborhood-guide.html",
+    "iur": "iur/t-neighborhood-guide.html",
+    "pch": "pch/t-neighborhood-guide.html",
+    "sg": "sg/t-neighborhood-guide.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "School district guide",
+   "elements": "Districts and their schools with ratings",
+   "url": "/{city}/school-districts/",
+   "links": {
+    "utrd": "utrd/t-school-district-guide.html",
+    "iur": "iur/t-school-district-guide.html",
+    "pch": "pch/t-school-district-guide.html",
+    "sg": "sg/t-school-district-guide.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Historical sites",
+   "elements": "Landmarks nearby, historic homes",
+   "url": "/{city}/historical-sites/",
+   "links": {
+    "utrd": "utrd/t-historical-sites.html",
+    "iur": "iur/t-historical-sites.html",
+    "pch": "pch/t-historical-sites.html",
+    "sg": "sg/t-historical-sites.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Accessibility guide",
+   "elements": "Single-level homes, accessible parks, care",
+   "url": "/{city}/accessibility-guide/",
+   "links": {
+    "utrd": "utrd/t-accessibility-guide.html",
+    "iur": "iur/t-accessibility-guide.html",
+    "pch": "pch/t-accessibility-guide.html",
+    "sg": "sg/t-accessibility-guide.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "What's happening",
+   "elements": "This week: events, deals, news",
+   "url": "/{city}/whats-happening/",
+   "links": {
+    "utrd": "utrd/t-what-s-happening.html",
+    "iur": "iur/t-what-s-happening.html",
+    "pch": "pch/t-what-s-happening.html",
+    "sg": "sg/t-what-s-happening.html"
+   }
+  },
+  {
+   "group": "Guides",
+   "name": "Spanish hub (en espa\u00f1ol)",
+   "elements": "Spanish-language hub with KPIs and links",
+   "url": "/es/{city}/",
+   "links": {
+    "utrd": "utrd/t-spanish-hub-en-espa-ol.html",
+    "iur": "iur/t-spanish-hub-en-espa-ol.html",
+    "pch": "pch/t-spanish-hub-en-espa-ol.html",
+    "sg": "sg/t-spanish-hub-en-espa-ol.html"
+   }
+  },
+  {
+   "group": "Tools",
+   "name": "Get pre-approved",
+   "elements": "Lender funnel form, today\u2019s rates",
+   "url": "/get-pre-approved/",
+   "links": {
+    "utrd": "utrd/t-get-pre-approved.html",
+    "iur": "iur/t-get-pre-approved.html",
+    "pch": "pch/t-get-pre-approved.html",
+    "sg": "sg/t-get-pre-approved.html"
+   }
+  },
+  {
+   "group": "Tools",
+   "name": "Credit repair",
+   "elements": "Steps and local lenders/counselors",
+   "url": "/credit-repair/",
+   "links": {
+    "utrd": "utrd/t-credit-repair.html",
+    "iur": "iur/t-credit-repair.html",
+    "pch": "pch/t-credit-repair.html",
+    "sg": "sg/t-credit-repair.html"
+   }
+  },
+  {
+   "group": "Tools",
+   "name": "Ask a Realtor",
+   "elements": "Answered questions plus ask form",
+   "url": "/ask-a-realtor/",
+   "links": {
+    "utrd": "utrd/t-ask-a-realtor.html",
+    "iur": "iur/t-ask-a-realtor.html",
+    "pch": "pch/t-ask-a-realtor.html",
+    "sg": "sg/t-ask-a-realtor.html"
+   }
+  },
+  {
+   "group": "Tools",
+   "name": "Ask AI",
+   "elements": "AI chat about local real estate",
+   "url": "/ask-ai/",
+   "links": {
+    "utrd": "utrd/t-ask-ai.html",
+    "iur": "iur/t-ask-ai.html",
+    "pch": "pch/t-ask-ai.html",
+    "sg": "sg/t-ask-ai.html"
+   }
+  },
+  {
+   "group": "Tools",
+   "name": "Team chat",
+   "elements": "Live chat with the agent team",
+   "url": "/team-chat/",
+   "links": {
+    "utrd": "utrd/t-team-chat.html",
+    "iur": "iur/t-team-chat.html",
+    "pch": "pch/t-team-chat.html",
+    "sg": "sg/t-team-chat.html"
+   }
+  },
+  {
+   "group": "Tools",
+   "name": "Find your home (search profile builder)",
+   "elements": "Five-step buyer profile wizard",
+   "url": "/find-your-home/",
+   "links": {
+    "utrd": "utrd/t-find-your-home-search-profile-builder.html",
+    "iur": "iur/t-find-your-home-search-profile-builder.html",
+    "pch": "pch/t-find-your-home-search-profile-builder.html",
+    "sg": "sg/t-find-your-home-search-profile-builder.html"
+   }
+  },
+  {
+   "group": "Account",
+   "name": "Add a listing",
+   "elements": "MLS / FSBO / rental listing form",
+   "url": "/add-listing/",
+   "links": {
+    "utrd": "utrd/t-add-a-listing.html",
+    "iur": "iur/t-add-a-listing.html",
+    "pch": "pch/t-add-a-listing.html",
+    "sg": "sg/t-add-a-listing.html"
+   }
+  },
+  {
+   "group": "Account",
+   "name": "List my home (seller lead)",
+   "elements": "Home value + seller plan form",
+   "url": "/list-my-home/",
+   "links": {
+    "utrd": "utrd/t-list-my-home-seller-lead.html",
+    "iur": "iur/t-list-my-home-seller-lead.html",
+    "pch": "pch/t-list-my-home-seller-lead.html",
+    "sg": "sg/t-list-my-home-seller-lead.html"
+   }
+  },
+  {
+   "group": "Account",
+   "name": "My saved searches (dashboard)",
+   "elements": "Saved searches with alerts, saved homes",
+   "url": "/account/saved-searches/",
+   "links": {
+    "utrd": "utrd/t-my-saved-searches-dashboard.html",
+    "iur": "iur/t-my-saved-searches-dashboard.html",
+    "pch": "pch/t-my-saved-searches-dashboard.html",
+    "sg": "sg/t-my-saved-searches-dashboard.html"
+   }
+  },
+  {
+   "group": "Account",
+   "name": "Business owner dashboard",
+   "elements": "Owner KPIs and posting tools",
+   "url": "/account/business/",
+   "links": {
+    "utrd": "utrd/t-business-owner-dashboard.html",
+    "iur": "iur/t-business-owner-dashboard.html",
+    "pch": "pch/t-business-owner-dashboard.html",
+    "sg": "sg/t-business-owner-dashboard.html"
+   }
+  },
+  {
    "group": "Account",
    "name": "Sign in",
    "elements": "Sign in / create account",
@@ -726,6 +1254,150 @@
     "iur": "iur/t-contact.html",
     "pch": "pch/t-contact.html",
     "sg": "sg/t-contact.html"
+   }
+  },
+  {
+   "group": "Help",
+   "name": "FAQs",
+   "elements": "Site-wide FAQ accordion",
+   "url": "/faqs/",
+   "links": {
+    "utrd": "utrd/t-faqs.html",
+    "iur": "iur/t-faqs.html",
+    "pch": "pch/t-faqs.html",
+    "sg": "sg/t-faqs.html"
+   }
+  },
+  {
+   "group": "Help",
+   "name": "Help desk",
+   "elements": "Support ticket form",
+   "url": "/help-desk/",
+   "links": {
+    "utrd": "utrd/t-help-desk.html",
+    "iur": "iur/t-help-desk.html",
+    "pch": "pch/t-help-desk.html",
+    "sg": "sg/t-help-desk.html"
+   }
+  },
+  {
+   "group": "Help",
+   "name": "Wiki / knowledge base",
+   "elements": "Wiki article index",
+   "url": "/wiki/",
+   "links": {
+    "utrd": "utrd/t-wiki-knowledge-base.html",
+    "iur": "iur/t-wiki-knowledge-base.html",
+    "pch": "pch/t-wiki-knowledge-base.html",
+    "sg": "sg/t-wiki-knowledge-base.html"
+   }
+  },
+  {
+   "group": "Help",
+   "name": "Wiki article",
+   "elements": "Article with sections and wiki sidebar",
+   "url": "/wiki/{article}/",
+   "links": {
+    "utrd": "utrd/t-wiki-article.html",
+    "iur": "iur/t-wiki-article.html",
+    "pch": "pch/t-wiki-article.html",
+    "sg": "sg/t-wiki-article.html"
+   }
+  },
+  {
+   "group": "Help",
+   "name": "Sitemap",
+   "elements": "Grouped links to every page type",
+   "url": "/sitemap/",
+   "links": {
+    "utrd": "utrd/t-sitemap.html",
+    "iur": "iur/t-sitemap.html",
+    "pch": "pch/t-sitemap.html",
+    "sg": "sg/t-sitemap.html"
+   }
+  },
+  {
+   "group": "Company & legal",
+   "name": "About",
+   "elements": "About the brand and network",
+   "url": "/about/",
+   "links": {
+    "utrd": "utrd/t-about.html",
+    "iur": "iur/t-about.html",
+    "pch": "pch/t-about.html",
+    "sg": "sg/t-about.html"
+   }
+  },
+  {
+   "group": "Company & legal",
+   "name": "Privacy policy",
+   "elements": "Legal page",
+   "url": "/privacy/",
+   "links": {
+    "utrd": "utrd/t-privacy-policy.html",
+    "iur": "iur/t-privacy-policy.html",
+    "pch": "pch/t-privacy-policy.html",
+    "sg": "sg/t-privacy-policy.html"
+   }
+  },
+  {
+   "group": "Company & legal",
+   "name": "Terms of use",
+   "elements": "Legal page",
+   "url": "/terms/",
+   "links": {
+    "utrd": "utrd/t-terms-of-use.html",
+    "iur": "iur/t-terms-of-use.html",
+    "pch": "pch/t-terms-of-use.html",
+    "sg": "sg/t-terms-of-use.html"
+   }
+  },
+  {
+   "group": "Company & legal",
+   "name": "Fair housing notice",
+   "elements": "Legal page",
+   "url": "/fair-housing/",
+   "links": {
+    "utrd": "utrd/t-fair-housing-notice.html",
+    "iur": "iur/t-fair-housing-notice.html",
+    "pch": "pch/t-fair-housing-notice.html",
+    "sg": "sg/t-fair-housing-notice.html"
+   }
+  },
+  {
+   "group": "Company & legal",
+   "name": "Accessibility statement",
+   "elements": "Legal page",
+   "url": "/accessibility/",
+   "links": {
+    "utrd": "utrd/t-accessibility-statement.html",
+    "iur": "iur/t-accessibility-statement.html",
+    "pch": "pch/t-accessibility-statement.html",
+    "sg": "sg/t-accessibility-statement.html"
+   }
+  },
+  {
+   "group": "Company & legal",
+   "name": "DMCA policy",
+   "elements": "Legal page",
+   "url": "/dmca/",
+   "links": {
+    "utrd": "utrd/t-dmca-policy.html",
+    "iur": "iur/t-dmca-policy.html",
+    "pch": "pch/t-dmca-policy.html",
+    "sg": "sg/t-dmca-policy.html"
+   }
+  },
+  {
+   "group": "Company & legal",
+   "name": "MLS disclosures",
+   "elements": "MLS data sources and attribution",
+   "url": "/mls-disclosures/",
+   "links": {
+    "utrd": "utrd/t-mls-disclosures.html",
+    "iur": "iur/t-mls-disclosures.html",
+    "pch": "pch/t-mls-disclosures.html",
+    "sg": "sg/t-mls-disclosures.html"
    }
   },
   {

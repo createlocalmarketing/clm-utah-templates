@@ -246,7 +246,7 @@ details p{color:var(--muted);margin-top:10px}
 
 /* footer */
 .foot{background:var(--charcoal);color:var(--on-dark-muted);padding:48px 0 110px;font-size:var(--t-sm)}
-.foot-grid{display:grid;grid-template-columns:1.4fr repeat(4,1fr);gap:28px}
+.foot-grid{display:grid;grid-template-columns:1.3fr repeat(5,1fr);gap:24px}
 .foot h5{font:500 12px var(--font-label);letter-spacing:.14em;text-transform:uppercase;color:#fff;margin:0 0 12px}
 .foot a{display:block;padding:4px 0} .foot a:hover{color:#fff}
 .netbar{margin-top:34px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}

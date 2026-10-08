@@ -104,6 +104,25 @@ function openStep(id){const s=steps.find(x=>x.id===id);$("modalTitle").textConte
 $("cancel").onclick=()=>$("modal").classList.remove("visible");$("modal").onclick=e=>{if(e.target===$("modal"))$("modal").classList.remove("visible")};$("menu").onclick=()=>$("shell").classList.toggle("menu-open");
 $("workspace").onchange=e=>{workspace=e.target.value;const profile=profiles[workspace]||projectWorkspaces[workspace];document.documentElement.style.setProperty("--blue",profile.accent);$("subtitle").textContent=profile.sub;$("brandName").textContent=profile.title;document.title=profile.title+" · Powered by Quality CRM";notify("Switched to "+profile.title+" · Sample workspace");render();};
 $("portalShortcut").onclick=()=>navigate("portal");
+
+function portfolioOverview(){
+ const projectSummaries={
+ utrd:{focus:"Utah Real Estate Directory",subtitle:"Utah-wide real estate discovery and directory operations",items:["MLS property discovery","State → county → city → neighborhood navigation","Agent / brokerage directory","Education and market-intelligence hub","Site health and content publishing"]},
+ iur:{focus:"Inside Utah Real Estate",subtitle:"Editorial operations and intelligent content distribution",items:["Editorial planning and review","Market news / local insights","Content syndication workflows","Featured articles and media","Performance and SEO tracking"]},
+ parkcity:{focus:"Homes for Sale in Park City",subtitle:"Localized real estate lead capture and neighborhood intelligence",items:["Park City and Wasatch Back MLS search","Neighborhood / community guides","Lead routing and nurture","Local market snapshots","Website performance and page builder"]},
+ dental:{focus:"Quality Dental",subtitle:"Practice and agency operations with separated client data",items:["Practice websites and onboarding","Lead and appointment-intake workflows","Campaign attribution","Support tickets and website changes","Access controls and compliance review"]},
+ clm:{focus:"Create Local Marketing",subtitle:"Cross-client digital operations and project orchestration",items:["Client and organization registry","Managed WordPress / Quality MCP fleet","Development tasks and approvals","Marketing campaigns and assets","Deployment verification and audit"]}
+ };
+ const p=projectSummaries[workspace];
+ return '<div class="client-hero"><div class="eyebrow" style="color:#d9e0f0">QUALITY CRM / '+p.focus.toUpperCase()+'</div><h2>'+p.focus+'</h2><p>'+p.subtitle+'</p></div>'+
+ '<div class="section-title"><h2>Workspace capabilities</h2><span class="tag">Portfolio preview · Not connected</span></div><div class="rolegrid">'+p.items.map((x,i)=>'<div class="role"><div class="journey-num" style="width:32px;height:32px">'+(i+1)+'</div><h3>'+x+'</h3><p class="footnote">Planned workflow · Requires organization integration</p></div>').join('')+'</div>'+
+ '<div class="panels"><div class="card"><h3>Project Control Center</h3><p>This workspace will receive a scoped project board, owner assignments, ticketing, comments, approvals and audit history.</p><a href="../#/project/project-control-center" target="_blank" rel="noopener">Open existing Project Control Center ↗</a></div><div class="card"><h3>Website and content operations</h3><p>Select website and environment; inspect pages; make a draft; preview; deploy through the authorized Quality MCP execution layer.</p><span class="pill warn">Integration pending</span></div></div>';
+}
+const baseOverview=overview;
+overview=function(){return projectWorkspaces[workspace]?portfolioOverview():baseOverview();};
+const baseGeneric=generic;
+generic=function(){return projectWorkspaces[workspace]?portfolioOverview():baseGeneric();};
+
 let contactTab="details",clientTab="timeline";
 const person={name:"Jamie Ellis",relationship:"Buyer · SAMPLE-001",phone:"(555) 014-8822",email:"jamie@example.test",lead:"Referral",owner:"Adam Griffee",stage:"Under contract"};
 function transactionJourney(){

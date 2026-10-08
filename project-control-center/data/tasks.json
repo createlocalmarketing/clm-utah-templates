@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T20:42:00-06:00",
+  "updated_at": "2026-10-07T20:56:00-06:00",
   "tasks": [
     {
       "id": "rwt-A6",
@@ -54,12 +54,12 @@
       "project_id": "realtor-website-template",
       "section": "D",
       "title": "Lock canonical carousel prototype and propagate",
-      "status": "open",
+      "status": "completed",
       "owner": "ChatGPT",
-      "waiting_on": "Adam",
-      "verification": "pending",
-      "updated_at": "2026-10-07T20:25:00-06:00",
-      "notes": "One unresolved historical conflict remains around final carousel CTA corner treatment."
+      "waiting_on": null,
+      "verification": "pass",
+      "updated_at": "2026-10-07T20:56:00-06:00",
+      "notes": "Archive 3 carousel architecture locked: parent-owned atmospheric background/gradient, 1120px max white card, 500px reusable desktop geometry, 56/44 media-copy split, flush media, rectangular paired CTAs, matched arrows, centered pagination in background zone, mobile stack. Propagated to 8 parents and all 48 slide templates; all eight parent frontends render six slide cards, controls, pagination and dynamic IUR slide."
     },
     {
       "id": "rwt-E8",

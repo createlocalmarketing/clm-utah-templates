@@ -26,7 +26,7 @@ const state={org:"zen",page:"dashboard",role:"agent",login:true,steps:JSON.parse
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function money(n){return "$"+Math.round(n).toLocaleString("en-US")}
 function organization(){return organizations.find(x=>x[0]===state.org)||organizations[0]}
-function logo(){return state.org==="zen"?ZEN:Q}
+function logo(){return state.org==="zen"?ZEN:state.org==="luxury"?"https://www.adamgriffee.com/wp-content/uploads/2026/10/eXp-Luxury-2Color-White.webp":Q}
 function badge(t){let cls=/Wait|Hot|Action/i.test(t)?" wait":/Upcoming|Pending|Process/i.test(t)?" blue":"";return '<span class="pill'+cls+'">'+esc(t)+'</span>'}
 function fa(icon){return '<i class="fa-solid fa-'+icon+'" aria-hidden="true"></i>'}
 function pic(){return '<img src="'+HEADSHOT+'" class="avatar" alt="Actual Adam Griffee headshot">'}

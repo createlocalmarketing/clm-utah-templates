@@ -1,36 +1,235 @@
 {
-  "updated_at": "2026-10-07T23:44:00-06:00",
+  "updated_at": "2026-10-08T00:12:00-06:00",
+  "groups": [
+    {
+      "id": "00-control",
+      "title": "00 - CONTROL"
+    },
+    {
+      "id": "0-websites",
+      "title": "0-WEBSITES"
+    },
+    {
+      "id": "0-plugin-development",
+      "title": "0-PLUGIN-DEVELOPMENT"
+    },
+    {
+      "id": "0-listings",
+      "title": "0-LISTINGS"
+    },
+    {
+      "id": "quality-dental",
+      "title": "QUALITY DENTAL"
+    },
+    {
+      "id": "lawson-team",
+      "title": "LAWSON TEAM"
+    },
+    {
+      "id": "creative-design",
+      "title": "CREATIVE / DESIGN"
+    }
+  ],
   "projects": [
+    {
+      "id": "project-control-center",
+      "group": "00-control",
+      "title": "Project Control Center",
+      "chat_name": "00 - Project Control Center",
+      "status": "active",
+      "current_phase": "Kanban + approval-gate rebuild",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "website": "https://createlocalmarketing.github.io/clm-utah-templates/project-control-center/",
+      "audit_path": "project-audits/project-control-center.md",
+      "last_action": "Root cause of blank dashboard found: app.js called undefined route().",
+      "next_action": "User review of rebuilt Kanban dashboard; rejected cards return to In Process.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
     {
       "id": "realtor-website-template",
       "group": "0-websites",
-      "title": "realtor-website-template",
+      "title": "realtor-website-template (active)",
       "chat_name": "realtor-website-template (active)",
       "status": "active",
-      "completion": 44,
       "current_phase": "Section F — 7169 Image Contamination Purge",
       "repository": "createlocalmarketing/clm-utah-templates",
       "website": "https://www.adamgriffee.com/",
       "audit_path": "project-audits/realtor-website-template.md",
-      "last_action": "Priority 0 complete: custom Adam Griffee child theme v1.0.0 committed to GitHub, installed, activated, cache-cleared, and live-verified.",
-      "next_action": "Remove 7169 Canyon Drive imagery/references from normal-site pages/templates while preserving the protected property microsite.",
-      "updated_at": "2026-10-07T23:44:00-06:00"
+      "last_action": "Priority 0 custom Adam theme deployed and activated; live WordPress confirms custom theme active.",
+      "next_action": "After dashboard review, continue Section F and report every section transition in chat.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "content-engine",
+      "group": "0-websites",
+      "title": "content-engine",
+      "chat_name": "content-engine",
+      "status": "active",
+      "current_phase": "Architecture / syndication engine",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/content-engine.md",
+      "last_action": "Known Utah real-estate domain/content-engine architecture preserved.",
+      "next_action": "Backfill full historical checklist from source chat.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "education-blueprint",
+      "group": "0-websites",
+      "title": "education-blueprint",
+      "chat_name": "education-blueprint",
+      "status": "active",
+      "current_phase": "Education center / academies architecture",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/education-blueprint.md",
+      "last_action": "Buyer/Seller/Investor/Agent/Mortgage academy architecture preserved.",
+      "next_action": "Backfill full historical checklist from source chat.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
     },
     {
       "id": "quality-mcp",
-      "group": "0-websites",
+      "group": "0-plugin-development",
       "title": "quality-mcp",
       "chat_name": "quality-mcp",
       "status": "active",
-      "completion": 0,
-      "current_phase": "Audit reconstruction + fleet-console completion",
-      "repository": "pending-dedicated-repository-discovery",
-      "website": null,
+      "current_phase": "Fleet console + plugin platform",
+      "repository": "createlocalmarketing/clm-utah-templates",
       "audit_path": "project-audits/quality-mcp.md",
-      "last_action": "Duplicate request for an account-wide audit/checklist dashboard was reconciled into the central Project Control Center.",
-      "next_action": "Continue Quality MCP product work in its own chat; keep the Fleet Console separate from this Project Control Center.",
-      "operational_dashboard": "Quality MCP Fleet Console — separate product surface",
-      "updated_at": "2026-10-07T20:25:00-06:00"
+      "last_action": "Cross-project task dashboard consolidated into Project Control Center.",
+      "next_action": "Continue Quality MCP Fleet Console separately: sites, versions, updates, health checks, retries.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "mls-2164069-7169-canyon-dr",
+      "group": "0-listings",
+      "title": "mls-2164069-7169-canyon-dr",
+      "chat_name": "mls-2164069-7169-canyon-dr",
+      "status": "active",
+      "current_phase": "Single-property site / media",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "website": "https://www.adamgriffee.com/utah/summit-county/park-city/pinebrook/mls-2164069-7169-canyon-dr/",
+      "audit_path": "project-audits/mls-2164069-7169-canyon-dr.md",
+      "last_action": "Protected property microsite architecture preserved.",
+      "next_action": "Backfill complete listing-site checklist from source chat.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "property-tour-analytics",
+      "group": "0-listings",
+      "title": "property-tour-analytics",
+      "chat_name": "property-tour-analytics",
+      "status": "active",
+      "current_phase": "Property tour analytics / reporting",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/property-tour-analytics.md",
+      "last_action": "Project identified from account history.",
+      "next_action": "Backfill historical checklist and current state.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "listing-reels",
+      "group": "0-listings",
+      "title": "@listing-reels",
+      "chat_name": "@listing-reels",
+      "status": "active",
+      "current_phase": "Reusable listing-reel workflow",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/listing-reels.md",
+      "last_action": "Reusable 3-question intake / 12-field confirmation workflow preserved.",
+      "next_action": "Backfill production automation checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "seo-content-syndication-engine",
+      "group": "quality-dental",
+      "title": "SEO Content Syndication Engine",
+      "chat_name": "SEO Content Syndication Engine",
+      "status": "active",
+      "current_phase": "Dental SEO/AEO syndication architecture",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/seo-content-syndication-engine.md",
+      "last_action": "Project identified from Quality Dental work.",
+      "next_action": "Backfill full historical checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "smile-design-rebuild",
+      "group": "quality-dental",
+      "title": "smile-design-rebuild",
+      "chat_name": "smile-design-rebuild",
+      "status": "active",
+      "current_phase": "Bakersfield Smile Design rebuild",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "website": "https://ads.bakersfieldsmiledesign.com/",
+      "audit_path": "project-audits/smile-design-rebuild.md",
+      "last_action": "Development/staging environment and clinical-authority scope preserved.",
+      "next_action": "Backfill full historical checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "dentists-bakersfield",
+      "group": "quality-dental",
+      "title": "dentists-bakersfield",
+      "chat_name": "dentists-bakersfield",
+      "status": "active",
+      "current_phase": "Bakersfield dental directory/media platform",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "website": "https://dentistbakersfield.com/",
+      "audit_path": "project-audits/dentists-bakersfield.md",
+      "last_action": "Directory/media/local-lifestyle platform scope preserved.",
+      "next_action": "Backfill full historical checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "lawson-training",
+      "group": "lawson-team",
+      "title": "AI Training Prompt Creation",
+      "chat_name": "AI Training Prompt Creation",
+      "status": "active",
+      "current_phase": "Lawson training / accountability systems",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/lawson-training.md",
+      "last_action": "Lawson Team Master Training Generator context preserved.",
+      "next_action": "Backfill current training checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "park-city-meeting",
+      "group": "lawson-team",
+      "title": "Park City Meeting Schedule",
+      "chat_name": "Park City Meeting Schedule",
+      "status": "active",
+      "current_phase": "Friday Park City team meeting",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/park-city-meeting.md",
+      "last_action": "30-minute Friday cadence includes PC News and City Events.",
+      "next_action": "Backfill operating checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "zillow-agreement-metrics",
+      "group": "lawson-team",
+      "title": "Review Zillow Agreement Risks",
+      "chat_name": "Review Zillow Agreement Risks",
+      "status": "active",
+      "current_phase": "Zillow agreement / performance metrics",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/zillow-agreement-metrics.md",
+      "last_action": "pCVR and Pickup Rate training notes preserved.",
+      "next_action": "Backfill agreement/risk checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "vector-stamp-collection",
+      "group": "creative-design",
+      "title": "Vector Stamp Collection",
+      "chat_name": "Vector Stamp Collection",
+      "status": "active",
+      "current_phase": "Wasatch Back scene-art collection",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/vector-stamp-collection.md",
+      "last_action": "Rockwell-inspired Wasatch Back city/resort scene direction preserved.",
+      "next_action": "Backfill artwork production checklist.",
+      "updated_at": "2026-10-08T00:12:00-06:00"
     }
   ]
 }

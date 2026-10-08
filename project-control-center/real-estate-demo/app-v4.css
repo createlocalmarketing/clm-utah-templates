@@ -303,3 +303,14 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
 #root .sidebar .side-nav button:hover:not(.active){background:#263b57!important;}
 #root .sidebar .side-nav button i{color:#fff;text-shadow:none;}
 #root .sidebar .side-tagline{text-shadow:none;}
+
+/* V8 sidebar: no black tile, no giant logo, readable compact navigation. */
+#root .sidebar{background:#132644!important;background-image:none!important}
+#root .sidebar .brand{height:170px!important;min-height:170px!important;padding:12px 8px 7px!important;background:#132644!important;overflow:hidden}
+#root .sidebar .brand img{width:160px!important;height:132px!important;max-width:160px!important;object-fit:contain!important;margin:0 auto!important;mix-blend-mode:screen!important;image-rendering:auto!important;filter:none!important}
+#root .sidebar .brand small{margin-top:-3px!important;font-size:11px!important;line-height:1.25!important;text-shadow:none!important}
+#root .sidebar .side-nav{padding:0 0 12px!important;gap:0!important}
+#root .sidebar .side-nav button{min-height:38px!important;padding:9px 12px 9px 21px!important;font-size:13px!important;line-height:1.25!important;font-weight:500!important;box-shadow:none!important;letter-spacing:0!important}
+#root .sidebar .side-nav button i{font-size:15px!important;width:20px!important;flex:0 0 20px}
+#root .sidebar .side-nav button.active{background:#354461!important;border-left-color:#d8a854!important}
+#root .sidebar .side-tagline{font-size:24px!important;margin:auto 24px 24px!important}

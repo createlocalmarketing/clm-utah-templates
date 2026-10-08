@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-10-07T20:25:00-06:00",
+  "projects": [
+    {
+      "id": "realtor-website-template",
+      "group": "0-websites",
+      "title": "realtor-website-template",
+      "chat_name": "realtor-website-template (active)",
+      "status": "active",
+      "completion": 12,
+      "current_phase": "Section B — Global Header 39",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "website": "https://www.adamgriffee.com/",
+      "audit_path": "project-audits/realtor-website-template.md",
+      "last_action": "Header 39 remediation started; permanent project controls established.",
+      "next_action": "Finish and verify Global Header 39, then proceed to Section C.",
+      "updated_at": "2026-10-07T20:25:00-06:00"
+    },
+    {
+      "id": "quality-mcp",
+      "group": "0-websites",
+      "title": "quality-mcp",
+      "chat_name": "quality-mcp",
+      "status": "active",
+      "completion": 0,
+      "current_phase": "Audit reconstruction + fleet-console completion",
+      "repository": "pending-dedicated-repository-discovery",
+      "website": null,
+      "audit_path": "project-audits/quality-mcp.md",
+      "last_action": "Duplicate request for an account-wide audit/checklist dashboard was reconciled into the central Project Control Center.",
+      "next_action": "Continue Quality MCP product work in its own chat; keep the Fleet Console separate from this Project Control Center.",
+      "operational_dashboard": "Quality MCP Fleet Console — separate product surface",
+      "updated_at": "2026-10-07T20:25:00-06:00"
+    }
+  ]
+}

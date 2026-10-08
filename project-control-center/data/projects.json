@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T20:56:00-06:00",
+  "updated_at": "2026-10-07T23:12:00-06:00",
   "projects": [
     {
       "id": "realtor-website-template",
@@ -7,14 +7,14 @@
       "title": "realtor-website-template",
       "chat_name": "realtor-website-template (active)",
       "status": "active",
-      "completion": 32,
-      "current_phase": "Section E — Homepage Hero / Advanced Property Search",
+      "completion": 40,
+      "current_phase": "Section F — 7169 Image Contamination Purge",
       "repository": "createlocalmarketing/clm-utah-templates",
       "website": "https://www.adamgriffee.com/",
       "audit_path": "project-audits/realtor-website-template.md",
-      "last_action": "Canonical carousel system locked and propagated across all 8 parent pages / 48 slide templates.",
-      "next_action": "Finish homepage search infrastructure: verify hero/search placement and wire search into the real listing/IDX/MLS layer.",
-      "updated_at": "2026-10-07T20:56:00-06:00"
+      "last_action": "Homepage advanced property search was reconnected to the live Brivity IDX/MLS search using the provider's actual query parameter contract.",
+      "next_action": "Purge all 7169 Canyon Dr imagery from normal-site pages/templates while preserving the protected property microsite.",
+      "updated_at": "2026-10-07T23:12:00-06:00"
     },
     {
       "id": "quality-mcp",

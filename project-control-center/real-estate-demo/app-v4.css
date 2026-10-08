@@ -295,9 +295,9 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
   letter-spacing:-.045em;
 }
 
-/* V7: user-approved solid navy sidebar: matches PROPERTY heading text #132644. No photography, gradients or overlays. */
-#root .sidebar{background:#132644!important;background-color:#132644!important;background-image:none!important;}
-#root .sidebar .brand{background:#132644!important;background-image:none!important;}
+/* V7: user-approved solid charcoal sidebar: matches PROPERTY heading text #3a444d. No photography, gradients or overlays. */
+#root .sidebar{background:#3a444d!important;background-color:#3a444d!important;background-image:none!important;}
+#root .sidebar .brand{background:#3a444d!important;background-image:none!important;}
 #root .sidebar .side-nav button{background:transparent!important;text-shadow:none!important;color:#fff!important;}
 #root .sidebar .side-nav button.active{background:#354461!important;border-left-color:#d8a854!important;}
 #root .sidebar .side-nav button:hover:not(.active){background:#263b57!important;}
@@ -305,8 +305,8 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
 #root .sidebar .side-tagline{text-shadow:none;}
 
 /* V8 sidebar: no black tile, no giant logo, readable compact navigation. */
-#root .sidebar{background:#132644!important;background-image:none!important}
-#root .sidebar .brand{height:170px!important;min-height:170px!important;padding:12px 8px 7px!important;background:#132644!important;overflow:hidden}
+#root .sidebar{background:#3a444d!important;background-image:none!important}
+#root .sidebar .brand{height:170px!important;min-height:170px!important;padding:12px 8px 7px!important;background:#3a444d!important;overflow:hidden}
 #root .sidebar .brand img{width:160px!important;height:132px!important;max-width:160px!important;object-fit:contain!important;margin:0 auto!important;mix-blend-mode:screen!important;image-rendering:auto!important;filter:none!important}
 #root .sidebar .brand small{margin-top:-3px!important;font-size:11px!important;line-height:1.25!important;text-shadow:none!important}
 #root .sidebar .side-nav{padding:0 0 12px!important;gap:0!important}
@@ -317,4 +317,4 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
 
 /* V9: real transparent source image — no compositing workaround. */
 #root .sidebar .brand img{mix-blend-mode:normal!important;opacity:1!important;background:transparent!important;}
-#root .sidebar .brand{background:#132644!important;background-image:none!important;}
+#root .sidebar .brand{background:#3a444d!important;background-image:none!important;}

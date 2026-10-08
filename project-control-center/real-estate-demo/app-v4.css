@@ -160,3 +160,20 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
 @media(max-width:1090px){.approved-title-right{gap:10px}.approved-title-right>div{display:none}.approved-three{grid-template-columns:1fr 1fr}.approved-listing{grid-template-columns:38% 1fr}.approved-bottom{grid-template-columns:1fr}}
 @media(max-width:880px){.approved-three{grid-template-columns:1fr}.approved-three>.panel:last-child{grid-column:1}.approved-title-right{margin-left:auto}.approved-listing{grid-template-columns:1fr}.approved-listing>img{height:220px}.approved-title{align-items:flex-start}.approved-brandtitle{font-size:40px}}
 @media(max-width:710px){.sidebar{width:min(290px,85vw);min-width:0;max-width:none}.topbar{height:58px;min-height:58px;padding:8px}.top-search{display:none}.workspace{display:block;max-width:110px;min-width:0;padding:7px 5px;font-size:11px}.person img{width:34px;height:34px}.person small{display:none}.content{padding:15px 10px!important}.approved-title{flex-wrap:wrap;margin-bottom:10px}.approved-title p{font-size:12px}.approved-brandtitle{font-size:38px}.approved-title-right{width:100%;justify-content:flex-end}.approved-primary{min-height:38px;font-size:12px;min-width:0}.approved-hold{align-items:start!important}.approved-hold h3{font-size:15px!important}.approved-hold .pill{font-size:9px!important;padding:6px!important}.approved-listing-top{flex-wrap:wrap}.approved-listing-meta{flex-wrap:wrap}.approved-listing-meta>div{min-width:120px}.approved-progress{overflow-x:auto;gap:1px}.approved-step{min-width:62px}.approved-three{grid-template-columns:1fr}.approved-three>.panel{min-height:0}.marketing-dash{grid-template-columns:1fr 1fr}.approved-mini-metrics{grid-template-columns:repeat(2,1fr)}.source-note{flex-wrap:wrap}.source-note .btn{width:100%;margin-left:0}.dashrow .d-aff{display:none}}
+
+/* PROPERTY Zen login system */
+.property-login{position:relative;background-color:#294647;background-image:linear-gradient(110deg,#142b32ba,#163b3b72),url("https://images.unsplash.com/photo-1696115723497-156f5726949f?auto=format&fit=crop&q=85&w=1600");background-position:center;background-size:cover;min-height:100dvh}
+.property-login:after{position:absolute;inset:0;content:"";pointer-events:none;background:linear-gradient(180deg,transparent 65%,#1d343b60)}
+.property-login .loginbox{position:relative;z-index:1;padding:28px 37px 31px;box-shadow:0 24px 60px #102b3399;border-radius:19px}
+.login-brand{display:flex;flex-direction:column;align-items:center;gap:1px}
+.login-brand img{width:93px;height:93px;object-fit:contain}
+.login-brand strong{font-family:Poppins,'Segoe UI',Arial,sans-serif;font-size:28px;font-weight:800;letter-spacing:-.07em;color:#172d33}
+.login-brand strong em{font:normal 30px Georgia,serif;color:#72998a}
+.login-brand small{color:#627b85;font-size:11px}
+.property-login .loginbox h1{font-size:29px;margin:20px 0 4px}
+.property-login .loginbox>p{text-align:center;color:#64808b;font-size:13px}
+.property-login .loginbox label{color:#4e6471}
+.property-login .btn{padding:13px 14px}
+.property-login .auth-note{text-align:center;margin:14px 0 0;font-size:10px;line-height:1.5;color:#80929e}
+.topbar .workspace{display:block!important;min-width:105px;max-width:150px;padding:8px 5px;border-color:#edf1f4;background:#fff;color:#506980;font-size:11px}
+@media(max-width:710px){.property-login .loginbox{padding:23px 22px}.topbar .workspace{max-width:106px;min-width:70px;padding:7px 4px;font-size:10px}}

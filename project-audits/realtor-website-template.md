@@ -125,3 +125,26 @@ Newest explicit user correction wins.
 **Cross-chat coordination constraint:** ChatGPT cannot inject a message into another already-open chat from this conversation. The shared GitHub control center is therefore the canonical coordination source between chats.
 
 **Next action:** Resume Section B / Header 39 remediation from the last saved state.
+
+### 2026-10-07 — Section B / Global Header 39 completed
+**Status:** PASS — implementation and live-structure verification.
+
+**Canonical visual source:** Archive 3 full-header screenshot from 2026-10-07 06:52.
+
+**Completed:**
+- Utility bar geometry restored with five equal cells, responsive Poppins sizing, gold icons and controlled dividers.
+- Identity banner locked to the screenshot-derived 215px desktop geometry rather than the obsolete 450px historical spec or 170px regression.
+- ADAM / GRIFFEE / REALTOR® / ASSOC. BROKER hierarchy restored at 36 / 43 / 20 / 19px desktop with correct Poppins roles.
+- REALTOR® superscript encoding and placement corrected.
+- Adam identity right-aligned toward portrait; eXp block left-aligned toward portrait.
+- Portrait restored to 225px desktop with correct overlap and z-index above navigation.
+- eXp Luxury logo restored to 175×125 desktop.
+- Main nav restored to 58px desktop with 14px Poppins, center portrait gap and #999 0.9×22px divider system.
+- Primary Menu 10 verified with all nine top-level items and live child/dropdown hierarchy.
+- Desktop dropdown geometry locked; right-edge dropdowns align inward.
+- Responsive tablet/mobile rules retained and normalized.
+- Removed stale embedded Elementor custom CSS that contradicted the canonical header rules.
+- Header 39 conditions verified to exclude protected property pages 176–182.
+- Elementor cache and WordPress object cache cleared; live frontend markup verified after save.
+
+**Next action:** Section C — consolidate typography/component foundation and purge legacy Cormorant/Montserrat contamination.

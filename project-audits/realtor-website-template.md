@@ -109,3 +109,19 @@ Newest explicit user correction wins.
 - Persisted normal-site values remain smaller than the earlier approved design and are not considered authoritative merely because they are saved.
 
 **Next action:** Persist one canonical Header 39 Elementor/CSS implementation, clear cache, inspect the live frontend, and record PASS/FAIL for desktop/tablet/mobile.
+
+### 2026-10-07 — Account-wide Project Control Center created
+**Status:** PASS for central control-plane foundation.
+
+**User requirement:** Extend the audit/checklist system across all ChatGPT projects, bootstrap each new project on its first substantive chat turn, provide a project link, and support task ownership plus waiting-on relationships.
+
+**Implementation:**
+- Created `/project-control-center/` in the canonical GitHub Pages repository.
+- Added project registry, task registry, project navigation, Open/Completed/All/By Owner/Waiting On/Blocked-Regressed task views, and per-project audit links.
+- Registered both `realtor-website-template` and `quality-mcp`.
+- Added explicit boundary so Quality MCP's Fleet Console remains a separate operational product rather than becoming a duplicate project/task dashboard.
+- Added `project-audits/quality-mcp.md` documenting that reconciliation.
+
+**Cross-chat coordination constraint:** ChatGPT cannot inject a message into another already-open chat from this conversation. The shared GitHub control center is therefore the canonical coordination source between chats.
+
+**Next action:** Resume Section B / Header 39 remediation from the last saved state.

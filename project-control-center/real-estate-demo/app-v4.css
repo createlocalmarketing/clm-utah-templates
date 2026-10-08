@@ -277,3 +277,20 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
  #root .approved-title .approved-title-right{width:100%}
  #root .approved-listing{grid-template-columns:1fr}
 }
+
+/* Approved title treatment: GRIFFEE website's Poppins SemiBold for PROPERTY only */
+#root .approved-title .approved-brandtitle .property-word{
+  font-family:Poppins,'Segoe UI',Arial,sans-serif;
+  font-style:normal;
+  font-weight:600;
+  font-size:.98em;
+  letter-spacing:-.045em;
+}
+#root .approved-title .approved-brandtitle em{
+  font-family:Georgia,'Times New Roman',serif;
+  font-style:normal;
+  font-weight:400;
+  text-transform:none;
+  color:#86a590;
+  letter-spacing:-.045em;
+}

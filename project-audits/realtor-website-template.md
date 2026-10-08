@@ -148,3 +148,20 @@ Newest explicit user correction wins.
 - Elementor cache and WordPress object cache cleared; live frontend markup verified after save.
 
 **Next action:** Section C — consolidate typography/component foundation and purge legacy Cormorant/Montserrat contamination.
+
+### 2026-10-07 — Section C / Global Typography & Component Foundation completed
+**Status:** PASS.
+
+**Completed:**
+- Active Kit 17 confirmed/normalized to Inter for Primary, Secondary and Text roles; Oswald for Accent/label role.
+- All legacy custom typography roles that were Poppins were migrated to Inter.
+- Added explicit `IUR Editorial Headline` Playfair Display role for true editorial headlines only.
+- Published post 535 was repaired element-by-element: Oswald eyebrow, Playfair editorial H1, Inter H2/body/source/button typography.
+- Current Elementor search now returns zero non-revision Cormorant Garamond references.
+- Current Elementor search now returns zero non-revision Montserrat references.
+- Legacy Cormorant/Montserrat strings removed from normal-site `site.css`.
+- Footer navigation-group headings migrated from Poppins to Oswald.
+- Poppins is now confined to current Header 39 and Footer 44 Adam identity treatments; footer non-identity labels use Oswald.
+- Elementor/site caches cleared and the live site header remains present after typography changes.
+
+**Next action:** Section D — lock one canonical carousel prototype before bulk propagation to all 8 parents / 48 slide templates.

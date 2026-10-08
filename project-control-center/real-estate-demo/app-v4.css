@@ -379,3 +379,23 @@ Supplied gold gradient image is embedded as a small, faithful WebP texture for U
   background-image: var(--pz-gold-art) !important;
   background-color: #d3a45f !important;
 }
+
+/* Font Awesome paints its glyph in ::before; clip the supplied gold there too. */
+#root .sidebar .side-nav button i::before {
+  display: inline-block;
+  background-image: var(--pz-gold-art);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+@supports not (-webkit-background-clip: text) {
+  #root .sidebar .side-nav button i,
+  #root .sidebar .side-nav button i::before {
+    background-image: none !important;
+    color: #f3c476 !important;
+    -webkit-text-fill-color: #f3c476 !important;
+  }
+}

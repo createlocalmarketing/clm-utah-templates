@@ -43,3 +43,17 @@ Task owners are arbitrary strings so the same system can support Adam, another t
 ## History rule
 
 Do not erase failed attempts, regressions, or superseded decisions. Record the newer result and preserve chronology.
+
+
+## Approval-gated Kanban workflow
+
+The Project Control Center uses four stages:
+
+1. **Pending** — queued / not started.
+2. **In Process** — actively being worked.
+3. **Completed · Awaiting Approval** — ChatGPT reports the task finished, but it is **not final**.
+4. **Approved · Closed** — only after the user explicitly approves the work.
+
+If the user rejects or corrects work in the approval column, the task returns to **In Process** with the correction preserved in its history.
+
+The left sidebar mirrors known ChatGPT project-folder and chat-thread structure. There is no direct ChatGPT sidebar enumeration API available from a normal project chat, so historical projects are backfilled from recoverable account/project history and every future project/chat is registered on its first substantive message.

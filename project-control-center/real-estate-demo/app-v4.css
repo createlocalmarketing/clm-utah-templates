@@ -314,3 +314,7 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
 #root .sidebar .side-nav button i{font-size:15px!important;width:20px!important;flex:0 0 20px}
 #root .sidebar .side-nav button.active{background:#354461!important;border-left-color:#d8a854!important}
 #root .sidebar .side-tagline{font-size:24px!important;margin:auto 24px 24px!important}
+
+/* V9: real transparent source image — no compositing workaround. */
+#root .sidebar .brand img{mix-blend-mode:normal!important;opacity:1!important;background:transparent!important;}
+#root .sidebar .brand{background:#132644!important;background-image:none!important;}

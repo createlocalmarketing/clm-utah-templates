@@ -318,3 +318,64 @@ body{background:#f8fbff;color:var(--navy);font-family:Inter,'Segoe UI',Arial,san
 /* V9: real transparent source image — no compositing workaround. */
 #root .sidebar .brand img{mix-blend-mode:normal!important;opacity:1!important;background:transparent!important;}
 #root .sidebar .brand{background:#3a444d!important;background-image:none!important;}
+
+
+/*
+PROPERTY Zen sidebar tokens locked October 8, 2026:
+User rule #1: build the real code; never create or send substitute dashboard renders.
+Supplied gold gradient image is embedded as a small, faithful WebP texture for UI use.
+*/
+#root .sidebar {
+  --pz-gold-art: url("data:image/webp;base64,UklGRowCAABXRUJQVlA4IIACAAAwGACdASoAAUgAPj0cjESiIaER2c1MIAPEtIDEARskkGkZkuAjmJg3sXfGLmeyJOIJpBggprct1kW0OunBDT7lPwmdpQftm0NEwpHZp+0vc4qdNRGA1uuyw99zARCOeijJBlqjKDsj/gyHejx7ELm5Nz0s9TUuz8rVmH2sXRh5iJKgV2mlDjzyXulJ1TxOwt00UfUixNo0euU/M8WbCcuyCn7WsO/deknLLDnBWhmDpwDz5LjYt4DgVsRVllW6pjwxmdvbsOFk56cgAP7xUC7ip///F6r+hr9aG3b/yYfth7cSpBtaGCSwMZU5EToc8xnq0d5VhePVTH32oSDfMWuE6/9Pyjdte83i80PDai25MJ4g98QInqCD2VODLYs8o11ta5s0sgOAJuwCiKWVO/8mcMTMyQYKGx669Limab3+QUEr3yucTd+Km0BqIYHfZTqm0wcfuyOO4y7AGrmDrPJXukBuR9qXWabSA+GBvIZWfjyhd8YMO5vYvTiAEz3GLkvI2LK0XKjHbBQEwAqET3MrOQUy46x8WdVVZ65i7XRpR8NgD1Tum1+cNtshkd3Wfk473fICRLzj+My2m6xbq1ZiAB8tHFB3UUmRHKmPRjAUMyuWhMi40l5FtHYkmKyLd3bCERpckXMg1wXwbO+VO5ZxHaDkWtfBgR6jI0JHmE7FydDJ8aHW5sm27q8sBcsoeyocu+Q7kAd5CKYEJHvAyQfMF/Ouo//h5vzGhecaIpVhoLNZ5LHBSwyb7ASFC1I2un/ZYcbtJwjsqNNnINfTHOAaZzfqpfzbq1R/ht6/AaqfKHxfmAEaJtzEM9zHI98Dksy+SvEabMzSI2CBzpk4r2QA");
+  background: #3a444d !important;
+  background-image: none !important;
+}
+#root .sidebar .brand,
+#root .sidebar .side-tagline {
+  background: #3a444d !important;
+  background-image: none !important;
+}
+#root .sidebar .side-nav {
+  background: #262d33 !important;
+  background-image: none !important;
+  padding-top: 5px !important;
+  padding-bottom: 9px !important;
+}
+#root .sidebar .side-nav button {
+  position: relative !important;
+  background: transparent !important;
+  color: #fff !important;
+  border-left-color: transparent !important;
+  text-shadow: none !important;
+}
+#root .sidebar .side-nav button i {
+  background-image: var(--pz-gold-art) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+  filter: none !important;
+}
+#root .sidebar .side-nav button.active {
+  background: linear-gradient(90deg, rgba(235,188,110,.17), rgba(38,45,51,.76) 82%) !important;
+}
+#root .sidebar .side-nav button.active::before {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: -4px;
+  width: 6px;
+  border-radius: 0 2px 2px 0;
+  background-image: var(--pz-gold-art);
+  background-size: 100% 100%;
+  background-position: center;
+}
+#root .sidebar .side-nav button:hover:not(.active) {
+  background: rgba(255,255,255,.08) !important;
+}
+#root .sidebar .side-tagline::after {
+  background-image: var(--pz-gold-art) !important;
+  background-color: #d3a45f !important;
+}

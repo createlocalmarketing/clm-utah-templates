@@ -165,3 +165,28 @@ Newest explicit user correction wins.
 - Elementor/site caches cleared and the live site header remains present after typography changes.
 
 **Next action:** Section D — lock one canonical carousel prototype before bulk propagation to all 8 parents / 48 slide templates.
+
+### 2026-10-07 — Section D / Canonical Carousel System completed
+**Status:** PASS — system propagated and live structure verified.
+
+**Canonical source:** Archive 3 carousel/banner requirements and the final handoff's explicit rejection of pill-button regressions.
+
+**Completed:**
+- Removed multiple contradictory legacy carousel/hero correction blocks from `site.css` and replaced them with one canonical carousel system.
+- Outer parent owns subject-relevant full-width background; a subtle atmospheric gradient sits behind content.
+- Desktop card locked to 1120px max width / 500px height with 56/44 media-copy split.
+- Media is edge-to-edge with no nested image-card inset or image radius.
+- White card, consistent border/radius and reusable geometry standardized.
+- Copy is left-aligned; CTA row is pushed to the bottom.
+- Carousel CTAs are rectangular/squared per the newest explicit handoff requirement; paired buttons are equal width with charcoal outline + solid-gold relationship.
+- Matching left/right controls standardized.
+- Pagination is absolutely centered beneath the card within the outer background breathing zone.
+- Mobile stacks image/copy and CTA controls cleanly.
+- Dynamic IUR slide uses the exact same geometry as standard slides.
+- Home 53 + slide 539 + dynamic slide 549 were used as the prototype and verified in live rendered markup before propagation.
+- Parent settings standardized on Home, Education, Buyers, Sellers, Developers, Investors, Relocation and Market Insights.
+- All 48 slide templates were updated to the canonical geometry/component roles.
+- All eight dynamic IUR slide widgets retain page-specific topic/keyword filters.
+- Live frontend verification confirms all eight parent pages render six slide cards plus previous/next controls, pagination and the dynamic IUR slide.
+
+**Next action:** Section E — homepage hero/search placement and real MLS/IDX search wiring.

@@ -1,0 +1,19 @@
+/*
+Theme Name: Adam Griffee | Park City Utah Realtor
+Theme URI: https://www.adamgriffee.com/
+Description: Custom Elementor child theme for Adam Griffee's Park City and Utah real estate platform. Built as the reusable Adam brand layer over the Hello Elementor parent theme.
+Author: Adam Griffee
+Author URI: https://www.adamgriffee.com/
+Template: hello-elementor
+Version: 1.0.0
+Requires at least: 6.6
+Requires PHP: 8.1
+Text Domain: adam-griffee-park-city-realtor
+Tags: real-estate, realtor, park-city, utah, luxury, elementor, elementor-pro, custom-logo, custom-menu, responsive-layout
+*/
+
+/*
+ * Visual styling is intentionally maintained through the Adam brand/component
+ * layer and native Elementor/Theme Builder documents. This file establishes
+ * the canonical WordPress theme identity without duplicating component CSS.
+ */

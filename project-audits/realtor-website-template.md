@@ -190,3 +190,22 @@ Newest explicit user correction wins.
 - Live frontend verification confirms all eight parent pages render six slide cards plus previous/next controls, pagination and the dynamic IUR slide.
 
 **Next action:** Section E — homepage hero/search placement and real MLS/IDX search wiring.
+
+### 2026-10-07 — Section E / Homepage Advanced Property Search completed
+**Status:** PASS — live IDX routing restored.
+
+**Completed:**
+- Preserved the advanced property search directly beneath the homepage carousel/banner.
+- Replaced the dead/local `/homes/` form target with the live Lawson/Brivity IDX search used by Adam's team site.
+- Inspected the live Brivity search implementation and its production JavaScript to use the actual query contract rather than guessing.
+- Free-text search now maps to `multi_search` + `multi_cat`.
+- Community selections route to Park City neighborhood search paths.
+- Max price maps to `price=:MAX`.
+- Beds map to `bedrooms=MIN:`.
+- Baths map to `totalBaths=MIN:`.
+- Property type maps to `propertyType`.
+- Active/contingent listing status is retained with `status=1|3`.
+- Live AdamGriffee.com frontend markup verified after Elementor save and cache clear.
+- Temporary source-audit allowlist access used to inspect the Brivity production search script was removed again after verification.
+
+**Next action:** Section F — remove 7169 Canyon Dr imagery from normal-site pages/templates while preserving pages 176–182.

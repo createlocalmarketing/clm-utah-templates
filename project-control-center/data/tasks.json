@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-10-07T20:25:00-06:00",
+  "tasks": [
+    {
+      "id": "rwt-A6",
+      "project_id": "realtor-website-template",
+      "section": "A",
+      "title": "Maintain permanent GitHub audit ledger",
+      "status": "completed",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pass",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Project audit protocol and project ledger created in GitHub."
+    },
+    {
+      "id": "rwt-A8",
+      "project_id": "realtor-website-template",
+      "section": "A",
+      "title": "Register project in account-wide Project Control Center",
+      "status": "completed",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pass",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Project record added to central dashboard data."
+    },
+    {
+      "id": "rwt-B",
+      "project_id": "realtor-website-template",
+      "section": "B",
+      "title": "Finish Global Header 39",
+      "status": "in_progress",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Utility, identity, portrait, eXp logo, nav, center gap, dividers, dropdowns, desktop/tablet/mobile."
+    },
+    {
+      "id": "rwt-C",
+      "project_id": "realtor-website-template",
+      "section": "C",
+      "title": "Consolidate global typography and component foundation",
+      "status": "open",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Inter/Oswald/Playfair/Poppins role system; purge legacy Cormorant/Montserrat."
+    },
+    {
+      "id": "rwt-D",
+      "project_id": "realtor-website-template",
+      "section": "D",
+      "title": "Lock canonical carousel prototype and propagate",
+      "status": "open",
+      "owner": "ChatGPT",
+      "waiting_on": "Adam",
+      "verification": "pending",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "One unresolved historical conflict remains around final carousel CTA corner treatment."
+    },
+    {
+      "id": "rwt-E8",
+      "project_id": "realtor-website-template",
+      "section": "E",
+      "title": "Wire advanced search to real MLS/IDX results",
+      "status": "open",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Homepage advanced-search UI exists; /homes/ is not yet a genuine filtered MLS engine."
+    },
+    {
+      "id": "rwt-F",
+      "project_id": "realtor-website-template",
+      "section": "F",
+      "title": "Purge 7169 imagery outside protected property microsite",
+      "status": "open",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "fail",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Known contamination on Home 53, Utah 170, Pinebrook 175, Sellers 276 and slide 585."
+    },
+    {
+      "id": "qmcp-control-center",
+      "project_id": "quality-mcp",
+      "section": "Governance",
+      "title": "Use central Project Control Center for project/task accountability",
+      "status": "completed",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pass",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Quality MCP's duplicate account-wide audit/checklist request is superseded by the central Project Control Center. Do not build a second competing project-management dashboard."
+    },
+    {
+      "id": "qmcp-fleet",
+      "project_id": "quality-mcp",
+      "section": "Fleet Console",
+      "title": "Finish Quality MCP multi-site fleet dashboard",
+      "status": "open",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-07T20:25:00-06:00",
+      "notes": "Separate operational product: installed sites, versions, simultaneous updates, post-update checks, errors, retries and rollout status."
+    }
+  ]
+}

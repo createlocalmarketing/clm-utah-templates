@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T20:56:00-06:00",
+  "updated_at": "2026-10-07T23:12:00-06:00",
   "tasks": [
     {
       "id": "rwt-A6",
@@ -66,12 +66,12 @@
       "project_id": "realtor-website-template",
       "section": "E",
       "title": "Wire advanced search to real MLS/IDX results",
-      "status": "open",
+      "status": "completed",
       "owner": "ChatGPT",
       "waiting_on": null,
-      "verification": "pending",
-      "updated_at": "2026-10-07T20:25:00-06:00",
-      "notes": "Homepage advanced-search UI exists; /homes/ is not yet a genuine filtered MLS engine."
+      "verification": "pass",
+      "updated_at": "2026-10-07T23:12:00-06:00",
+      "notes": "Homepage advanced search remains directly under the hero/banner and now routes to the live Brivity IDX search. Free-text queries map to multi_search/multi_cat; community selections use Park City neighborhood search paths; price maps to price=:MAX; beds to bedrooms=MIN:; baths to totalBaths=MIN:; property type to propertyType; active/contingent status uses 1|3. Live homepage markup verified after save."
     },
     {
       "id": "rwt-F",

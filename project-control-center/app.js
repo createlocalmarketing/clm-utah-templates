@@ -105,7 +105,19 @@ function renderProject(project){
     '<div class="metric-card '+s.key+'"><span>'+escapeHtml(s.title)+'</span><strong>'+counts[s.key]+'</strong></div>'
   ).join('');
 
-  const filters=[['all','All people'],...owners.map(x=>['owner:'+x,x+' tasks']),...waiters.map(x=>['wait:'+x,'Waiting on '+x])];
+  const fixedFilters=[
+    ['all','All people'],
+    ['owner:Jay','Jay tasks'],
+    ['owner:Adam','Adam tasks'],
+    ['owner:ChatGPT','ChatGPT tasks'],
+    ['wait:Jay','Waiting on Jay'],
+    ['wait:Adam','Waiting on Adam']
+  ];
+  const extras=[
+    ...owners.filter(x=>!['Jay','Adam','ChatGPT'].includes(x)).map(x=>['owner:'+x,x+' tasks']),
+    ...waiters.filter(x=>!['Jay','Adam'].includes(x)).map(x=>['wait:'+x,'Waiting on '+x])
+  ];
+  const filters=[...fixedFilters,...extras];
   document.querySelector('#peopleFilters').innerHTML=filters.map(([v,l])=>
     '<button type="button" class="person-filter '+(state.peopleFilter===v?'active':'')+'" data-filter="'+escapeAttr(v)+'">'+escapeHtml(l)+'</button>'
   ).join('');

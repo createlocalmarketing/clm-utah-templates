@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-07T23:12:00-06:00",
+  "updated_at": "2026-10-07T23:20:00-06:00",
   "tasks": [
+    {
+      "id": "rwt-P0-theme",
+      "project_id": "realtor-website-template",
+      "section": "PRIORITY 0",
+      "title": "Deploy and activate Adam Griffee custom WordPress theme",
+      "status": "in_progress",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-07T23:20:00-06:00",
+      "notes": "Theme Name: Adam Griffee | Park City Utah Realtor; Theme URI/Author URI: https://www.adamgriffee.com/; Author: Adam Griffee; Version 1.0.0; parent hello-elementor; Text Domain adam-griffee-park-city-realtor. Draft existed historically but was never published/activated. Live site currently has only Hello Elementor installed."
+    },
     {
       "id": "rwt-A6",
       "project_id": "realtor-website-template",

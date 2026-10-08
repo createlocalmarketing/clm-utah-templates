@@ -209,3 +209,23 @@ Newest explicit user correction wins.
 - Temporary source-audit allowlist access used to inspect the Brivity production search script was removed again after verification.
 
 **Next action:** Section F — remove 7169 Canyon Dr imagery from normal-site pages/templates while preserving pages 176–182.
+
+### 2026-10-07 — PRIORITY 0 / Custom theme deployment discovered missing
+**Status:** FAIL / IN PROGRESS.
+
+**Finding:** Live WordPress inspection shows Hello Elementor 3.5.1 is the only installed theme and is active.
+
+**Recovered historical metadata:**
+- Theme Name: `Adam Griffee | Park City Utah Realtor`
+- Theme URI: `https://www.adamgriffee.com/`
+- Author: `Adam Griffee`
+- Author URI: `https://www.adamgriffee.com/`
+- Version: `1.0.0`
+- Template: `hello-elementor`
+- Text Domain: `adam-griffee-park-city-realtor`
+
+**Root cause:** Earlier work drafted the Hello Elementor-based custom theme but explicitly did not publish/activate it at that time. That deferred deployment step was never completed and disappeared from later execution priorities.
+
+**Priority:** This is now Priority 0 above all remaining checklist work.
+
+**Next action:** Commit canonical theme source to GitHub, deploy it to WordPress, activate it, clear caches, and verify Theme Builder/Elementor frontend integrity before resuming Section F.

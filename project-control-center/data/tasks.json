@@ -564,7 +564,7 @@
       "priority": "p0",
       "verification": "not_started",
       "updated_at": "2026-10-10",
-      "notes": "Requirement captured from the 2026-10-10 QAI meeting intelligence conversation. Architecture: project-control-center/docs/qai-operating-system-architecture.md. No implementation/deployment claimed."
+      "notes": "Requirement captured from the 2026-10-10 QAI meeting intelligence conversation. Architecture: project-control-center/docs/qai-operating-system-architecture.md. No implementation/deployment claimed. Mobile and web must share authenticated API/data; offline sync and permissions are first-class. User goal emphasizes 60:40 mobile vs desktop design weighting."
     },
     {
       "id": "qai-002",
@@ -602,7 +602,7 @@
       "id": "qai-004",
       "project_id": "saas-quality-crm",
       "section": "P0",
-      "title": "Build first-party browser extension Q Capture with timestamped DOM/visual evidence and native Visual Builder integration",
+      "title": "Build Q Capture desktop browser extension and optional managed-site element inspection",
       "status": "pending",
       "owner": "To be confirmed by project stakeholders",
       "co_managers": [],
@@ -612,7 +612,7 @@
       "priority": "p0",
       "verification": "not_started",
       "updated_at": "2026-10-10",
-      "notes": "Requirement captured from the 2026-10-10 QAI meeting intelligence conversation. Architecture: project-control-center/docs/qai-operating-system-architecture.md. No implementation/deployment claimed."
+      "notes": "Supplementary desktop precision tool, NOT mobile product foundation; Chrome mobile extensions unsupported. Mobile capture implemented in qai-014. Coordinate with native Q Visual Builder. User-approved media capture and permissions required. Not implemented."
     },
     {
       "id": "qai-005",
@@ -725,6 +725,70 @@
       "verification": "not_started",
       "updated_at": "2026-10-10",
       "notes": "Requirement captured from the 2026-10-10 QAI meeting intelligence conversation. Architecture: project-control-center/docs/qai-operating-system-architecture.md. No implementation/deployment claimed."
+    },
+    {
+      "id": "qai-012",
+      "project_id": "saas-quality-crm",
+      "section": "P0",
+      "title": "Deliver first-class Q Mobile iOS/Android app with voice/capture/Today/Projects/Review/Inbox navigation",
+      "status": "pending",
+      "owner": "To be confirmed by project stakeholders",
+      "co_managers": [],
+      "review_status": "needs_collaborative_review",
+      "tag_status": "pending_verification",
+      "waiting_on": "Requirement and delivery ownership approval",
+      "priority": "p0",
+      "verification": "not_started",
+      "updated_at": "2026-10-10",
+      "notes": "Confirm native app architectural spike and implementation; persistence, accessibility and platform permission tests required. Source: QAI mobile-first direction 2026-10-10. Spec: project-control-center/docs/qai-operating-system-architecture.md. Not implemented."
+    },
+    {
+      "id": "qai-013",
+      "project_id": "saas-quality-crm",
+      "section": "P0",
+      "title": "Prove seamless desktop-to-mobile state continuity, deep links, authenticated sync and offline recovery",
+      "status": "pending",
+      "owner": "To be confirmed by project stakeholders",
+      "co_managers": [],
+      "review_status": "needs_collaborative_review",
+      "tag_status": "pending_verification",
+      "waiting_on": "Requirement and delivery ownership approval",
+      "priority": "p0",
+      "verification": "not_started",
+      "updated_at": "2026-10-10",
+      "notes": "Test actual iOS, Android and desktop sessions switching mid-task and mid-meeting; no data loss. Source: QAI mobile-first direction 2026-10-10. Spec: project-control-center/docs/qai-operating-system-architecture.md. Not implemented."
+    },
+    {
+      "id": "qai-014",
+      "project_id": "saas-quality-crm",
+      "section": "P0",
+      "title": "Implement mobile Share to Q (URL, screenshot, photo, voice note) and visual annotation review intake",
+      "status": "pending",
+      "owner": "To be confirmed by project stakeholders",
+      "co_managers": [],
+      "review_status": "needs_collaborative_review",
+      "tag_status": "pending_verification",
+      "waiting_on": "Requirement and delivery ownership approval",
+      "priority": "p0",
+      "verification": "not_started",
+      "updated_at": "2026-10-10",
+      "notes": "Must work without Chrome extension, WordPress integration or paid recorder; explicit per-device capture permissions. Source: QAI mobile-first direction 2026-10-10. Spec: project-control-center/docs/qai-operating-system-architecture.md. Not implemented."
+    },
+    {
+      "id": "qai-015",
+      "project_id": "saas-quality-crm",
+      "section": "P1",
+      "title": "Create mobile/desktop feature parity and device acceptance suite across QAI modules",
+      "status": "pending",
+      "owner": "To be confirmed by project stakeholders",
+      "co_managers": [],
+      "review_status": "needs_collaborative_review",
+      "tag_status": "pending_verification",
+      "waiting_on": "Requirement and delivery ownership approval",
+      "priority": "p1",
+      "verification": "not_started",
+      "updated_at": "2026-10-10",
+      "notes": "Verify approvals, co-manager comments, source evidence, switching business identities, notifications and phone workflows. Source: QAI mobile-first direction 2026-10-10. Spec: project-control-center/docs/qai-operating-system-architecture.md. Not implemented."
     }
   ]
 }

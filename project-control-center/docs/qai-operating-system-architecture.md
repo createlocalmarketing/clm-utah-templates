@@ -97,3 +97,58 @@ Each phase demands working backend persistence before proceeding, not only visua
 
 NOT done when a mock card appears.
 Done only when authenticated users can create and review an actual persisted task, with safe permissions and co-manager approvals; evidence is stored and retrievable; routing is verified; an approved task launches an observable job; actual files/site state are changed in a disposable test environment; tests and failures are recorded; production deployment is separately authorized; audit history is preserved.
+
+
+## J. Mobile-first, device-agnostic architecture (2026-10-10 amendment)
+
+### Decision: experiences first, technology choices second
+
+- This is **not** an extension-first, WordPress-first, Wispr-first, or ChatGPT-Project-first architecture. Those are optional integrations/adapters, not product requirements.
+- Design and test to a **60% mobile / 40% desktop focus**, recognizing that this is a product-design weighting, not measured traffic share. Mobile use must be genuinely capable, not a shrunken desktop Kanban.
+- Primary surfaces: **Q Mobile (iOS/Android installed app)** and **Q Web (responsive desktop/tablet browser)**. Optional secondary surface: **Q Capture desktop browser extension**, optional Safari web extension after iOS feasibility testing. All share one authenticated backend, event stream, task registry, context engine, permission model, and evidence store.
+- Do not force browser extension installation, WordPress, or a paid external transcription service for ordinary users to review tasks, create notes, approve changes, set reminders, place Q-supported business calls, or capture a URL/screenshot.
+- Native app recommendation to validate via prototype: **React Native + Expo development builds**, supplemented with native Swift/Kotlin modules for OS-specific capture, share targets, VoIP, push, etc. Responsive web via React/Next.js. Share design tokens, TypeScript contracts, schemas and domain logic, but do **not** attempt to force identical UI layouts on desktop and mobile. Consider native Swift/Kotlin or Flutter if proof-of-concept reveals strong reasons to switch.
+- Backend: secure transactional database/API with org-aware RBAC and audit/event log; background workers/queues; realtime sync or resilient polling; encrypted object media storage. Client devices are views/controllers, not canonical task stores; offline clients keep encrypted local drafts and an idempotent sync queue.
+
+### Mobile core navigation / workflows
+
+Mobile primary paths:
+1. **Today**: next actions, tasks requiring review, meeting outcomes, calls, reminders, quick approvals.
+2. **Q**: voice-first assistant, capture a spoken note, start/join a meeting, query current context, dictate changes.
+3. **Projects**: organization switch, per-project Kanban list/compact board, owners/co-managers, approval and evidence; default to list and card detail for one-handed use.
+4. **Inbox**: combined authorized communications with clear business/identity selectors.
+5. **More**: recording library, search, settings, advanced administration.
+
+Global mobile quick capture: voice note, camera, screenshot, shared URL, photo markup, short video clip; task/idea/meeting classification and tag verification. Every deep link opens the **exact** task, call, meeting timestamp, annotation or project, with verified tenant access.
+Mobile must support push notification and optional SMS fallback, acknowledgement/snooze, calendar handoff, offline capture and resume, accessible 44+pt touch targets, dark/light mode, performant uploads and spotty network recovery.
+Desktop optimizes simultaneous panels: meeting video/transcript timeline, element inspector and browser capture, side-by-side approval/compare, bulk Kanban editing, long-form specs, and code review. Do not hide essential capabilities behind desktop-only tools if there is a meaningful mobile alternative.
+
+### Multi-device continuity acceptance
+
+An authenticated user starts speaking or editing at desktop, locks or leaves desktop, opens Q Mobile, and sees the **same authoritative task, business context, owners, co-manager feedback, evidence, decision state and latest approved changes**. Preserve drafts, location within a long meeting/replay, selected identity and queued offline events when sensible.
+Background AI jobs stay running server-side regardless of which device is connected. Concurrent edits require optimistic versioning, conflict detection and audit retention. A notification can open the exact pending approval with no need to navigate a giant dashboard.
+
+### Mobile website annotation: equivalent workflow, not identical technology
+
+**Desktop**: browser extension or Q Visual Builder may capture cursor, DOM element, selector, screenshot, viewport and synchronized timestamp. With Quality MCP on authorized managed sites, resolve Elementor components.
+
+**iOS/Android**: Start with user-initiated system share action (URL/image) or screenshot -> 'Share to Q' -> select/crop/mark up screen region -> voice or text note -> QAI suggests project/element/capability -> verify -> create collaborative review card. A controlled in-app review browser may expose extra DOM targeting where technically allowed. User-authorized system screen capture may attach a recording and timestamped notes, but must not assume unrestricted background capture of other apps, arbitrary touch-event interception, or cross-app DOM access. On Android, MediaProjection has session consent and foreground service obligations; on Apple platforms, use currently supported platform capture framework and permissions, confirmed on real devices.
+Mobile Safari web extensions are possible; standard mobile Chrome does not support desktop Chrome extensions. Therefore free lead-generation extension is **supplementary** to first-party mobile sharing and capture, never a dependency.
+
+### Phone / SMS reality
+
+Q native business VoIP with supported provider + OS calling UI may deliver call analytics on **Q-handled calls**. Do not claim to capture arbitrary personal cellular calls, their hold statistics, or their audio. SMS reminders are sent from authorized provider services and link directly to task or in-app business dialer. Confirm consent and notification preference; avoid sensitive details in lock-screen preview.
+
+### Release gates / parity matrix
+
+The release is not accepted until iOS, Android, desktop browser and tablet viewport all pass a practical parity matrix:
+- Add/edit/assign/comment on a real persisted task and verify organization/project routing.
+- View and confirm meeting-derived collaborative review and tag evidence.
+- Receive deep-linked notification; approve/reject with auditable identity.
+- Capture and submit visual feedback; mobile screenshot/URL path and desktop element-specific path.
+- Start a task on one device and finish from another without stale context or data loss.
+- Resume offline capture and recover uploads after loss of network.
+- Business identity and personal/private tenant separation, verified under concurrent sessions.
+- Open Q call workflow, accurate provider-reported metrics and task disposition, when this module is implemented.
+
+A static responsive webpage, mock mobile screenshots, or untested WebView wrapper does **not** meet this definition of done.

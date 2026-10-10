@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T00:12:00-06:00",
+  "updated_at": "2026-10-10",
   "groups": [
     {
       "id": "00-control",
@@ -230,6 +230,19 @@
       "last_action": "Rockwell-inspired Wasatch Back city/resort scene direction preserved.",
       "next_action": "Backfill artwork production checklist.",
       "updated_at": "2026-10-08T00:12:00-06:00"
+    },
+    {
+      "id": "saas-quality-crm",
+      "group": "0-plugin-development",
+      "title": "saas-quality-crm (active)",
+      "chat_name": "saas-quality-crm (active)",
+      "status": "active",
+      "current_phase": "QAI requirements and native platform architecture",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "audit_path": "project-audits/saas-quality-crm.md",
+      "last_action": "Captured QAI cross-context meeting intelligence, collaborative review, universal capabilities, communications and real SaaS runtime architecture.",
+      "next_action": "Implement durable database/auth/API-backed Kanban review intake and co-manager/tag verification; all implementation work requires tests and user approval.",
+      "updated_at": "2026-10-10"
     }
   ]
 }

@@ -26,3 +26,16 @@
 **Evidence:** [Mobile-first amendment](../project-control-center/docs/qai-operating-system-architecture.md#j-mobile-first-device-agnostic-architecture-2026-10-10-amendment).
 
 **Verification:** GitHub specification and task registry update succeeded. **No deployed mobile/web app or real device tests have been performed.**
+
+
+## 2026-10-10 — QAI ownership and human-outcome platform doctrine
+
+**Decision input (proposal, not approved release):** Q must be a truly owned first-party platform, not a bundle of Wispr Flow or other SaaS integrations. Core mission is freeing human time for meaningful family, community, employee and client experiences. Q Voice takes dictation, diarized meetings, actions and speech directly into Q Mobile/Q Desktop; Q Live multilingual educational broadcasting and consented avatar likeness are R&D areas. Q Experiences patterns should adapt across all industries via reusable mechanic primitives + industry taxonomy, not a hand-maintained fixed set of sector cases.
+
+**Specification:** [Owned Q product charter / Q Voice / Q Live / universal industry experience architecture](../project-control-center/docs/qai-product-mission-owned-platform-and-industry-architecture.md).
+
+**Registry changes:** New pending cards `qai-016`–`qai-024`; updated `qai-005` and `qai-007` to reflect native-owned implementations and sector-wide adaptability.
+
+**Technical caveats:** self-hostable/open-source infrastructure does not mean the company owns licensed weights/source; check licenses (e.g., Meta Seamless commercial NC restrictions). Real-time all-language audiovisual translated likeness remains R&D; user consent/clear disclosure, latency/quality evidence, HIPAA/reviews rules and separate clinical/legal approval required.
+
+**Implementation status:** Requirements committed to GitHub only; NO software code/runtime functionality newly deployed/tested; no production integration implied. Next action: collaborative scoping/acceptance followed by vertical-slice development of native Q Voice + authenticated collaborative Kanban and real mobile/desktop persistence.

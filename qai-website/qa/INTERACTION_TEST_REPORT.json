@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "render_home",
+      "pass": true
+    },
+    {
+      "test": "workflow_stepper",
+      "pass": true
+    },
+    {
+      "test": "workspace_switcher",
+      "pass": true
+    },
+    {
+      "test": "pricing_package_toggle",
+      "pass": true
+    },
+    {
+      "test": "mobile_navigation_markup",
+      "pass": true
+    }
+  ],
+  "total": 5,
+  "passed": 5,
+  "limitations": "Code-level view model tests. Browser and CSS layout acceptance remain unverified."
+}

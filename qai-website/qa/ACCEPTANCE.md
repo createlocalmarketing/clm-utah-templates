@@ -56,3 +56,12 @@
 In `qai-platform/app.js`, the mobile renderer previously appended `renderModal()` outside the simulated phone, creating a desktop-size overlay. Correct by mounting it inside `.iphone-glass` with a contained overlay and mobile-specific stacked form. Also replace the lifeless mobile Visual Builder sample with clearly identified photo-led selectable components; keep live-site actions clearly separate.
 
 **No completed implementation or visual signoff is inferred merely from a page loading.**
+
+## 7. Supplemental independent checks (2026-10-11)
+
+- [x] Headless JavaScript VM rendered all 46 generated page bodies with exactly one H1 and at least one image each (`qa/vm_smoke.cjs`, `qa/VM_SMOKE_REPORT.json`).
+- [x] Internal links from rendered site markup mapped to existing generated file paths; zero missing destinations in that test.
+- [x] Five local UI state transitions passed (`qa/vm_interactions.cjs`, `qa/INTERACTION_TEST_REPORT.json`): home render, workflow stepper, simulated business switch, pricing package switch, mobile-menu render.
+- [x] All 18 requested existing `.webp` media assets verified by filename in the connected `img/` repository directory.
+- [ ] Actual GitHub Pages HTTP availability and image rendering remain unverified by web/browser tools; inaccessible from this environment.
+- [ ] Browser-native end-to-end interaction, layout and final visual approval still open.

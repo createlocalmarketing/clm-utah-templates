@@ -1,0 +1,330 @@
+{
+  "routes": 46,
+  "exceptions": [],
+  "pass": true,
+  "metrics": [
+    {
+      "page": "about.html",
+      "h1": 1,
+      "images": 2,
+      "internal_links": 28,
+      "html_length": 7762
+    },
+    {
+      "page": "article-company-context.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 30,
+      "html_length": 8877
+    },
+    {
+      "page": "article-local-offers.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 30,
+      "html_length": 8829
+    },
+    {
+      "page": "article-quality-gates.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 30,
+      "html_length": 8841
+    },
+    {
+      "page": "article-universal-patterns.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 30,
+      "html_length": 8903
+    },
+    {
+      "page": "article-visual-feedback.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 30,
+      "html_length": 8839
+    },
+    {
+      "page": "article-workflow.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 30,
+      "html_length": 8864
+    },
+    {
+      "page": "capabilities.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 27,
+      "html_length": 8943
+    },
+    {
+      "page": "contact.html",
+      "h1": 1,
+      "images": 2,
+      "internal_links": 26,
+      "html_length": 8880
+    },
+    {
+      "page": "demo.html",
+      "h1": 1,
+      "images": 2,
+      "internal_links": 26,
+      "html_length": 8916
+    },
+    {
+      "page": "faq.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 28,
+      "html_length": 9560
+    },
+    {
+      "page": "index.html",
+      "h1": 1,
+      "images": 20,
+      "internal_links": 46,
+      "html_length": 24585
+    },
+    {
+      "page": "industries.html",
+      "h1": 1,
+      "images": 11,
+      "internal_links": 35,
+      "html_length": 12415
+    },
+    {
+      "page": "industry-agencies.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11243
+    },
+    {
+      "page": "industry-cities.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11302
+    },
+    {
+      "page": "industry-dental.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11343
+    },
+    {
+      "page": "industry-medspa.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11255
+    },
+    {
+      "page": "industry-parks.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11284
+    },
+    {
+      "page": "industry-personal.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11342
+    },
+    {
+      "page": "industry-professional.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11222
+    },
+    {
+      "page": "industry-real-estate.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11341
+    },
+    {
+      "page": "industry-restaurants.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11294
+    },
+    {
+      "page": "industry-retail.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11236
+    },
+    {
+      "page": "integrations.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 27,
+      "html_length": 9326
+    },
+    {
+      "page": "platform.html",
+      "h1": 1,
+      "images": 11,
+      "internal_links": 37,
+      "html_length": 15698
+    },
+    {
+      "page": "pricing.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 30,
+      "html_length": 9385
+    },
+    {
+      "page": "product-analytics.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11021
+    },
+    {
+      "page": "product-automation.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11013
+    },
+    {
+      "page": "product-calls.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11038
+    },
+    {
+      "page": "product-capture.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11046
+    },
+    {
+      "page": "product-communications.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11114
+    },
+    {
+      "page": "product-crm.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11069
+    },
+    {
+      "page": "product-experiences.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11050
+    },
+    {
+      "page": "product-mcp.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11015
+    },
+    {
+      "page": "product-qai.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11088
+    },
+    {
+      "page": "product-websites.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11065
+    },
+    {
+      "page": "products.html",
+      "h1": 1,
+      "images": 11,
+      "internal_links": 35,
+      "html_length": 12113
+    },
+    {
+      "page": "resources.html",
+      "h1": 1,
+      "images": 7,
+      "internal_links": 31,
+      "html_length": 10470
+    },
+    {
+      "page": "roadmap.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 27,
+      "html_length": 8049
+    },
+    {
+      "page": "security.html",
+      "h1": 1,
+      "images": 1,
+      "internal_links": 27,
+      "html_length": 8433
+    },
+    {
+      "page": "solution-growth.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11300
+    },
+    {
+      "page": "solution-meetings.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11362
+    },
+    {
+      "page": "solution-operations.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11342
+    },
+    {
+      "page": "solution-universal.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11342
+    },
+    {
+      "page": "solution-visual.html",
+      "h1": 1,
+      "images": 5,
+      "internal_links": 31,
+      "html_length": 11312
+    },
+    {
+      "page": "solutions.html",
+      "h1": 1,
+      "images": 6,
+      "internal_links": 30,
+      "html_length": 9347
+    }
+  ],
+  "browser_visual_qa": "NOT RUN (Chromium blocked by environment policy)"
+}

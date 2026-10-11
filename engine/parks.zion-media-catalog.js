@@ -243,12 +243,12 @@ window.NPG_ZION_MEDIA=[
     "location": "Zion National Park"
   },
   {
-    "id": "yellowstone-bison",
-    "filename": "Yellowstone National Park - Bison.jpg",
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellowstone%20National%20Park%20-%20Bison.jpg?width=1600",
-    "source": "https://commons.wikimedia.org/wiki/File:Yellowstone_National_Park_-_Bison.jpg",
-    "alt": "Bison at Yellowstone National Park",
-    "place": "Yellowstone",
+    "id": "springdale-gateway",
+    "filename": "Zion National Park, Springdale.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20National%20Park%2C%20Springdale.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Zion_National_Park%2C_Springdale.jpg",
+    "alt": "The Watchman and Springdale Zion gateway area",
+    "place": "Springdale",
     "status": "photo candidate; Commons source",
     "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
     "location": "Zion National Park"

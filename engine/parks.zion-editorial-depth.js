@@ -2,7 +2,7 @@
  "use strict";
  const U=window.ParkUI,A=window.ParkPagesA,D=window.CLM_PARKS,B=window.NPG_ZION_DEPTH_BRIEFS;
  if(!U||!A||!D||!B)throw Error("Deep Zion module requires core, page renderer and research briefs");
- const esc=U.esc;
+ const esc=U.esc,layout=U.layout;
  const visuals={
  "zion-angels-landing":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Angelslanding.jpg?width=1600",alt:"Angels Landing cliff trail at Zion National Park",source:"https://commons.wikimedia.org/wiki/File:Angelslanding.jpg"},
  "zion-canyon-panorama":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20NP20.jpg?width=1600",alt:"Zion sandstone canyon panorama",source:"https://commons.wikimedia.org/wiki/File:Zion_NP20.jpg"},

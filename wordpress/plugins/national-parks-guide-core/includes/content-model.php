@@ -22,7 +22,7 @@ function npg_register_content_model(): void {
             'public' => true,
             'show_in_rest' => true,
             'rest_base' => $rest,
-            'has_archive' => true,
+            'has_archive' => ( 'npg_park' !== $slug ),
             'rewrite' => array( 'slug' => $rewrite, 'with_front' => false ),
             'supports' => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'author', 'custom-fields' ),
             'menu_icon' => $icon,
@@ -51,3 +51,21 @@ function npg_register_content_model(): void {
         ) );
     }
 }
+
+add_action( 'rest_api_init', static function (): void {
+    register_rest_route( 'npg/v1', '/build/rewrite-flush', array(
+        'methods' => 'POST',
+        'permission_callback' => static fn(): bool => current_user_can( 'manage_options' ),
+        'callback' => static function (): WP_REST_Response {
+            $type = get_post_type_object( 'npg_park' );
+            flush_rewrite_rules( true );
+            return rest_ensure_response( array(
+                'flushed' => true,
+                'park_has_archive' => $type ? $type->has_archive : null,
+                'park_rewrite' => $type ? $type->rewrite : null,
+                'park_page_permalink' => get_permalink( 2532 ),
+                'zion_permalink' => get_permalink( 2486 ),
+            ) );
+        },
+    ) );
+} );

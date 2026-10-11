@@ -1,0 +1,32 @@
+name: NPG Native iOS Android Source Quality
+on:
+  push:
+    paths:
+      - 'apps/npg-native/**'
+      - '.github/workflows/npg-native-code-quality.yml'
+  pull_request:
+    paths:
+      - 'apps/npg-native/**'
+  workflow_dispatch:
+jobs:
+  native-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: apps/npg-native
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: apps/npg-native/package.json
+      - name: Install declared native dependencies
+        run: npm install --no-audit --no-fund
+      - name: Type-check native screens, tabs and GPS flow
+        run: npm run typecheck
+      - name: Verify 63 bundled parks
+        run: node -e "const a=require('./src/data/parks.json');if(a.length!==63||new Set(a.map(x=>x.id)).size!==63)process.exit(1)"
+      - name: Check Expo package compatibility
+        run: npx expo install --check

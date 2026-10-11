@@ -1,0 +1,50 @@
+/* QAI iPhone simulator — modal and visual-element capture containment.
+   A modal must never escape the simulated device. */
+body[data-surface="mobile"] .iphone-glass{isolation:isolate;position:relative}
+body[data-surface="mobile"] .iphone-glass .modal-overlay,
+body[data-surface="mobile"] .iphone-glass .search-overlay{
+ position:absolute!important;inset:0!important;width:100%;height:100%;max-height:100%;
+ display:flex;align-items:flex-start;justify-content:center;padding:63px 10px 10px;
+ overflow-y:auto;overflow-x:hidden;z-index:110;background:rgba(19,35,33,.62);
+ backdrop-filter:blur(7px);overscroll-behavior:contain;
+}
+body[data-surface="mobile"] .iphone-glass .modal-dialog{
+ position:relative!important;margin:0 auto!important;width:100%!important;max-width:none!important;
+ max-height:100%!important;overflow-y:auto!important;min-width:0!important;
+ background:#fffdfa!important;color:#26352c!important;border:1px solid #e4e6df!important;
+ box-shadow:0 18px 50px rgba(12,31,20,.25)!important;border-radius:17px!important;
+ padding:14px!important;font-size:12px!important;
+}
+body[data-surface="mobile"] .iphone-glass .modal-header{margin:0 0 13px;padding:0 0 11px;border-bottom:1px solid #e6e6df;align-items:flex-start}
+body[data-surface="mobile"] .iphone-glass .modal-header h2{color:#24342d!important;font-size:18px!important;line-height:1.25;margin:5px 0 0}
+body[data-surface="mobile"] .iphone-glass .modal-header .eyebrow{font-size:8px;letter-spacing:.12em;color:#a48652}
+body[data-surface="mobile"] .iphone-glass .modal-header .icon-btn{background:#f0f0eb;color:#4e5c52;border-radius:9px;min-width:29px;height:29px}
+body[data-surface="mobile"] .iphone-glass .modal-dialog form.form-grid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:11px!important}
+body[data-surface="mobile"] .iphone-glass .modal-dialog form.form-grid>*,
+body[data-surface="mobile"] .iphone-glass .modal-dialog .span2{grid-column:1!important;min-width:0!important}
+body[data-surface="mobile"] .iphone-glass .modal-dialog label{color:#506057!important;font-weight:800;font-size:10px;letter-spacing:0;display:grid;gap:5px;line-height:1.5}
+body[data-surface="mobile"] .iphone-glass .modal-dialog :is(input,select,textarea){
+ display:block;width:100%!important;max-width:100%;min-width:0;box-sizing:border-box;
+ background:#fff!important;color:#25352c!important;border:1px solid #d5dcd3!important;
+ padding:9px 10px!important;font-size:11px!important;border-radius:8px!important;line-height:1.45!important;
+}
+body[data-surface="mobile"] .iphone-glass .modal-dialog textarea{min-height:79px;resize:vertical}
+body[data-surface="mobile"] .iphone-glass .modal-dialog .modal-note{color:#536c5b!important;background:#edf2e8!important;border:1px solid #d7e2d0!important;line-height:1.55;font-size:9px!important;padding:10px;border-radius:10px}
+body[data-surface="mobile"] .iphone-glass .modal-dialog .modal-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;margin-top:3px}
+body[data-surface="mobile"] .iphone-glass .modal-dialog .modal-actions .btn{font-size:10px!important;padding:10px 12px!important;min-width:0!important}
+body[data-surface="mobile"] .iphone-glass .modal-dialog .modal-actions .btn.primary{background:#b89659!important;color:#1b2926!important}
+body[data-surface="mobile"] .iphone-glass .modal-dialog .modal-actions .btn.secondary{background:#f2f1ec!important;color:#34483d!important;border-color:#dee3d9!important}
+body[data-surface="mobile"] .iphone-glass .modal-dialog .resource-detail,body[data-surface="mobile"] .iphone-glass .modal-dialog .about-modal{color:#34483c!important;font-size:11px!important}
+body[data-surface="mobile"] .phone-capture-preview.visual-rich{background:#fffdf8;border:1px solid #e0e5df;padding:10px;border-radius:14px;overflow:hidden}
+body[data-surface="mobile"] .phone-capture-preview.visual-rich .capture-url{background:#f0f2ee;color:#536359;font-weight:850;letter-spacing:.025em;padding:9px 8px;border-radius:8px}
+body[data-surface="mobile"] .phone-capture-photo{height:175px;position:relative;overflow:hidden;border-radius:9px;margin:11px 0;background:#344a40}
+body[data-surface="mobile"] .phone-capture-photo img{width:100%;height:100%;object-fit:cover}
+body[data-surface="mobile"] .phone-capture-photo:after{position:absolute;content:'';inset:0;background:linear-gradient(0deg,#1b322ca0,transparent 65%)}
+body[data-surface="mobile"] .phone-capture-photo span{position:absolute;bottom:10px;left:11px;color:#fff;z-index:1;font-size:10px;font-weight:900}
+body[data-surface="mobile"] .phone-capture-points{display:grid;gap:7px}
+body[data-surface="mobile"] .phone-capture-points button{padding:12px;background:#f5f6f2;color:#34483e;border:1px solid #e0e5dc;border-radius:9px;text-align:left;font-size:11px;font-weight:750;display:flex;justify-content:space-between;align-items:center}
+body[data-surface="mobile"] .phone-capture-points button.on{background:#f6eddd;color:#89672c;border-color:#c8a265;box-shadow:inset 3px 0 #b69151}
+body[data-surface="mobile"] .phone-capture-points button i{color:#b79660}
+body[data-surface="mobile"] .phone-capture-warning{color:#727f74;font-size:10px;line-height:1.6;margin:12px 0}
+body[data-surface="mobile"] .phone-capture-external{display:inline-block;color:#806134;font-size:11px;font-weight:800;margin:3px 0 16px}
+@media(max-width:600px){body[data-surface="mobile"] .iphone-glass .modal-overlay{padding-top:48px}}

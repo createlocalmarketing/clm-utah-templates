@@ -162,3 +162,8 @@ A static responsive webpage, mock mobile screenshots, or untested WebView wrappe
 - [Source metadata/hash register](../context-intake/2026-10-11/SOURCE_REGISTER.json)
 
 This is additive to the established QAI architecture. Its proposed requirements are **unapproved**; one umbrella Kanban review card (`qai-intake-20261011`) tracks de-duplication, ownership, access and prioritization before promotion to executable tasks. Source uploads contain sensitive/licensed data, so only sanitized records are stored publicly. The iQ Habits product and external specialist-agent workflow are candidate capabilities, not verified deployments.
+
+
+### SRC-14 — Wasatch Back real-estate network artifact intake (2026-10-11)
+
+The real-estate handoff supplements QAI with **evidence-based geo entity validation, origin-vs-destination keyword analysis, WordPress/Elementor/ACF export verification, live licensed kvCORE/BoldTrail IDX mapping, staging import tests, and indexability launch blockers**. This is routed to `content-engine` (content/data) with `quality-mcp` (site execution) and `saas-quality-crm` (governed agent/attribution) dependencies. [See sanitized source-derived supplement](../context-intake/2026-10-11/real-estate-handoff/REAL_ESTATE_WASATCH_BACK_HANDOFF_INTAKE.md). Narrative handoff claims are not verified production state.

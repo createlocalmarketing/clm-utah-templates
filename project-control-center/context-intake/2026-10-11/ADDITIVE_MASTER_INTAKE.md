@@ -163,3 +163,14 @@
 - Raw source bytes are not in this document or the public repository.
 - Approval state for every candidate is **unapproved**; functional implementation is **not verified**.
 - The uploaded source set does not contain the full original Empire v5.92 master plan, production site data, or the verified iQ Habits interview transcript.
+
+
+## Additive source update — SRC-14 / Real Estate Empire handoff
+
+- New source: `HANDOFF-full-chat-transcript-0-real-estate.md`, 19,503 bytes; SHA-256 recorded as SRC-14.
+- [Detailed Wasatch Back real-estate technical intake](real-estate-handoff/REAL_ESTATE_WASATCH_BACK_HANDOFF_INTAKE.md) and [artifact verification checklist](real-estate-handoff/SOURCE_ASSET_VERIFICATION_CHECKLIST.md).
+- 20 **new unapproved candidate** rows, `QAI-IDEA-073..092`, supplementing the existing 72 without replacing them; combined proposal count **92**.
+- Additional open verification gates `V-13..V-17`, bringing combined count to **17**.
+- 14 source files now inventoried. The previous 13-source sections above remain historical snapshots; this section is the additive update.
+- Specific historical counts of **251/116 WXR drafts, 1,686 keyword rows, 10 Elementor sections, 64 omission claims and ~30 name discrepancies** are source statements only. Live proof and original ZIP were not attached in SRC-14.
+- A separate real-estate intake Kanban card under `content-engine` tracks verification, alongside the existing QAI umbrella intake card.

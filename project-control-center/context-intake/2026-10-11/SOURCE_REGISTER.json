@@ -130,6 +130,16 @@
       "sha256": "379645ea464e35d81b5dfdbd429d0fa8f7c597a63fb60dc6e6d3fee57fbe2c23",
       "caveat": "Sensitive writing samples and staff data must have consent and access controls",
       "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-14",
+      "name": "HANDOFF-full-chat-transcript-0-real-estate.md",
+      "title": "Real Estate Empire / Wasatch Back SEO and Elementor/IDX historical handoff",
+      "kind": "Historical conversation handoff",
+      "bytes": 19503,
+      "sha256": "97c0c5b5ecf8033cc7c13d45e250b7ffd61b6f2b6dfccf9d6e98f77027578e4c",
+      "caveat": "Source is a narrative handoff; reported 367 WXR draft pages, 1686 keyword rows, 10 templates, 64 omissions and prior audits NOT independently verified. Original ZIP not attached here.",
+      "public_source_text_permitted": false
     }
   ],
   "raw_files_committed": false

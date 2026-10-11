@@ -61,3 +61,29 @@
 **Observed discrepancy:** Quality Empire handoff contains license/API-like strings and one text file includes message headers; provider form captures personally attributable samples.
 **Required verification:** Do not publish raw sources; store encrypted/private if needed and review credential rotation.
 **Status:** [ ] Not verified
+
+## V-13 — Claimed deliverables versus accessible artifacts (SRC-14)
+**Observed:** Handoff describes a remote ZIP, 251 Park City WXR pages, 116 Washington WXR pages, 10 Elementor templates and a keyword CSV; the uploaded MD contains no embedded WXR/XML/template data.
+**Gate:** Retrieve the exact package through an authorized source, verify archive contents, hashes, XML parsing, draft statuses, template and data counts, and test WordPress import in staging. Do not mark pages built or deployed from a narrative.
+**Status:** [ ] Not verified
+
+## V-14 — Geographic omissions and development/plat accuracy (SRC-14)
+**Observed:** Historical audit says 64 municipality/CDP omissions and ~30 missing or variant Wasatch Back developments, with OCR errors; no current recorder/plat source files are attached.
+**Gate:** Independently reconcile official place lists, county intersections and recorder plat identities; preserve disputed/alias status rather than bulk publishing.
+**Status:** [ ] Not verified
+
+## V-15 — Live site robots and plugin/IDX state (SRC-14)
+**Observed:** Prior screenshot reportedly showed search-engine blocking and absent ACF Pro; previous UTRD inspection reportedly saw missing in-body kvCORE/IDX and Elementor content.
+**Gate:** Inspect current WordPress Reading settings, robots, site headers, sitemaps, installed plugin versions, existing BoldTrail token/rights and rendered IDX components before asserting any defect remains.
+**Status:** [ ] Not verified
+
+## V-16 — Historical keyword counts and package page-count math (SRC-14)
+**Observed:** Previous assistant reports 42 KeywordTool requests / 1,686 keywords and 251+116=367 proposed draft pages. The summarized Park City category subtotal is approximate and does not independently reconcile to 251. Keyword volume/bid snapshots are dated.
+**Gate:** Review the raw 02-keyword-matrix.csv, request metadata, 06/08 manifests and XML IDs. Deduplicate by query, intent, geo source, and canonical target. Re-query meaningful samples rather than using historical CPC as current.
+**Status:** [ ] Not verified
+
+## V-17 — Domain names, design provenance, ownership and national rollout (SRC-14)
+**Observed:** Park City spelling variants, older 25-domain lists vs newer portfolio, and a separately produced #1-ranking/site factory narrative. Prior palettes derive from cited design files not attached here.
+**Gate:** Cross-check current owned domains, design assets, trademark rights, original IUR/UTRD canonical ownership and the current approval hierarchy. National cloning requires per-state MLS rights and page-by-page usefulness.
+**Status:** [ ] Not verified
+

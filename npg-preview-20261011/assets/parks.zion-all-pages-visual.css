@@ -40,3 +40,12 @@
 @media(max-width:1000px){.npg-generic-slide{grid-template-columns:1fr}.npg-generic-photo{min-height:365px}.npg-generic-copy{padding:34px 35px 90px}.npg-generic-pager{right:35px}}
 @media(max-width:640px){.npg-generic-photo{min-height:260px}.npg-generic-copy{padding:24px 23px 90px}.npg-generic-copy h1,.npg-generic-copy h2{font-size:37px}.npg-generic-copy p{font-size:14px}.npg-generic-cta{width:100%}.npg-generic-cta .btn{width:100%}.npg-generic-pager{right:20px;bottom:24px}.npg-photo-context{height:165px}}
 @media(prefers-reduced-motion:reduce){.npg-generic-slide{animation:none}}
+
+/* Zion directory rails: source-labeled regional photography on all merchant preview cards */
+.npg-zion-business-art{position:relative;isolation:isolate;overflow:hidden;background:#234b35!important;color:#fff!important}
+.npg-zion-business-art .npg-zion-local-photo{position:absolute;inset:0;height:100%;width:100%;object-fit:cover;z-index:-2;filter:brightness(.68) saturate(1.15)}
+.npg-zion-business-art .npg-zion-local-photo.npg-photo-failed{display:none}
+.npg-zion-business-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0000 15%,#0f302dd9 100%);z-index:-1}
+.npg-zion-business-art i{color:white!important;opacity:.85}
+.npg-zion-business-art span,.npg-zion-business-art strong{color:white!important;text-shadow:0 1px 8px #132a20cc}
+.npg-zion-business-art .npg-zion-photo-disclaimer{position:absolute;top:12px;left:12px;font-size:9px;line-height:1.3;letter-spacing:.06em;font-weight:850;background:#16392bb5;color:white;border-radius:4px;padding:7px 9px}

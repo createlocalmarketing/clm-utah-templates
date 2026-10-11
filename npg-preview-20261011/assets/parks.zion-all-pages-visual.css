@@ -1,0 +1,42 @@
+/* Image-first visual upgrade for standard Zion category/park pages */
+.npg-topic-complete .npg-topic-hero:has(.npg-generic-carousel){display:block;max-width:none;padding:0}
+.npg-generic-carousel{position:relative;background:#eaf0e7;overflow:hidden}
+.npg-generic-slide{display:none;grid-template-columns:56% 44%;min-height:610px}
+.npg-generic-slide.active{display:grid}
+.npg-generic-photo{position:relative;margin:0;background:#1e4637;overflow:hidden;min-height:560px}
+.npg-generic-photo img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.npg-generic-photo figcaption{position:absolute;left:0;bottom:0;right:0;background:#112f24bb;color:#fff;padding:12px 19px;font-size:10px;display:flex;justify-content:space-between;gap:12px}
+.npg-generic-photo figcaption a{color:#f1ce92;text-decoration:underline}
+.npg-generic-copy{padding:45px clamp(32px,5vw,82px) 99px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.npg-generic-copy h1,.npg-generic-copy h2{font:850 clamp(39px,4vw,68px)/1.02 var(--display);letter-spacing:-.052em;color:#234a35;margin:15px 0 22px}
+.npg-generic-copy p{font-size:16px;line-height:1.78;color:#546c59;max-width:600px}
+.npg-generic-cta{display:flex;gap:13px;flex-wrap:wrap;margin-top:24px}
+.npg-generic-cta .btn{min-width:170px}
+.npg-generic-pager{position:absolute;right:5vw;bottom:27px;display:flex;align-items:center;gap:13px;font-size:12px;font-weight:850}
+.npg-generic-pager button{background:#fff;border:1px solid #bbcebd;color:#1e4b36;border-radius:50%;width:44px;height:44px;font-size:28px;line-height:1}
+.npg-generic-pager button:hover{background:#194733;color:white}
+.npg-topic-blocks .npg-topic-editorial{padding:0;overflow:hidden}
+.npg-topic-blocks .npg-topic-editorial>span.eyebrow,.npg-topic-blocks .npg-topic-editorial>h3,.npg-topic-blocks .npg-topic-editorial>p{margin-left:23px;margin-right:23px}
+.npg-topic-blocks .npg-topic-editorial>span.eyebrow{display:block;margin-top:24px}
+.npg-topic-blocks .npg-topic-editorial>p:last-child{padding-bottom:20px}
+.npg-topic-links .npg-topic-related{padding:0;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start}
+.npg-topic-links .npg-topic-related>.eyebrow,.npg-topic-links .npg-topic-related>strong,.npg-topic-links .npg-topic-related>span:last-child{margin-left:19px;margin-right:19px}
+.npg-topic-links .npg-topic-related>.eyebrow{margin-top:14px}
+.npg-topic-links .npg-topic-related>span:last-child{margin-bottom:21px}
+.npg-photo-context{height:180px;position:relative;overflow:hidden;background:#1e4635;flex:0 0 180px}
+.npg-photo-context img{width:100%;height:100%;object-fit:cover;display:block}
+.npg-photo-context img.npg-photo-failed{display:none}
+.npg-photo-context span{position:absolute;bottom:0;left:0;right:0;background:#113325b8;color:white;padding:8px 11px;font-size:9px;font-weight:800;line-height:1.4}
+.npg-depth-card .npg-depth-img .npg-photo-context{height:100%;min-height:200px}
+.npg-trail-art .npg-photo-context{height:100%;min-height:165px}
+.npg-merchant-gallery .npg-reading.npg-has-photo,.npg-reading.npg-has-photo{padding:0;overflow:hidden}
+.npg-reading.npg-has-photo>.eyebrow,.npg-reading.npg-has-photo>h3,.npg-reading.npg-has-photo>p,.npg-reading.npg-has-photo>a:not(.npg-photo-context){margin-left:18px;margin-right:18px}
+.npg-reading.npg-has-photo>.eyebrow{display:block;margin-top:15px}
+.npg-reading.npg-has-photo>a:not(.npg-photo-context){display:inline-block;margin-bottom:17px}
+.group.npg-has-photo{padding:0;display:flex;flex-direction:column;align-items:stretch;overflow:hidden}
+.group.npg-has-photo .npg-photo-context{width:100%;height:150px;flex-basis:150px}
+.group.npg-has-photo>i{display:none}
+.group.npg-has-photo>div:last-child{padding:15px 17px}
+@media(max-width:1000px){.npg-generic-slide{grid-template-columns:1fr}.npg-generic-photo{min-height:365px}.npg-generic-copy{padding:34px 35px 90px}.npg-generic-pager{right:35px}}
+@media(max-width:640px){.npg-generic-photo{min-height:260px}.npg-generic-copy{padding:24px 23px 90px}.npg-generic-copy h1,.npg-generic-copy h2{font-size:37px}.npg-generic-copy p{font-size:14px}.npg-generic-cta{width:100%}.npg-generic-cta .btn{width:100%}.npg-generic-pager{right:20px;bottom:24px}.npg-photo-context{height:165px}}
+@media(prefers-reduced-motion:reduce){.npg-generic-slide{animation:none}}

@@ -1,0 +1,1846 @@
+{
+  "park": "zion",
+  "seed": "zion national park",
+  "platform": "Google",
+  "country": "United States",
+  "language": "en",
+  "captured": "2026-10-10",
+  "note": "Unfiltered KeywordTool.io query families. These are evidence for intent mapping, not final page copy or ranking guarantees. Monthly search volume only from source.",
+  "results": [
+    {
+      "type": "suggestions",
+      "success": true,
+      "count": 100,
+      "total": 613,
+      "rows": [
+        {
+          "q": "zion national park",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "zion national park in utah",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "zion national park ut",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "utah zion national park",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "zion national park zion",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "zion national park weather",
+          "v": 49500,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park forecast",
+          "v": 49500,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "forecast zion national park",
+          "v": 49500,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park utah weather",
+          "v": 49500,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "utah zion national park weather",
+          "v": 49500,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "weather zion national park",
+          "v": 49500,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "weather zion national park utah",
+          "v": 49500,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "the narrows zion national park",
+          "v": 40500,
+          "tr": 0,
+          "cmp": 0.69
+        },
+        {
+          "q": "zion national park trails",
+          "v": 22200,
+          "tr": -18,
+          "cmp": 0.27
+        },
+        {
+          "q": "zion national park hikes",
+          "v": 22200,
+          "tr": -18,
+          "cmp": 0.27
+        },
+        {
+          "q": "zion national park hotels",
+          "v": 22200,
+          "tr": -55,
+          "cmp": 0.94
+        },
+        {
+          "q": "hikes in zion national park",
+          "v": 22200,
+          "tr": -18,
+          "cmp": 0.27
+        },
+        {
+          "q": "zion national park photos",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.17
+        },
+        {
+          "q": "angels landing zion national park",
+          "v": 14800,
+          "tr": -18,
+          "cmp": 0.36
+        },
+        {
+          "q": "zion national park emerald pools",
+          "v": 14800,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "emerald pools zion national park",
+          "v": 14800,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "zion national park images",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.17
+        },
+        {
+          "q": "pictures of zion national park",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.17
+        },
+        {
+          "q": "zion national park camping",
+          "v": 12100,
+          "tr": -33,
+          "cmp": 0.67
+        },
+        {
+          "q": "zion national park campground",
+          "v": 12100,
+          "tr": -33,
+          "cmp": 0.67
+        },
+        {
+          "q": "zion national park campsites",
+          "v": 12100,
+          "tr": -33,
+          "cmp": 0.67
+        },
+        {
+          "q": "camping in zion national park",
+          "v": 12100,
+          "tr": -33,
+          "cmp": 0.67
+        },
+        {
+          "q": "trails in zion national park",
+          "v": 12100,
+          "tr": -45,
+          "cmp": 0.33
+        },
+        {
+          "q": "where is zion national park",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "where is zion national park in utah",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "zion national park map",
+          "v": 9900,
+          "tr": -18,
+          "cmp": 0.26
+        },
+        {
+          "q": "las vegas to zion national park",
+          "v": 9900,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "map of zion national park",
+          "v": 9900,
+          "tr": -18,
+          "cmp": 0.26
+        },
+        {
+          "q": "zion national park narrows hike",
+          "v": 9900,
+          "tr": 22,
+          "cmp": 0.44
+        },
+        {
+          "q": "narrows hike zion national park",
+          "v": 9900,
+          "tr": 22,
+          "cmp": 0.44
+        },
+        {
+          "q": "zion national park utah map",
+          "v": 9900,
+          "tr": -18,
+          "cmp": 0.26
+        },
+        {
+          "q": "vegas to zion national park",
+          "v": 9900,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "narrows zion national park",
+          "v": 8100,
+          "tr": -18,
+          "cmp": 0.74
+        },
+        {
+          "q": "hotels near zion national park",
+          "v": 6600,
+          "tr": -19,
+          "cmp": 0.92
+        },
+        {
+          "q": "pa rus trail zion national park",
+          "v": 6600,
+          "tr": 50,
+          "cmp": 0.12
+        },
+        {
+          "q": "things to do in zion national park",
+          "v": 6600,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "zion national park tickets",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.9
+        },
+        {
+          "q": "zion national park best hikes",
+          "v": 5400,
+          "tr": -19,
+          "cmp": 0.34
+        },
+        {
+          "q": "best time to visit zion national park",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.2
+        },
+        {
+          "q": "best hikes in zion national park",
+          "v": 5400,
+          "tr": -19,
+          "cmp": 0.34
+        },
+        {
+          "q": "best month to visit zion national park",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.2
+        },
+        {
+          "q": "observation point zion national park",
+          "v": 5400,
+          "tr": -19,
+          "cmp": 0.11
+        },
+        {
+          "q": "observation point trail zion national park",
+          "v": 5400,
+          "tr": -19,
+          "cmp": 0.11
+        },
+        {
+          "q": "zion national park pass",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.9
+        },
+        {
+          "q": "hyatt place springdale zion national park",
+          "v": 4400,
+          "tr": 514,
+          "cmp": 0.21
+        },
+        {
+          "q": "hampton inn & suites springdale zion national park",
+          "v": 4400,
+          "tr": 23,
+          "cmp": 0.31
+        },
+        {
+          "q": "the subway zion national park",
+          "v": 4400,
+          "tr": 22,
+          "cmp": 0.11
+        },
+        {
+          "q": "riverside walk zion national park",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.07
+        },
+        {
+          "q": "zion national park to bryce canyon",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "zion national park to bryce national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "zion national park canyon overlook trail",
+          "v": 2900,
+          "tr": 89,
+          "cmp": 0.13
+        },
+        {
+          "q": "canyon overlook trail zion national park",
+          "v": 2900,
+          "tr": 89,
+          "cmp": 0.13
+        },
+        {
+          "q": "zion national park in the winter",
+          "v": 2900,
+          "tr": -34,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park to las vegas",
+          "v": 2900,
+          "tr": -17,
+          "cmp": 0.04
+        },
+        {
+          "q": "temperature in zion national park",
+          "v": 2900,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park utah usa",
+          "v": 2900,
+          "tr": -19,
+          "cmp": 0.1
+        },
+        {
+          "q": "visitor center zion national park",
+          "v": 2900,
+          "tr": -33,
+          "cmp": 0.95
+        },
+        {
+          "q": "zion national park altitude",
+          "v": 2400,
+          "tr": -33,
+          "cmp": 0.01
+        },
+        {
+          "q": "airport closest to zion national park",
+          "v": 2400,
+          "tr": 26,
+          "cmp": 0.12
+        },
+        {
+          "q": "closest airport to zion national park",
+          "v": 2400,
+          "tr": 26,
+          "cmp": 0.12
+        },
+        {
+          "q": "campgrounds near zion national park",
+          "v": 2400,
+          "tr": -56,
+          "cmp": 0.91
+        },
+        {
+          "q": "cabins in zion national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.58
+        },
+        {
+          "q": "zion national park entrance fee",
+          "v": 2400,
+          "tr": -21,
+          "cmp": 0.13
+        },
+        {
+          "q": "zion national park elevation",
+          "v": 2400,
+          "tr": -33,
+          "cmp": 0.01
+        },
+        {
+          "q": "elevation of zion national park",
+          "v": 2400,
+          "tr": -33,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park from salt lake city",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "glamping zion national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.81
+        },
+        {
+          "q": "how far is zion national park from las vegas",
+          "v": 2400,
+          "tr": 26,
+          "cmp": 0.03
+        },
+        {
+          "q": "lodging near zion national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "zion national park permits",
+          "v": 2400,
+          "tr": -91,
+          "cmp": 0.17
+        },
+        {
+          "q": "places to stay near zion national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "zion national park shuttle schedule",
+          "v": 2400,
+          "tr": -21,
+          "cmp": 0.27
+        },
+        {
+          "q": "salt lake city to zion national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "tunnel zion national park",
+          "v": 2400,
+          "tr": -33,
+          "cmp": 0.19
+        },
+        {
+          "q": "zion national park utah elevation",
+          "v": 2400,
+          "tr": -33,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park west rim trail",
+          "v": 2400,
+          "tr": -16,
+          "cmp": 0.07
+        },
+        {
+          "q": "airport near zion national park",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.16
+        },
+        {
+          "q": "bryce canyon to zion national park",
+          "v": 1900,
+          "tr": -21,
+          "cmp": 0.06
+        },
+        {
+          "q": "zion national park hikes map",
+          "v": 1900,
+          "tr": -16,
+          "cmp": 0.23
+        },
+        {
+          "q": "nearest airport to zion national park",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.16
+        },
+        {
+          "q": "zion national park overlook",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park trail map",
+          "v": 1900,
+          "tr": -16,
+          "cmp": 0.23
+        },
+        {
+          "q": "zion national park weather forecast",
+          "v": 1900,
+          "tr": 26,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park wildlife",
+          "v": 1900,
+          "tr": -46,
+          "cmp": 0.03
+        },
+        {
+          "q": "what to do in zion national park",
+          "v": 1900,
+          "tr": -16,
+          "cmp": 1
+        },
+        {
+          "q": "zion national park death",
+          "v": 1600,
+          "tr": 22,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park east entrance",
+          "v": 1600,
+          "tr": 0,
+          "cmp": 0.21
+        },
+        {
+          "q": "east entrance zion national park",
+          "v": 1600,
+          "tr": 0,
+          "cmp": 0.21
+        },
+        {
+          "q": "zion national park rv camping",
+          "v": 1600,
+          "tr": -32,
+          "cmp": 0.71
+        },
+        {
+          "q": "is zion national park open",
+          "v": 1600,
+          "tr": 52,
+          "cmp": 0.12
+        },
+        {
+          "q": "zion national park weather by month",
+          "v": 1600,
+          "tr": -32,
+          "cmp": 0.04
+        },
+        {
+          "q": "where is zion national park located",
+          "v": 1600,
+          "tr": 46,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park hours",
+          "v": 1300,
+          "tr": -38,
+          "cmp": 0.13
+        },
+        {
+          "q": "zion national park drive",
+          "v": 1300,
+          "tr": -23,
+          "cmp": 0.18
+        },
+        {
+          "q": "driving through zion national park",
+          "v": 1300,
+          "tr": -23,
+          "cmp": 0.18
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "questions",
+      "success": true,
+      "count": 100,
+      "total": 163,
+      "rows": [
+        {
+          "q": "zion national park",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "where is zion national park in utah",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "how far is zion national park from las vegas",
+          "v": 2400,
+          "tr": 26,
+          "cmp": 0.03
+        },
+        {
+          "q": "what to do in zion national park",
+          "v": 1900,
+          "tr": -16,
+          "cmp": 1
+        },
+        {
+          "q": "is zion national park open",
+          "v": 1600,
+          "tr": 52,
+          "cmp": 0.12
+        },
+        {
+          "q": "where to stay near zion national park",
+          "v": 1000,
+          "tr": 30,
+          "cmp": 0.91
+        },
+        {
+          "q": "how many days in zion national park",
+          "v": 880,
+          "tr": 0,
+          "cmp": 0.09
+        },
+        {
+          "q": "what city is zion national park in",
+          "v": 880,
+          "tr": -41,
+          "cmp": 0.12
+        },
+        {
+          "q": "can you drive through zion national park",
+          "v": 720,
+          "tr": -18,
+          "cmp": 0.2
+        },
+        {
+          "q": "how to get to zion national park",
+          "v": 720,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "what time does zion national park open",
+          "v": 720,
+          "tr": -33,
+          "cmp": 0.26
+        },
+        {
+          "q": "what state is zion national park in",
+          "v": 720,
+          "tr": 22,
+          "cmp": 0.06
+        },
+        {
+          "q": "what time is it in zion national park",
+          "v": 720,
+          "tr": -33,
+          "cmp": 0.01
+        },
+        {
+          "q": "when is the best time to visit zion national park",
+          "v": 720,
+          "tr": 49,
+          "cmp": 0.25
+        },
+        {
+          "q": "are dogs allowed in zion national park",
+          "v": 590,
+          "tr": -19,
+          "cmp": 0.09
+        },
+        {
+          "q": "where to stay when visiting zion national park",
+          "v": 590,
+          "tr": 23,
+          "cmp": 0.86
+        },
+        {
+          "q": "how big is zion national park",
+          "v": 480,
+          "tr": -34,
+          "cmp": 0.02
+        },
+        {
+          "q": "when was zion national park established",
+          "v": 480,
+          "tr": -56,
+          "cmp": 0.01
+        },
+        {
+          "q": "are there bears in zion national park",
+          "v": 390,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "what airport is closest to zion national park",
+          "v": 390,
+          "tr": 22,
+          "cmp": 0.07
+        },
+        {
+          "q": "can you drive in zion national park",
+          "v": 320,
+          "tr": 0,
+          "cmp": 0.52
+        },
+        {
+          "q": "can you drive into zion national park",
+          "v": 320,
+          "tr": 0,
+          "cmp": 0.52
+        },
+        {
+          "q": "how zion national park was formed",
+          "v": 320,
+          "tr": -34,
+          "cmp": 0.05
+        },
+        {
+          "q": "how was zion national park formed",
+          "v": 320,
+          "tr": -34,
+          "cmp": 0.05
+        },
+        {
+          "q": "can you camp in zion national park",
+          "v": 260,
+          "tr": 53,
+          "cmp": 0.3
+        },
+        {
+          "q": "how to see zion national park",
+          "v": 260,
+          "tr": -19,
+          "cmp": 0.72
+        },
+        {
+          "q": "is zion national park dog friendly",
+          "v": 260,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "what is the elevation of zion national park",
+          "v": 260,
+          "tr": 23,
+          "cmp": 0.02
+        },
+        {
+          "q": "where is mt zion national park",
+          "v": 260,
+          "tr": 0,
+          "cmp": 0.08
+        },
+        {
+          "q": "is zion a national park",
+          "v": 210,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "when does zion national park open",
+          "v": 210,
+          "tr": -19,
+          "cmp": 0.15
+        },
+        {
+          "q": "when to visit zion national park",
+          "v": 210,
+          "tr": -35,
+          "cmp": 0.2
+        },
+        {
+          "q": "how did zion national park get its name",
+          "v": 170,
+          "tr": -19,
+          "cmp": 0.04
+        },
+        {
+          "q": "can i drive through zion national park",
+          "v": 140,
+          "tr": -18,
+          "cmp": 0.24
+        },
+        {
+          "q": "does zion national park require reservations",
+          "v": 140,
+          "tr": 0,
+          "cmp": 0.28
+        },
+        {
+          "q": "what is the best time to visit zion national park",
+          "v": 140,
+          "tr": 55,
+          "cmp": 0.28
+        },
+        {
+          "q": "when did zion become a national park",
+          "v": 140,
+          "tr": -57,
+          "cmp": 0.02
+        },
+        {
+          "q": "how many people have died in zion national park",
+          "v": 110,
+          "tr": 29,
+          "cmp": 0
+        },
+        {
+          "q": "is zion national park open today",
+          "v": 110,
+          "tr": 350,
+          "cmp": 0.14
+        },
+        {
+          "q": "what is the weather in zion national park",
+          "v": 110,
+          "tr": -36,
+          "cmp": 0.03
+        },
+        {
+          "q": "can you swim in zion national park",
+          "v": 90,
+          "tr": 120,
+          "cmp": 0.11
+        },
+        {
+          "q": "does zion national park allow dogs",
+          "v": 90,
+          "tr": -22,
+          "cmp": 0.08
+        },
+        {
+          "q": "is zion national park open in december",
+          "v": 90,
+          "tr": -18,
+          "cmp": 0.21
+        },
+        {
+          "q": "when does zion national park close",
+          "v": 90,
+          "tr": 22,
+          "cmp": 0.11
+        },
+        {
+          "q": "which airport is closest to zion national park",
+          "v": 90,
+          "tr": 57,
+          "cmp": 0.13
+        },
+        {
+          "q": "can dogs go to zion national park",
+          "v": 70,
+          "tr": 29,
+          "cmp": 0.09
+        },
+        {
+          "q": "can you fish in zion national park",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "how did zion national park form",
+          "v": 70,
+          "tr": -20,
+          "cmp": 0.01
+        },
+        {
+          "q": "is zion national park open year round",
+          "v": 70,
+          "tr": -50,
+          "cmp": 0.12
+        },
+        {
+          "q": "is zion national park open 24 hours",
+          "v": 70,
+          "tr": -36,
+          "cmp": 0.11
+        },
+        {
+          "q": "who named zion national park",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "does zion national park have timed entry",
+          "v": 50,
+          "tr": 40,
+          "cmp": 0.18
+        },
+        {
+          "q": "does zion national park get snow",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "how much is zion national park",
+          "v": 50,
+          "tr": 67,
+          "cmp": 0.13
+        },
+        {
+          "q": "is zion national park part of the grand canyon",
+          "v": 50,
+          "tr": 25,
+          "cmp": 0.04
+        },
+        {
+          "q": "is zion national park worth it",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "when does it snow in zion national park",
+          "v": 50,
+          "tr": -29,
+          "cmp": 0.06
+        },
+        {
+          "q": "where is the entrance to zion national park",
+          "v": 50,
+          "tr": -29,
+          "cmp": 0.41
+        },
+        {
+          "q": "which airport for zion national park",
+          "v": 50,
+          "tr": -40,
+          "cmp": 0.03
+        },
+        {
+          "q": "why is zion a national park",
+          "v": 50,
+          "tr": -89,
+          "cmp": 0.02
+        },
+        {
+          "q": "why is zion national park so popular",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "why was zion national park established",
+          "v": 50,
+          "tr": -75,
+          "cmp": 0
+        },
+        {
+          "q": "what are the best hikes in zion national park",
+          "v": 40,
+          "tr": -25,
+          "cmp": 0.49
+        },
+        {
+          "q": "can you stay in zion national park",
+          "v": 40,
+          "tr": 133,
+          "cmp": 0.86
+        },
+        {
+          "q": "does zion national park have bears",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "how many days should you spend in zion national park",
+          "v": 40,
+          "tr": 25,
+          "cmp": 0.13
+        },
+        {
+          "q": "how was zion national park named",
+          "v": 40,
+          "tr": -20,
+          "cmp": 0.05
+        },
+        {
+          "q": "which state is zion national park in",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "who established zion national park",
+          "v": 40,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "who discovered zion national park",
+          "v": 40,
+          "tr": -67,
+          "cmp": 0
+        },
+        {
+          "q": "will zion national park close",
+          "v": 40,
+          "tr": -94,
+          "cmp": 0.05
+        },
+        {
+          "q": "what national parks are near zion",
+          "v": 30,
+          "tr": 50,
+          "cmp": 0.19
+        },
+        {
+          "q": "where are the entrances to zion national park",
+          "v": 30,
+          "tr": -50,
+          "cmp": 0.55
+        },
+        {
+          "q": "what towns are near zion national park",
+          "v": 30,
+          "tr": -33,
+          "cmp": 0.46
+        },
+        {
+          "q": "can you drive around zion national park",
+          "v": 30,
+          "tr": -33,
+          "cmp": 0.66
+        },
+        {
+          "q": "how many entrances does zion national park have",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.11
+        },
+        {
+          "q": "why is zion national park named that",
+          "v": 30,
+          "tr": -40,
+          "cmp": 0.03
+        },
+        {
+          "q": "where are the narrows in zion national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.22
+        },
+        {
+          "q": "when did zion national park became a national park",
+          "v": 20,
+          "tr": -86,
+          "cmp": 0
+        },
+        {
+          "q": "when did zion national park open",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "when did zion national park become a national park",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.02
+        },
+        {
+          "q": "does zion national park have showers",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.02
+        },
+        {
+          "q": "is zion national park dangerous",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.04
+        },
+        {
+          "q": "do you have to pay to enter zion national park",
+          "v": 20,
+          "tr": -33,
+          "cmp": 0.19
+        },
+        {
+          "q": "how much is zion national park entrance fee",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.27
+        },
+        {
+          "q": "how is zion national park in december",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.08
+        },
+        {
+          "q": "how to fly into zion national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.07
+        },
+        {
+          "q": "is zion national park busy in october",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.1
+        },
+        {
+          "q": "what time should i get to zion national park",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.16
+        },
+        {
+          "q": "was zion national park underwater",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "what was zion national park named after",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "when can you drive in zion national park",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.21
+        },
+        {
+          "q": "where is the narrows in zion national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.06
+        },
+        {
+          "q": "where is zion national park what state",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "which airport to fly into for zion national park",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.05
+        },
+        {
+          "q": "which entrance is best for zion national park",
+          "v": 20,
+          "tr": -67,
+          "cmp": 0.2
+        },
+        {
+          "q": "which entrance for zion national park",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.37
+        },
+        {
+          "q": "how did zion become a national park",
+          "v": 20,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "why did zion become a national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "can you do zion national park in one day",
+          "v": 10,
+          "tr": 0,
+          "cmp": 1
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "related",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "rows": [],
+      "error": null
+    },
+    {
+      "type": "prepositions",
+      "success": true,
+      "count": 100,
+      "total": 219,
+      "rows": [
+        {
+          "q": "zion national park",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "zion national park in utah",
+          "v": 550000,
+          "tr": -33,
+          "cmp": 0.9
+        },
+        {
+          "q": "zion national park from las vegas",
+          "v": 9900,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "zion national park on us map",
+          "v": 9900,
+          "tr": -18,
+          "cmp": 0.26
+        },
+        {
+          "q": "zion national park to bryce canyon",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "zion national park to bryce national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "zion national park in winter",
+          "v": 2900,
+          "tr": -34,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park to las vegas",
+          "v": 2900,
+          "tr": -17,
+          "cmp": 0.04
+        },
+        {
+          "q": "zion national park during winter",
+          "v": 2900,
+          "tr": -34,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park in the winter",
+          "v": 2900,
+          "tr": -34,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park from salt lake city",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park in december",
+          "v": 1900,
+          "tr": -34,
+          "cmp": 0.11
+        },
+        {
+          "q": "zion national park in march",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park from st george",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park to grand canyon",
+          "v": 1600,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park weather by month",
+          "v": 1600,
+          "tr": -32,
+          "cmp": 0.04
+        },
+        {
+          "q": "zion national park vs bryce canyon",
+          "v": 1300,
+          "tr": 30,
+          "cmp": 0.04
+        },
+        {
+          "q": "zion national park in november",
+          "v": 1300,
+          "tr": -33,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park from grand canyon",
+          "v": 1300,
+          "tr": -23,
+          "cmp": 0.03
+        },
+        {
+          "q": "zion national park in november weather",
+          "v": 1300,
+          "tr": -47,
+          "cmp": 0.08
+        },
+        {
+          "q": "zion national park in january",
+          "v": 1000,
+          "tr": -12,
+          "cmp": 0.12
+        },
+        {
+          "q": "zion national park in february",
+          "v": 1000,
+          "tr": -18,
+          "cmp": 0.14
+        },
+        {
+          "q": "zion national park in october",
+          "v": 1000,
+          "tr": -17,
+          "cmp": 0.11
+        },
+        {
+          "q": "zion national park in april",
+          "v": 1000,
+          "tr": -33,
+          "cmp": 0.1
+        },
+        {
+          "q": "zion national park from phoenix",
+          "v": 880,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park to salt lake city",
+          "v": 880,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park in december weather",
+          "v": 880,
+          "tr": -45,
+          "cmp": 0.07
+        },
+        {
+          "q": "zion national park in the fall",
+          "v": 720,
+          "tr": -28,
+          "cmp": 0.07
+        },
+        {
+          "q": "zion national park top things to do",
+          "v": 720,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "zion national park to antelope canyon",
+          "v": 590,
+          "tr": -19,
+          "cmp": 0.07
+        },
+        {
+          "q": "zion national park in may",
+          "v": 480,
+          "tr": -19,
+          "cmp": 0.08
+        },
+        {
+          "q": "zion national park to moab",
+          "v": 480,
+          "tr": 23,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park to arches national park",
+          "v": 480,
+          "tr": -33,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park temperature by month",
+          "v": 390,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "zion national park from los angeles",
+          "v": 320,
+          "tr": -19,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park to page az",
+          "v": 320,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park vs bryce national park",
+          "v": 320,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "zion national park best things to do",
+          "v": 260,
+          "tr": 0,
+          "cmp": 0.99
+        },
+        {
+          "q": "zion national park to phoenix",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park to grand canyon south rim",
+          "v": 210,
+          "tr": 53,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park vs moab",
+          "v": 210,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park vs grand canyon",
+          "v": 170,
+          "tr": 50,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park at night",
+          "v": 170,
+          "tr": -18,
+          "cmp": 0.04
+        },
+        {
+          "q": "zion national park under canvas",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.76
+        },
+        {
+          "q": "things to do in zion national park besides hiking",
+          "v": 170,
+          "tr": -57,
+          "cmp": 0.56
+        },
+        {
+          "q": "zion national park to north rim grand canyon",
+          "v": 170,
+          "tr": 55,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park at christmas",
+          "v": 110,
+          "tr": -35,
+          "cmp": 0.18
+        },
+        {
+          "q": "zion national park viewpoints by car",
+          "v": 110,
+          "tr": 540,
+          "cmp": 0.11
+        },
+        {
+          "q": "zion national park vs arches",
+          "v": 90,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park to las vegas airport",
+          "v": 90,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park hike through water",
+          "v": 70,
+          "tr": 40,
+          "cmp": 0.1
+        },
+        {
+          "q": "zion national park by car",
+          "v": 70,
+          "tr": -44,
+          "cmp": 0.13
+        },
+        {
+          "q": "zion national park to sedona",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "is zion national park worth it",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "is october a good time to visit zion national park",
+          "v": 50,
+          "tr": 22,
+          "cmp": 0.21
+        },
+        {
+          "q": "zion national park for seniors",
+          "v": 50,
+          "tr": -20,
+          "cmp": 0.23
+        },
+        {
+          "q": "can you drive your car in zion national park",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.24
+        },
+        {
+          "q": "zion national park vs arches national park",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park visitors per year",
+          "v": 40,
+          "tr": -60,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park to bryce canyon to arches national park",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0.09
+        },
+        {
+          "q": "zion national park walking through water",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "zion national park with dogs",
+          "v": 30,
+          "tr": 33,
+          "cmp": 0.22
+        },
+        {
+          "q": "zion national park during thanksgiving",
+          "v": 30,
+          "tr": -20,
+          "cmp": 0.07
+        },
+        {
+          "q": "zion national park for beginners",
+          "v": 30,
+          "tr": 50,
+          "cmp": 0.44
+        },
+        {
+          "q": "zion national park for families",
+          "v": 30,
+          "tr": -50,
+          "cmp": 0.26
+        },
+        {
+          "q": "zion national park from me",
+          "v": 30,
+          "tr": 50,
+          "cmp": 0.04
+        },
+        {
+          "q": "zion national park in october weather",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "zion national park deaths per year",
+          "v": 30,
+          "tr": -60,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park via ferrata",
+          "v": 30,
+          "tr": 100,
+          "cmp": 0.22
+        },
+        {
+          "q": "do you need tickets for zion national park",
+          "v": 30,
+          "tr": -25,
+          "cmp": 0.44
+        },
+        {
+          "q": "zion national park vs yosemite",
+          "v": 30,
+          "tr": 200,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park without hiking",
+          "v": 30,
+          "tr": -50,
+          "cmp": 0.21
+        },
+        {
+          "q": "zion national park elevation above sea level",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.01
+        },
+        {
+          "q": "zion national park with snow",
+          "v": 20,
+          "tr": -75,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park during december",
+          "v": 20,
+          "tr": -33,
+          "cmp": 0.08
+        },
+        {
+          "q": "zion national park during christmas",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park for non hikers",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.29
+        },
+        {
+          "q": "zion national park off road trails",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.16
+        },
+        {
+          "q": "zion national park off season",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "off roading near zion national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.99
+        },
+        {
+          "q": "zion national park on utah map",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.02
+        },
+        {
+          "q": "zion national park top 10 things to do",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.6
+        },
+        {
+          "q": "zion national park near st george utah",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.23
+        },
+        {
+          "q": "best western plus zion national park",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.79
+        },
+        {
+          "q": "zion national park open during shutdown",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.21
+        },
+        {
+          "q": "zion national park vs yellowstone",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park vs antelope canyon",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park vs sedona",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park on thanksgiving",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "what national park is near zion national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.09
+        },
+        {
+          "q": "do you need to reserve for zion national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.36
+        },
+        {
+          "q": "zion national park drive through tunnel",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.14
+        },
+        {
+          "q": "is it safe to go to zion national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "zion national park near airport",
+          "v": 10,
+          "tr": -67,
+          "cmp": 0.23
+        },
+        {
+          "q": "zion national park at thanksgiving",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.18
+        },
+        {
+          "q": "zion national park at sunset",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.27
+        },
+        {
+          "q": "zion national park near las vegas",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.52
+        },
+        {
+          "q": "alternatives to zion national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.11
+        },
+        {
+          "q": "zion national park best places to visit",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.8
+        },
+        {
+          "q": "zion national park from denver",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        }
+      ],
+      "error": null
+    }
+  ]
+}

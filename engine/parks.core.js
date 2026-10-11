@@ -9,7 +9,7 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const money=n=>"$"+Number(n).toFixed(2);
 const ic=c=>`<i class="fa-solid ${c}" aria-hidden="true"></i>`;
 const park=s=>D.parks.find(p=>p.slug===s)||D.parks[0];
-const logo=`<span class="brand-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="34" cy="11" r="4" stroke="#d6ac6c"/><path d="M4 35 18 12l10 15 7-8 9 16"/><path d="M3 41q9-10 20-1t22-1" stroke="#d6ac6c"/></svg></span>`;
+const logo=`<span class="brand-icon"><img alt="" width="48" height="48" src="${zion?'../utahzionnationalpark.com/assets/brand/zion-symbol.svg':'../nationalparksguide.co/assets/brand/npg-symbol.svg'}" style="width:100%;height:100%"/></span>`;
 let state={wishlist:[],cart:{},points:0,stamps:[],itineraries:[]};
 try{state=Object.assign(state,JSON.parse(localStorage.getItem("clm-parks-v3")||"{}"))}catch{}
 function save(){localStorage.setItem("clm-parks-v3",JSON.stringify(state))}

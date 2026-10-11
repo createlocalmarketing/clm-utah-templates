@@ -1,0 +1,36 @@
+name: NPG Official Park Data Review PR
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  source-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Require private NPS API access
+        run: test -n "$NPS_API_KEY" || (echo '::error::Configure NPS_API_KEY repository secret' && exit 1)
+      - name: Import all 63 official park datasets
+        run: node tools/national-parks/import-nps-official.mjs
+      - name: Verify source coverage
+        run: node -e "const s=require('./nationalparksguide.co/data/nps-import/IMPORT-STATUS.json');if(s.parkCount!==63||s.errorCount)process.exit(1)"
+      - name: Open draft review PR (no automatic public publication)
+        shell: bash
+        run: |
+          branch="data/nps-review-$(date -u +%Y%m%d)-$GITHUB_RUN_ID"
+          git config user.name 'clm-park-data-bot'
+          git config user.email 'park-data-bot@users.noreply.github.com'
+          git checkout -b "$branch"
+          git add nationalparksguide.co/data/nps-import
+          if git diff --cached --quiet; then echo 'No new content'; exit 0; fi
+          git commit -m 'data(npg): official NPS source snapshot; editorial review pending'
+          git push origin "$branch"
+          gh pr create --draft --base main --head "$branch" --title 'NPG nationwide source refresh — review required' --body 'Official NPS source snapshots for all 63 parks. Confirm licensing, dates, editorial accuracy, YMYL safety, video/image use before approving. No WordPress production deployment is authorized by this PR.'

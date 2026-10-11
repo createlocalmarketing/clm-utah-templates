@@ -1,0 +1,136 @@
+{
+  "as_of": "2026-10-11",
+  "files": [
+    {
+      "id": "SRC-01",
+      "name": "Pasted markdown(1).md",
+      "title": "iQ Habits",
+      "kind": "Product handoff",
+      "bytes": 21353,
+      "sha256": "7c6d48c2c68f3ba89a6ec166aea29f46840fa83074bf2ff5bbb9d12380094b9b",
+      "caveat": "Historical scope; book and interview ingestion explicitly incomplete",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-02",
+      "name": "AI Elite Team _ Claude Skills.docx",
+      "title": "Specialist AI workflow",
+      "kind": "Third-party learning material",
+      "bytes": 279669,
+      "sha256": "eb2d0c45e41bf99d338a7c37b104b957946f9b8dacb2775435a8b3a989a7d565",
+      "caveat": "Pattern extraction only; do not republish copyrighted skills verbatim",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-03",
+      "name": "appinfinity-ai-shortcodes-template.txt",
+      "title": "Industry AI script catalog",
+      "kind": "CSV-format seed",
+      "bytes": 5319,
+      "sha256": "9bc94f53ff85767ddf70199270a2a0a30ed67463d53170ac800b351d1c74d90a",
+      "caveat": "70 rows contain placeholder text, not finished prompts",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-04",
+      "name": "infinity_ai_scripts_complete_template.csv",
+      "title": "Industry AI script catalog",
+      "kind": "CSV seed (duplicate)",
+      "bytes": 5319,
+      "sha256": "9bc94f53ff85767ddf70199270a2a0a30ed67463d53170ac800b351d1c74d90a",
+      "caveat": "Contents match shortcode template; deduplicate",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-05",
+      "name": "QUALITY_EMPIRE_CHAT_HANDOFF.md",
+      "title": "Quality Empire architecture",
+      "kind": "Historical handoff",
+      "bytes": 19259,
+      "sha256": "a5805473eddabc7261a42cab15ca0fb0e09cc26e79de5bde174f59682e8d270b",
+      "caveat": "Contains credential-like text: NEVER commit raw file to a public repository",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-06",
+      "name": "realtor-website-template-MASTER-HANDOFF-2026-10-07.md",
+      "title": "Realtor website / CLM components",
+      "kind": "Historical handoff",
+      "bytes": 37235,
+      "sha256": "ea230b803403af96a599d1fa7b9b3996725a9e7eedd234a841d0cada0416bb9a",
+      "caveat": "Additive reference; live Elementor state and older specs require current verification",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-07",
+      "name": "Untitled 2.txt",
+      "title": "Geo-specific keyword demand",
+      "kind": "Transcript and email snippet",
+      "bytes": 4113,
+      "sha256": "9edc581ab6778cf6b6561213a36625f29eb5d6d3b42caf91a09e4c498f8e952f",
+      "caveat": "Historical search metrics require current validation; contains personal email headers",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-08",
+      "name": "Untitled 13.txt",
+      "title": "Amore / InkLovers clinical site architecture",
+      "kind": "Large historical discussion",
+      "bytes": 3163966,
+      "sha256": "f72d03d7e34c184f39fefb2459d978baf462146c364de9ca86ab0dee88e0d5e3",
+      "caveat": "~3.16 MB unverified assistant assertions, multiple page totals and unverifiable generated assets",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-09",
+      "name": "Untitled 15.txt",
+      "title": "Weather and time header shortcode",
+      "kind": "PHP prototype",
+      "bytes": 3195,
+      "sha256": "9b85a62aa9886b9b6ca48372b2938d94de68fe50b93e0deb584113b7c48cdf22",
+      "caveat": "Functional code candidate; must security/code-review, check cached error behavior",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-10",
+      "name": "segmented-conversion-math.pdf",
+      "title": "Intent-based conversion forecasting",
+      "kind": "Illustrative model",
+      "bytes": 179224,
+      "sha256": "a2ce4671d1b10272fa4addf0c028423232b9b77d231cefda9e2a1274b3502e92",
+      "caveat": "Rates, CTR and LTV assumptions unverified, not observed performance",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-11",
+      "name": "site-grader-script-example.pdf",
+      "title": "Q Site Grader",
+      "kind": "AI audit example",
+      "bytes": 1710385,
+      "sha256": "9f4c50a062b21fbc3860bf6d2cbc701e7563dd815997b0b06cb79a3614106cba",
+      "caveat": "Contains changing arbitrary scores; not an empirical audited rating",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-12",
+      "name": "project.zip",
+      "title": "Directory application scaffold",
+      "kind": "Next.js source snapshot",
+      "bytes": 112849,
+      "sha256": "3e90cee08a27aa89a3db5e8e8727631418baab4b1baef1ab7c17db0f6e2e426f",
+      "caveat": "67 ZIP entries, 9 page entry points; no production backend verified",
+      "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-13",
+      "name": "provider-ai-voice-form.json",
+      "title": "Provider voice and persona training",
+      "kind": "WPForms config",
+      "bytes": 6699,
+      "sha256": "379645ea464e35d81b5dfdbd429d0fa8f7c597a63fb60dc6e6d3fee57fbe2c23",
+      "caveat": "Sensitive writing samples and staff data must have consent and access controls",
+      "public_source_text_permitted": false
+    }
+  ],
+  "raw_files_committed": false
+}

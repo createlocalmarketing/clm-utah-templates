@@ -140,6 +140,16 @@
       "sha256": "97c0c5b5ecf8033cc7c13d45e250b7ffd61b6f2b6dfccf9d6e98f77027578e4c",
       "caveat": "Source is a narrative handoff; reported 367 WXR draft pages, 1686 keyword rows, 10 templates, 64 omissions and prior audits NOT independently verified. Original ZIP not attached here.",
       "public_source_text_permitted": false
+    },
+    {
+      "id": "SRC-15",
+      "name": "skivacations-handoff.md",
+      "title": "Summit County Commemorative Stamp Sheet — draft technical handoff",
+      "kind": "Historic creative-project handoff",
+      "bytes": 5886,
+      "sha256": "68267a0f100b3839532cd525ed6a9d3907a84fd71cb19fa526b58411bb80ed1e",
+      "caveat": "Filename suggests ski vacations but content describes an unfinished Summit County 8-stamp vector project. Earlier minimalist directions conflict with later, user-approved Rockwell-inspired scene-first brief. The reported 9 SVGs and Python files are not attached or verified.",
+      "public_source_text_permitted": false
     }
   ],
   "raw_files_committed": false

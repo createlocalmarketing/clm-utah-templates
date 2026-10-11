@@ -87,3 +87,23 @@
 **Gate:** Cross-check current owned domains, design assets, trademark rights, original IUR/UTRD canonical ownership and the current approval hierarchy. National cloning requires per-state MLS rights and page-by-page usefulness.
 **Status:** [ ] Not verified
 
+## V-18 — Historic minimalist stamp brief versus newer approved scene-first direction (SRC-15)
+**Observed:** The handoff opens with Scandinavian-minimalist silhouettes on A4 stamps; later user-directed work requires Rockwell-inspired human scenes, mountains, events and resorts. The site version must exclude stamp furniture.
+**Gate:** Preserve both as history; use later scene-first brief as current for creative work, and require renewed approval for any minimalist collectible variant.
+**Status:** [ ] New art variants not visually approved
+
+## V-19 — Unverified source files, vector fidelity, merch readiness (SRC-15)
+**Observed:** Handoff says 9 SVG files were generated under a prior environment's `/home/user/magica/summit_stamps/`, yet only the narrative handoff is attached. It explicitly reports overlaps, missing labels, faux perforations and possible raster/typographic production concerns.
+**Gate:** Recover original Python/SVG/PNG sources or rebuild as a separately tracked new deliverable. Parse SVG group structure, paths, clipping, dimensions, overlap, bounding boxes and print-vendor compatibility before claiming final.
+**Status:** [ ] Sources/merch proof missing
+
+## V-20 — Denominations, 'authentic currency' and locality labeling (SRC-15)
+**Observed:** Handoff uses numeric 10–45 denominations with an 'SC' mark and includes Park City twice, Kimball Junction, Deer Valley, Wasatch Back food, and other locations. 'SC' is not a validated stamp currency unit, and regional subjects differ from municipalities.
+**Gate:** Verify naming, accurate subject/location attribution, collectible-versus-postal representation, whether denomination is decorative and any postal mark permissions. Do not label fake denominations as authentic postage.
+**Status:** [ ] Decisions and validation pending
+
+## V-21 — Delivery and creative production-cost claims (SRC-15)
+**Observed:** Handoff says no final product was shipped, mentions a PNG review preview and estimated sandbox credits. No invoice, original build logs, deliverable checksums or approval proofs are attached.
+**Gate:** Record estimates as historical narrative only; no expense, completion, production or distribution claim without independent evidence.
+**Status:** [ ] Not verified
+

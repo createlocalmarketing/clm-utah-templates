@@ -174,3 +174,14 @@
 - 14 source files now inventoried. The previous 13-source sections above remain historical snapshots; this section is the additive update.
 - Specific historical counts of **251/116 WXR drafts, 1,686 keyword rows, 10 Elementor sections, 64 omission claims and ~30 name discrepancies** are source statements only. Live proof and original ZIP were not attached in SRC-14.
 - A separate real-estate intake Kanban card under `content-engine` tracks verification, alongside the existing QAI umbrella intake card.
+
+## Additive source update — SRC-15 / Summit County stamp and scene-art handoff
+
+- New source: `skivacations-handoff.md` (name misleading: source content is **unfinished 8-stamp Summit County collection**, not a ski vacation website). SHA-256 in source register.
+- 12 **candidate/unapproved** rows `QAI-IDEA-093..104`, increasing candidates from 92 to **104**, with primary routing to `vector-stamp-collection`.
+- 4 more conflict gates `V-18..21`, increasing open research/verification gates from 17 to **21**.
+- 15 historical sources now inventoried. Existing dated snapshots retained above; numbers update additively here.
+- [Technical/creative reconciliation](stamp-art-handoff/SUMMIT_STAMP_SCENE_ART_INTAKE.md) and [production validation checklist](stamp-art-handoff/SCENE_AND_VECTOR_ACCEPTANCE_CHECKLIST.md).
+- Newer Rockwell-inspired, real place-and-people scene artwork **takes precedence** over this handoff's earlier minimalist style. Site images must exclude stamps. Collectible merch is an optional separately reviewed variant, not the active master.
+- The original 9 SVG files are only *reported* by the handoff, not attached or verified. No creative asset, page, print product or merch has been released by this intake.
+

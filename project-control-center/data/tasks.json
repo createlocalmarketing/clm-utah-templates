@@ -938,7 +938,7 @@
       "id": "qai-intake-20261011",
       "project_id": "saas-quality-crm",
       "section": "P1",
-      "title": "Review 2026-10-11 multi-source QAI intake (92 candidate requirements; 14 sources)",
+      "title": "Review 2026-10-11 multi-source QAI intake (104 candidate requirements; 15 sources)",
       "status": "pending",
       "owner": "Unassigned — confirm with project stakeholders",
       "co_managers": [],
@@ -948,7 +948,7 @@
       "priority": "p1",
       "verification": "not_started",
       "updated_at": "2026-10-11",
-      "notes": "14 source handoffs/uploads analyzed; 92 unapproved candidate requirements; 17 verification conflicts. Sources at project-control-center/context-intake/2026-10-11/. SRC-14 real-estate details in real-estate-handoff/; project-specific review card realestate-intake-20261011. Review dedup, ownership, access and project tags before promoting anything to execution."
+      "notes": "15 historical sources summarized into 104 unapproved candidates, 21 open verification/conflict gates. Original source raw bytes excluded from public GitHub. Sub-intakes: real-estate under content-engine and Summit scene/stamp under vector-stamp-collection. Source-of-truth and owner/tag approval required before execution."
     },
     {
       "id": "realestate-intake-20261011",
@@ -965,6 +965,22 @@
       "verification": "not_started",
       "updated_at": "2026-10-11",
       "notes": "Source SRC-14 (narrative handoff, not verified implementation). Historical claims: 251 Park City +116 Washington draft WXR pages, 10 Elementor sections, 1686 keyword rows, 64 reported geo omissions. See project-control-center/context-intake/2026-10-11/real-estate-handoff/REAL_ESTATE_WASATCH_BACK_HANDOFF_INTAKE.md and SOURCE_ASSET_VERIFICATION_CHECKLIST.md. No production publish authorization."
+    },
+    {
+      "id": "summit-art-intake-20261011",
+      "project_id": "vector-stamp-collection",
+      "section": "P1",
+      "title": "Reconcile Summit/Wasatch Back stamp draft with approved scene-first artwork and vector/merch QA",
+      "status": "pending",
+      "owner": "Unassigned — confirm with project stakeholders",
+      "co_managers": [],
+      "review_status": "needs_collaborative_review",
+      "tag_status": "pending_verification",
+      "waiting_on": "Recover original SVG/Python if available; verify current Rockwell-inspired direction, choose approved scenes/variants, check rights, owners and creative acceptance",
+      "priority": "p1",
+      "verification": "not_started",
+      "updated_at": "2026-10-11",
+      "notes": "SRC-15 narrative handoff; 8 historical stamp subjects, 9 claimed SVG exports (NOT independently located), and documented layout/vector problems. Later user-approved people-first Rockwell-inspired imagery is current, without stamp frames on websites. New 12 candidate rows QAI-IDEA-093..104 and checklist project-control-center/context-intake/2026-10-11/stamp-art-handoff/. Do not claim art delivered or production ready."
     }
   ]
 }

@@ -1,0 +1,1844 @@
+{
+  "park": "yosemite",
+  "seed": "yosemite national park",
+  "captured": "2026-10-10",
+  "platform": "Google",
+  "country": "United States",
+  "results": [
+    {
+      "type": "suggestions",
+      "success": true,
+      "count": 100,
+      "total": 623,
+      "rows": [
+        {
+          "q": "yosemite national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.95
+        },
+        {
+          "q": "yosemite national park usa",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.95
+        },
+        {
+          "q": "usa yosemite national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.95
+        },
+        {
+          "q": "california yosemite national park",
+          "v": 301000,
+          "tr": 22,
+          "cmp": 0.95
+        },
+        {
+          "q": "yosemite national park weather",
+          "v": 74000,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "weather in yosemite national park",
+          "v": 74000,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park lodging",
+          "v": 49500,
+          "tr": -45,
+          "cmp": 0.17
+        },
+        {
+          "q": "yosemite national park camping",
+          "v": 40500,
+          "tr": 124,
+          "cmp": 0.2
+        },
+        {
+          "q": "camping in yosemite national park",
+          "v": 40500,
+          "tr": 124,
+          "cmp": 0.2
+        },
+        {
+          "q": "yosemite national park california",
+          "v": 40500,
+          "tr": 22,
+          "cmp": 0.17
+        },
+        {
+          "q": "yosemite national park hotels",
+          "v": 33100,
+          "tr": -45,
+          "cmp": 0.87
+        },
+        {
+          "q": "el capitan yosemite national park",
+          "v": 27100,
+          "tr": 0,
+          "cmp": 0.94
+        },
+        {
+          "q": "yosemite national park tours",
+          "v": 22200,
+          "tr": -33,
+          "cmp": 0.31
+        },
+        {
+          "q": "where is yosemite national park",
+          "v": 22200,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "where is yosemite national park in california",
+          "v": 22200,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park camping reservations",
+          "v": 18100,
+          "tr": 83,
+          "cmp": 0.27
+        },
+        {
+          "q": "yosemite national park glacier point",
+          "v": 18100,
+          "tr": 0,
+          "cmp": 0.72
+        },
+        {
+          "q": "glacier point yosemite national park",
+          "v": 18100,
+          "tr": 0,
+          "cmp": 0.72
+        },
+        {
+          "q": "yosemite national park mist trail",
+          "v": 18100,
+          "tr": 50,
+          "cmp": 0.18
+        },
+        {
+          "q": "map of yosemite national park",
+          "v": 18100,
+          "tr": 22,
+          "cmp": 0.79
+        },
+        {
+          "q": "mist trail yosemite national park",
+          "v": 18100,
+          "tr": 50,
+          "cmp": 0.18
+        },
+        {
+          "q": "yosemite national park map",
+          "v": 18100,
+          "tr": 22,
+          "cmp": 0.79
+        },
+        {
+          "q": "yosemite national park photos",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.19
+        },
+        {
+          "q": "yosemite national park hikes",
+          "v": 14800,
+          "tr": -63,
+          "cmp": 0.26
+        },
+        {
+          "q": "hikes in yosemite national park",
+          "v": 14800,
+          "tr": -63,
+          "cmp": 0.26
+        },
+        {
+          "q": "pictures of yosemite national park",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.19
+        },
+        {
+          "q": "photos of yosemite national park",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.19
+        },
+        {
+          "q": "yosemite national park reservations",
+          "v": 14800,
+          "tr": -55,
+          "cmp": 0.45
+        },
+        {
+          "q": "reservations for yosemite national park",
+          "v": 14800,
+          "tr": -55,
+          "cmp": 0.45
+        },
+        {
+          "q": "tunnel view yosemite national park",
+          "v": 14800,
+          "tr": 22,
+          "cmp": 0.55
+        },
+        {
+          "q": "yosemite national park tickets",
+          "v": 12100,
+          "tr": 50,
+          "cmp": 0.57
+        },
+        {
+          "q": "ahwahnee hotel yosemite national park",
+          "v": 12100,
+          "tr": 22,
+          "cmp": 0.3
+        },
+        {
+          "q": "yosemite national park pass",
+          "v": 12100,
+          "tr": 50,
+          "cmp": 0.57
+        },
+        {
+          "q": "yosemite national park entrance fee",
+          "v": 9900,
+          "tr": 236,
+          "cmp": 0.05
+        },
+        {
+          "q": "entrance fee to yosemite national park",
+          "v": 9900,
+          "tr": 236,
+          "cmp": 0.05
+        },
+        {
+          "q": "entry fee for yosemite national park",
+          "v": 9900,
+          "tr": 236,
+          "cmp": 0.05
+        },
+        {
+          "q": "yosemite national park firefall",
+          "v": 9900,
+          "tr": -19,
+          "cmp": 0.03
+        },
+        {
+          "q": "firefall in yosemite national park",
+          "v": 9900,
+          "tr": -19,
+          "cmp": 0.03
+        },
+        {
+          "q": "things to do in yosemite national park",
+          "v": 8100,
+          "tr": 50,
+          "cmp": 1
+        },
+        {
+          "q": "yosemite national park pronunciation",
+          "v": 8100,
+          "tr": 22,
+          "cmp": 0
+        },
+        {
+          "q": "hotels near yosemite national park",
+          "v": 6600,
+          "tr": -33,
+          "cmp": 0.83
+        },
+        {
+          "q": "accommodation in yosemite national park",
+          "v": 6600,
+          "tr": -45,
+          "cmp": 0.47
+        },
+        {
+          "q": "hotels inside yosemite national park",
+          "v": 6600,
+          "tr": 23,
+          "cmp": 0.95
+        },
+        {
+          "q": "lodging in yosemite national park",
+          "v": 6600,
+          "tr": -45,
+          "cmp": 0.47
+        },
+        {
+          "q": "lodging inside yosemite national park",
+          "v": 6600,
+          "tr": -45,
+          "cmp": 0.47
+        },
+        {
+          "q": "yosemite national park places to stay",
+          "v": 6600,
+          "tr": -45,
+          "cmp": 0.47
+        },
+        {
+          "q": "places to stay in yosemite national park",
+          "v": 6600,
+          "tr": -45,
+          "cmp": 0.47
+        },
+        {
+          "q": "best time to visit yosemite national park",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.19
+        },
+        {
+          "q": "best hikes in yosemite national park",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.34
+        },
+        {
+          "q": "entrance to yosemite national park",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.25
+        },
+        {
+          "q": "yosemite national park in winter",
+          "v": 5400,
+          "tr": -33,
+          "cmp": 0.11
+        },
+        {
+          "q": "where to stay in yosemite national park",
+          "v": 4400,
+          "tr": 23,
+          "cmp": 0.89
+        },
+        {
+          "q": "yosemite national park half dome hike",
+          "v": 4400,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "yosemite national park trails",
+          "v": 4400,
+          "tr": 0,
+          "cmp": 0.3
+        },
+        {
+          "q": "trails in yosemite national park",
+          "v": 4400,
+          "tr": 0,
+          "cmp": 0.3
+        },
+        {
+          "q": "yosemite national park upper pines",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.11
+        },
+        {
+          "q": "upper pines campground yosemite national park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.11
+        },
+        {
+          "q": "upper pines yosemite national park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.11
+        },
+        {
+          "q": "is yosemite national park open",
+          "v": 3600,
+          "tr": -55,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park animals",
+          "v": 3600,
+          "tr": -34,
+          "cmp": 0.02
+        },
+        {
+          "q": "yosemite national park altitude",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "animals in yosemite national park",
+          "v": 3600,
+          "tr": -34,
+          "cmp": 0.02
+        },
+        {
+          "q": "yosemite national park elevation",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "elevation of yosemite national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "yosemite national park open",
+          "v": 3600,
+          "tr": -55,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park permits",
+          "v": 3600,
+          "tr": -91,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park cabins",
+          "v": 2900,
+          "tr": 0,
+          "cmp": 0.7
+        },
+        {
+          "q": "cabins in yosemite national park",
+          "v": 2900,
+          "tr": 0,
+          "cmp": 0.7
+        },
+        {
+          "q": "yosemite national park death",
+          "v": 2900,
+          "tr": 19,
+          "cmp": 0
+        },
+        {
+          "q": "drive to yosemite national park",
+          "v": 2900,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "yosemite national park fire",
+          "v": 2900,
+          "tr": -84,
+          "cmp": 0.01
+        },
+        {
+          "q": "fresno to yosemite national park",
+          "v": 2900,
+          "tr": 21,
+          "cmp": 0.07
+        },
+        {
+          "q": "glamping yosemite national park",
+          "v": 2900,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "how to pronounce yosemite national park",
+          "v": 2900,
+          "tr": 24,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park location",
+          "v": 2900,
+          "tr": -19,
+          "cmp": 0.76
+        },
+        {
+          "q": "yosemite national park location in california",
+          "v": 2900,
+          "tr": -19,
+          "cmp": 0.76
+        },
+        {
+          "q": "location of yosemite national park",
+          "v": 2900,
+          "tr": -19,
+          "cmp": 0.76
+        },
+        {
+          "q": "temperature in yosemite national park",
+          "v": 2900,
+          "tr": 24,
+          "cmp": 0
+        },
+        {
+          "q": "how big is yosemite national park",
+          "v": 2400,
+          "tr": -33,
+          "cmp": 0.02
+        },
+        {
+          "q": "yosemite national park bears",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "bears in yosemite national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park campgrounds",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.31
+        },
+        {
+          "q": "campgrounds in yosemite national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.31
+        },
+        {
+          "q": "yosemite national park from los angeles",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park in october",
+          "v": 2400,
+          "tr": -18,
+          "cmp": 0.12
+        },
+        {
+          "q": "yosemite national park in november",
+          "v": 2400,
+          "tr": -46,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park in december",
+          "v": 2400,
+          "tr": -47,
+          "cmp": 0.09
+        },
+        {
+          "q": "los angeles to yosemite national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park november",
+          "v": 2400,
+          "tr": -46,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park october",
+          "v": 2400,
+          "tr": -18,
+          "cmp": 0.12
+        },
+        {
+          "q": "yosemite national park restaurants",
+          "v": 2400,
+          "tr": -17,
+          "cmp": 0.2
+        },
+        {
+          "q": "restaurants in yosemite national park",
+          "v": 2400,
+          "tr": -17,
+          "cmp": 0.2
+        },
+        {
+          "q": "yosemite national park sign",
+          "v": 2400,
+          "tr": 400,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park what to do",
+          "v": 2400,
+          "tr": 21,
+          "cmp": 1
+        },
+        {
+          "q": "what to do in yosemite national park",
+          "v": 2400,
+          "tr": 21,
+          "cmp": 1
+        },
+        {
+          "q": "best places to stay in yosemite national park",
+          "v": 1900,
+          "tr": 26,
+          "cmp": 0.85
+        },
+        {
+          "q": "yosemite national park elopement",
+          "v": 1900,
+          "tr": -46,
+          "cmp": 0.32
+        },
+        {
+          "q": "yosemite national park facts",
+          "v": 1900,
+          "tr": -66,
+          "cmp": 0.02
+        },
+        {
+          "q": "facts about yosemite national park",
+          "v": 1900,
+          "tr": -66,
+          "cmp": 0.02
+        },
+        {
+          "q": "fly to yosemite national park",
+          "v": 1900,
+          "tr": 19,
+          "cmp": 0.26
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "questions",
+      "success": true,
+      "count": 100,
+      "total": 155,
+      "rows": [
+        {
+          "q": "yosemite national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.95
+        },
+        {
+          "q": "where to stay in yosemite national park",
+          "v": 4400,
+          "tr": 23,
+          "cmp": 0.89
+        },
+        {
+          "q": "is yosemite national park open",
+          "v": 3600,
+          "tr": -55,
+          "cmp": 0.09
+        },
+        {
+          "q": "how to pronounce yosemite national park",
+          "v": 2900,
+          "tr": 24,
+          "cmp": 0
+        },
+        {
+          "q": "how big is yosemite national park",
+          "v": 2400,
+          "tr": -33,
+          "cmp": 0.02
+        },
+        {
+          "q": "what to do in yosemite national park",
+          "v": 2400,
+          "tr": 21,
+          "cmp": 1
+        },
+        {
+          "q": "how far is yosemite national park from san francisco",
+          "v": 1900,
+          "tr": 50,
+          "cmp": 0.06
+        },
+        {
+          "q": "are dogs allowed in yosemite national park",
+          "v": 1300,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "is yosemite a national park",
+          "v": 1300,
+          "tr": 19,
+          "cmp": 0.53
+        },
+        {
+          "q": "when was yosemite national park established",
+          "v": 1300,
+          "tr": -62,
+          "cmp": 0.01
+        },
+        {
+          "q": "what state is yosemite national park in",
+          "v": 1300,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "when is the best time to visit yosemite national park",
+          "v": 1000,
+          "tr": 30,
+          "cmp": 0.24
+        },
+        {
+          "q": "is yosemite national park closed",
+          "v": 880,
+          "tr": -85,
+          "cmp": 0.02
+        },
+        {
+          "q": "how to get to yosemite national park",
+          "v": 880,
+          "tr": 0,
+          "cmp": 0.15
+        },
+        {
+          "q": "what city is yosemite national park in",
+          "v": 880,
+          "tr": 48,
+          "cmp": 0.06
+        },
+        {
+          "q": "are there bears in yosemite national park",
+          "v": 720,
+          "tr": 22,
+          "cmp": 0.03
+        },
+        {
+          "q": "how many acres are in yosemite national park",
+          "v": 720,
+          "tr": -12,
+          "cmp": 0.01
+        },
+        {
+          "q": "can you fish in yosemite national park",
+          "v": 720,
+          "tr": 50,
+          "cmp": 0.04
+        },
+        {
+          "q": "how many acres is yosemite national park",
+          "v": 720,
+          "tr": -12,
+          "cmp": 0.01
+        },
+        {
+          "q": "how far is sequoia national park from yosemite",
+          "v": 720,
+          "tr": 83,
+          "cmp": 0.02
+        },
+        {
+          "q": "where to stay when visiting yosemite national park",
+          "v": 720,
+          "tr": 22,
+          "cmp": 0.81
+        },
+        {
+          "q": "can you camp in yosemite national park",
+          "v": 590,
+          "tr": 51,
+          "cmp": 0.19
+        },
+        {
+          "q": "when did yosemite become a national park",
+          "v": 590,
+          "tr": -19,
+          "cmp": 0.01
+        },
+        {
+          "q": "how to visit yosemite national park",
+          "v": 480,
+          "tr": -19,
+          "cmp": 0.49
+        },
+        {
+          "q": "what airport is near yosemite national park",
+          "v": 480,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "when does yosemite national park open",
+          "v": 480,
+          "tr": 50,
+          "cmp": 0.1
+        },
+        {
+          "q": "when does it snow in yosemite national park",
+          "v": 480,
+          "tr": -33,
+          "cmp": 0.02
+        },
+        {
+          "q": "what animals are in yosemite national park",
+          "v": 390,
+          "tr": -19,
+          "cmp": 0.04
+        },
+        {
+          "q": "is yosemite national park dog friendly",
+          "v": 390,
+          "tr": 23,
+          "cmp": 0.08
+        },
+        {
+          "q": "what airport is closest to yosemite national park",
+          "v": 260,
+          "tr": 86,
+          "cmp": 0.11
+        },
+        {
+          "q": "who founded yosemite national park",
+          "v": 260,
+          "tr": -81,
+          "cmp": 0
+        },
+        {
+          "q": "can you drive through yosemite national park",
+          "v": 210,
+          "tr": -19,
+          "cmp": 0.1
+        },
+        {
+          "q": "how large is yosemite national park",
+          "v": 210,
+          "tr": -19,
+          "cmp": 0.01
+        },
+        {
+          "q": "where is yosemite national park located city",
+          "v": 210,
+          "tr": 556,
+          "cmp": 0.02
+        },
+        {
+          "q": "what can you do in yosemite national park",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.43
+        },
+        {
+          "q": "how did yosemite national park get its name",
+          "v": 170,
+          "tr": 24,
+          "cmp": 0.01
+        },
+        {
+          "q": "how did yosemite national park form",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "what is the elevation of yosemite national park",
+          "v": 170,
+          "tr": 50,
+          "cmp": 0.02
+        },
+        {
+          "q": "what is the best time to visit yosemite national park",
+          "v": 170,
+          "tr": 86,
+          "cmp": 0.19
+        },
+        {
+          "q": "which airport is closest to yosemite national park",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.09
+        },
+        {
+          "q": "can you live in yosemite national park",
+          "v": 140,
+          "tr": -35,
+          "cmp": 0.03
+        },
+        {
+          "q": "can you hunt in yosemite national park",
+          "v": 140,
+          "tr": -58,
+          "cmp": 0.03
+        },
+        {
+          "q": "what year was yosemite national park established",
+          "v": 140,
+          "tr": -72,
+          "cmp": 0.02
+        },
+        {
+          "q": "who made yosemite a national park",
+          "v": 140,
+          "tr": 55,
+          "cmp": 0
+        },
+        {
+          "q": "who created yosemite national park",
+          "v": 140,
+          "tr": 55,
+          "cmp": 0
+        },
+        {
+          "q": "why was yosemite national park established",
+          "v": 140,
+          "tr": -76,
+          "cmp": 0
+        },
+        {
+          "q": "why was yosemite national park created",
+          "v": 140,
+          "tr": -76,
+          "cmp": 0
+        },
+        {
+          "q": "can you stay in yosemite national park",
+          "v": 110,
+          "tr": 89,
+          "cmp": 0.39
+        },
+        {
+          "q": "is yosemite national park open year round",
+          "v": 110,
+          "tr": 0,
+          "cmp": 0.08
+        },
+        {
+          "q": "is yosemite national park open in december",
+          "v": 110,
+          "tr": -47,
+          "cmp": 0.14
+        },
+        {
+          "q": "where is the entrance to yosemite national park",
+          "v": 110,
+          "tr": 0,
+          "cmp": 0.32
+        },
+        {
+          "q": "why is yosemite national park important to protect",
+          "v": 110,
+          "tr": -96,
+          "cmp": 0
+        },
+        {
+          "q": "which state is yosemite national park in",
+          "v": 90,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "who owns yosemite national park",
+          "v": 90,
+          "tr": 333,
+          "cmp": 0
+        },
+        {
+          "q": "who established yosemite national park",
+          "v": 90,
+          "tr": -55,
+          "cmp": 0
+        },
+        {
+          "q": "what hotels are in yosemite national park",
+          "v": 70,
+          "tr": 40,
+          "cmp": 0.85
+        },
+        {
+          "q": "does yosemite national park require reservations",
+          "v": 70,
+          "tr": 75,
+          "cmp": 0.15
+        },
+        {
+          "q": "why did yosemite become a national park",
+          "v": 70,
+          "tr": -60,
+          "cmp": 0
+        },
+        {
+          "q": "when was yosemite national park created",
+          "v": 50,
+          "tr": -40,
+          "cmp": 0
+        },
+        {
+          "q": "why was yosemite national park important to protect",
+          "v": 50,
+          "tr": -97,
+          "cmp": 0
+        },
+        {
+          "q": "who was the founder of yosemite national park",
+          "v": 50,
+          "tr": -96,
+          "cmp": 0
+        },
+        {
+          "q": "when was yosemite made a national park",
+          "v": 50,
+          "tr": -20,
+          "cmp": 0
+        },
+        {
+          "q": "where is the yosemite national park sign",
+          "v": 50,
+          "tr": 75,
+          "cmp": 0
+        },
+        {
+          "q": "can dogs go to yosemite national park",
+          "v": 40,
+          "tr": 67,
+          "cmp": 0.08
+        },
+        {
+          "q": "how many people have died in yosemite national park",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "what states are yosemite national park in",
+          "v": 30,
+          "tr": 50,
+          "cmp": 0.02
+        },
+        {
+          "q": "what national parks are near yosemite",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "can you carry a gun in yosemite national park",
+          "v": 30,
+          "tr": 33,
+          "cmp": 0
+        },
+        {
+          "q": "can you swim in yosemite national park",
+          "v": 30,
+          "tr": 75,
+          "cmp": 0.01
+        },
+        {
+          "q": "is yosemite national park dangerous",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "how much is yosemite national park entrance fee",
+          "v": 30,
+          "tr": 150,
+          "cmp": 0.16
+        },
+        {
+          "q": "where is yosemite national park state",
+          "v": 30,
+          "tr": 40,
+          "cmp": 0.04
+        },
+        {
+          "q": "when did yosemite national park open",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "does yosemite national park allow dogs",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "does yosemite national park have bears",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.01
+        },
+        {
+          "q": "how many people have gone missing in yosemite national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "does yosemite national park have snow right now",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "is yosemite national park worth visiting",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "when is a good time to visit yosemite national park",
+          "v": 20,
+          "tr": 33,
+          "cmp": 0.29
+        },
+        {
+          "q": "where is the closest airport to yosemite national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.11
+        },
+        {
+          "q": "which city is closest to yosemite national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.29
+        },
+        {
+          "q": "why visit yosemite national park",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.31
+        },
+        {
+          "q": "why did yosemite national park remove its reservation system",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "does yosemite national park have timed entry",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.1
+        },
+        {
+          "q": "does yosemite national park have sequoia trees",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "does yosemite national park have redwoods",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "does yosemite national park get snow",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "what state has yosemite national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "do you have to pay to enter yosemite national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.16
+        },
+        {
+          "q": "how many people have disappeared in yosemite national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "does yosemite national park have grizzly bears",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "is yosemite national park open in november",
+          "v": 10,
+          "tr": -33,
+          "cmp": 0.19
+        },
+        {
+          "q": "is yosemite national park open in october",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.15
+        },
+        {
+          "q": "what airport should i fly into for yosemite national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.18
+        },
+        {
+          "q": "how many days should you spend in yosemite national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.1
+        },
+        {
+          "q": "what should i see in yosemite national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.45
+        },
+        {
+          "q": "should i go to yosemite or sequoia national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "where should i stay when visiting yosemite national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.82
+        },
+        {
+          "q": "what time should i get to yosemite national park",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0
+        },
+        {
+          "q": "how long should you stay at yosemite national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.29
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "related",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "rows": [],
+      "error": null
+    },
+    {
+      "type": "prepositions",
+      "success": true,
+      "count": 100,
+      "total": 195,
+      "rows": [
+        {
+          "q": "yosemite national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.95
+        },
+        {
+          "q": "yosemite national park in california",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.95
+        },
+        {
+          "q": "yosemite national park on map",
+          "v": 18100,
+          "tr": 22,
+          "cmp": 0.79
+        },
+        {
+          "q": "yosemite national park in winter",
+          "v": 5400,
+          "tr": -33,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park during winter",
+          "v": 5400,
+          "tr": -33,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park near hotels",
+          "v": 4400,
+          "tr": 0,
+          "cmp": 0.86
+        },
+        {
+          "q": "yosemite national park on fire",
+          "v": 2900,
+          "tr": -84,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park from fresno",
+          "v": 2900,
+          "tr": 21,
+          "cmp": 0.07
+        },
+        {
+          "q": "yosemite national park by train",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.33
+        },
+        {
+          "q": "yosemite national park in december",
+          "v": 2400,
+          "tr": -47,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park in march",
+          "v": 2400,
+          "tr": -19,
+          "cmp": 0.08
+        },
+        {
+          "q": "yosemite national park in november",
+          "v": 2400,
+          "tr": -46,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park in october",
+          "v": 2400,
+          "tr": -18,
+          "cmp": 0.12
+        },
+        {
+          "q": "yosemite national park from los angeles",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park vs yellowstone",
+          "v": 1900,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park in april",
+          "v": 1900,
+          "tr": -32,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park from las vegas",
+          "v": 1900,
+          "tr": 19,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park from sacramento",
+          "v": 1900,
+          "tr": -34,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park to sequoia national park",
+          "v": 1900,
+          "tr": 19,
+          "cmp": 0.05
+        },
+        {
+          "q": "yosemite national park vs yellowstone national park",
+          "v": 1900,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park in february",
+          "v": 1600,
+          "tr": -18,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park at sunset",
+          "v": 1600,
+          "tr": -16,
+          "cmp": 0.08
+        },
+        {
+          "q": "yosemite national park in january",
+          "v": 1300,
+          "tr": -12,
+          "cmp": 0.08
+        },
+        {
+          "q": "yosemite national park to lake tahoe",
+          "v": 1300,
+          "tr": 30,
+          "cmp": 0.02
+        },
+        {
+          "q": "yosemite national park weather by month",
+          "v": 1300,
+          "tr": -32,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park in may",
+          "v": 1300,
+          "tr": -19,
+          "cmp": 0.09
+        },
+        {
+          "q": "yosemite national park from san diego",
+          "v": 1000,
+          "tr": 14,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park from san jose",
+          "v": 1000,
+          "tr": 14,
+          "cmp": 0.07
+        },
+        {
+          "q": "yosemite national park in september",
+          "v": 1000,
+          "tr": 53,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park in december weather",
+          "v": 1000,
+          "tr": -45,
+          "cmp": 0.04
+        },
+        {
+          "q": "yosemite national park from san francisco",
+          "v": 880,
+          "tr": 39,
+          "cmp": 0.14
+        },
+        {
+          "q": "yosemite national park vs sequoia national park",
+          "v": 880,
+          "tr": 14,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park with dogs",
+          "v": 720,
+          "tr": -18,
+          "cmp": 0.12
+        },
+        {
+          "q": "yosemite national park to san francisco",
+          "v": 720,
+          "tr": 85,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park to los angeles",
+          "v": 720,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park to las vegas",
+          "v": 720,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park at night",
+          "v": 480,
+          "tr": 156,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park at christmas",
+          "v": 480,
+          "tr": -46,
+          "cmp": 0.29
+        },
+        {
+          "q": "yosemite national park on us map",
+          "v": 480,
+          "tr": 0,
+          "cmp": 0.42
+        },
+        {
+          "q": "yosemite national park to redwood national park",
+          "v": 480,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park to sacramento",
+          "v": 390,
+          "tr": 22,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park to mammoth lakes",
+          "v": 390,
+          "tr": 22,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park to san diego",
+          "v": 320,
+          "tr": 23,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park to fresno",
+          "v": 320,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park to yellowstone",
+          "v": 320,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park in the fall",
+          "v": 260,
+          "tr": -34,
+          "cmp": 0.04
+        },
+        {
+          "q": "yosemite national park to san jose",
+          "v": 210,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "yosemite national park post office",
+          "v": 210,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park drive through tree",
+          "v": 170,
+          "tr": -19,
+          "cmp": 0.02
+        },
+        {
+          "q": "base jumpers at yosemite national park despite government shutdown",
+          "v": 110,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park during thanksgiving",
+          "v": 110,
+          "tr": -33,
+          "cmp": 0.11
+        },
+        {
+          "q": "yosemite national park visitors per year",
+          "v": 110,
+          "tr": -59,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park with snow",
+          "v": 90,
+          "tr": -25,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park from me",
+          "v": 90,
+          "tr": 80,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park by car",
+          "v": 90,
+          "tr": -21,
+          "cmp": 0.04
+        },
+        {
+          "q": "yosemite national park by owner",
+          "v": 70,
+          "tr": 80,
+          "cmp": 0.12
+        },
+        {
+          "q": "yosemite national park during christmas",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0.1
+        },
+        {
+          "q": "yosemite national park temperature by month",
+          "v": 70,
+          "tr": 40,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park during december",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "yosemite national park to grand canyon",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park to kings canyon national park",
+          "v": 30,
+          "tr": -50,
+          "cmp": 0.01
+        },
+        {
+          "q": "do you need a permit for yosemite national park",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.22
+        },
+        {
+          "q": "what animals can you see in yosemite national park",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.12
+        },
+        {
+          "q": "yosemite national park near airport",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.1
+        },
+        {
+          "q": "yosemite national park near me",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.25
+        },
+        {
+          "q": "yosemite national park from my location",
+          "v": 20,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park for seniors",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.25
+        },
+        {
+          "q": "yosemite national park in october weather",
+          "v": 20,
+          "tr": -56,
+          "cmp": 0.07
+        },
+        {
+          "q": "yosemite national park on world map",
+          "v": 20,
+          "tr": 75,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park top things to do",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.92
+        },
+        {
+          "q": "yosemite national park deaths per year",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park cost per person",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.03
+        },
+        {
+          "q": "yosemite national park open during government shutdown",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park vs redwood national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "can i get into yosemite national park without a reservation",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.27
+        },
+        {
+          "q": "yosemite national park from above",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park drive through pass",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.19
+        },
+        {
+          "q": "can you drive your car through yosemite national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.08
+        },
+        {
+          "q": "yosemite national park vs sequoia",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park near what city",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.26
+        },
+        {
+          "q": "yosemite national park near san francisco",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.26
+        },
+        {
+          "q": "yosemite national park near fresno",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park from san francisco tour",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.33
+        },
+        {
+          "q": "yosemite national park open during shutdown",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park upside down flag",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park during fall",
+          "v": 10,
+          "tr": -86,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park for sale",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "yosemite national park inside hotels",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.92
+        },
+        {
+          "q": "yosemite national park off road trails",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park on map of california",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.73
+        },
+        {
+          "q": "yosemite national park show on netflix",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park missing persons per year",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite plus sequoia national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite plus sequoia national park founded",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "is yosemite national park bigger than rhode island",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "is yosemite national park bigger than yellowstone",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "is yosemite national park bigger than england",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yosemite national park to yellowstone national park drive",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "how much time do you need at yosemite national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.2
+        },
+        {
+          "q": "yosemite national park vs grand canyon",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        }
+      ],
+      "error": null
+    }
+  ]
+}

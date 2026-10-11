@@ -1,0 +1,4324 @@
+{
+  "title": "National Parks Guide | Native Elementor Homepage",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "0000002f",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "full"
+      },
+      "elements": [
+        {
+          "id": "0000002e",
+          "elType": "widget",
+          "widgetType": "nested-carousel",
+          "settings": {
+            "carousel_name": "National Guide · Five Featured Parks",
+            "carousel_items": [
+              {
+                "_id": "00000dac",
+                "slide_title": "Discover America's Most Extraordinary Places"
+              },
+              {
+                "_id": "00000dad",
+                "slide_title": "Yellowstone National Park"
+              },
+              {
+                "_id": "00000dae",
+                "slide_title": "Glacier National Park"
+              },
+              {
+                "_id": "00000daf",
+                "slide_title": "Yosemite National Park"
+              },
+              {
+                "_id": "00000db0",
+                "slide_title": "Zion National Park"
+              }
+            ],
+            "slides_to_show": "1",
+            "slides_to_show_tablet": "1",
+            "slides_to_show_mobile": "1",
+            "slides_to_scroll": "1",
+            "arrows": "yes",
+            "pagination": "bullets",
+            "autoplay": "no",
+            "infinite": "yes",
+            "pause_on_hover": "yes",
+            "speed": 600,
+            "equal_height": "yes",
+            "image_spacing_custom": {
+              "unit": "px",
+              "size": 0
+            }
+          },
+          "elements": [
+            {
+              "id": "00000009",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000002",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 54
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000001",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Views_at_Great_Smoky_Mountains_National_Park%2C_Tennessee_and_North_Carolina_%289077fd30-5847-46a9-b967-728e87050d2c%29.jpg?width=1600",
+                          "alt": "Great Smoky Mountains National Park landscape",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 540
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "00000008",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 46
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 42,
+                      "bottom": 40,
+                      "left": 42,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000003",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "AMERICA'S NATIONAL PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000004",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Discover America's Most Extraordinary Places",
+                        "header_size": "h1",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000005",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Begin with the parks, then discover trails, local communities, places to stay, experiences and thoughtful trip plans.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000006",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000007",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/great-smoky-mountains/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "00000012",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000000b",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 54
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000000a",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Faithful_Geyser_%2848941846278%29.jpg?width=1600",
+                          "alt": "Yellowstone National Park landscape",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 540
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "00000011",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 46
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 42,
+                      "bottom": 40,
+                      "left": 42,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000000c",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "AMERICA'S NATIONAL PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000000d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yellowstone National Park",
+                        "header_size": "h2",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "0000000e",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Geysers, geothermal color, wildlife, alpine lakes and enormous volcanic landscapes stretch across the Northern Rockies.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "0000000f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000010",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yellowstone/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0000001b",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000014",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 54
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000013",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_McDonald_%2844772227955%29.jpg?width=1600",
+                          "alt": "Glacier National Park landscape",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 540
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "0000001a",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 46
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 42,
+                      "bottom": 40,
+                      "left": 42,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000015",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "AMERICA'S NATIONAL PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000016",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Glacier National Park",
+                        "header_size": "h2",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000017",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Source-identified national park. Unique researched editorial content, trails, imagery, gateways, businesses, and safe visitor data must be produced before approval.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000018",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000019",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/glacier/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "00000024",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000001d",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 54
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000001c",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosemite_Valley%2C_View_from_Glacier_Point%2C_Yosemite_National_Park.jpg?width=1600",
+                          "alt": "Yosemite National Park landscape",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 540
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "00000023",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 46
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 42,
+                      "bottom": 40,
+                      "left": 42,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000001e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "AMERICA'S NATIONAL PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000001f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yosemite National Park",
+                        "header_size": "h2",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000020",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Granite monoliths, soaring falls, meadows and old-growth forests create one of America’s iconic mountain landscapes.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000021",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000022",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yosemite/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0000002d",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000026",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 54
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000025",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion_national_park.jpg?width=1600",
+                          "alt": "Zion National Park landscape",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 540
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "0000002c",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 46
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 40,
+                      "right": 42,
+                      "bottom": 40,
+                      "left": 42,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000027",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "AMERICA'S NATIONAL PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000028",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Zion National Park",
+                        "header_size": "h2",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 48
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000029",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "A river-carved sanctuary of towering sandstone, narrow slot canyons, desert light and unforgettable trails.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "0000002a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000002b",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/zion/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "00000051",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1400
+        },
+        "padding": {
+          "unit": "px",
+          "top": 56,
+          "right": 24,
+          "bottom": 56,
+          "left": 24,
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F4F6F1",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "0000004e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "01 / DISCOVER",
+            "header_size": "span",
+            "title_color": "#A06E3C",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "700"
+          }
+        },
+        {
+          "id": "0000004f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Explore all 63 National Parks",
+            "header_size": "h2",
+            "title_color": "#1B4030",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 43
+            },
+            "typography_font_weight": "800"
+          }
+        },
+        {
+          "id": "00000050",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Park-first discovery by geography, visitor goals and original destination reporting. Every park requires independently verified images and content.",
+            "text_color": "#617263"
+          }
+        },
+        {
+          "id": "0000004c",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 18
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "00000036",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000030",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Views_at_Great_Smoky_Mountains_National_Park%2C_Tennessee_and_North_Carolina_%289077fd30-5847-46a9-b967-728e87050d2c%29.jpg?width=1600",
+                      "alt": "Great Smoky Mountains National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "00000035",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000031",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000032",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Great Smoky Mountains National Park",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000033",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Ancient blue ridgelines, forests, waterfalls and Appalachian cultural stories make this one of America’s most loved park landscapes.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000034",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/great-smoky-mountains/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0000003d",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000037",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Faithful_Geyser_%2848941846278%29.jpg?width=1600",
+                      "alt": "Yellowstone National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "0000003c",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000038",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000039",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yellowstone National Park",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "0000003a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Geysers, geothermal color, wildlife, alpine lakes and enormous volcanic landscapes stretch across the Northern Rockies.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "0000003b",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yellowstone/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "00000044",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000003e",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_McDonald_%2844772227955%29.jpg?width=1600",
+                      "alt": "Glacier National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "00000043",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000003f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000040",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Glacier National Park",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000041",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Source-identified national park. Unique researched editorial content, trails, imagery, gateways, businesses, and safe visitor data must be produced before approval.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000042",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/glacier/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0000004b",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000045",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosemite_Valley%2C_View_from_Glacier_Point%2C_Yosemite_National_Park.jpg?width=1600",
+                      "alt": "Yosemite National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "0000004a",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000046",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARKS",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000047",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yosemite National Park",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000048",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Granite monoliths, soaring falls, meadows and old-growth forests create one of America’s iconic mountain landscapes.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000049",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yosemite/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0000004d",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Complete 63-park directory",
+            "link": {
+              "url": "https://nationalparksguide.co/national-parks/",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "button_background_color": "#B89962",
+            "button_text_color": "#173426"
+          }
+        }
+      ]
+    },
+    {
+      "id": "00000083",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1400
+        },
+        "padding": {
+          "unit": "px",
+          "top": 56,
+          "right": 24,
+          "bottom": 56,
+          "left": 24,
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F4F6F1",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "00000080",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "02 / ADVENTURE",
+            "header_size": "span",
+            "title_color": "#A06E3C",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "700"
+          }
+        },
+        {
+          "id": "00000081",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trails, views and experiences",
+            "header_size": "h2",
+            "title_color": "#1B4030",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 43
+            },
+            "typography_font_weight": "800"
+          }
+        },
+        {
+          "id": "00000082",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "The deeper park categories connect real local visitor decisions to source-backed articles.",
+            "text_color": "#617263"
+          }
+        },
+        {
+          "id": "0000007f",
+          "elType": "widget",
+          "widgetType": "nested-carousel",
+          "settings": {
+            "carousel_name": "Featured Park Experiences",
+            "carousel_items": [
+              {
+                "_id": "00000dac",
+                "slide_title": "Things to do in Great Smoky Mountains"
+              },
+              {
+                "_id": "00000dad",
+                "slide_title": "Things to do in Yellowstone"
+              },
+              {
+                "_id": "00000dae",
+                "slide_title": "Things to do in Glacier"
+              },
+              {
+                "_id": "00000daf",
+                "slide_title": "Things to do in Yosemite"
+              },
+              {
+                "_id": "00000db0",
+                "slide_title": "Things to do in Zion"
+              }
+            ],
+            "slides_to_show": "3",
+            "slides_to_show_tablet": "2",
+            "slides_to_show_mobile": "1",
+            "slides_to_scroll": "1",
+            "arrows": "yes",
+            "pagination": "bullets",
+            "autoplay": "no",
+            "infinite": "yes",
+            "pause_on_hover": "yes",
+            "speed": 600,
+            "equal_height": "yes",
+            "image_spacing_custom": {
+              "unit": "px",
+              "size": 18
+            }
+          },
+          "elements": [
+            {
+              "id": "0000005a",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000053",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000052",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Views_at_Great_Smoky_Mountains_National_Park%2C_Tennessee_and_North_Carolina_%289077fd30-5847-46a9-b967-728e87050d2c%29.jpg?width=1600",
+                          "alt": "Great Smoky Mountains National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "00000059",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000054",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARK EXPERIENCES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000055",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Things to do in Great Smoky Mountains",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000056",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Research specific trails, photo stops, activities, permits and access for Great Smoky Mountains National Park",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000057",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000058",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/great-smoky-mountains/things-to-do/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "00000063",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000005c",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000005b",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Faithful_Geyser_%2848941846278%29.jpg?width=1600",
+                          "alt": "Yellowstone National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "00000062",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000005d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARK EXPERIENCES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000005e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Things to do in Yellowstone",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "0000005f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Research specific trails, photo stops, activities, permits and access for Yellowstone National Park",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000060",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000061",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yellowstone/things-to-do/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0000006c",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000065",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000064",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_McDonald_%2844772227955%29.jpg?width=1600",
+                          "alt": "Glacier National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "0000006b",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000066",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARK EXPERIENCES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000067",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Things to do in Glacier",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000068",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Research specific trails, photo stops, activities, permits and access for Glacier National Park",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000069",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000006a",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/glacier/things-to-do/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "00000075",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000006e",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000006d",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosemite_Valley%2C_View_from_Glacier_Point%2C_Yosemite_National_Park.jpg?width=1600",
+                          "alt": "Yosemite National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "00000074",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000006f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARK EXPERIENCES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000070",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Things to do in Yosemite",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000071",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Research specific trails, photo stops, activities, permits and access for Yosemite National Park",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000072",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000073",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yosemite/things-to-do/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0000007e",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000077",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000076",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion_national_park.jpg?width=1600",
+                          "alt": "Zion National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "0000007d",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000078",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "FEATURED PARK EXPERIENCES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000079",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Things to do in Zion",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "0000007a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Research specific trails, photo stops, activities, permits and access for Zion National Park",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "0000007b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000007c",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/zion/things-to-do/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "000000b5",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1400
+        },
+        "padding": {
+          "unit": "px",
+          "top": 56,
+          "right": 24,
+          "bottom": 56,
+          "left": 24,
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F4F6F1",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "000000b2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "03 / LOCAL LIFE",
+            "header_size": "span",
+            "title_color": "#A06E3C",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "700"
+          }
+        },
+        {
+          "id": "000000b3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Discover the communities beyond each park",
+            "header_size": "h2",
+            "title_color": "#1B4030",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 43
+            },
+            "typography_font_weight": "800"
+          }
+        },
+        {
+          "id": "000000b4",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Find authentic lodging, dining, outfitters, tours, rentals and other local providers using source-verified park entrance and 25-mile data.",
+            "text_color": "#617263"
+          }
+        },
+        {
+          "id": "000000b1",
+          "elType": "widget",
+          "widgetType": "nested-carousel",
+          "settings": {
+            "carousel_name": "Gateway Communities",
+            "carousel_items": [
+              {
+                "_id": "00000dac",
+                "slide_title": "Great Smoky Mountains gateway communities"
+              },
+              {
+                "_id": "00000dad",
+                "slide_title": "Yellowstone gateway communities"
+              },
+              {
+                "_id": "00000dae",
+                "slide_title": "Glacier gateway communities"
+              },
+              {
+                "_id": "00000daf",
+                "slide_title": "Yosemite gateway communities"
+              },
+              {
+                "_id": "00000db0",
+                "slide_title": "Zion gateway communities"
+              }
+            ],
+            "slides_to_show": "3",
+            "slides_to_show_tablet": "2",
+            "slides_to_show_mobile": "1",
+            "slides_to_scroll": "1",
+            "arrows": "yes",
+            "pagination": "bullets",
+            "autoplay": "no",
+            "infinite": "yes",
+            "pause_on_hover": "yes",
+            "speed": 600,
+            "equal_height": "yes",
+            "image_spacing_custom": {
+              "unit": "px",
+              "size": 18
+            }
+          },
+          "elements": [
+            {
+              "id": "0000008c",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000085",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000084",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Views_at_Great_Smoky_Mountains_National_Park%2C_Tennessee_and_North_Carolina_%289077fd30-5847-46a9-b967-728e87050d2c%29.jpg?width=1600",
+                          "alt": "Great Smoky Mountains National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "0000008b",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000086",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "GATEWAY COMMUNITIES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000087",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Great Smoky Mountains gateway communities",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000088",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Park-region scenery, not a business property photograph. Individual merchant entries remain subject to source, rights and distance verification.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000089",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000008a",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/great-smoky-mountains/businesses/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "00000095",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000008e",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000008d",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Faithful_Geyser_%2848941846278%29.jpg?width=1600",
+                          "alt": "Yellowstone National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "00000094",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000008f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "GATEWAY COMMUNITIES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000090",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yellowstone gateway communities",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "00000091",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Park-region scenery, not a business property photograph. Individual merchant entries remain subject to source, rights and distance verification.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "00000092",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000093",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yellowstone/businesses/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0000009e",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000097",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000096",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_McDonald_%2844772227955%29.jpg?width=1600",
+                          "alt": "Glacier National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "0000009d",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000098",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "GATEWAY COMMUNITIES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "00000099",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Glacier gateway communities",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "0000009a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Park-region scenery, not a business property photograph. Individual merchant entries remain subject to source, rights and distance verification.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "0000009b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "0000009c",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/glacier/businesses/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "000000a7",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000a0",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000009f",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosemite_Valley%2C_View_from_Glacier_Point%2C_Yosemite_National_Park.jpg?width=1600",
+                          "alt": "Yosemite National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "000000a6",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000000a1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "GATEWAY COMMUNITIES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000a2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yosemite gateway communities",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "000000a3",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Park-region scenery, not a business property photograph. Individual merchant entries remain subject to source, rights and distance verification.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "000000a4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000a5",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/yosemite/businesses/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "000000b0",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "background_background": "classic",
+                "background_color": "#F4F6F1",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000a9",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 0,
+                      "right": 0,
+                      "bottom": 0,
+                      "left": 0,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000000a8",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "id": 0,
+                          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion_national_park.jpg?width=1600",
+                          "alt": "Zion National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 210
+                        },
+                        "object-fit": "cover",
+                        "width": {
+                          "unit": "%",
+                          "size": 100
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "000000af",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 15,
+                      "right": 20,
+                      "bottom": 22,
+                      "left": 20,
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000000aa",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "GATEWAY COMMUNITIES",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000ab",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Zion gateway communities",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "000000ac",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Park-region scenery, not a business property photograph. Individual merchant entries remain subject to source, rights and distance verification.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "000000ad",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PHOTO CANDIDATE · MEDIA QA REQUIRED",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000ae",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore",
+                        "link": {
+                          "url": "https://nationalparksguide.co/national-parks/zion/businesses/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "000000d6",
+      "elType": "container",
+      "isInner": true,
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1400
+        },
+        "padding": {
+          "unit": "px",
+          "top": 56,
+          "right": 24,
+          "bottom": 56,
+          "left": 24,
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F4F6F1",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20
+        }
+      },
+      "elements": [
+        {
+          "id": "000000d3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "04 / LEARN AND PLAN",
+            "header_size": "span",
+            "title_color": "#A06E3C",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "700"
+          }
+        },
+        {
+          "id": "000000d4",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Build an informed National Park trip",
+            "header_size": "h2",
+            "title_color": "#1B4030",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 43
+            },
+            "typography_font_weight": "800"
+          }
+        },
+        {
+          "id": "000000d5",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "Connect decisions about season, entrance access, trails, permits, travel services and environmental responsibility.",
+            "text_color": "#617263"
+          }
+        },
+        {
+          "id": "000000d2",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 18
+            },
+            "flex_align_items": "stretch"
+          },
+          "elements": [
+            {
+              "id": "000000bc",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000b6",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Views_at_Great_Smoky_Mountains_National_Park%2C_Tennessee_and_North_Carolina_%289077fd30-5847-46a9-b967-728e87050d2c%29.jpg?width=1600",
+                      "alt": "Great Smoky Mountains National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "000000bb",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000000b7",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "TRIP PLANNING",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000b8",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Great Smoky Mountains planning",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "000000b9",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Verify access and travel conditions with NPS for the park.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "000000ba",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://www.nps.gov/grsm/planyourvisit/index.htm",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "000000c3",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000bd",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Old_Faithful_Geyser_%2848941846278%29.jpg?width=1600",
+                      "alt": "Yellowstone National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "000000c2",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000000be",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "TRIP PLANNING",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000bf",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yellowstone planning",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "000000c0",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Verify access and travel conditions with NPS for the park.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "000000c1",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://www.nps.gov/yell/planyourvisit/index.htm",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "000000ca",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000c4",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_McDonald_%2844772227955%29.jpg?width=1600",
+                      "alt": "Glacier National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "000000c9",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000000c5",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "TRIP PLANNING",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000c6",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Glacier planning",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "000000c7",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Verify access and travel conditions with NPS for the park.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "000000c8",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://www.nps.gov/glac/index.htm",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "000000d1",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 23
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 47
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "padding": {
+                  "unit": "px",
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 22,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000cb",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "id": 0,
+                      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosemite_Valley%2C_View_from_Glacier_Point%2C_Yosemite_National_Park.jpg?width=1600",
+                      "alt": "Yosemite National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 215
+                    },
+                    "object-fit": "cover",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    }
+                  }
+                },
+                {
+                  "id": "000000d0",
+                  "elType": "container",
+                  "isInner": true,
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 4,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 10
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "000000cc",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "TRIP PLANNING",
+                        "header_size": "span",
+                        "title_color": "#A06E3C",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "000000cd",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Yosemite planning",
+                        "header_size": "h3",
+                        "title_color": "#1B4030",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 22
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "000000ce",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "Verify access and travel conditions with NPS for the park.",
+                        "text_color": "#617263"
+                      }
+                    },
+                    {
+                      "id": "000000cf",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore guide",
+                        "link": {
+                          "url": "https://www.nps.gov/yose/planyourvisit/index.htm",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "button_background_color": "#B89962",
+                        "button_text_color": "#173426"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

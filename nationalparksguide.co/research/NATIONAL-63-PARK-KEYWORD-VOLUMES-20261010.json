@@ -1,0 +1,387 @@
+{
+  "researchDate": "2026-10-10",
+  "country": "United States",
+  "platform": "Google",
+  "scope": "United States; Google and search partners; English",
+  "method": "Exact 63 national park name keyword query. Monthly volumes are for those search terms only, not total park demand or sum of close variants. Selection of top five requires Zion and ties are resolved by user preference/featured editorial needs.",
+  "rows": [
+    {
+      "keyword": "great smoky mountains national park",
+      "monthlySearches": 1220000,
+      "trendPercent": 5428,
+      "competition": 0.99
+    },
+    {
+      "keyword": "yellowstone national park",
+      "monthlySearches": 673000,
+      "trendPercent": 307,
+      "competition": 0.89
+    },
+    {
+      "keyword": "glacier national park",
+      "monthlySearches": 550000,
+      "trendPercent": 307,
+      "competition": 0.86
+    },
+    {
+      "keyword": "yosemite national park",
+      "monthlySearches": 550000,
+      "trendPercent": 307,
+      "competition": 0.95
+    },
+    {
+      "keyword": "zion national park",
+      "monthlySearches": 550000,
+      "trendPercent": -33,
+      "competition": 0.9
+    },
+    {
+      "keyword": "acadia national park",
+      "monthlySearches": 450000,
+      "trendPercent": 397,
+      "competition": 1
+    },
+    {
+      "keyword": "sequoia national park",
+      "monthlySearches": 301000,
+      "trendPercent": 22,
+      "competition": 0.78
+    },
+    {
+      "keyword": "grand canyon national park",
+      "monthlySearches": 246000,
+      "trendPercent": 1011,
+      "competition": 1
+    },
+    {
+      "keyword": "grand teton national park",
+      "monthlySearches": 246000,
+      "trendPercent": 22,
+      "competition": 0.9
+    },
+    {
+      "keyword": "redwood national park",
+      "monthlySearches": 246000,
+      "trendPercent": 22,
+      "competition": 0.54
+    },
+    {
+      "keyword": "rocky mountain national park",
+      "monthlySearches": 246000,
+      "trendPercent": -18,
+      "competition": 0.95
+    },
+    {
+      "keyword": "arches national park",
+      "monthlySearches": 201000,
+      "trendPercent": -33,
+      "competition": 0.84
+    },
+    {
+      "keyword": "big bend national park",
+      "monthlySearches": 201000,
+      "trendPercent": 123,
+      "competition": 0.17
+    },
+    {
+      "keyword": "olympic national park",
+      "monthlySearches": 201000,
+      "trendPercent": 49,
+      "competition": 0.97
+    },
+    {
+      "keyword": "shenandoah national park",
+      "monthlySearches": 201000,
+      "trendPercent": 22,
+      "competition": 0.86
+    },
+    {
+      "keyword": "carlsbad caverns national park",
+      "monthlySearches": 165000,
+      "trendPercent": 0,
+      "competition": 0.06
+    },
+    {
+      "keyword": "joshua tree national park",
+      "monthlySearches": 165000,
+      "trendPercent": -18,
+      "competition": 0.7
+    },
+    {
+      "keyword": "white sands national park",
+      "monthlySearches": 165000,
+      "trendPercent": -33,
+      "competition": 0.05
+    },
+    {
+      "keyword": "badlands national park",
+      "monthlySearches": 135000,
+      "trendPercent": 0,
+      "competition": 0.8
+    },
+    {
+      "keyword": "bryce canyon national park",
+      "monthlySearches": 110000,
+      "trendPercent": -18,
+      "competition": 0.69
+    },
+    {
+      "keyword": "cuyahoga valley national park",
+      "monthlySearches": 110000,
+      "trendPercent": 23,
+      "competition": 0.41
+    },
+    {
+      "keyword": "death valley national park",
+      "monthlySearches": 110000,
+      "trendPercent": 22,
+      "competition": 0.43
+    },
+    {
+      "keyword": "everglades national park",
+      "monthlySearches": 110000,
+      "trendPercent": 0,
+      "competition": 0.86
+    },
+    {
+      "keyword": "great sand dunes national park",
+      "monthlySearches": 110000,
+      "trendPercent": 23,
+      "competition": 0.12
+    },
+    {
+      "keyword": "hawaii volcanoes national park",
+      "monthlySearches": 110000,
+      "trendPercent": -19,
+      "competition": 0.57
+    },
+    {
+      "keyword": "dry tortugas national park",
+      "monthlySearches": 90500,
+      "trendPercent": 22,
+      "competition": 0.82
+    },
+    {
+      "keyword": "haleakala national park",
+      "monthlySearches": 90500,
+      "trendPercent": 22,
+      "competition": 0.96
+    },
+    {
+      "keyword": "mammoth cave national park",
+      "monthlySearches": 90500,
+      "trendPercent": 49,
+      "competition": 0.09
+    },
+    {
+      "keyword": "north cascades national park",
+      "monthlySearches": 90500,
+      "trendPercent": 49,
+      "competition": 0.63
+    },
+    {
+      "keyword": "pinnacles national park",
+      "monthlySearches": 90500,
+      "trendPercent": 0,
+      "competition": 0.03
+    },
+    {
+      "keyword": "saguaro national park",
+      "monthlySearches": 90500,
+      "trendPercent": -33,
+      "competition": 0.5
+    },
+    {
+      "keyword": "canyonlands national park",
+      "monthlySearches": 74000,
+      "trendPercent": -33,
+      "competition": 0.72
+    },
+    {
+      "keyword": "crater lake national park",
+      "monthlySearches": 74000,
+      "trendPercent": 0,
+      "competition": 0.29
+    },
+    {
+      "keyword": "denali national park",
+      "monthlySearches": 74000,
+      "trendPercent": 0,
+      "competition": 0.93
+    },
+    {
+      "keyword": "hot springs national park",
+      "monthlySearches": 74000,
+      "trendPercent": -18,
+      "competition": 0.15
+    },
+    {
+      "keyword": "indiana dunes national park",
+      "monthlySearches": 74000,
+      "trendPercent": 49,
+      "competition": 0.07
+    },
+    {
+      "keyword": "mesa verde national park",
+      "monthlySearches": 74000,
+      "trendPercent": -18,
+      "competition": 0.82
+    },
+    {
+      "keyword": "mount rainier national park",
+      "monthlySearches": 74000,
+      "trendPercent": 49,
+      "competition": 0.8
+    },
+    {
+      "keyword": "theodore roosevelt national park",
+      "monthlySearches": 74000,
+      "trendPercent": -18,
+      "competition": 0.15
+    },
+    {
+      "keyword": "wind cave national park",
+      "monthlySearches": 74000,
+      "trendPercent": 22,
+      "competition": 0.46
+    },
+    {
+      "keyword": "capitol reef national park",
+      "monthlySearches": 60500,
+      "trendPercent": -18,
+      "competition": 0.8
+    },
+    {
+      "keyword": "channel islands national park",
+      "monthlySearches": 60500,
+      "trendPercent": 0,
+      "competition": 0.35
+    },
+    {
+      "keyword": "congaree national park",
+      "monthlySearches": 60500,
+      "trendPercent": 22,
+      "competition": 0.23
+    },
+    {
+      "keyword": "great basin national park",
+      "monthlySearches": 60500,
+      "trendPercent": -18,
+      "competition": 0.07
+    },
+    {
+      "keyword": "lassen volcanic national park",
+      "monthlySearches": 60500,
+      "trendPercent": 50,
+      "competition": 0.05
+    },
+    {
+      "keyword": "petrified forest national park",
+      "monthlySearches": 60500,
+      "trendPercent": -45,
+      "competition": 0.26
+    },
+    {
+      "keyword": "biscayne national park",
+      "monthlySearches": 49500,
+      "trendPercent": 0,
+      "competition": 0.91
+    },
+    {
+      "keyword": "gateway arch national park",
+      "monthlySearches": 49500,
+      "trendPercent": -45,
+      "competition": 0.28
+    },
+    {
+      "keyword": "guadalupe mountains national park",
+      "monthlySearches": 49500,
+      "trendPercent": 0,
+      "competition": 0.05
+    },
+    {
+      "keyword": "isle royale national park",
+      "monthlySearches": 49500,
+      "trendPercent": 22,
+      "competition": 0.04
+    },
+    {
+      "keyword": "katmai national park",
+      "monthlySearches": 49500,
+      "trendPercent": 22,
+      "competition": 0.24
+    },
+    {
+      "keyword": "kings canyon national park",
+      "monthlySearches": 49500,
+      "trendPercent": 22,
+      "competition": 0.56
+    },
+    {
+      "keyword": "voyageurs national park",
+      "monthlySearches": 49500,
+      "trendPercent": 22,
+      "competition": 0.15
+    },
+    {
+      "keyword": "new river gorge national park",
+      "monthlySearches": 33100,
+      "trendPercent": 0,
+      "competition": 0.98
+    },
+    {
+      "keyword": "black canyon of the gunnison national park",
+      "monthlySearches": 27100,
+      "trendPercent": 22,
+      "competition": 0.08
+    },
+    {
+      "keyword": "kenai fjords national park",
+      "monthlySearches": 27100,
+      "trendPercent": 22,
+      "competition": 0.97
+    },
+    {
+      "keyword": "glacier bay national park",
+      "monthlySearches": 22200,
+      "trendPercent": 22,
+      "competition": 0.24
+    },
+    {
+      "keyword": "lake clark national park",
+      "monthlySearches": 18100,
+      "trendPercent": 23,
+      "competition": 0.27
+    },
+    {
+      "keyword": "virgin islands national park",
+      "monthlySearches": 18100,
+      "trendPercent": -55,
+      "competition": 0.77
+    },
+    {
+      "keyword": "national park of american samoa",
+      "monthlySearches": 12100,
+      "trendPercent": -18,
+      "competition": 0.02
+    },
+    {
+      "keyword": "wrangell-st. elias national park",
+      "monthlySearches": 12100,
+      "trendPercent": 22,
+      "competition": 0.14
+    },
+    {
+      "keyword": "kobuk valley national park",
+      "monthlySearches": 9900,
+      "trendPercent": 22,
+      "competition": 0.01
+    },
+    {
+      "keyword": "gates of the arctic national park",
+      "monthlySearches": 6600,
+      "trendPercent": 0,
+      "competition": 0.04
+    }
+  ]
+}

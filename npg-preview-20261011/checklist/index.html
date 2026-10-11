@@ -92,7 +92,8 @@ const parks=[...new Set(pageList.map(x=>x.park).filter(x=>x&&x!=="All parks"))].
 const families=[...new Set(pageList.map(x=>x.family))].sort();
 parks.forEach(v=>$("parkFilter").insertAdjacentHTML("beforeend",'<option value="'+escape(v)+'">'+escape(v)+'</option>'));
 families.forEach(v=>$("familyFilter").insertAdjacentHTML("beforeend",'<option value="'+escape(v)+'">'+escape(v)+'</option>'));
-let subset=pageList.slice(),offset=0,selected=pageList.find(x=>deepPage(x)&&x.domain==="ZION")||pageList[0];
+const urlArgs=new URLSearchParams(location.search),initialRoute=urlArgs.get("route"),initialDomain=urlArgs.get("domain");
+let subset=pageList.slice(),offset=0,selected=(initialRoute?pageList.find(x=>x.domain===initialDomain&&(x.reviewUrl||"").split("#/")[1]===initialRoute):null)||pageList.find(x=>deepPage(x)&&x.domain==="ZION")||pageList[0];
 const limit=35;let pending=[];
 function filter(){
 const q=$("search").value.trim().toLowerCase(),park=$("parkFilter").value,family=$("familyFilter").value,domain=$("domainFilter").value,status=$("stateFilter").value;

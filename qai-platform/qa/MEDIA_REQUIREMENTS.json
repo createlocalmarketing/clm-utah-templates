@@ -1,0 +1,22 @@
+{
+  "existing_media_paths_required": [
+    "adam-griffee.webp",
+    "gen-deals.webp",
+    "gen-marketplace.webp",
+    "gen-new_construction.webp",
+    "hero_park_city.webp",
+    "hero_wasatch_county.webp",
+    "home-interior-1.webp",
+    "home-interior-2.webp",
+    "iur-hero-editorial.webp",
+    "iur-rest-urbanhill.webp",
+    "iur-saltlake-wasatch.webp",
+    "iur-zion-canyon.webp",
+    "lawson-team.webp",
+    "park-city-main-street.webp",
+    "park-city-summer.webp"
+  ],
+  "source": "CLM img/ folder, public repo",
+  "verification": "Matched directory names shown by authenticated GitHub repository listing; browser image load and permission/rights still require test",
+  "note": "Asset presence does not establish that each asset is stylistically appropriate for the assigned business"
+}

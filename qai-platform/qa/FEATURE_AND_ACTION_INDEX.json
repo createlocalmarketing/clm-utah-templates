@@ -1,0 +1,363 @@
+{
+  "generated": "2026-10-10",
+  "workspaces": [
+    {
+      "id": "global",
+      "name": "Quality / All Businesses",
+      "type": "hq"
+    },
+    {
+      "id": "clm",
+      "name": "Create Local Marketing",
+      "type": "agency"
+    },
+    {
+      "id": "qai",
+      "name": "Quality AI / QAI",
+      "type": "software"
+    },
+    {
+      "id": "crm",
+      "name": "Quality CRM",
+      "type": "software"
+    },
+    {
+      "id": "mcp",
+      "name": "Quality MCP",
+      "type": "software"
+    },
+    {
+      "id": "exp",
+      "name": "eXp Luxury / Lawson Team",
+      "type": "realestate"
+    },
+    {
+      "id": "adam",
+      "name": "AdamGriffee.com",
+      "type": "realestate"
+    },
+    {
+      "id": "utrd",
+      "name": "Utah Real Estate Directory",
+      "type": "realestate"
+    },
+    {
+      "id": "iur",
+      "name": "Inside Utah Real Estate",
+      "type": "media"
+    },
+    {
+      "id": "dental",
+      "name": "Quality Dental",
+      "type": "health"
+    },
+    {
+      "id": "smile",
+      "name": "Bakersfield Smile Design",
+      "type": "health"
+    },
+    {
+      "id": "medspa",
+      "name": "Amor Med Spa",
+      "type": "health"
+    },
+    {
+      "id": "city",
+      "name": "Quality City Guides",
+      "type": "city"
+    },
+    {
+      "id": "parks",
+      "name": "National Parks Guide",
+      "type": "city"
+    },
+    {
+      "id": "deals",
+      "name": "Quality Deals",
+      "type": "commerce"
+    },
+    {
+      "id": "food",
+      "name": "Quality Dining Network",
+      "type": "commerce"
+    },
+    {
+      "id": "family",
+      "name": "Personal & Family",
+      "type": "personal"
+    }
+  ],
+  "modules": [
+    {
+      "id": "today",
+      "name": "Today",
+      "category": "WORKSPACE",
+      "desc": "Your intelligent daily command center"
+    },
+    {
+      "id": "qai",
+      "name": "QAI Assistant",
+      "category": "WORKSPACE",
+      "desc": "Your context-aware executive copilot"
+    },
+    {
+      "id": "meetings",
+      "name": "Meetings",
+      "category": "WORKSPACE",
+      "desc": "Speaker-attributed sessions and decisions"
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "category": "WORKSPACE",
+      "desc": "Schedules, events and work commitments"
+    },
+    {
+      "id": "notifications",
+      "name": "Activity",
+      "category": "WORKSPACE",
+      "desc": "All alerts, mentions and decisions"
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "category": "WORK MANAGEMENT",
+      "desc": "Initiatives, ownership and milestones"
+    },
+    {
+      "id": "board",
+      "name": "Review Board",
+      "category": "WORK MANAGEMENT",
+      "desc": "Multi-party review and approval Kanban"
+    },
+    {
+      "id": "tasks",
+      "name": "All Tasks",
+      "category": "WORK MANAGEMENT",
+      "desc": "Tasks, priorities, outcomes and next actions"
+    },
+    {
+      "id": "automations",
+      "name": "Automations",
+      "category": "WORK MANAGEMENT",
+      "desc": "Event-driven workflows and approvals"
+    },
+    {
+      "id": "files",
+      "name": "Files & Evidence",
+      "category": "WORK MANAGEMENT",
+      "desc": "Assets, recordings and audit trail"
+    },
+    {
+      "id": "contacts",
+      "name": "Contacts",
+      "category": "RELATIONSHIPS",
+      "desc": "Unified people and relationships"
+    },
+    {
+      "id": "companies",
+      "name": "Companies",
+      "category": "RELATIONSHIPS",
+      "desc": "Accounts, merchants and partner organizations"
+    },
+    {
+      "id": "leads",
+      "name": "Leads",
+      "category": "RELATIONSHIPS",
+      "desc": "Sources, ownership and follow-up"
+    },
+    {
+      "id": "pipeline",
+      "name": "Deals Pipeline",
+      "category": "RELATIONSHIPS",
+      "desc": "Opportunities across workspaces"
+    },
+    {
+      "id": "transactions",
+      "name": "Transactions",
+      "category": "RELATIONSHIPS",
+      "desc": "Milestones, steps and handoffs"
+    },
+    {
+      "id": "inbox",
+      "name": "Unified Inbox",
+      "category": "COMMUNICATIONS",
+      "desc": "Conversation threads across authorized identities"
+    },
+    {
+      "id": "identities",
+      "name": "Email Identities",
+      "category": "COMMUNICATIONS",
+      "desc": "Inbox groups, aliases and signatures"
+    },
+    {
+      "id": "sms",
+      "name": "Q Messages",
+      "category": "COMMUNICATIONS",
+      "desc": "Business-text conversations and reminders"
+    },
+    {
+      "id": "calls",
+      "name": "Q Phone",
+      "category": "COMMUNICATIONS",
+      "desc": "Business-line dialer and call records"
+    },
+    {
+      "id": "callanalytics",
+      "name": "Call Analytics",
+      "category": "COMMUNICATIONS",
+      "desc": "Talk time, outcomes and attribution"
+    },
+    {
+      "id": "websites",
+      "name": "Websites",
+      "category": "WEB & GROWTH",
+      "desc": "Your connected sites and environments"
+    },
+    {
+      "id": "builder",
+      "name": "Visual Builder",
+      "category": "WEB & GROWTH",
+      "desc": "Select a real site element and propose a change"
+    },
+    {
+      "id": "capture",
+      "name": "Q Capture",
+      "category": "WEB & GROWTH",
+      "desc": "Browser-side visual feedback and evidence"
+    },
+    {
+      "id": "campaigns",
+      "name": "Campaigns",
+      "category": "WEB & GROWTH",
+      "desc": "Audience, content and performance"
+    },
+    {
+      "id": "deals",
+      "name": "Offers & Deals",
+      "category": "WEB & GROWTH",
+      "desc": "Limited-time local campaigns"
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "category": "WEB & GROWTH",
+      "desc": "City, team and community events"
+    },
+    {
+      "id": "experiences",
+      "name": "Q Experiences",
+      "category": "WEB & GROWTH",
+      "desc": "Geo quests, rewards and visitor engagement"
+    },
+    {
+      "id": "analytics",
+      "name": "Insights",
+      "category": "INTELLIGENCE",
+      "desc": "Live-view concept of business performance"
+    },
+    {
+      "id": "knowledge",
+      "name": "Knowledge Graph",
+      "category": "INTELLIGENCE",
+      "desc": "Institutional context and decisions"
+    },
+    {
+      "id": "capabilities",
+      "name": "Universal Patterns",
+      "category": "INTELLIGENCE",
+      "desc": "Features reusable across every industry"
+    },
+    {
+      "id": "research",
+      "name": "Opportunity Radar",
+      "category": "INTELLIGENCE",
+      "desc": "AI-generated adjacent opportunities"
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "category": "INTELLIGENCE",
+      "desc": "Courses, resources and content programs"
+    },
+    {
+      "id": "mcp",
+      "name": "Q MCP Fleet",
+      "category": "PLATFORM",
+      "desc": "WordPress sites, revisions and safe execution"
+    },
+    {
+      "id": "integrations",
+      "name": "Integrations",
+      "category": "PLATFORM",
+      "desc": "Connected systems and adapters"
+    },
+    {
+      "id": "members",
+      "name": "People & Access",
+      "category": "PLATFORM",
+      "desc": "Tenants, role scopes and collaborators"
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "category": "PLATFORM",
+      "desc": "Workspace preferences and safeguards"
+    },
+    {
+      "id": "explorer",
+      "name": "Screen Explorer",
+      "category": "PLATFORM",
+      "desc": "Explore every conceptual app screen"
+    }
+  ],
+  "actions": [
+    "ask",
+    "calendar-day",
+    "call-demo",
+    "close-modal",
+    "course",
+    "dial-digit",
+    "explorer-expand",
+    "explorer-filter",
+    "explorer-reset",
+    "file-demo",
+    "filter",
+    "identity-demo",
+    "mobile-menu",
+    "mobile-nav",
+    "mobile-quick",
+    "modal",
+    "nav",
+    "navigate-to",
+    "open-item",
+    "open-mobile",
+    "pattern-open",
+    "record-toggle",
+    "search-close",
+    "search-open",
+    "search-result",
+    "select-element",
+    "sidebar-toggle",
+    "task-open",
+    "timeline",
+    "toast-close",
+    "toggle-automation",
+    "toggle-tools",
+    "toggle-workspaces",
+    "workspace"
+  ],
+  "forms": [
+    "campaign",
+    "chat",
+    "comment",
+    "compose",
+    "contact",
+    "event",
+    "lead",
+    "signature",
+    "task"
+  ],
+  "total_contextual_routes": 1258,
+  "acceptance_policy": "UNVERIFIED until route and action tests plus independent visual review and owner approval"
+}

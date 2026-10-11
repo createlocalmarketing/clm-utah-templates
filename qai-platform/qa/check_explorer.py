@@ -1,0 +1,32 @@
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+import time
+p=Path(__file__).resolve().parent.parent
+s=(p/'index.html').read_text()
+s=s.replace('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">','')
+s=s.replace('<link rel="stylesheet" href="styles.css">','<style>'+ __import__('re').sub(r'@import[^;]+;', '', (p/'styles.css').read_text())+'</style>')
+s=s.replace('<link rel="stylesheet" href="refinement.css?v=4">','<style>'+ __import__('re').sub(r'@import[^;]+;', '', (p/'refinement.css').read_text())+'</style>')
+s=s.replace('<script src="data.js"></script>','<script>'+(p/'data.js').read_text()+'</script>')
+s=s.replace('<script src="app.js"></script>','<script>'+(p/'app.js').read_text()+'</script>')
+s=s.replace('</head>', '<script>Object.defineProperty(window,"localStorage",{value:{getItem:()=>null,setItem:()=>{}},configurable:true});window.history.pushState=function(){};</script></head>')
+print('html size',len(s),flush=True)
+with sync_playwright() as pw:
+ b=pw.chromium.launch(headless=True,executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage','--disable-gpu'])
+ pg=b.new_page(viewport={'width':1440,'height':900})
+ pg.on('pageerror',lambda e:print('PAGEERR',e,flush=True))
+ print('page before set_content',flush=True)
+ pg.set_content(s,wait_until='domcontentloaded',timeout=9000)
+ print('page loaded, title',pg.title(),'nav',pg.locator('[data-action="nav"]').count(),flush=True)
+ pg.locator('[data-action="nav"][data-id="explorer"]').first.click(timeout=7000)
+ print('explorer opened',pg.locator('.xe-card').count(),pg.locator('.xe-tool').count(),flush=True)
+ pg.screenshot(path=str(p/'qa'/'explorer-desktop-20261010.png'),full_page=False,timeout=9000)
+ pg.evaluate('window.scrollTo(0,670)')
+ pg.screenshot(path=str(p/'qa'/'explorer-cards-20261010.png'),full_page=False,timeout=9000)
+ pg.locator('[data-action="explorer-filter"][data-id="realestate"]').click(timeout=7000)
+ print('filtered',pg.locator('.xe-card:visible').count(),flush=True)
+ pg.locator('[data-action="explorer-filter"][data-id="all"]').click(timeout=7000)
+ pg.locator('[data-action="explorer-expand"]').first.click(timeout=7000)
+ print('expanded',pg.locator('.xe-card').first.locator('.xe-tool').count(),flush=True)
+ pg.locator('.xe-card [data-action="navigate-to"][data-id="today"]').nth(1).click(timeout=7000)
+ print('navigation',pg.locator('.page-header h1').first.inner_text(),flush=True)
+ b.close()

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "route_combinations": 1258,
+  "passed_rendering": {
+    "desktop": 629,
+    "iphone": 629
+  },
+  "failed_rendering": 0,
+  "failures": [],
+  "unverified": [
+    "individual button action outcomes",
+    "individual visual screenshot review",
+    "font load/color contrast",
+    "photo asset request/sector fit",
+    "backend persistence",
+    "tenant isolation",
+    "human stakeholder approval"
+  ],
+  "note": "In-memory Chromium routing smoke only; no live GitHub Pages end-to-end assertion",
+  "duration_seconds": 7.2
+}

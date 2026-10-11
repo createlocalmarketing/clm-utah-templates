@@ -1,0 +1,3813 @@
+{
+  "version": "0.4",
+  "title": "Explore All 63 National Parks | National Parks Guide",
+  "status": "publish",
+  "site": "https://www.nationalparksguide.co/",
+  "source_post_id": 2532,
+  "type": "wp-page",
+  "conditions": "",
+  "page_settings": {
+    "template": "default",
+    "post_title": "Explore All 63 National Parks | National Parks Guide",
+    "post_status": "publish",
+    "post_featured_image": {
+      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Yosemite_Valley2C_View_from_Glacier_Point2C_Yosemite_National_Park.jpg",
+      "id": false,
+      "size": ""
+    },
+    "menu_order": 0,
+    "comment_status": "closed",
+    "hide_title": "",
+    "margin": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "padding": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "background_background": "",
+    "background_color": "",
+    "background_color_stop": {
+      "unit": "%",
+      "size": 0,
+      "sizes": []
+    },
+    "background_color_b": "#f2295b",
+    "background_color_b_stop": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_gradient_type": "linear",
+    "background_gradient_angle": {
+      "unit": "deg",
+      "size": 180,
+      "sizes": []
+    },
+    "background_gradient_position": "center center",
+    "background_image": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_position": "",
+    "background_xpos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_ypos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_attachment": "",
+    "background_repeat": "",
+    "background_size": "",
+    "background_bg_width": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_video_link": "",
+    "background_video_start": "",
+    "background_video_end": "",
+    "background_play_once": "",
+    "background_play_on_mobile": "",
+    "background_privacy_mode": "",
+    "background_video_fallback": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_slideshow_gallery": [],
+    "background_slideshow_loop": "yes",
+    "background_slideshow_slide_duration": 5000,
+    "background_slideshow_slide_transition": "fade",
+    "background_slideshow_transition_duration": 500,
+    "background_slideshow_background_size": "",
+    "background_slideshow_background_position": "",
+    "background_slideshow_lazyload": "",
+    "background_slideshow_ken_burns": "",
+    "background_slideshow_ken_burns_zoom_direction": "in",
+    "custom_css": "",
+    "scroll_snap": "",
+    "scroll_snap_position": "",
+    "scroll_snap_padding": {
+      "unit": "px",
+      "size": "",
+      "sizes": []
+    },
+    "force_stop": ""
+  },
+  "content": [
+    {
+      "id": "00000050",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0,
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "00000037",
+          "elType": "widget",
+          "widgetType": "nested-carousel",
+          "settings": {
+            "carousel_name": "All National Parks · Six Destinations",
+            "carousel_items": [
+              {
+                "_id": "00000578",
+                "slide_title": "Zion National Park"
+              },
+              {
+                "_id": "00000579",
+                "slide_title": "Yellowstone National Park"
+              },
+              {
+                "_id": "0000057a",
+                "slide_title": "Glacier National Park"
+              },
+              {
+                "_id": "0000057b",
+                "slide_title": "Yosemite National Park"
+              },
+              {
+                "_id": "0000057c",
+                "slide_title": "Grand Canyon National Park"
+              },
+              {
+                "_id": "0000057d",
+                "slide_title": "Great Smoky Mountains"
+              }
+            ],
+            "slides_to_show": "1",
+            "slides_to_scroll": "1",
+            "arrows": "yes",
+            "pagination": "bullets",
+            "infinite": "yes",
+            "autoplay": "no",
+            "speed": 550
+          },
+          "elements": [
+            {
+              "id": "00000009",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000002",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000001",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2487,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion_national_park.jpg",
+                          "source": "library",
+                          "alt": "Zion National Park sunlit canyon"
+                        },
+                        "image_size": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 100
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 510
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "00000008",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 42,
+                      "right": 40,
+                      "bottom": 42,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F1F4EB"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000003",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "63 NATIONAL PARKS · 01 / 06",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000004",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Discover America's National Parks",
+                        "header_size": "h1",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 53
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000005",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Utah's monumental sandstone canyon",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000006",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Canyon overlooks, river corridors, scenic trails, shuttles and the Springdale gateway.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000007",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore this park",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/zion/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000012",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000000b",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000000a",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2491,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Old_Faithful_Geyser_284894184627829-scaled.jpg",
+                          "source": "library",
+                          "alt": "Old Faithful geyser in Yellowstone National Park"
+                        },
+                        "image_size": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 100
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 510
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "00000011",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 42,
+                      "right": 40,
+                      "bottom": 42,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F1F4EB"
+                  },
+                  "elements": [
+                    {
+                      "id": "0000000c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "63 NATIONAL PARKS · 02 / 06",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000000d",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Yellowstone National Park",
+                        "header_size": "h2",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000000e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Geothermal wonder and wild valleys",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000000f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Old Faithful, hot springs, waterfalls, wildlife habitats and enormous travel distances.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000010",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore this park",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/yellowstone/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000001b",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000014",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000013",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2488,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Lake_McDonald_284477222795529.jpg",
+                          "source": "library",
+                          "alt": "Lake McDonald in Glacier National Park"
+                        },
+                        "image_size": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 100
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 510
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000001a",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 42,
+                      "right": 40,
+                      "bottom": 42,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F1F4EB"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000015",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "63 NATIONAL PARKS · 03 / 06",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000016",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Glacier National Park",
+                        "header_size": "h2",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000017",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "America's alpine mountain scenery",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000018",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Lake McDonald, St. Mary Lake and the seasonal Going-to-the-Sun Road.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000019",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore this park",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/glacier/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000024",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000001d",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000001c",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2492,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Yosemite_Valley2C_View_from_Glacier_Point2C_Yosemite_National_Park.jpg",
+                          "source": "library",
+                          "alt": "Yosemite Valley granite landscape"
+                        },
+                        "image_size": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 100
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 510
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "00000023",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 42,
+                      "right": 40,
+                      "bottom": 42,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F1F4EB"
+                  },
+                  "elements": [
+                    {
+                      "id": "0000001e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "63 NATIONAL PARKS · 04 / 06",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000001f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Yosemite National Park",
+                        "header_size": "h2",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000020",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Granite walls and waterfall country",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000021",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Yosemite Valley, Half Dome, waterfalls and high-country landscapes.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000022",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore this park",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/yosemite/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000002d",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000026",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000025",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2489,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Grand_Canyon_Panorama_-_2016.jpg",
+                          "source": "library",
+                          "alt": "Grand Canyon panorama in Arizona"
+                        },
+                        "image_size": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 100
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 510
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000002c",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 42,
+                      "right": 40,
+                      "bottom": 42,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F1F4EB"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000027",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "63 NATIONAL PARKS · 05 / 06",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000028",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Grand Canyon National Park",
+                        "header_size": "h2",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000029",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The Colorado Plateau laid bare",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000002a",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Rim viewpoints, seasonal shuttle routes and a profoundly immense canyon landscape.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000002b",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore this park",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/grand-canyon/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000036",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000002f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000002e",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2490,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Views_at_Great_Smoky_Mountains_National_Park2C_Tennessee_and_North_Carolina_289077fd30-5847-46a9-b967-728e87050d2c29.jpg",
+                          "source": "library",
+                          "alt": "Blue ridgelines of Great Smoky Mountains National Park"
+                        },
+                        "image_size": "full",
+                        "width": {
+                          "unit": "px",
+                          "size": 100
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 510
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "00000035",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 42,
+                      "right": 40,
+                      "bottom": 42,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F1F4EB"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000030",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "63 NATIONAL PARKS · 06 / 06",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000031",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Great Smoky Mountains",
+                        "header_size": "h2",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000032",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Forests, heritage and mountain horizons",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000033",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Kuwohi, Cades Cove, waterfall paths and Appalachian heritage.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000034",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore this park",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/great-smoky-mountains/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ]
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "00000086",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1380
+        },
+        "padding": {
+          "unit": "px",
+          "top": 55,
+          "right": 25,
+          "bottom": 55,
+          "left": 25,
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 25
+        },
+        "background_background": "classic",
+        "background_color": "#F4F6F1"
+      },
+      "elements": [
+        {
+          "id": "00000051",
+          "elType": "widget",
+          "settings": {
+            "title": "01 · ICONIC DESTINATIONS",
+            "header_size": "span",
+            "title_color": "#A47340",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000052",
+          "elType": "widget",
+          "settings": {
+            "title": "Start with extraordinary landscapes",
+            "header_size": "h2",
+            "title_color": "#244833",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 43
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000053",
+          "elType": "widget",
+          "settings": {
+            "editor": "Discover six fully accessible photographic park guides, with native Elementor carousels and official National Park Service travel guidance.",
+            "text_color": "#52705B",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        },
+        {
+          "id": "0000006c",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "0000005b",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000054",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2487,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion_national_park.jpg",
+                      "source": "library",
+                      "alt": "Zion National Park sunlit canyon"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 238
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000005a",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 23,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000055",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "FEATURED NATIONAL PARK",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000056",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Zion National Park",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000057",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Utah's monumental sandstone canyon",
+                        "header_size": "h4",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000058",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Canyon overlooks, river corridors, scenic trails, shuttles and the Springdale gateway.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000059",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "View full park guide",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/zion/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000063",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000005c",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2491,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Old_Faithful_Geyser_284894184627829-scaled.jpg",
+                      "source": "library",
+                      "alt": "Old Faithful geyser in Yellowstone National Park"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 238
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000062",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 23,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000005d",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "FEATURED NATIONAL PARK",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000005e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Yellowstone National Park",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000005f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Geothermal wonder and wild valleys",
+                        "header_size": "h4",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000060",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Old Faithful, hot springs, waterfalls, wildlife habitats and enormous travel distances.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000061",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "View full park guide",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/yellowstone/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000006b",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000064",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2488,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Lake_McDonald_284477222795529.jpg",
+                      "source": "library",
+                      "alt": "Lake McDonald in Glacier National Park"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 238
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000006a",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 23,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000065",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "FEATURED NATIONAL PARK",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000066",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Glacier National Park",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000067",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "America's alpine mountain scenery",
+                        "header_size": "h4",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000068",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Lake McDonald, St. Mary Lake and the seasonal Going-to-the-Sun Road.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000069",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "View full park guide",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/glacier/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "00000085",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "00000074",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000006d",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2492,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Yosemite_Valley2C_View_from_Glacier_Point2C_Yosemite_National_Park.jpg",
+                      "source": "library",
+                      "alt": "Yosemite Valley granite landscape"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 238
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000073",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 23,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000006e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "FEATURED NATIONAL PARK",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000006f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Yosemite National Park",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000070",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Granite walls and waterfall country",
+                        "header_size": "h4",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000071",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Yosemite Valley, Half Dome, waterfalls and high-country landscapes.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000072",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "View full park guide",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/yosemite/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000007c",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000075",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2489,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Grand_Canyon_Panorama_-_2016.jpg",
+                      "source": "library",
+                      "alt": "Grand Canyon panorama in Arizona"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 238
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000007b",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 23,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000076",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "FEATURED NATIONAL PARK",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000077",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Grand Canyon National Park",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000078",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The Colorado Plateau laid bare",
+                        "header_size": "h4",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000079",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Rim viewpoints, seasonal shuttle routes and a profoundly immense canyon landscape.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000007a",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "View full park guide",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/grand-canyon/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000084",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000007d",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2490,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Views_at_Great_Smoky_Mountains_National_Park2C_Tennessee_and_North_Carolina_289077fd30-5847-46a9-b967-728e87050d2c29.jpg",
+                      "source": "library",
+                      "alt": "Blue ridgelines of Great Smoky Mountains National Park"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 238
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000083",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 18,
+                      "bottom": 23,
+                      "left": 18,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000007e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "FEATURED NATIONAL PARK",
+                        "header_size": "span",
+                        "title_color": "#A47340",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000007f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Great Smoky Mountains",
+                        "header_size": "h3",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000080",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Forests, heritage and mountain horizons",
+                        "header_size": "h4",
+                        "title_color": "#244833",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 17
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000081",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Kuwohi, Cades Cove, waterfall paths and Appalachian heritage.",
+                        "text_color": "#52705B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000082",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "View full park guide",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/great-smoky-mountains/"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173525"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0000008c",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1380
+        },
+        "padding": {
+          "unit": "px",
+          "top": 55,
+          "right": 25,
+          "bottom": 55,
+          "left": 25,
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 25
+        }
+      },
+      "elements": [
+        {
+          "id": "00000087",
+          "elType": "widget",
+          "settings": {
+            "title": "02 · ALL 63",
+            "header_size": "span",
+            "title_color": "#A47340",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000088",
+          "elType": "widget",
+          "settings": {
+            "title": "Explore every National Park",
+            "header_size": "h2",
+            "title_color": "#244833",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 43
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000089",
+          "elType": "widget",
+          "settings": {
+            "editor": "Browse all 63 National Park Service national parks alphabetically. The six completed illustrated park guides open here on National Parks Guide; other destinations connect directly to their official NPS sources while the full local editorial coverage is prepared.",
+            "text_color": "#52705B",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        },
+        {
+          "id": "0000008a",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "0000003b",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 22,
+                  "right": 24,
+                  "bottom": 22,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 13
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000038",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "PARK DIRECTORY · 01",
+                    "header_size": "span",
+                    "title_color": "#A47340",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000039",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Explore Acadia – Channel",
+                    "header_size": "h3",
+                    "title_color": "#244833",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "0000003a",
+                  "elType": "widget",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "00001388",
+                        "text": "Acadia National Park · Maine",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/acad/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001389",
+                        "text": "Arches National Park · Utah",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/arch/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000138a",
+                        "text": "Badlands National Park · South Dakota",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/badl/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000138b",
+                        "text": "Big Bend National Park · Texas",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/bibe/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000138c",
+                        "text": "Biscayne National Park · Florida",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/bisc/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000138d",
+                        "text": "Black Canyon of the Gunnison National Park · Colorado",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/blca/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000138e",
+                        "text": "Bryce Canyon National Park · Utah",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/brca/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000138f",
+                        "text": "Canyonlands National Park · Utah",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/cany/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001390",
+                        "text": "Capitol Reef National Park · Utah",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/care/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001391",
+                        "text": "Carlsbad Caverns National Park · New Mexico",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/cave/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001392",
+                        "text": "Channel Islands National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/chis/index.htm",
+                          "is_external": "on"
+                        }
+                      }
+                    ],
+                    "view": "traditional",
+                    "link_click": "full_width",
+                    "icon_color": "#A97745",
+                    "text_color": "#29503A",
+                    "icon_typography_typography": "custom",
+                    "icon_typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "icon-list"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000003f",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 22,
+                  "right": 24,
+                  "bottom": 22,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 13
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000003c",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "PARK DIRECTORY · 02",
+                    "header_size": "span",
+                    "title_color": "#A47340",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "0000003d",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Explore Congaree – Glacier",
+                    "header_size": "h3",
+                    "title_color": "#244833",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "0000003e",
+                  "elType": "widget",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "000013ec",
+                        "text": "Congaree National Park · South Carolina",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/cong/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013ed",
+                        "text": "Crater Lake National Park · Oregon",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/crla/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013ee",
+                        "text": "Cuyahoga Valley National Park · Ohio",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/cuva/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013ef",
+                        "text": "Death Valley National Park · California and Nevada",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/deva/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013f0",
+                        "text": "Denali National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/dena/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013f1",
+                        "text": "Dry Tortugas National Park · Florida",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/drto/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013f2",
+                        "text": "Everglades National Park · Florida",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/ever/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013f3",
+                        "text": "Gates of the Arctic National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/gaar/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013f4",
+                        "text": "Gateway Arch National Park · Missouri and Illinois",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/jeff/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013f5",
+                        "text": "Glacier Bay National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/glba/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000013f6",
+                        "text": "Glacier National Park · Montana",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/glacier/",
+                          "is_external": ""
+                        }
+                      }
+                    ],
+                    "view": "traditional",
+                    "link_click": "full_width",
+                    "icon_color": "#A97745",
+                    "text_color": "#29503A",
+                    "icon_typography_typography": "custom",
+                    "icon_typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "icon-list"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000043",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 22,
+                  "right": 24,
+                  "bottom": 22,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 13
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000040",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "PARK DIRECTORY · 03",
+                    "header_size": "span",
+                    "title_color": "#A47340",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000041",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Explore Grand – Isle",
+                    "header_size": "h3",
+                    "title_color": "#244833",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000042",
+                  "elType": "widget",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "00001450",
+                        "text": "Grand Canyon National Park · Arizona",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/grand-canyon/",
+                          "is_external": ""
+                        }
+                      },
+                      {
+                        "_id": "00001451",
+                        "text": "Grand Teton National Park · Wyoming",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/grte/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001452",
+                        "text": "Great Basin National Park · Nevada",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/grba/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001453",
+                        "text": "Great Sand Dunes National Park · Colorado",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/grsa/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001454",
+                        "text": "Great Smoky Mountains National Park · Tennessee · North Carolina",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/great-smoky-mountains/",
+                          "is_external": ""
+                        }
+                      },
+                      {
+                        "_id": "00001455",
+                        "text": "Guadalupe Mountains National Park · Texas",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/gumo/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001456",
+                        "text": "Haleakalā National Park · Hawaii",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/hale/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001457",
+                        "text": "Hawaiʻi Volcanoes National Park · Hawaii",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/havo/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001458",
+                        "text": "Hot Springs National Park · Arkansas",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/hosp/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001459",
+                        "text": "Indiana Dunes National Park · Indiana",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/indu/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000145a",
+                        "text": "Isle Royale National Park · Michigan",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/isro/index.htm",
+                          "is_external": "on"
+                        }
+                      }
+                    ],
+                    "view": "traditional",
+                    "link_click": "full_width",
+                    "icon_color": "#A97745",
+                    "text_color": "#29503A",
+                    "icon_typography_typography": "custom",
+                    "icon_typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "icon-list"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "0000008b",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "00000047",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 22,
+                  "right": 24,
+                  "bottom": 22,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 13
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000044",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "PARK DIRECTORY · 04",
+                    "header_size": "span",
+                    "title_color": "#A47340",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000045",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Explore Joshua – National",
+                    "header_size": "h3",
+                    "title_color": "#244833",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000046",
+                  "elType": "widget",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "000014b4",
+                        "text": "Joshua Tree National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/jotr/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014b5",
+                        "text": "Katmai National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/katm/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014b6",
+                        "text": "Kenai Fjords National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/kefj/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014b7",
+                        "text": "Kings Canyon National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/seki/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014b8",
+                        "text": "Kobuk Valley National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/kova/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014b9",
+                        "text": "Lake Clark National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/lacl/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014ba",
+                        "text": "Lassen Volcanic National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/lavo/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014bb",
+                        "text": "Mammoth Cave National Park · Kentucky",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/maca/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014bc",
+                        "text": "Mesa Verde National Park · Colorado",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/meve/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014bd",
+                        "text": "Mount Rainier National Park · Washington",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/mora/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "000014be",
+                        "text": "National Park of American Samoa · American Samoa",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/npsa/index.htm",
+                          "is_external": "on"
+                        }
+                      }
+                    ],
+                    "view": "traditional",
+                    "link_click": "full_width",
+                    "icon_color": "#A97745",
+                    "text_color": "#29503A",
+                    "icon_typography_typography": "custom",
+                    "icon_typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "icon-list"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000004b",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 22,
+                  "right": 24,
+                  "bottom": 22,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 13
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000048",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "PARK DIRECTORY · 05",
+                    "header_size": "span",
+                    "title_color": "#A47340",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000049",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Explore New – Theodore",
+                    "header_size": "h3",
+                    "title_color": "#244833",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "0000004a",
+                  "elType": "widget",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "00001518",
+                        "text": "New River Gorge National Park and Preserve · West Virginia",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/neri/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001519",
+                        "text": "North Cascades National Park · Washington",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/noca/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000151a",
+                        "text": "Olympic National Park · Washington",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/olym/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000151b",
+                        "text": "Petrified Forest National Park · Arizona",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/pefo/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000151c",
+                        "text": "Pinnacles National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/pinn/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000151d",
+                        "text": "Redwood National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/redw/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000151e",
+                        "text": "Rocky Mountain National Park · Colorado",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/romo/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000151f",
+                        "text": "Saguaro National Park · Arizona",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/sagu/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001520",
+                        "text": "Sequoia National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/seki/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001521",
+                        "text": "Shenandoah National Park · Virginia",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/shen/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001522",
+                        "text": "Theodore Roosevelt National Park · North Dakota",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/thro/index.htm",
+                          "is_external": "on"
+                        }
+                      }
+                    ],
+                    "view": "traditional",
+                    "link_click": "full_width",
+                    "icon_color": "#A97745",
+                    "text_color": "#29503A",
+                    "icon_typography_typography": "custom",
+                    "icon_typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "icon-list"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000004f",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 22,
+                  "right": 24,
+                  "bottom": 22,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 13
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000004c",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "PARK DIRECTORY · 06",
+                    "header_size": "span",
+                    "title_color": "#A47340",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "0000004d",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Explore Virgin – Zion",
+                    "header_size": "h3",
+                    "title_color": "#244833",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "0000004e",
+                  "elType": "widget",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "0000157c",
+                        "text": "Virgin Islands National Park · U.S. Virgin Islands",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/viis/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000157d",
+                        "text": "Voyageurs National Park · Minnesota",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/voya/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000157e",
+                        "text": "White Sands National Park · New Mexico",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/whsa/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "0000157f",
+                        "text": "Wind Cave National Park · South Dakota",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/wica/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001580",
+                        "text": "Wrangell-St. Elias National Park · Alaska",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nps.gov/wrst/index.htm",
+                          "is_external": "on"
+                        }
+                      },
+                      {
+                        "_id": "00001581",
+                        "text": "Yellowstone National Park · Wyoming · Montana · Idaho",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/yellowstone/",
+                          "is_external": ""
+                        }
+                      },
+                      {
+                        "_id": "00001582",
+                        "text": "Yosemite National Park · California",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/yosemite/",
+                          "is_external": ""
+                        }
+                      },
+                      {
+                        "_id": "00001583",
+                        "text": "Zion National Park · Utah",
+                        "selected_icon": {
+                          "value": "fas fa-arrow-right",
+                          "library": "fa-solid"
+                        },
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/zion/",
+                          "is_external": ""
+                        }
+                      }
+                    ],
+                    "view": "traditional",
+                    "link_click": "full_width",
+                    "icon_color": "#A97745",
+                    "text_color": "#29503A",
+                    "icon_typography_typography": "custom",
+                    "icon_typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "space_between": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "icon-list"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "00000091",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1380
+        },
+        "padding": {
+          "unit": "px",
+          "top": 55,
+          "right": 25,
+          "bottom": 55,
+          "left": 25,
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 18
+        },
+        "background_background": "classic",
+        "background_color": "#E8EFE8"
+      },
+      "elements": [
+        {
+          "id": "0000008d",
+          "elType": "widget",
+          "settings": {
+            "title": "03 · PLAN THOUGHTFULLY",
+            "header_size": "span",
+            "title_color": "#A47340",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "0000008e",
+          "elType": "widget",
+          "settings": {
+            "title": "Find a park. Follow a story. Protect the place.",
+            "header_size": "h2",
+            "title_color": "#244833",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 39
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "0000008f",
+          "elType": "widget",
+          "settings": {
+            "editor": "Park conditions, booking requirements, entrances, ranger programs and safety advice change. Use official National Park Service resources alongside the destination guides for your final planning decisions.",
+            "text_color": "#52705B",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        },
+        {
+          "id": "00000090",
+          "elType": "widget",
+          "settings": {
+            "text": "Back to the National Parks Guide homepage",
+            "link": {
+              "url": "https://www.nationalparksguide.co/"
+            },
+            "button_background_color": "#B89A62",
+            "button_text_color": "#173525"
+          },
+          "elements": [],
+          "widgetType": "button"
+        }
+      ],
+      "isInner": true
+    }
+  ]
+}

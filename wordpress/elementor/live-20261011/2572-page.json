@@ -1,0 +1,3013 @@
+{
+  "version": "0.4",
+  "title": "Explore Zion | Trails, Hotels, Restaurants, Camping, Tours &#038; Local Businesses",
+  "status": "publish",
+  "site": "https://www.nationalparksguide.co/",
+  "source_post_id": 2572,
+  "type": "wp-page",
+  "conditions": "",
+  "page_settings": {
+    "template": "default",
+    "post_title": "Explore Zion | Trails, Hotels, Restaurants, Camping, Tours & Local Businesses",
+    "post_status": "publish",
+    "post_featured_image": {
+      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion_national_park.jpg",
+      "id": false,
+      "size": ""
+    },
+    "menu_order": 0,
+    "comment_status": "closed",
+    "hide_title": "",
+    "margin": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "padding": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "background_background": "",
+    "background_color": "",
+    "background_color_stop": {
+      "unit": "%",
+      "size": 0,
+      "sizes": []
+    },
+    "background_color_b": "#f2295b",
+    "background_color_b_stop": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_gradient_type": "linear",
+    "background_gradient_angle": {
+      "unit": "deg",
+      "size": 180,
+      "sizes": []
+    },
+    "background_gradient_position": "center center",
+    "background_image": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_position": "",
+    "background_xpos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_ypos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_attachment": "",
+    "background_repeat": "",
+    "background_size": "",
+    "background_bg_width": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_video_link": "",
+    "background_video_start": "",
+    "background_video_end": "",
+    "background_play_once": "",
+    "background_play_on_mobile": "",
+    "background_privacy_mode": "",
+    "background_video_fallback": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_slideshow_gallery": [],
+    "background_slideshow_loop": "yes",
+    "background_slideshow_slide_duration": 5000,
+    "background_slideshow_slide_transition": "fade",
+    "background_slideshow_transition_duration": 500,
+    "background_slideshow_background_size": "",
+    "background_slideshow_background_position": "",
+    "background_slideshow_lazyload": "",
+    "background_slideshow_ken_burns": "",
+    "background_slideshow_ken_burns_zoom_direction": "in",
+    "custom_css": "",
+    "scroll_snap": "",
+    "scroll_snap_position": "",
+    "scroll_snap_padding": {
+      "unit": "px",
+      "size": "",
+      "sizes": []
+    },
+    "force_stop": ""
+  },
+  "content": [
+    {
+      "id": "00000089",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "full"
+      },
+      "elements": [
+        {
+          "id": "00000038",
+          "elType": "widget",
+          "widgetType": "nested-carousel",
+          "settings": {
+            "carousel_name": "Zion Adventures · 5 Story Carousel",
+            "carousel_items": [
+              {
+                "_id": "00000bb8",
+                "slide_title": "Hikes, trails & unforgettable routes"
+              },
+              {
+                "_id": "00000bb9",
+                "slide_title": "Must-see photo spots & scenic viewpoints"
+              },
+              {
+                "_id": "00000bba",
+                "slide_title": "Hotels, inns & lodges"
+              },
+              {
+                "_id": "00000bbb",
+                "slide_title": "Campgrounds, cabins & RV parks"
+              },
+              {
+                "_id": "00000bbc",
+                "slide_title": "Restaurants, cafés & coffee"
+              }
+            ],
+            "slides_to_show": "1",
+            "slides_to_scroll": "1",
+            "arrows": "yes",
+            "pagination": "bullets",
+            "autoplay": "no",
+            "infinite": "yes",
+            "speed": 530
+          },
+          "elements": [
+            {
+              "id": "0000000b",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000002",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000001",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2552,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Hiking20the20Narrows20in20Zion20National20Park.jpg",
+                          "alt": "Hikers travelling through the river in Zion Narrows — Zion National Park, attribution and reuse verification pending",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 530
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000000a",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 43,
+                      "right": 40,
+                      "bottom": 43,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F0F4EA"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000003",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ZION DISCOVERY · 01 / 05",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000004",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "What Kind of Adventure Is Calling?",
+                        "header_size": "h1",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 55
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000005",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "DO IN ZION",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000006",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Actual named Zion trails, practical decision points and direct official information.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000009",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "flex_direction_mobile": "column",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 20
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "00000007",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Explore all Zion hikes",
+                            "link": {
+                              "url": "https://www.nationalparksguide.co/zion-experiences/trails/",
+                              "is_external": ""
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        },
+                        {
+                          "id": "00000008",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Zion visitor planning",
+                            "link": {
+                              "url": "https://www.nps.gov/zion/planyourvisit/index.htm",
+                              "is_external": "on"
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000016",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000000d",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000000c",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2496,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion_National_Park_Canyon_Overlook_Trail_View.jpg",
+                          "alt": "Canyon Overlook scenery in Zion National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 530
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "00000015",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 43,
+                      "right": 40,
+                      "bottom": 43,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F0F4EA"
+                  },
+                  "elements": [
+                    {
+                      "id": "0000000e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ZION DISCOVERY · 02 / 05",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000000f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Must-see photo spots & scenic viewpoints",
+                        "header_size": "h2",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000010",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "SEE IN ZION",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000011",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Canyon overlooks, riverside views and roadside stops with a real location—not a generic landscape gallery.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000014",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "flex_direction_mobile": "column",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 20
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "00000012",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Explore photo locations",
+                            "link": {
+                              "url": "https://www.nationalparksguide.co/zion-experiences/photo-spots/",
+                              "is_external": ""
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        },
+                        {
+                          "id": "00000013",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Zion visitor planning",
+                            "link": {
+                              "url": "https://www.nps.gov/zion/planyourvisit/index.htm",
+                              "is_external": "on"
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000021",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000018",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000017",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2560,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion20National20Park2C20Springdale.jpg",
+                          "alt": "The Watchman and Springdale Zion gateway area — Zion National Park, attribution and reuse verification pending",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 530
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "00000020",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 43,
+                      "right": 40,
+                      "bottom": 43,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F0F4EA"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000019",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ZION DISCOVERY · 03 / 05",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000001a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Hotels, inns & lodges",
+                        "header_size": "h2",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000001b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "STAY NEAR ZION",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000001c",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Named places to stay in the park and Springdale, organized around park access and visitor needs.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000001f",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "flex_direction_mobile": "column",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 20
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "0000001d",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "See hotel guide",
+                            "link": {
+                              "url": "https://www.nationalparksguide.co/zion-experiences/hotels/",
+                              "is_external": ""
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        },
+                        {
+                          "id": "0000001e",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Zion visitor planning",
+                            "link": {
+                              "url": "https://www.nps.gov/zion/planyourvisit/index.htm",
+                              "is_external": "on"
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000002c",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000023",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000022",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2498,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Watchman_Campground_Site_B_92C_Hurricane2C_United_States_28Unsplash_zsfKWNKbGn829.jpg",
+                          "alt": "Photograph of an actual Watchman Campground campsite in Zion National Park",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 530
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0000002b",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 43,
+                      "right": 40,
+                      "bottom": 43,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F0F4EA"
+                  },
+                  "elements": [
+                    {
+                      "id": "00000024",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ZION DISCOVERY · 04 / 05",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000025",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Campgrounds, cabins & RV parks",
+                        "header_size": "h2",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000026",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "CAMP NEAR ZION",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000027",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "In-park campgrounds and gateway RV locations; always recheck seasonal operations and availability.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000002a",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "flex_direction_mobile": "column",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 20
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "00000028",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Explore camping",
+                            "link": {
+                              "url": "https://www.nationalparksguide.co/zion-experiences/camping/",
+                              "is_external": ""
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        },
+                        {
+                          "id": "00000029",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Zion visitor planning",
+                            "link": {
+                              "url": "https://www.nps.gov/zion/planyourvisit/index.htm",
+                              "is_external": "on"
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000037",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "row",
+                "content_width": "full",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000002e",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000002d",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2549,
+                          "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Watchman20and20Virgin20River.jpg",
+                          "alt": "The Watchman summit rising behind the Virgin River — Zion National Park, attribution and reuse verification pending",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 530
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "00000036",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "width": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "width_mobile": {
+                      "unit": "px",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": 43,
+                      "right": 40,
+                      "bottom": 43,
+                      "left": 40,
+                      "isLinked": false
+                    },
+                    "flex_justify_content": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "background_background": "classic",
+                    "background_color": "#F0F4EA"
+                  },
+                  "elements": [
+                    {
+                      "id": "0000002f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ZION DISCOVERY · 05 / 05",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000030",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Restaurants, cafés & coffee",
+                        "header_size": "h2",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 46
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000031",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "EAT NEAR ZION",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 20
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000032",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Actual Springdale dining establishments rather than a single category tile.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000035",
+                      "elType": "container",
+                      "settings": {
+                        "container_type": "flex",
+                        "flex_direction": "row",
+                        "content_width": "full",
+                        "flex_direction_mobile": "column",
+                        "flex_wrap": "wrap",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 20
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "00000033",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "See dining guide",
+                            "link": {
+                              "url": "https://www.nationalparksguide.co/zion-experiences/dining/",
+                              "is_external": ""
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        },
+                        {
+                          "id": "00000034",
+                          "elType": "widget",
+                          "settings": {
+                            "text": "Zion visitor planning",
+                            "link": {
+                              "url": "https://www.nps.gov/zion/planyourvisit/index.htm",
+                              "is_external": "on"
+                            },
+                            "button_background_color": "#B89A62",
+                            "button_text_color": "#173729"
+                          },
+                          "elements": [],
+                          "widgetType": "button"
+                        }
+                      ],
+                      "isInner": true
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ]
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "00000091",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1390
+        },
+        "padding": {
+          "unit": "px",
+          "top": 55,
+          "right": 25,
+          "bottom": 55,
+          "left": 25,
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24
+        }
+      },
+      "elements": [
+        {
+          "id": "0000008a",
+          "elType": "widget",
+          "settings": {
+            "title": "01 · ZION'S COMPLETE DISCOVERY HUB",
+            "header_size": "span",
+            "title_color": "#A37140",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "0000008b",
+          "elType": "widget",
+          "settings": {
+            "title": "Hikes. Hotels. Food. Tours. Local experiences.",
+            "header_size": "h2",
+            "title_color": "#224834",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "0000008c",
+          "elType": "widget",
+          "settings": {
+            "editor": "The Zion guide connects things to do inside the park with named gateway services in Springdale and neighboring communities. Every category opens to its own photograph-led page with named entries, source links and visitor details.",
+            "text_color": "#536B5A",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        },
+        {
+          "id": "0000008d",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "00000040",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000039",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2552,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Hiking20the20Narrows20in20Zion20National20Park.jpg",
+                      "alt": "Hikers travelling through the river in Zion Narrows — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000003f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000003a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "01 · DO IN ZION",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000003b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Hikes, trails & unforgettable routes",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000003c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "6 named locations",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000003d",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Actual named Zion trails, practical decision points and direct official information.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000003e",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Hikes, trails & unforgettable routes",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/trails/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000048",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000041",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2496,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion_National_Park_Canyon_Overlook_Trail_View.jpg",
+                      "alt": "Canyon Overlook scenery in Zion National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000047",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000042",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "02 · SEE IN ZION",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000043",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Must-see photo spots & scenic viewpoints",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000044",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "6 named locations",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000045",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Canyon overlooks, riverside views and roadside stops with a real location—not a generic landscape gallery.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000046",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Must-see photo spots & scenic viewpoints",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/photo-spots/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000050",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000049",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2560,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion20National20Park2C20Springdale.jpg",
+                      "alt": "The Watchman and Springdale Zion gateway area — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000004f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000004a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "03 · STAY NEAR ZION",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000004b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Hotels, inns & lodges",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000004c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "8 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000004d",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Named places to stay in the park and Springdale, organized around park access and visitor needs.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000004e",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Hotels, inns & lodges",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/hotels/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "0000008e",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "00000058",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000051",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2498,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Watchman_Campground_Site_B_92C_Hurricane2C_United_States_28Unsplash_zsfKWNKbGn829.jpg",
+                      "alt": "Photograph of an actual Watchman Campground campsite in Zion National Park",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000057",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000052",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "04 · CAMP NEAR ZION",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000053",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Campgrounds, cabins & RV parks",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000054",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "5 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000055",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "In-park campgrounds and gateway RV locations; always recheck seasonal operations and availability.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000056",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Campgrounds, cabins & RV parks",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/camping/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000060",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000059",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2549,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Watchman20and20Virgin20River.jpg",
+                      "alt": "The Watchman summit rising behind the Virgin River — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000005f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000005a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "05 · EAT NEAR ZION",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000005b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Restaurants, cafés & coffee",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000005c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "10 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000005d",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Actual Springdale dining establishments rather than a single category tile.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000005e",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Restaurants, cafés & coffee",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/dining/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000068",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000061",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2547,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Angels20Landing2C20United20States20Unsplash20-SID3IDjfJ4.jpg",
+                      "alt": "Angels Landing above Zion Canyon — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000067",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000062",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "06 · EXPERIENCE THE REGION",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000063",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Guided adventures, tours & packages",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000064",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "6 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000065",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Named regional operators. Confirm commercial-use permits and whether tours run inside or outside the park.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000066",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Guided adventures, tours & packages",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/tours/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "0000008f",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "00000070",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000069",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2550,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/PaRus20trail2C20Zion20National20Park.jpg",
+                      "alt": "Landscape along Pa'rus Trail in Zion National Park — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000006f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000006a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "07 · GEAR UP",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000006b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Bikes, e-bikes & outdoor equipment rentals",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000006c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "5 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000006d",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Springdale rental and outfitting providers with real local storefronts and visitor services.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000006e",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Bikes, e-bikes & outdoor equipment rentals",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/rentals/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000078",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000071",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2556,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Zion20Canyon20Visitor20Center2C20Zion20Canyon2C20Zion20National20Park2C20Utah201026168166.jpg",
+                      "alt": "Zion Canyon Visitor Center and transport stop — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000077",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000072",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "08 · VISITOR SERVICES",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000073",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Groceries, supplies & local shops",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000074",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "6 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000075",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Shopping stops for food, outdoor essentials, maps, park learning and supplies.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000076",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Groceries, supplies & local shops",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/essentials/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000080",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000079",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2548,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Court20of20the20Patriarchs2C20Zion20National20Park.jpg",
+                      "alt": "The Court of the Patriarchs peaks inside Zion National Park — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000007f",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000007a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "09 · MEET THE COMMUNITY",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000007b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Galleries, photographers & local makers",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000007c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "6 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000007d",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "The galleries and creative businesses that give Springdale its local character.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000007e",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Galleries, photographers & local makers",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/galleries/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "00000090",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "00000088",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000081",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2555,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Shuttle20bus20stop20at20Zion20Canyon20National20Park.jpg",
+                      "alt": "Zion Canyon shuttle stop in Zion National Park — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 240
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000087",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 12,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000082",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "10 · GET AROUND",
+                        "header_size": "span",
+                        "title_color": "#A37140",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000083",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Shuttles, bikes & visitor transportation",
+                        "header_size": "h3",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 26
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000084",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "4 named local options",
+                        "header_size": "h4",
+                        "title_color": "#224834",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000085",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Town and park shuttle systems plus local bike-travel options; confirm service windows.",
+                        "text_color": "#536B5A",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000086",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore Shuttles, bikes & visitor transportation",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/transport/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173729"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "00000098",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1390
+        },
+        "padding": {
+          "unit": "px",
+          "top": 54,
+          "right": 25,
+          "bottom": 54,
+          "left": 25,
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#EAF1E9",
+        "flex_gap": {
+          "unit": "px",
+          "size": 18
+        }
+      },
+      "elements": [
+        {
+          "id": "00000092",
+          "elType": "widget",
+          "settings": {
+            "title": "02 · PLAN SAFELY",
+            "header_size": "span",
+            "title_color": "#A37140",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000093",
+          "elType": "widget",
+          "settings": {
+            "title": "Your choices depend on the day, the route and the park conditions",
+            "header_size": "h2",
+            "title_color": "#224834",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000094",
+          "elType": "widget",
+          "settings": {
+            "editor": "The directory currently identifies real names from park and local visitor sources, but commercial operator status, business photography and exact 25-mile entrance-based coverage remain under verification. Check the original provider sources before relying on availability.",
+            "text_color": "#536B5A",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        },
+        {
+          "id": "00000097",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            }
+          },
+          "elements": [
+            {
+              "id": "00000095",
+              "elType": "widget",
+              "settings": {
+                "text": "Official Zion current conditions",
+                "link": {
+                  "url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
+                  "is_external": "on"
+                },
+                "button_background_color": "#B89A62",
+                "button_text_color": "#173729"
+              },
+              "elements": [],
+              "widgetType": "button"
+            },
+            {
+              "id": "00000096",
+              "elType": "widget",
+              "settings": {
+                "text": "Zion National Park visitor hub",
+                "link": {
+                  "url": "https://www.nationalparksguide.co/national-parks/zion/",
+                  "is_external": ""
+                },
+                "button_background_color": "#B89A62",
+                "button_text_color": "#173729"
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ]
+}

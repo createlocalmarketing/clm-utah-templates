@@ -20,6 +20,7 @@ D.businessTaxonomy=[
 D.newsTaxonomy=[['park-alerts','Park Alerts'],['conservation','Conservation'],['park-events','Park Events'],['ranger-programs','Ranger Programs'],['history-heritage','History & Heritage'],['gateway-community','Gateway Community News'],['visitor-travel','Visitor Travel Updates'],['visitor-stories','Visitor Stories']].map(([slug,label])=>({slug,label}));
 D.eventTaxonomy=[['upcoming','Upcoming Events'],['happening-now','Happening Now'],['seasonal','Seasonal Events'],['annual','Annual Events']].map(([slug,label])=>({slug,label}));
 D.productTaxonomy=[...new Set(D.products.map(p=>p.category))].map(slug=>({slug,label:slug.replace(/-/g,' ').replace(/\\b\\w/g,c=>c.toUpperCase())}));
+const glacierRecord=D.parks.find(p=>p.slug==='glacier'); if(glacierRecord){glacierRecord.image='https://commons.wikimedia.org/wiki/Special:FilePath/Lake_McDonald_%2844772227955%29.jpg?width=1600';glacierRecord.imageStatus='NPS public-domain source identified; image binary and live display still require verification';glacierRecord.imageCredit='GlacierNPS / public-domain-source: https://commons.wikimedia.org/wiki/File:Lake_McDonald_(44772227955).jpg';}
 D.featuredSlugs=featured;
 D.featuredParks=featured.map(slug=>D.parks.find(p=>p.slug===slug));
 D.allParkCount=D.parks.length;

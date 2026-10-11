@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "National Parks Guide",
+    "slug": "national-parks-guide",
+    "scheme": "npg",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "co.nationalparksguide.mobile",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "With your permission, National Parks Guide can privately check a location during a visitor challenge. We do not continuously track you or store raw GPS coordinates."
+      }
+    },
+    "android": {
+      "package": "co.nationalparksguide.mobile",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow National Parks Guide to check your location only while you voluntarily complete a park challenge. No background tracking."
+        }
+      ]
+    ],
+    "extra": {
+      "environment": "prelaunch",
+      "apiBaseUrl": null
+    },
+    "description": "Independent National Parks Guide iOS/Android app, with visitor discovery, responsible travel and opt-in GPS. Not affiliated with NPS."
+  }
+}

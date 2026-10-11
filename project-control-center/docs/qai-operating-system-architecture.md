@@ -152,3 +152,13 @@ The release is not accepted until iOS, Android, desktop browser and tablet viewp
 - Open Q call workflow, accurate provider-reported metrics and task disposition, when this module is implemented.
 
 A static responsive webpage, mock mobile screenshots, or untested WebView wrapper does **not** meet this definition of done.
+
+
+## Additive research and opportunity intake (2026-10-11)
+
+- [Master source-derived intake and 72 candidate requirements](../context-intake/2026-10-11/ADDITIVE_MASTER_INTAKE.md)
+- [Candidate backlog (CSV)](../context-intake/2026-10-11/CANDIDATE_REQUIREMENTS.csv)
+- [Verification and conflict register](../context-intake/2026-10-11/CONFLICT_REGISTER.md)
+- [Source metadata/hash register](../context-intake/2026-10-11/SOURCE_REGISTER.json)
+
+This is additive to the established QAI architecture. Its proposed requirements are **unapproved**; one umbrella Kanban review card (`qai-intake-20261011`) tracks de-duplication, ownership, access and prioritization before promotion to executable tasks. Source uploads contain sensitive/licensed data, so only sanitized records are stored publicly. The iQ Habits product and external specialist-agent workflow are candidate capabilities, not verified deployments.

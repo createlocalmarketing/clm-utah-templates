@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-11",
   "policy": {
     "stages": [
       "pending",
@@ -933,6 +933,22 @@
       "verification": "not_started",
       "updated_at": "2026-10-10",
       "notes": "Recommend safe relevant opportunities and economic experiments; cap suggestion volume; prevent unapproved deployment. See project-control-center/docs/qai-product-mission-owned-platform-and-industry-architecture.md. Requirements only; no working feature is claimed."
+    },
+    {
+      "id": "qai-intake-20261011",
+      "project_id": "saas-quality-crm",
+      "section": "P1",
+      "title": "Review 2026-10-11 multi-source QAI intake (72 candidate requirements)",
+      "status": "pending",
+      "owner": "Unassigned — confirm with project stakeholders",
+      "co_managers": [],
+      "review_status": "needs_collaborative_review",
+      "tag_status": "pending_verification",
+      "waiting_on": "Scope/duplicate review against existing QAI tasks; confirm project destinations and authorized owners",
+      "priority": "p1",
+      "verification": "not_started",
+      "updated_at": "2026-10-11",
+      "notes": "13 source uploads analyzed; 72 proposed, unapproved candidate requirements; 12 verification conflicts. Source and candidate register: project-control-center/context-intake/2026-10-11/ADDITIVE_MASTER_INTAKE.md. Link each approved candidate to the correct project/owner only after tag and duplication checks. No source credentials or sensitive documents uploaded."
     }
   ]
 }

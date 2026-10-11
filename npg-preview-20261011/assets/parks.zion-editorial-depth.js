@@ -4,9 +4,9 @@
  if(!U||!A||!D||!B)throw Error("Deep Zion module requires core, page renderer and research briefs");
  const esc=U.esc,layout=U.layout;
  const visuals={
- "zion-angels-landing":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Angelslanding.jpg?width=1600",alt:"Angels Landing cliff trail at Zion National Park",source:"https://commons.wikimedia.org/wiki/File:Angelslanding.jpg"},
+ "zion-angels-landing":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Angels%20Landing%2C%20United%20States%20(Unsplash%20-SID3IDjfJ4).jpg?width=1600",alt:"Angels Landing landscape in Zion National Park — photograph by Fineas Anton, Commons CC0",source:"https://commons.wikimedia.org/wiki/File:Angels%20Landing%2C%20United%20States%20(Unsplash%20-SID3IDjfJ4).jpg"},
  "zion-canyon-panorama":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20NP20.jpg?width=1600",alt:"Zion sandstone canyon panorama",source:"https://commons.wikimedia.org/wiki/File:Zion_NP20.jpg"},
- "zion-campground":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/South%20Campground%2C%20Zion%20National%20Park.jpg?width=1600",alt:"South Campground within Zion National Park",source:"https://commons.wikimedia.org/wiki/File:South_Campground,_Zion_National_Park.jpg"},
+ "zion-campground":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Watchman%20Campground%20Site%20B%209%2C%20Hurricane%2C%20United%20States%20(Unsplash%20zsfKWNKbGn8).jpg?width=1600",alt:"Watchman Campground at Zion National Park — photograph by Tim Wright, Commons CC0",source:"https://commons.wikimedia.org/wiki/File:Watchman%20Campground%20Site%20B%209%2C%20Hurricane%2C%20United%20States%20(Unsplash%20zsfKWNKbGn8).jpg"},
  "zion-canyon-overlook":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20National%20Park%20Canyon%20Overlook%20Trail%20View.jpg?width=1600",alt:"Scenery from Canyon Overlook in Zion National Park",source:"https://commons.wikimedia.org/wiki/File:Zion_National_Park_Canyon_Overlook_Trail_View.jpg"}
  };
  const photo=(key,cls="",eager=false)=>{

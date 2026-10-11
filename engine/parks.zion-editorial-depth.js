@@ -1,0 +1,64 @@
+(function initializeDepth(){
+ "use strict";
+ const U=window.ParkUI,A=window.ParkPagesA,D=window.CLM_PARKS,B=window.NPG_ZION_DEPTH_BRIEFS;
+ if(!U||!A||!D||!B)throw Error("Deep Zion module requires core, page renderer and research briefs");
+ const esc=U.esc;
+ const visuals={
+ "zion-angels-landing":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Angelslanding.jpg?width=1600",alt:"Angels Landing cliff trail at Zion National Park",source:"https://commons.wikimedia.org/wiki/File:Angelslanding.jpg"},
+ "zion-canyon-panorama":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20NP20.jpg?width=1600",alt:"Zion sandstone canyon panorama",source:"https://commons.wikimedia.org/wiki/File:Zion_NP20.jpg"},
+ "zion-campground":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/South%20Campground%2C%20Zion%20National%20Park.jpg?width=1600",alt:"South Campground within Zion National Park",source:"https://commons.wikimedia.org/wiki/File:South_Campground,_Zion_National_Park.jpg"},
+ "zion-canyon-overlook":{src:"https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20National%20Park%20Canyon%20Overlook%20Trail%20View.jpg?width=1600",alt:"Scenery from Canyon Overlook in Zion National Park",source:"https://commons.wikimedia.org/wiki/File:Zion_National_Park_Canyon_Overlook_Trail_View.jpg"}
+ };
+ const photo=(key,cls="",eager=false)=>{
+ const m=visuals[key];
+ return m?`<figure class="${cls}"><img src="${esc(m.src)}" alt="${esc(m.alt)}" loading="${eager?"eager":"lazy"}" decoding="async" onerror="this.classList.add('npg-zion-photo-unavailable')"/><figcaption><span>${esc(m.alt)}</span><a href="${esc(m.source)}" target="_blank" rel="noopener noreferrer">Image source / rights review ↗</a></figcaption></figure>`:
+ '<div class="npg-zion-photo-missing">Media source and rights review outstanding</div>';
+ };
+ const section=(id,tag,title,subtitle,body)=>`<section class="npg-depth-v2-section" id="${esc(id)}"><div class="wrap"><header class="npg-depth-v2-section-head"><div><span class="npg-zion-depth-kicker">${esc(tag)}</span><h2>${esc(title)}</h2></div><p>${esc(subtitle)}</p></header>${body}</div></section>`;
+ function render(p,t,sub,brief){
+ const guide=window.NPG_ZION_GUIDE;
+ const hero=photo(brief.image,"npg-depth-v2-hero-media",true);
+ const secondaryKey=Object.keys(visuals).find(k=>k!==brief.image&&k==="zion-canyon-overlook")||"zion-angels-landing";
+ const thirdKey=Object.keys(visuals).find(k=>k!==brief.image&&k!==secondaryKey)||"zion-campground";
+ const link=(p,sub,t)=>"#/park/"+p.slug+"/topic/"+t+"/"+sub;
+ const decisions=brief.answers.map(([heading,body],i)=>`<article class="npg-depth-v2-fact"><span class="npg-zion-depth-kicker">RESEARCH-BASED DECISION ${String(i+1).padStart(2,"0")}</span><h3>${esc(heading)}</h3><p>${esc(body)}</p><a href="${esc(brief.source)}" target="_blank" rel="noopener noreferrer">Official source ↗</a></article>`).join("");
+ const cards=brief.actions.map(([name,body,url],i)=>{
+ const business=guide?.records?.find(r=>r.name.toLowerCase().replace(/[^a-z0-9]/g,'').startsWith(name.toLowerCase().replace(/[^a-z0-9]/g,'').slice(0,13)));
+ const isOperator=["hotels","restaurants","campgrounds","gear-rentals","tour-guides"].includes(brief.slug);
+ const destination=business?.link||url;
+ return `<article class="npg-depth-v2-destination"><div class="npg-depth-v2-destination-top"><span>${String(i+1).padStart(2,"0")} / ${isOperator?"GATEWAY RESEARCH CANDIDATE":"NAMED PARK LOCATION"}</span><span aria-hidden="true">${isOperator?"◈":"⌖"}</span></div><div class="npg-depth-v2-destination-body"><span class="npg-zion-depth-kicker">${esc(isOperator?"VERIFY OPERATOR DETAILS":"NPS VISITOR GUIDANCE")}</span><h3>${esc(name)}</h3><p>${esc(body)}</p><div class="npg-depth-v2-links"><a href="${esc(destination)}" target="_blank" rel="noopener noreferrer">${esc(isOperator?"Locate candidate":"Visitor details")} ↗</a><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Source / rules ↗</a></div></div></article>`;
+ }).join("");
+ const qa=brief.questions.map(([q,a],i)=>`<details class="npg-depth-v2-faq"><summary>${esc(q)}</summary><p>${esc(a)}</p><a href="${esc(brief.source)}" target="_blank" rel="noopener noreferrer">Check the National Park Service guidance ↗</a></details>`).join("");
+ const related=brief.related.filter(r=>{
+ const [family,slug]=r.split("/");return !!Object.values(B).find(x=>x.family===family&&x.slug===slug);
+ }).map(r=>{const [family,slug]=r.split("/");const m=Object.values(B).find(x=>x.family===family&&x.slug===slug);return `<a href="${esc(link(p,slug,family))}" class="npg-depth-v2-related"><span class="npg-zion-depth-kicker">${esc(m.label)}</span><strong>${esc(m.title)}</strong><span>Continue planning →</span></a>`}).join("");
+ const rail=guide?.rails?.find(r=>r.id===brief.rail);
+ const shelves=rail?`<div class="npg-depth-v2-rail"><div class="npg-depth-v2-rail-head"><h3>Related ${esc(rail.title.toLowerCase())}</h3><p>${rail.cards.length} featured cards from the research preview, not validated live bookings</p></div><div class="npg-depth-v2-rail-track">${rail.cards.slice(0,6).map(c=>`<article><span class="npg-zion-depth-kicker">${esc(c.area||c.eyebrow||"ZION NATIONAL PARK")}</span><h4>${esc(c.name)}</h4><p>${esc(c.description)}</p><a href="${esc(c.link||c.source||brief.source)}" target="_blank" rel="noopener noreferrer">Source / map ↗</a></article>`).join("")}</div></div>`:"";
+ const body=`<div class="npg-depth-v2">
+ <nav class="npg-depth-v2-breadcrumb wrap" aria-label="Breadcrumb"><a href="#/parks">National parks</a><span>›</span><a href="#/park/zion">Zion National Park</a><span>›</span><a href="#/park/zion/topic/${esc(brief.family)}">${esc(t.label)}</a><span>›</span><strong>${esc(brief.label)}</strong></nav>
+ <section class="npg-depth-v2-hero">${hero}<div class="npg-depth-v2-hero-copy"><span class="npg-zion-depth-kicker">ZION NATIONAL PARK · ${esc(t.label.toUpperCase())} · VISITOR EDITION</span><h1>${esc(brief.title)}</h1><p>${esc(brief.dek)}</p><div class="npg-depth-v2-hero-actions"><a class="btn gold" href="#npg-depth-places">Explore named places ↓</a><a class="btn alt" href="${esc(brief.source)}" target="_blank" rel="noopener noreferrer">NPS official information ↗</a></div><div class="npg-depth-v2-bylines">Independent guide · Editorial source review pending · No live hazard, stock or booking claims</div></div></section>
+ <nav class="npg-depth-v2-jump wrap" aria-label="Page sections"><a href="#npg-depth-answer">Start here</a><a href="#npg-depth-decisions">What matters</a><a href="#npg-depth-places">Named places</a><a href="#npg-depth-plan">Planning</a><a href="#npg-depth-questions">Your questions</a><a href="#npg-depth-sources">Sources</a></nav>
+ <div class="npg-depth-v2-warning wrap"><i class="fa-solid fa-circle-info" aria-hidden="true"></i><span>This is a researched <strong>prepublication review edition</strong>. Facts and links are not live operational feeds. Businesses, photos, source permissions and route eligibility remain subject to final editorial approval. Check <a href="https://www.nps.gov/zion/planyourvisit/conditions.htm" target="_blank" rel="noopener noreferrer">current Zion conditions ↗</a>.</span></div>
+ ${section("npg-depth-answer","01 / ANSWER FIRST","The decision that shapes your visit",brief.dek,`<div class="npg-depth-v2-opening"><article><span class="npg-zion-depth-kicker">YOUR VISITOR DECISION</span><h3>${esc(brief.answers[0][0])}</h3><p>${esc(brief.answers[0][1])}</p><p>${esc(brief.answers[1][1])}</p></article>${photo(secondaryKey,"npg-depth-v2-opening-photo")}</div>`)}
+ ${section("npg-depth-decisions","02 / VISITOR INTELLIGENCE","Four decisions to get right","Useful visitor distinctions, anchored in real named places and the NPS planning rules.",`<div class="npg-depth-v2-facts">${decisions}</div>`)}
+ ${section("npg-depth-scenery","03 / PHOTO STORY","Understand the actual place","Real Zion views set the geographic context; image-source and redistribution rights are tracked separately.",`<div class="npg-depth-v2-photo-pair">${photo(thirdKey)}${photo(brief.image)}</div><p class="npg-depth-v2-photo-note">These are park-location editorial visuals, not photographs of the listed hotels, restaurants or merchants. Source and crop approval remain outstanding.</p>`)}
+ ${section("npg-depth-places","04 / PLACES & PROVIDERS","Specific Zion locations and local options","Here are named, relevant options rather than disconnected category links. Research candidates are not paid endorsements.",`<div class="npg-depth-v2-destinations">${cards}</div>`)}
+ ${section("npg-depth-pathway","05 / RELATED LOCAL DISCOVERY","Go deeper than a category label","Explore related location-specific listings with distinct categories and real next steps.",shelves||'<p>No verified merchant/category data is available for this park.</p>')}
+ ${section("npg-depth-plan","06 / PLANNING WORKFLOW","A practical sequence before you go","Move from visitor intent to actual park access, then confirm every time-sensitive detail with the authoritative provider.",`<div class="npg-depth-v2-steps"><article><span>STEP 01</span><h3>Choose the exact destination</h3><p>${esc(brief.answers[0][1])}</p></article><article><span>STEP 02</span><h3>Confirm access and conditions</h3><p>${esc(brief.answers[2][1])}</p></article><article><span>STEP 03</span><h3>Finalize locally</h3><p>${esc(brief.answers[3][1])}</p></article></div>`)}
+ ${section("npg-depth-logistics","07 / SAFETY & ACCESS","Don't confuse an editorial guide with live instructions","Trail access, shuttle operations, business hours and booked services can change. A planning article is not an operating-status source.",`<div class="npg-depth-v2-safety"><div><h3>Check current conditions before departure</h3><p>Current trail closures, flood risk, weather, vehicle restrictions, campground access, and permit requirements must be verified with the National Park Service. Do not treat static guide text as current conditions.</p><div class="actions"><a class="btn gold" href="https://www.nps.gov/zion/planyourvisit/conditions.htm" target="_blank" rel="noopener noreferrer">NPS current conditions ↗</a><a class="btn alt" href="${esc(brief.source)}" target="_blank" rel="noopener noreferrer">Official ${esc(brief.label.toLowerCase())} guide ↗</a></div></div><div><h3>What this page still needs</h3><ul><li>Location- and intent-specific fresh source checks</li><li>Permission-confirmed unique editorial media</li><li>Exact geo distances and owner-verified business profiles</li><li>Full SEO/SERP schema and structured data approval</li><li>Browser QA, accessibility and reviewer signoff</li></ul></div></div>`)}
+ ${section("npg-depth-questions","08 / ANSWER ENGINE CONTENT","Questions travelers actually ask","Direct responses with transparent official sources—no promises of rich-result display.",`<div class="npg-depth-v2-faqs">${qa}</div>`)}
+ ${section("npg-depth-related","09 / NEXT DECISION","Connect this page to the rest of your trip","Park planning is a series of real decisions, not isolated thin SEO pages.",`<div class="npg-depth-v2-related-grid">${related}</div><p class="npg-depth-v2-back"><a class="btn alt" href="#/park/zion">Return to full Zion guide ↗</a></p>`)}
+ <section class="npg-depth-v2-provenance" id="npg-depth-sources"><div class="wrap"><span class="npg-zion-depth-kicker">10 / EDITORIAL PROVENANCE</span><h2>Sources, limitations and publication standard</h2><p>Original visitor-oriented editorial, informed by source-linked National Park Service guidance. This is independent, unapproved site research; it does not imply an NPS partnership. Proposed photos are candidate sources and require asset-by-asset redistribution, identity and crop checks before publication.</p><a href="${esc(brief.source)}" target="_blank" rel="noopener noreferrer">Primary official source ↗</a><a href="https://www.nps.gov/zion/planyourvisit/conditions.htm" target="_blank" rel="noopener noreferrer">Live official conditions ↗</a><p class="npg-depth-v2-review">SEO approval: PENDING · Media rights: PENDING · 25-mile merchant coverage: INCOMPLETE · Actual publisher approval: PENDING · Search indexing: NOT AUTHORIZED.</p></div></section></div>`;
+ document.title=brief.title+" | National Parks Guide";
+ layout(body);
+ const desc=document.querySelector('meta[name="description"]');
+ if(desc)desc.setAttribute("content",brief.dek);
+ }
+ const prior=A.topicPage;
+ A.topicPage=(p,t,sub)=>{
+ const b=sub?B[sub]:null;
+ if(p.slug==="zion"&&b&&b.family===t.id){render(p,t,sub,b);return}
+ prior(p,t,sub);
+ };
+ window.NPG_ZION_DEPTH={pages:Object.keys(B).length,briefs:B,render};
+})();

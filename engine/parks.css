@@ -26,3 +26,12 @@ body.zion{--pine:#653d2f;--dark:#2e201b;--gold:#deb06b;--bg:#faf5ee;--sub:#f5ebd
 .npg-research-copy h5{font:800 15px var(--display);margin:16px 0 7px}
 @media(max-width:930px){.npg-research-grid{grid-template-columns:1fr}.npg-intent-box{position:static}.npg-research-section{padding:40px 0}}
 @media(max-width:590px){.npg-research-copy{padding:20px}.npg-intent-box{padding:20px}.npg-fact h3{font-size:22px}}
+
+
+/* Actual official NPS video embeds, not static slides or Envato watermarked previews */
+.npg-official-film{border:1px solid var(--border);border-radius:10px;background:white;overflow:hidden}
+.npg-filmframe{aspect-ratio:16/9;background:#102e24;position:relative;width:100%}
+.npg-filmframe iframe{display:block;position:absolute;inset:0;width:100%;height:100%;border:0}
+.npg-film-caption{padding:19px}
+.npg-film-caption h3{font:800 22px/1.2 var(--display);margin:8px 0}
+.npg-film-caption a{font-size:12px;font-weight:800;color:var(--pine);text-decoration:underline}

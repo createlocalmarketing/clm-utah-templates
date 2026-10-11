@@ -1,0 +1,154 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>National Parks Guide | 8,411 Page-by-Page QA & Approval Checklist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--pine:#163d30;--dark:#102b22;--gold:#d8ad71;--ink:#213a2c;--muted:#65766a;--edge:#dbe5dc;--paper:#f4f6f2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.6 'DM Sans',system-ui,sans-serif}
+button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #c5954d;outline-offset:3px}
+header{background:var(--dark);color:#fff;padding:21px 30px;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.logo{font:850 17px Outfit;letter-spacing:.1em}.logo small{display:block;color:var(--gold);font:800 10px 'DM Sans';letter-spacing:.14em;margin-top:6px}
+header nav{display:flex;gap:17px;flex-wrap:wrap}header nav a{color:#d8e7da;font-size:12px;font-weight:800}
+.hero{padding:38px 32px 32px;max-width:1650px;margin:auto}
+.kicker{display:block;font-size:10px;font-weight:850;letter-spacing:.17em;color:#a57848;text-transform:uppercase}
+.hero h1{font:850 clamp(36px,4vw,59px)/1.05 Outfit;letter-spacing:-.04em;margin:12px 0 13px}
+.hero p{color:var(--muted);max-width:1050px;font-size:14px}
+.stats{display:flex;flex-wrap:wrap;gap:11px;margin:27px 0}
+.stat{background:#fff;border:1px solid var(--edge);padding:15px 21px;border-radius:8px;min-width:160px}
+.stat strong{font:850 30px Outfit;display:block}.stat span{font-size:11px;color:var(--muted);font-weight:800}
+.warning{background:#fff2dc;border-left:4px solid #b58b4e;padding:15px 19px;margin:15px 0 5px;font-size:12px;max-width:1200px}
+.workspace{display:grid;grid-template-columns:minmax(310px,420px) minmax(0,1fr);gap:22px;align-items:start;padding:0 30px 55px;max-width:1710px;margin:auto}
+.sidebar,.panel{background:#fff;border:1px solid var(--edge);border-radius:12px;box-shadow:0 9px 30px #20402c0a}
+.sidebar{position:sticky;top:12px;max-height:calc(100vh - 24px);display:flex;flex-direction:column;overflow:hidden}
+.sidebar-head{padding:23px 23px 18px;border-bottom:1px solid var(--edge)}
+.sidebar-head h2{font:850 23px Outfit;margin:0 0 13px}
+.search{width:100%;padding:12px 14px;border:1px solid #ccd9cb;border-radius:6px;margin-bottom:10px}
+.filters{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.filters select{width:100%;background:white;border:1px solid #d4ded4;border-radius:6px;padding:9px;color:var(--ink);font-size:12px}
+#results{overflow-y:auto;padding:8px;scrollbar-width:thin}
+.item{display:block;width:100%;border:1px solid transparent;border-radius:7px;background:transparent;text-align:left;padding:15px;cursor:pointer}
+.item:hover{background:#f0f5ee}.item.active{background:#e7f1e6;border-color:#9cbd9f}
+.item small{display:block;color:#a07648;letter-spacing:.09em;font-size:9px;font-weight:850;text-transform:uppercase}
+.item strong{display:block;margin:5px 0;font-size:13px;line-height:1.35}
+.item span{font-size:10px;color:#718476;line-height:1.5;display:block;overflow:hidden;text-overflow:ellipsis}
+.sidebar-bottom{border-top:1px solid var(--edge);padding:13px 20px;display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted)}
+.small-btn{border:1px solid #afc5b0;background:white;border-radius:6px;color:var(--pine);padding:7px 13px;font-size:11px;font-weight:850}
+.small-btn:disabled{opacity:.35;cursor:default}
+.panel{padding:28px;min-height:600px}
+.placeholder{color:#668172;text-align:center;padding:70px 15px}
+.detail-top{display:flex;gap:18px;align-items:start;justify-content:space-between;flex-wrap:wrap}
+.detail-top h2{font:850 clamp(26px,3vw,43px)/1.08 Outfit;letter-spacing:-.03em;margin:10px 0}
+.status{display:inline-block;padding:7px 11px;background:#fff1d7;color:#795627;font-weight:850;border-radius:50px;font-size:10px;letter-spacing:.05em}
+.detail-sub{font-size:12px;color:#718477;margin:0 0 14px;word-break:break-word}
+.idcode{font:12px ui-monospace,monospace;background:#eef3ea;border-radius:5px;padding:8px 11px;display:inline-block;overflow-wrap:anywhere}
+.actions{display:flex;gap:9px;flex-wrap:wrap;margin:21px 0}
+.action{border:1px solid var(--pine);border-radius:6px;background:var(--pine);color:white;font-size:12px;font-weight:850;display:inline-flex;align-items:center;justify-content:center;padding:11px 15px;text-decoration:none;min-height:41px}
+.action.alt{background:white;color:var(--pine)}
+.action.gold{background:var(--gold);color:#193826;border-color:var(--gold)}
+.progress{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:22px 0 7px;font-size:12px;font-weight:850}
+.track{height:7px;border-radius:20px;background:#e4eae2;overflow:hidden}.track>div{height:100%;width:0;background:#6d9f77;transition:width .18s}
+.notice{border-left:3px solid #d0a26b;background:#fdf8ed;padding:12px 16px;color:#6f5a3c;font-size:12px;margin:17px 0}
+.gates-group{border:1px solid var(--edge);border-radius:8px;overflow:hidden;margin:13px 0;background:#fff}
+.gates-group summary{padding:14px 17px;font-weight:850;background:#f3f6f1;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.gates-group summary small{font-size:10px;color:var(--muted)}
+.gate{border-top:1px solid #edf1e9;padding:13px 16px;display:flex;align-items:flex-start;gap:12px}
+.gate input{accent-color:var(--pine);margin-top:5px;width:16px;height:16px;flex:0 0 16px}
+.gate b{font-size:12px;display:block}.gate small{color:#7a887d;display:block;font-size:11px;line-height:1.55}
+.gate code{color:#a0713d;font:800 10px ui-monospace,monospace}
+.feedback{margin-top:30px;background:#eff5ee;padding:22px;border:1px solid #dbe6d8;border-radius:8px}
+.feedback h3{font:850 22px Outfit;margin:4px 0 11px}
+.feedback textarea{width:100%;resize:vertical;min-height:100px;border:1px solid #c6d7c6;border-radius:6px;padding:12px;background:white}
+.feedback p{color:#647866;font-size:11px}
+.feedback .actions{margin-bottom:0}
+.footer-note{padding:15px 30px 35px;max-width:1650px;margin:auto;color:#6a7a6d;font-size:11px}
+@media(max-width:1050px){.workspace{grid-template-columns:1fr;padding:0 16px 45px}.sidebar{position:static;max-height:490px}header{padding:16px}.hero{padding:25px 18px}.panel{padding:19px}}
+</style></head><body>
+<header><div class="logo">NATIONAL PARKS GUIDE <small>SEO ARCHITECTURE × DESIGN MEETING FLOW</small></div><nav><a href="../index.html">Review walkthrough ↗</a><a href="https://github.com/createlocalmarketing/clm-platform/issues/72" target="_blank" rel="noopener">Master SEO task ↗</a><a href="https://github.com/createlocalmarketing/clm-utah-templates/pull/5" target="_blank" rel="noopener">Current code PR ↗</a></nav></header>
+<section class="hero"><span class="kicker">Individual URL acceptance ledger · 63 national parks</span><h1>Page-by-page checklist.</h1><p>Search and review each of the 8,411 registered national, Zion and native-app targets. Each page has 32 independent research, content, photography, interaction, local-data and approval gates. The existing code repository—not the apparent completeness of a mockup—sets the true status.</p>
+<div class="stats"><div class="stat"><strong id="total">—</strong><span>Registered targets</span></div><div class="stat"><strong>0</strong><span>Editor-approved complete</span></div><div class="stat"><strong>32</strong><span>Acceptance gates per page</span></div><div class="stat"><strong id="previewCount">—</strong><span>Review routes with deeper Zion code</span></div></div>
+<div class="warning"><strong>Approval integrity:</strong> This viewer is a functioning inspection and feedback interface, not a fake production database. Checkmarks are a <strong>local review draft only</strong>; they do not change GitHub task status or authorize publishing. Use “Prepare GitHub change request” to send the evidence into the GitHub workflow. Human approval remains separate.</div></section>
+<main class="workspace"><aside class="sidebar"><div class="sidebar-head"><h2>Find a page to review</h2><input id="search" class="search" type="search" aria-label="Search target pages" placeholder="Search parks, category, page or ID…"><div class="filters"><select id="parkFilter" aria-label="Filter by park"><option value="all">All 63 parks</option></select><select id="familyFilter" aria-label="Filter by page type"><option value="all">All page types</option></select><select id="domainFilter" aria-label="Filter by site"><option value="all">All sites</option><option>NATIONAL</option><option>ZION</option><option>APP</option></select><select id="stateFilter" aria-label="Filter by implementation state"><option value="all">Any status</option><option value="review">Coded review</option><option value="missing">Missing / incomplete</option></select></div></div><div id="results" role="listbox" aria-label="Registered page targets"></div><div class="sidebar-bottom"><button class="small-btn" id="prev" type="button">← Previous</button><span id="shown">Loading…</span><button class="small-btn" id="next" type="button">Next →</button></div></aside>
+<section id="panel" class="panel" aria-live="polite"><div class="placeholder">Loading the 8,411 registered page contracts…</div></section></main>
+<p class="footer-note">GitHub sources: production-register/catalog.js (page inventory), page-gates.json (32 mandatory criteria), National Parks Guide project acceptance issues and separate feature branches. A template route, media URL or GitHub issue does not establish a completed page.</p>
+<script src="../../engine/parks.data.js"></script><script src="../../engine/parks.national-registry.js"></script><script src="../../nationalparksguide.co/production-register/catalog.js"></script>
+<script>
+(async function(){
+"use strict";
+const $=id=>document.getElementById(id),escape=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const D=window.CLM_NPG_PRODUCTION_REGISTER;
+if(!D||!Array.isArray(D.items)){$("panel").innerHTML='<p>Could not load the page register. Please refresh or check the source repository.</p>';return}
+let gates;
+try{const res=await fetch("page-gates.json",{cache:"no-cache"});if(!res.ok)throw Error(res.status);gates=await res.json()}catch(e){$("panel").textContent="Failed to load the 32-gate checklist specification: "+String(e);return}
+const pageList=D.items,encoded=encodeURIComponent;
+const deepSet=new Set(["hikes-trails","iconic-photo-spots","hotels","restaurants","campgrounds","shuttles-parking","gear-rentals","tour-guides"]);
+function deepPage(item){return item.parkSlug==="zion"&&item.family.includes("Topic Subcategory")&&deepSet.has((item.reviewUrl||"").split("/").pop())}
+function reviewUrl(item){
+ if(deepPage(item)){const frag=(item.reviewUrl||"").split("#/")[1];return "https://createlocalmarketing.github.io/clm-utah-templates/"+(item.domain==="ZION"?"utahzionnationalpark.com":"nationalparksguide.co")+"/review-20261011/index.html#/"+frag}
+ return item.reviewUrl||"";
+}
+const counted=pageList.filter(deepPage).length;
+$("total").textContent=pageList.length.toLocaleString();
+$("previewCount").textContent=counted;
+const parks=[...new Set(pageList.map(x=>x.park).filter(x=>x&&x!=="All parks"))].sort();
+const families=[...new Set(pageList.map(x=>x.family))].sort();
+parks.forEach(v=>$("parkFilter").insertAdjacentHTML("beforeend",'<option value="'+escape(v)+'">'+escape(v)+'</option>'));
+families.forEach(v=>$("familyFilter").insertAdjacentHTML("beforeend",'<option value="'+escape(v)+'">'+escape(v)+'</option>'));
+let subset=pageList.slice(),offset=0,selected=pageList.find(x=>deepPage(x)&&x.domain==="ZION")||pageList[0];
+const limit=35;let pending=[];
+function filter(){
+const q=$("search").value.trim().toLowerCase(),park=$("parkFilter").value,family=$("familyFilter").value,domain=$("domainFilter").value,status=$("stateFilter").value;
+subset=pageList.filter(x=>(park==="all"||x.park===park)&&(family==="all"||x.family===family)&&(domain==="all"||x.domain===domain)&&(status==="all"||(status==="review"?deepPage(x):!deepPage(x)))&&(!q||[x.title,x.id,x.park,x.family,x.primaryKeywordCandidate,x.proposedProductionUrl].join(" ").toLowerCase().includes(q)));
+offset=0;list();if(subset.length&& !subset.some(x=>x.id===selected?.id)){selected=subset[0];details()}
+}
+function list(){
+const r=$("results");const items=subset.slice(offset,offset+limit);
+r.innerHTML=items.map((item,i)=>'<button type="button" role="option" aria-selected="'+String(selected?.id===item.id)+'" class="item '+(selected?.id===item.id?"active":"")+'" data-index="'+(offset+i)+'"><small>'+escape(item.domain)+' · '+escape(item.family)+(deepPage(item)?" · CODED REVIEW":"")+'</small><strong>'+escape(item.title)+'</strong><span>'+escape(item.park)+' · '+escape(item.status)+'</span></button>').join("")||'<p style="padding:15px">No targets found. Try different search terms.</p>';
+$("shown").textContent=subset.length?(offset+1)+"–"+Math.min(offset+limit,subset.length)+" / "+subset.length.toLocaleString():"0 results";
+$("prev").disabled=offset===0;$("next").disabled=offset+limit>=subset.length;
+r.querySelectorAll("button[data-index]").forEach(b=>b.onclick=()=>{selected=subset[Number(b.dataset.index)];list();details()});
+}
+function localKey(item){return "npg-review-draft:"+item.id}
+function draft(item){try{return JSON.parse(localStorage.getItem(localKey(item))||'{"checked":[],"note":""}')}catch{return {checked:[],note:""}}}
+function save(item,data){try{localStorage.setItem(localKey(item),JSON.stringify(data))}catch{ /* preview remains usable without storage */ }}
+function updateProgress(){
+const checks=[...$("panel").querySelectorAll('input[data-gate]:checked')].length;
+const bar=$("gateBar"),sum=$("checkedCount");if(bar)bar.style.width=(checks/gates.totalGates*100)+"%";if(sum)sum.textContent=checks+" / "+gates.totalGates+" marked in local draft · 0 verified approvals";
+}
+function packageText(){
+const state=draft(selected);const list=gates.groups.flatMap(g=>g.items.map(([id,name])=>(state.checked.includes(id)?"[x] ":"[ ] ")+id+" "+name));
+return ["NATIONAL PARKS GUIDE — PAGE REVIEW / CHANGE REQUEST",
+"ID: "+selected.id,"URL: "+(reviewUrl(selected)||"NO REVIEW URL"),"Proposed production: "+(selected.proposedProductionUrl||"not available"),
+"Park: "+selected.park,"Domain: "+selected.domain,"Type: "+selected.family,"Current source status: "+selected.status,
+"Local draft marked gates: "+state.checked.length+" / "+gates.totalGates+" — NOT AUTHORIZED FOR PUBLICATION",
+"Change request / notes:",state.note||"(none)","ACCEPTANCE CHECKLIST:",...list,
+"Need screenshot evidence: desktop / tablet / iPhone",
+"NEVER mark approved or publish until independent acceptance and user authorization."].join("\n")}
+function details(){
+if(!selected)return;
+const state=draft(selected),yes=deepPage(selected);
+$("panel").innerHTML='<div class="detail-top"><div><span class="kicker">'+escape(selected.domain)+' · '+escape(selected.family)+' · '+escape(selected.park)+'</span><h2>'+escape(selected.title)+'</h2><p class="detail-sub">'+escape(selected.primaryKeywordCandidate)+' · '+escape(selected.searchIntent)+'</p><code class="idcode">'+escape(selected.id)+'</code></div><span class="status">'+(yes?"CODED REVIEW · NOT APPROVED":"NOT COMPLETE")+'</span></div>'+
+'<div class="actions"><a class="action gold" href="'+escape(reviewUrl(selected)||"#")+'" target="_blank" rel="noopener noreferrer">Open exact review route ↗</a><a class="action alt" href="'+escape(selected.issueUrl||"https://github.com/createlocalmarketing/clm-platform/issues/72")+'" target="_blank" rel="noopener noreferrer">Master GitHub task ↗</a><button type="button" class="action alt" id="copyId">Copy page ID</button></div>'+
+'<p class="detail-sub"><strong>Target URL:</strong> '+escape(selected.proposedProductionUrl||"No production path registered")+'</p>'+
+'<div class="progress"><span>32-criterion acceptance draft</span><span id="checkedCount">0 / 32 · 0 approved</span></div><div class="track"><div id="gateBar"></div></div>'+
+'<div class="notice">All project approval gates remain unchecked in GitHub. Draft checkboxes below are for composing your review only. They never change server status. No page is considered finished until source, content, photography, page QA and explicit reviewer approval are recorded.</div>'+
+gates.groups.map((g,i)=>'<details class="gates-group" '+(i===0?"open":"")+'><summary>'+escape(g.label)+' <small>'+g.items.length+' conditions</small></summary>'+
+g.items.map(([id,name,desc])=>'<label class="gate"><input type="checkbox" data-gate="'+escape(id)+'" '+(state.checked.includes(id)?"checked":"")+'><span><b><code>'+escape(id)+'</code> '+escape(name)+'</b><small>'+escape(desc)+'</small></span></label>').join("")+'</details>').join("")+
+'<section class="feedback"><span class="kicker">DESIGN MEETING REVIEW / ACTION</span><h3>Record this page’s corrections</h3><textarea id="reviewNote" aria-label="Draft change notes" placeholder="Record the exact requested change, photos that need replacement, source links, comments or screenshot evidence…">'+escape(state.note||"")+'</textarea><p>Your checklist selections and comments are saved in this browser as a local draft only. To make the issue persistent for the team, prepare a GitHub request and submit it there. This viewer cannot bypass human approvals.</p><div class="actions"><button class="action gold" id="createGitHub" type="button">Prepare GitHub change request ↗</button><button class="action alt" id="copyPackage" type="button">Copy 32-gate review package</button></div></section>';
+$("copyId").onclick=()=>navigator.clipboard?.writeText(selected.id);
+$("panel").querySelectorAll("input[data-gate]").forEach(c=>c.addEventListener("change",()=>{const draftState=draft(selected);const id=c.dataset.gate;draftState.checked=c.checked?[...new Set([...draftState.checked,id])]:draftState.checked.filter(v=>v!==id);save(selected,draftState);updateProgress()}));
+$("reviewNote").addEventListener("input",e=>{const d=draft(selected);d.note=e.target.value;save(selected,d)});
+$("copyPackage").onclick=async()=>{try{await navigator.clipboard.writeText(packageText());$("copyPackage").textContent="Copied review package"}catch{$("copyPackage").textContent="Clipboard unavailable"}};
+$("createGitHub").onclick=()=>{
+const title="[NPG PAGE REVIEW] "+selected.park+" — "+selected.title;
+const body=packageText();
+const url="https://github.com/createlocalmarketing/clm-platform/issues/new?title="+encoded(title)+"&body="+encoded(body);
+window.open(url,"_blank","noopener,noreferrer");
+};
+updateProgress();
+}
+for(const id of ["parkFilter","familyFilter","domainFilter","stateFilter"])$(id).addEventListener("change",filter);
+$("search").addEventListener("input",filter);
+$("prev").onclick=()=>{offset=Math.max(0,offset-limit);list()};
+$("next").onclick=()=>{offset=Math.min(subset.length-1,offset+limit);list()};
+list();details();
+})();
+</script></body></html>

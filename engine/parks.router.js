@@ -1,14 +1,14 @@
 /* National Parks CLM vertical hash router — URL-addressable page templates */
 (function(){
 "use strict";
-const U=window.ParkUI,A=window.ParkPagesA,B=window.ParkPagesB,C=window.ParkPagesC;
-if(!U||!A||!B||!C)throw Error("Park modules not loaded");
+const U=window.ParkUI,A=window.ParkPagesA,B=window.ParkPagesB,C=window.ParkPagesC,E=window.ParkPagesD;
+if(!U||!A||!B||!C||!E)throw Error("Park modules not loaded");
 const D=U.D;
 function render(){const route=(location.hash||"#/").slice(2).split("?")[0],p=route.split("/").filter(Boolean);
 try{
 if(p.length===0)A.home();
 else if(p[0]==="parks")U.zion?A.parkPage(D.parks.find(x=>x.slug==="zion")):U.layout(U.header("All National Parks","PARK DIRECTORY","63 NPS-designated parks; source-only park profiles remain unpublished until researched and reviewed.")+U.section("EXPLORE PARKS","All 63 national parks","Five parks have partial initial research; other national park profiles require original sources and media before approval.",U.parks.map(U.parkCard).join(""),5));
-else if(p[0]==="park"&&p[1]){const one=D.parks.find(x=>x.slug===p[1]);if(!one)C.notFound();else if(p[2]==="topic"){const t=D.taxonomy.find(x=>x.id===p[3]);if(t)A.topicPage(one,t,p[4]);else C.notFound()}else A.parkPage(one)}
+else if(p[0]==="park"&&p[1]){const one=D.parks.find(x=>x.slug===p[1]);if(!one)C.notFound();else if(p[2]==="topic"){const t=D.taxonomy.find(x=>x.id===p[3]);if(t)A.topicPage(one,t,p[4]);else C.notFound()}else if(["businesses","news","events","shop"].includes(p[2])){if(p[3])E.category(one,p[2],p[3]);else E.childIndex(one,p[2])}else A.parkPage(one)}
 else if(p[0]==="trail"){let t=D.parks.flatMap(x=>x.trails).find(x=>x.id===p[1]);t?A.trailPage(t):C.notFound()}
 else if(p[0]==="directory")B.directory();
 else if(p[0]==="business"){let b=D.merchants.find(x=>x.id===p[1]);b?B.business(b):C.notFound()}

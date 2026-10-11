@@ -1,0 +1,1949 @@
+{
+  "captured": "2026-10-10",
+  "source": "KeywordTool.io Google US; Suggestions, Questions, Prepositions, Related (when available). Keyword variants sharing identical volumes not summed.",
+  "parkIndex": {
+    "zion": {
+      "primary": "zion national park",
+      "sourceFile": "research/park-keywords/zion-4-intent-families.json",
+      "questionCandidates": [
+        {
+          "q": "where is zion national park in utah",
+          "monthly": 12100
+        },
+        {
+          "q": "how far is zion national park from las vegas",
+          "monthly": 2400
+        },
+        {
+          "q": "what to do in zion national park",
+          "monthly": 1900
+        },
+        {
+          "q": "is zion national park open",
+          "monthly": 1600
+        },
+        {
+          "q": "where to stay near zion national park",
+          "monthly": 1000
+        },
+        {
+          "q": "how many days in zion national park",
+          "monthly": 880
+        },
+        {
+          "q": "what city is zion national park in",
+          "monthly": 880
+        },
+        {
+          "q": "can you drive through zion national park",
+          "monthly": 720
+        },
+        {
+          "q": "how to get to zion national park",
+          "monthly": 720
+        },
+        {
+          "q": "what time does zion national park open",
+          "monthly": 720
+        },
+        {
+          "q": "what state is zion national park in",
+          "monthly": 720
+        },
+        {
+          "q": "what time is it in zion national park",
+          "monthly": 720
+        },
+        {
+          "q": "when is the best time to visit zion national park",
+          "monthly": 720
+        },
+        {
+          "q": "are dogs allowed in zion national park",
+          "monthly": 590
+        },
+        {
+          "q": "where to stay when visiting zion national park",
+          "monthly": 590
+        },
+        {
+          "q": "how big is zion national park",
+          "monthly": 480
+        }
+      ],
+      "categories": [
+        {
+          "id": "weather",
+          "title": "Weather & Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "zion national park weather",
+          "monthly": 49500,
+          "keywords": [
+            {
+              "q": "zion national park weather",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park forecast",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "forecast zion national park",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park utah weather",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "utah zion national park weather",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "weather zion national park",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "weather zion national park utah",
+              "monthly": 49500,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "hikes",
+          "title": "Hiking Trails & Route Safety",
+          "route": "things-to-do/hikes-trails",
+          "bestQuery": "the narrows zion national park",
+          "monthly": 40500,
+          "keywords": [
+            {
+              "q": "the narrows zion national park",
+              "monthly": 40500,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park trails",
+              "monthly": 22200,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park hikes",
+              "monthly": 22200,
+              "family": "suggestions"
+            },
+            {
+              "q": "hikes in zion national park",
+              "monthly": 22200,
+              "family": "suggestions"
+            },
+            {
+              "q": "angels landing zion national park",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "trails in zion national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park best hikes",
+              "monthly": 5400,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "lodging",
+          "title": "Where to Stay",
+          "route": "stay/hotels",
+          "bestQuery": "zion national park hotels",
+          "monthly": 22200,
+          "keywords": [
+            {
+              "q": "zion national park hotels",
+              "monthly": 22200,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park camping",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park campground",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "camping in zion national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "hotels near zion national park",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "campgrounds near zion national park",
+              "monthly": 2400,
+              "family": "suggestions"
+            },
+            {
+              "q": "cabins in zion national park",
+              "monthly": 2400,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "maps",
+          "title": "Maps, Entrances & Transport",
+          "route": "plan/maps-directions",
+          "bestQuery": "zion national park map",
+          "monthly": 9900,
+          "keywords": [
+            {
+              "q": "zion national park map",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "map of zion national park",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park utah map",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park on us map",
+              "monthly": 9900,
+              "family": "prepositions"
+            },
+            {
+              "q": "airport closest to zion national park",
+              "monthly": 2400,
+              "family": "suggestions"
+            },
+            {
+              "q": "closest airport to zion national park",
+              "monthly": 2400,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park entrance fee",
+              "monthly": 2400,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Fees, Permits & Passes",
+          "route": "plan/fees-permits",
+          "bestQuery": "zion national park tickets",
+          "monthly": 5400,
+          "keywords": [
+            {
+              "q": "zion national park tickets",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park pass",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park permits",
+              "monthly": 2400,
+              "family": "suggestions"
+            },
+            {
+              "q": "does zion national park require reservations",
+              "monthly": 140,
+              "family": "questions"
+            },
+            {
+              "q": "does zion national park have timed entry",
+              "monthly": 50,
+              "family": "questions"
+            },
+            {
+              "q": "do you need tickets for zion national park",
+              "monthly": 30,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "things",
+          "title": "Things to Do & Experiences",
+          "route": "things-to-do",
+          "bestQuery": "things to do in zion national park",
+          "monthly": 6600,
+          "keywords": [
+            {
+              "q": "things to do in zion national park",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "visitor center zion national park",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park top things to do",
+              "monthly": 720,
+              "family": "prepositions"
+            },
+            {
+              "q": "zion national park best things to do",
+              "monthly": 260,
+              "family": "prepositions"
+            },
+            {
+              "q": "things to do in zion national park besides hiking",
+              "monthly": 170,
+              "family": "prepositions"
+            },
+            {
+              "q": "zion national park top 10 things to do",
+              "monthly": 20,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Photo Spots and Viewpoints",
+          "route": "things-to-do/iconic-photo-spots",
+          "bestQuery": "zion national park photos",
+          "monthly": 14800,
+          "keywords": [
+            {
+              "q": "zion national park photos",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park canyon overlook trail",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "canyon overlook trail zion national park",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park overlook",
+              "monthly": 1900,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "when",
+          "title": "Best Time and Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "best time to visit zion national park",
+          "monthly": 5400,
+          "keywords": [
+            {
+              "q": "best time to visit zion national park",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "best month to visit zion national park",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "zion national park weather by month",
+              "monthly": 1600,
+              "family": "prepositions"
+            },
+            {
+              "q": "when is the best time to visit zion national park",
+              "monthly": 720,
+              "family": "questions"
+            },
+            {
+              "q": "zion national park temperature by month",
+              "monthly": 390,
+              "family": "prepositions"
+            },
+            {
+              "q": "when to visit zion national park",
+              "monthly": 210,
+              "family": "questions"
+            },
+            {
+              "q": "what is the best time to visit zion national park",
+              "monthly": 140,
+              "family": "questions"
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "suggestions": 100,
+        "questions": 100,
+        "related": 0,
+        "prepositions": 100
+      }
+    },
+    "great-smoky-mountains": {
+      "primary": "great smoky mountains national park",
+      "sourceFile": "research/park-keywords/great-smoky-mountains-4-intent-families.json",
+      "questionCandidates": [
+        {
+          "q": "what to do in great smoky mountains national park",
+          "monthly": 480
+        },
+        {
+          "q": "how big is great smoky mountains national park",
+          "monthly": 390
+        },
+        {
+          "q": "when was great smoky mountains national park established",
+          "monthly": 390
+        },
+        {
+          "q": "when was the great smoky mountains national park established",
+          "monthly": 390
+        },
+        {
+          "q": "when was the great smoky mountains national park founded",
+          "monthly": 390
+        },
+        {
+          "q": "where to stay in great smoky mountains national park",
+          "monthly": 260
+        },
+        {
+          "q": "is great smoky mountains national park open",
+          "monthly": 210
+        },
+        {
+          "q": "what state is great smoky mountains national park in",
+          "monthly": 210
+        },
+        {
+          "q": "when did the great smoky mountains became a national park",
+          "monthly": 140
+        },
+        {
+          "q": "what to see in great smoky mountains national park",
+          "monthly": 90
+        },
+        {
+          "q": "are dogs allowed in great smoky mountains national park",
+          "monthly": 70
+        },
+        {
+          "q": "what is the great smoky mountains national park known for",
+          "monthly": 70
+        },
+        {
+          "q": "what is great smoky mountains national park",
+          "monthly": 70
+        },
+        {
+          "q": "where to stay when visiting great smoky mountains national park",
+          "monthly": 70
+        },
+        {
+          "q": "why is great smoky mountains national park so popular",
+          "monthly": 50
+        },
+        {
+          "q": "how to get to great smoky mountains national park",
+          "monthly": 50
+        }
+      ],
+      "categories": [
+        {
+          "id": "weather",
+          "title": "Weather & Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "great smoky mountains national park weather",
+          "monthly": 2900,
+          "keywords": [
+            {
+              "q": "great smoky mountains national park weather",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "weather great smoky mountains national park",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park in winter",
+              "monthly": 210,
+              "family": "prepositions"
+            },
+            {
+              "q": "great smoky mountains national park in november",
+              "monthly": 140,
+              "family": "prepositions"
+            },
+            {
+              "q": "great smoky mountains national park in october",
+              "monthly": 50,
+              "family": "prepositions"
+            },
+            {
+              "q": "great smoky mountains national park weather by month",
+              "monthly": 40,
+              "family": "prepositions"
+            },
+            {
+              "q": "great smoky mountains national park temperature by month",
+              "monthly": 10,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "hikes",
+          "title": "Hiking Trails & Route Safety",
+          "route": "things-to-do/hikes-trails",
+          "bestQuery": "great smoky mountains national park trails",
+          "monthly": 12100,
+          "keywords": [
+            {
+              "q": "great smoky mountains national park trails",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park hikes",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park hiking trails",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "hiking in the great smoky mountains national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "hiking trails in great smoky mountains national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "trails in great smoky mountains national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park best hikes",
+              "monthly": 1300,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "lodging",
+          "title": "Where to Stay",
+          "route": "stay/hotels",
+          "bestQuery": "great smoky mountains national park camping",
+          "monthly": 6600,
+          "keywords": [
+            {
+              "q": "great smoky mountains national park camping",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park lodging",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park places to stay",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park where to stay",
+              "monthly": 4400,
+              "family": "prepositions"
+            },
+            {
+              "q": "camping great smoky mountains national park",
+              "monthly": 2400,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park campgrounds",
+              "monthly": 720,
+              "family": "suggestions"
+            },
+            {
+              "q": "hotels near great smoky mountains national park",
+              "monthly": 590,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "maps",
+          "title": "Maps, Entrances & Transport",
+          "route": "plan/maps-directions",
+          "bestQuery": "great smoky mountains national park map",
+          "monthly": 8100,
+          "keywords": [
+            {
+              "q": "great smoky mountains national park map",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "map of great smoky mountains national park",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "the great smoky mountains national park map",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park entrances",
+              "monthly": 1300,
+              "family": "suggestions"
+            },
+            {
+              "q": "entrances to great smoky mountains national park",
+              "monthly": 1300,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park gatlinburg entrance",
+              "monthly": 1300,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park parking pass",
+              "monthly": 1000,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Fees, Permits & Passes",
+          "route": "plan/fees-permits",
+          "bestQuery": "great smoky mountains national park tickets",
+          "monthly": 6600,
+          "keywords": [
+            {
+              "q": "great smoky mountains national park tickets",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park parking pass",
+              "monthly": 1000,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park camping reservations",
+              "monthly": 390,
+              "family": "suggestions"
+            },
+            {
+              "q": "does great smoky mountains national park require reservations",
+              "family": "questions"
+            }
+          ]
+        },
+        {
+          "id": "things",
+          "title": "Things to Do & Experiences",
+          "route": "things-to-do",
+          "bestQuery": "great smoky mountains national park tours",
+          "monthly": 9900,
+          "keywords": [
+            {
+              "q": "great smoky mountains national park tours",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park visitor center",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park things to do",
+              "monthly": 1300,
+              "family": "suggestions"
+            },
+            {
+              "q": "attractions in great smoky mountains national park",
+              "monthly": 1300,
+              "family": "suggestions"
+            },
+            {
+              "q": "things to do in great smoky mountains national park",
+              "monthly": 1300,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park attractions",
+              "monthly": 880,
+              "family": "suggestions"
+            },
+            {
+              "q": "best things to do in great smoky mountains national park",
+              "monthly": 210,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Photo Spots and Viewpoints",
+          "route": "things-to-do/iconic-photo-spots",
+          "bestQuery": "great smoky mountains national park photos",
+          "monthly": 6600,
+          "keywords": [
+            {
+              "q": "great smoky mountains national park photos",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park reviews",
+              "monthly": 1300,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "when",
+          "title": "Best Time and Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "best time to visit great smoky mountains national park",
+          "monthly": 880,
+          "keywords": [
+            {
+              "q": "best time to visit great smoky mountains national park",
+              "monthly": 880,
+              "family": "suggestions"
+            },
+            {
+              "q": "great smoky mountains national park best time to visit",
+              "monthly": 140,
+              "family": "prepositions"
+            },
+            {
+              "q": "great smoky mountains national park weather by month",
+              "monthly": 40,
+              "family": "prepositions"
+            },
+            {
+              "q": "when to visit great smoky mountains national park",
+              "monthly": 20,
+              "family": "questions"
+            },
+            {
+              "q": "great smoky mountains national park temperature by month",
+              "monthly": 10,
+              "family": "prepositions"
+            },
+            {
+              "q": "great smoky mountains national park visitors by month",
+              "family": "prepositions"
+            },
+            {
+              "q": "great smoky mountains national park average temperature by month",
+              "family": "prepositions"
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "suggestions": 100,
+        "questions": 93,
+        "related": 0,
+        "prepositions": 97
+      }
+    },
+    "yellowstone": {
+      "primary": "yellowstone national park",
+      "sourceFile": "research/park-keywords/yellowstone-4-intent-families.json",
+      "questionCandidates": [
+        {
+          "q": "what states are yellowstone national park in",
+          "monthly": 6600
+        },
+        {
+          "q": "how big is yellowstone national park",
+          "monthly": 6600
+        },
+        {
+          "q": "what state is yellowstone national park in",
+          "monthly": 6600
+        },
+        {
+          "q": "where yellowstone national park is located",
+          "monthly": 6600
+        },
+        {
+          "q": "which state is yellowstone national park in",
+          "monthly": 6600
+        },
+        {
+          "q": "is yellowstone national park open",
+          "monthly": 4400
+        },
+        {
+          "q": "where to stay in yellowstone national park",
+          "monthly": 4400
+        },
+        {
+          "q": "how many acres is yellowstone national park",
+          "monthly": 3600
+        },
+        {
+          "q": "when was yellowstone national park established",
+          "monthly": 3600
+        },
+        {
+          "q": "what to do in yellowstone national park",
+          "monthly": 2900
+        },
+        {
+          "q": "is yellowstone national park in montana",
+          "monthly": 1900
+        },
+        {
+          "q": "what city is yellowstone national park in",
+          "monthly": 1900
+        },
+        {
+          "q": "when is the best time to visit yellowstone national park",
+          "monthly": 1900
+        },
+        {
+          "q": "who founded yellowstone national park",
+          "monthly": 1900
+        },
+        {
+          "q": "who made yellowstone a national park",
+          "monthly": 1900
+        },
+        {
+          "q": "where is yellowstone national park volcano",
+          "monthly": 1600
+        }
+      ],
+      "categories": [
+        {
+          "id": "weather",
+          "title": "Weather & Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "yellowstone national park weather",
+          "monthly": 40500,
+          "keywords": [
+            {
+              "q": "yellowstone national park weather",
+              "monthly": 40500,
+              "family": "suggestions"
+            },
+            {
+              "q": "weather yellowstone national park",
+              "monthly": 40500,
+              "family": "suggestions"
+            },
+            {
+              "q": "forecast for yellowstone national park",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park in the winter",
+              "monthly": 4400,
+              "family": "prepositions"
+            },
+            {
+              "q": "yellowstone national park winter",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park in winter",
+              "monthly": 4400,
+              "family": "prepositions"
+            },
+            {
+              "q": "yellowstone national park during winter",
+              "monthly": 4400,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "hikes",
+          "title": "Hiking Trails & Route Safety",
+          "route": "things-to-do/hikes-trails",
+          "bestQuery": "old faithful inn yellowstone national park",
+          "monthly": 14800,
+          "keywords": [
+            {
+              "q": "old faithful inn yellowstone national park",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "old faithful yellowstone national park wy",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park hikes",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park geysers old faithful",
+              "monthly": 3600,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park old faithful",
+              "monthly": 3600,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park old faithful geyser",
+              "monthly": 3600,
+              "family": "suggestions"
+            },
+            {
+              "q": "old faithful yellowstone national park",
+              "monthly": 3600,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "lodging",
+          "title": "Where to Stay",
+          "route": "stay/hotels",
+          "bestQuery": "yellowstone national park lodging",
+          "monthly": 135000,
+          "keywords": [
+            {
+              "q": "yellowstone national park lodging",
+              "monthly": 135000,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park hotels",
+              "monthly": 33100,
+              "family": "suggestions"
+            },
+            {
+              "q": "lodging in yellowstone national park",
+              "monthly": 22200,
+              "family": "suggestions"
+            },
+            {
+              "q": "lodging inside yellowstone national park",
+              "monthly": 22200,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park camping",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park campgrounds",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "camping in yellowstone national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "maps",
+          "title": "Maps, Entrances & Transport",
+          "route": "plan/maps-directions",
+          "bestQuery": "map of yellowstone national park",
+          "monthly": 40500,
+          "keywords": [
+            {
+              "q": "map of yellowstone national park",
+              "monthly": 40500,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park on a map",
+              "monthly": 40500,
+              "family": "prepositions"
+            },
+            {
+              "q": "yellowstone national park map",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "airport closest to yellowstone national park",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "airports close to yellowstone national park",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "closest airport to yellowstone national park",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park near airport",
+              "monthly": 6600,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Fees, Permits & Passes",
+          "route": "plan/fees-permits",
+          "bestQuery": "yellowstone national park pass",
+          "monthly": 9900,
+          "keywords": [
+            {
+              "q": "yellowstone national park pass",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park camping reservations",
+              "monthly": 3600,
+              "family": "suggestions"
+            },
+            {
+              "q": "does yellowstone national park require reservations",
+              "monthly": 70,
+              "family": "questions"
+            },
+            {
+              "q": "does yellowstone national park have timed entry",
+              "monthly": 30,
+              "family": "questions"
+            },
+            {
+              "q": "yellowstone national park with kevin costner",
+              "monthly": 10,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "things",
+          "title": "Things to Do & Experiences",
+          "route": "things-to-do",
+          "bestQuery": "yellowstone national park tours",
+          "monthly": 49500,
+          "keywords": [
+            {
+              "q": "yellowstone national park tours",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "things to do in yellowstone national park",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "fun facts about yellowstone national park",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park top things to do",
+              "monthly": 70,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Photo Spots and Viewpoints",
+          "route": "things-to-do/iconic-photo-spots",
+          "bestQuery": "yellowstone national park photos",
+          "monthly": 18100,
+          "keywords": [
+            {
+              "q": "yellowstone national park photos",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yellowstone national park reviews",
+              "monthly": 3600,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "when",
+          "title": "Best Time and Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "yellowstone national park best time to go",
+          "monthly": 8100,
+          "keywords": [
+            {
+              "q": "yellowstone national park best time to go",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "when is the best time to visit yellowstone national park",
+              "monthly": 1900,
+              "family": "questions"
+            },
+            {
+              "q": "yellowstone national park weather by month",
+              "monthly": 1000,
+              "family": "prepositions"
+            },
+            {
+              "q": "when to visit yellowstone national park",
+              "monthly": 590,
+              "family": "questions"
+            },
+            {
+              "q": "what is the best time to visit yellowstone national park",
+              "monthly": 390,
+              "family": "questions"
+            },
+            {
+              "q": "yellowstone national park temperature by month",
+              "monthly": 70,
+              "family": "prepositions"
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "suggestions": 100,
+        "questions": 100,
+        "related": 0,
+        "prepositions": 100
+      }
+    },
+    "glacier": {
+      "primary": "glacier national park",
+      "sourceFile": "research/park-keywords/glacier-4-intent-families.json",
+      "questionCandidates": [
+        {
+          "q": "where is glacier national park in montana",
+          "monthly": 22200
+        },
+        {
+          "q": "where to fly into for glacier national park",
+          "monthly": 2400
+        },
+        {
+          "q": "what to do glacier national park",
+          "monthly": 1600
+        },
+        {
+          "q": "what to do in glacier national park",
+          "monthly": 1600
+        },
+        {
+          "q": "where is glacier bay national park",
+          "monthly": 1600
+        },
+        {
+          "q": "how to get to glacier national park",
+          "monthly": 1300
+        },
+        {
+          "q": "is glacier national park open",
+          "monthly": 1300
+        },
+        {
+          "q": "what state is glacier national park in",
+          "monthly": 1300
+        },
+        {
+          "q": "how far is glacier national park from yellowstone",
+          "monthly": 880
+        },
+        {
+          "q": "what airport is closest to glacier national park",
+          "monthly": 880
+        },
+        {
+          "q": "how big is glacier national park",
+          "monthly": 720
+        },
+        {
+          "q": "when does glacier national park open",
+          "monthly": 720
+        },
+        {
+          "q": "how many days in glacier national park",
+          "monthly": 590
+        },
+        {
+          "q": "when was glacier national park established",
+          "monthly": 590
+        },
+        {
+          "q": "when is the best time to visit glacier national park",
+          "monthly": 590
+        },
+        {
+          "q": "are dogs allowed in glacier national park",
+          "monthly": 480
+        }
+      ],
+      "categories": [
+        {
+          "id": "weather",
+          "title": "Weather & Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "glacier national park weather",
+          "monthly": 18100,
+          "keywords": [
+            {
+              "q": "glacier national park weather",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park montana weather",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "weather glacier national park",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park in winter",
+              "monthly": 1600,
+              "family": "prepositions"
+            },
+            {
+              "q": "glacier national park in the winter",
+              "monthly": 1600,
+              "family": "prepositions"
+            },
+            {
+              "q": "glacier national park in october",
+              "monthly": 1000,
+              "family": "prepositions"
+            },
+            {
+              "q": "glacier national park weather by month",
+              "monthly": 590,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "hikes",
+          "title": "Hiking Trails & Route Safety",
+          "route": "things-to-do/hikes-trails",
+          "bestQuery": "glacier national park going to the sun road",
+          "monthly": 60500,
+          "keywords": [
+            {
+              "q": "glacier national park going to the sun road",
+              "monthly": 60500,
+              "family": "suggestions"
+            },
+            {
+              "q": "going to the sun road glacier national park",
+              "monthly": 60500,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park hikes",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "hikes in glacier national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park trails",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "trails in glacier national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park best hikes",
+              "monthly": 3600,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "lodging",
+          "title": "Where to Stay",
+          "route": "stay/hotels",
+          "bestQuery": "glacier national park lodging",
+          "monthly": 33100,
+          "keywords": [
+            {
+              "q": "glacier national park lodging",
+              "monthly": 33100,
+              "family": "suggestions"
+            },
+            {
+              "q": "lodging in glacier national park",
+              "monthly": 33100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park hotels",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park places to stay",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park camping",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park campgrounds",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "camping in glacier national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "maps",
+          "title": "Maps, Entrances & Transport",
+          "route": "plan/maps-directions",
+          "bestQuery": "map of glacier national park",
+          "monthly": 14800,
+          "keywords": [
+            {
+              "q": "map of glacier national park",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park on map",
+              "monthly": 14800,
+              "family": "prepositions"
+            },
+            {
+              "q": "airport near glacier national park",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "airport for glacier national park",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park entrance pass",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "nearest airport to glacier national park",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "what airport for glacier national park",
+              "monthly": 260,
+              "family": "questions"
+            }
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Fees, Permits & Passes",
+          "route": "plan/fees-permits",
+          "bestQuery": "glacier national park vehicle reservations",
+          "monthly": 6600,
+          "keywords": [
+            {
+              "q": "glacier national park vehicle reservations",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park entrance pass",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park tickets",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "logan pass glacier national park",
+              "monthly": 2400,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park pass",
+              "monthly": 1900,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park reservations",
+              "monthly": 1900,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park camping reservations",
+              "monthly": 1600,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "things",
+          "title": "Things to Do & Experiences",
+          "route": "things-to-do",
+          "bestQuery": "glacier national park tours",
+          "monthly": 8100,
+          "keywords": [
+            {
+              "q": "glacier national park tours",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park red bus tours",
+              "monthly": 6600,
+              "family": "suggestions"
+            },
+            {
+              "q": "things to do in glacier national park",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park boat tours",
+              "monthly": 1600,
+              "family": "suggestions"
+            },
+            {
+              "q": "things to do in glacier national park besides hiking",
+              "monthly": 110,
+              "family": "prepositions"
+            },
+            {
+              "q": "glacier national park with family",
+              "monthly": 10,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Photo Spots and Viewpoints",
+          "route": "things-to-do/iconic-photo-spots",
+          "bestQuery": "glacier national park photos",
+          "monthly": 14800,
+          "keywords": [
+            {
+              "q": "glacier national park photos",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "photos of glacier national park",
+              "monthly": 14800,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "when",
+          "title": "Best Time and Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "best time to visit glacier national park",
+          "monthly": 8100,
+          "keywords": [
+            {
+              "q": "best time to visit glacier national park",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "best time of year to visit glacier national park",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "glacier national park best time to visit",
+              "monthly": 1600,
+              "family": "suggestions"
+            },
+            {
+              "q": "when is the best time to visit glacier national park",
+              "monthly": 590,
+              "family": "questions"
+            },
+            {
+              "q": "glacier national park weather by month",
+              "monthly": 590,
+              "family": "prepositions"
+            },
+            {
+              "q": "when to visit glacier national park",
+              "monthly": 480,
+              "family": "questions"
+            },
+            {
+              "q": "glacier national park temperature by month",
+              "monthly": 170,
+              "family": "prepositions"
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "suggestions": 100,
+        "questions": 100,
+        "related": 0,
+        "prepositions": 100
+      }
+    },
+    "yosemite": {
+      "primary": "yosemite national park",
+      "sourceFile": "research/park-keywords/yosemite-4-intent-families.json",
+      "questionCandidates": [
+        {
+          "q": "where to stay in yosemite national park",
+          "monthly": 4400
+        },
+        {
+          "q": "is yosemite national park open",
+          "monthly": 3600
+        },
+        {
+          "q": "how to pronounce yosemite national park",
+          "monthly": 2900
+        },
+        {
+          "q": "how big is yosemite national park",
+          "monthly": 2400
+        },
+        {
+          "q": "what to do in yosemite national park",
+          "monthly": 2400
+        },
+        {
+          "q": "how far is yosemite national park from san francisco",
+          "monthly": 1900
+        },
+        {
+          "q": "are dogs allowed in yosemite national park",
+          "monthly": 1300
+        },
+        {
+          "q": "is yosemite a national park",
+          "monthly": 1300
+        },
+        {
+          "q": "when was yosemite national park established",
+          "monthly": 1300
+        },
+        {
+          "q": "what state is yosemite national park in",
+          "monthly": 1300
+        },
+        {
+          "q": "when is the best time to visit yosemite national park",
+          "monthly": 1000
+        },
+        {
+          "q": "is yosemite national park closed",
+          "monthly": 880
+        },
+        {
+          "q": "how to get to yosemite national park",
+          "monthly": 880
+        },
+        {
+          "q": "what city is yosemite national park in",
+          "monthly": 880
+        },
+        {
+          "q": "are there bears in yosemite national park",
+          "monthly": 720
+        },
+        {
+          "q": "how many acres are in yosemite national park",
+          "monthly": 720
+        }
+      ],
+      "categories": [
+        {
+          "id": "weather",
+          "title": "Weather & Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "yosemite national park weather",
+          "monthly": 74000,
+          "keywords": [
+            {
+              "q": "yosemite national park weather",
+              "monthly": 74000,
+              "family": "suggestions"
+            },
+            {
+              "q": "weather in yosemite national park",
+              "monthly": 74000,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park in winter",
+              "monthly": 5400,
+              "family": "prepositions"
+            },
+            {
+              "q": "yosemite national park during winter",
+              "monthly": 5400,
+              "family": "prepositions"
+            },
+            {
+              "q": "temperature in yosemite national park",
+              "monthly": 2900,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park in october",
+              "monthly": 2400,
+              "family": "prepositions"
+            },
+            {
+              "q": "yosemite national park in november",
+              "monthly": 2400,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "hikes",
+          "title": "Hiking Trails & Route Safety",
+          "route": "things-to-do/hikes-trails",
+          "bestQuery": "yosemite national park hikes",
+          "monthly": 14800,
+          "keywords": [
+            {
+              "q": "yosemite national park hikes",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "hikes in yosemite national park",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "best hikes in yosemite national park",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park half dome hike",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park trails",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "trails in yosemite national park",
+              "monthly": 4400,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park off road trails",
+              "monthly": 10,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "lodging",
+          "title": "Where to Stay",
+          "route": "stay/hotels",
+          "bestQuery": "yosemite national park lodging",
+          "monthly": 49500,
+          "keywords": [
+            {
+              "q": "yosemite national park lodging",
+              "monthly": 49500,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park camping",
+              "monthly": 40500,
+              "family": "suggestions"
+            },
+            {
+              "q": "camping in yosemite national park",
+              "monthly": 40500,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park hotels",
+              "monthly": 33100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park camping reservations",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "ahwahnee hotel yosemite national park",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "hotels near yosemite national park",
+              "monthly": 6600,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "maps",
+          "title": "Maps, Entrances & Transport",
+          "route": "plan/maps-directions",
+          "bestQuery": "map of yosemite national park",
+          "monthly": 18100,
+          "keywords": [
+            {
+              "q": "map of yosemite national park",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park map",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park on map",
+              "monthly": 18100,
+              "family": "prepositions"
+            },
+            {
+              "q": "yosemite national park entrance fee",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "entrance fee to yosemite national park",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "entrance to yosemite national park",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "drive to yosemite national park",
+              "monthly": 2900,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "fees",
+          "title": "Fees, Permits & Passes",
+          "route": "plan/fees-permits",
+          "bestQuery": "yosemite national park camping reservations",
+          "monthly": 18100,
+          "keywords": [
+            {
+              "q": "yosemite national park camping reservations",
+              "monthly": 18100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park reservations",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "reservations for yosemite national park",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park tickets",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park pass",
+              "monthly": 12100,
+              "family": "suggestions"
+            },
+            {
+              "q": "entry fee for yosemite national park",
+              "monthly": 9900,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park permits",
+              "monthly": 3600,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "things",
+          "title": "Things to Do & Experiences",
+          "route": "things-to-do",
+          "bestQuery": "yosemite national park tours",
+          "monthly": 22200,
+          "keywords": [
+            {
+              "q": "yosemite national park tours",
+              "monthly": 22200,
+              "family": "suggestions"
+            },
+            {
+              "q": "things to do in yosemite national park",
+              "monthly": 8100,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park top things to do",
+              "monthly": 20,
+              "family": "prepositions"
+            }
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Photo Spots and Viewpoints",
+          "route": "things-to-do/iconic-photo-spots",
+          "bestQuery": "yosemite national park photos",
+          "monthly": 14800,
+          "keywords": [
+            {
+              "q": "yosemite national park photos",
+              "monthly": 14800,
+              "family": "suggestions"
+            },
+            {
+              "q": "photos of yosemite national park",
+              "monthly": 14800,
+              "family": "suggestions"
+            }
+          ]
+        },
+        {
+          "id": "when",
+          "title": "Best Time and Seasons",
+          "route": "plan/weather-seasons",
+          "bestQuery": "best time to visit yosemite national park",
+          "monthly": 5400,
+          "keywords": [
+            {
+              "q": "best time to visit yosemite national park",
+              "monthly": 5400,
+              "family": "suggestions"
+            },
+            {
+              "q": "yosemite national park weather by month",
+              "monthly": 1300,
+              "family": "prepositions"
+            },
+            {
+              "q": "when is the best time to visit yosemite national park",
+              "monthly": 1000,
+              "family": "questions"
+            },
+            {
+              "q": "what is the best time to visit yosemite national park",
+              "monthly": 170,
+              "family": "questions"
+            },
+            {
+              "q": "yosemite national park temperature by month",
+              "monthly": 70,
+              "family": "prepositions"
+            }
+          ]
+        }
+      ],
+      "totals": {
+        "suggestions": 100,
+        "questions": 100,
+        "related": 0,
+        "prepositions": 100
+      }
+    }
+  },
+  "rules": "Highest individual query volume within thematic intent, not additive keyword counts. Questions are user research not official factual answers."
+}

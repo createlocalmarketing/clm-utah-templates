@@ -112,5 +112,11 @@
       "route": "/park/yosemite",
       "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
     }
-  ]
+  ],
+  "ingestion": {
+    "workflow": "npg-review-photo-ingest.yml",
+    "requestedAt": "2026-10-10",
+    "status": "SOURCE_PHOTO_ASSET_IMPORT_REQUESTED_AS_DRAFT_PR",
+    "qaRequired": "Photo geographic accuracy, author, attribution, rights, crop, responsive quality and SEO filename must be human approved"
+  }
 }

@@ -1,0 +1,116 @@
+(function main(){
+"use strict";
+const D=window.CLM_PARKS,U=window.ParkUI,A=window.ParkPagesA,B=window.ParkPagesB;
+if(!D||!U||!A||!B)throw Error("NPG module order incorrect");
+const {esc,layout,zion,park,source}=U;
+const file=s=>"https://commons.wikimedia.org/wiki/Special:FilePath/"+encodeURIComponent(s)+"?width=1600";
+const scene={
+smokies:file("Views from the walkway to Clingmans Dome Tower (4b006749-e564-496e-a32c-f69932d039a7).jpg"),
+yellowstone:file("Grand prismatic spring.jpg"),
+zion:file("Zion National Park Canyon Overlook Trail View.jpg"),
+yosemite:file("“Tunnel View” overlook showing famous rock formations in Yosemite Valley 03.jpg"),
+glacier:file("Lake mcdonald in glacier national park Montana.jpg"),
+narrows:park("zion").img2,
+camping:file("South Campground, Zion National Park.jpg"),
+wildlife:file("Yellowstone National Park - Bison.jpg"),
+mountains:file("Lake McDonald with Mt Cannon, Mt Brown, Little Matterhorn, Mt Edwards, and Gunsight Mountain (12091853594).jpg"),
+zionwide:file("Zion NP20.jpg"),
+heritage:file("Clingmans Dome-27527-1.jpg")
+};
+const photo=(s,alt,cls="")=>`<img src="${esc(s)}" alt="${esc(alt)}" class="${cls}" loading="lazy" decoding="async" onerror="this.classList.add('npg-broken')"/>`;
+const tile=(o)=>`<article class="npg-image-tile"><a class="npg-tile-photo" href="${esc(o.href)}" aria-label="${esc(o.label)}">${o.image?photo(o.image,o.alt||o.title):`<div class="npg-artist" aria-label="Original design illustration pending destination photography"><span class="npg-art-rings"></span><span>${esc(o.category||"DISCOVER")}</span></div>`}</a><div class="npg-tile-content"><span class="eyebrow">${esc(o.kicker||o.category||"NATIONAL PARKS GUIDE")}</span><h3><a href="${esc(o.href)}">${esc(o.title)}</a></h3><p>${esc(o.description||"Discover the experience and see what makes it worth exploring.")}</p><a class="npg-image-link" href="${esc(o.href)}">${esc(o.label||"Explore guide")} <span aria-hidden="true">↗</span></a></div></article>`;
+const section=(id,kicker,title,sub,body,cta)=>`<section id="${esc(id)}" class="npg-long-section"><div class="wrap"><div class="npg-section-intro"><div><span class="eyebrow">${esc(kicker)}</span><h2>${esc(title)}</h2></div><p>${esc(sub)}</p></div>${body}${cta?`<p class="npg-after-cta"><a class="btn" href="${esc(cta.href)}">${esc(cta.text)} <span aria-hidden="true">→</span></a></p>`:""}</div></section>`;
+const featureSlides=zion?[
+{slug:"zion",k:"UTAH’S RED-ROCK ICON",title:"Welcome to the extraordinary.",tag:"Zion Canyon Overlook",intro:"Discover Zion’s canyon scenery, river corridor, unforgettable hikes and locally owned gateway communities.",photo:scene.zion,button:"Discover Zion",href:"#/park/zion"},
+{slug:"zion",k:"THROUGH THE NARROWS",title:"Follow the river.",tag:"The Narrows · Zion",intro:"Learn trail approaches, where the water goes, and why checking current river conditions is essential.",photo:scene.narrows,button:"Explore the Narrows",href:"#/trail/zion-the-narrows"},
+{slug:"zion",k:"CAMP UNDER THE STARS",title:"Stay for the story.",tag:"South Campground · Zion",intro:"Find campgrounds, lodging areas, access information and a visitor-friendly Southern Utah itinerary.",photo:scene.camping,button:"Explore stays",href:"#/park/zion/topic/stay"},
+{slug:"zion",k:"THE VIEW FROM ABOVE",title:"The canyon changes you.",tag:"Zion National Park",intro:"Iconic overlooks and sandstone formations are only the beginning of a much bigger landscape.",photo:scene.zionwide,button:"Find photo locations",href:"#/park/zion/topic/things-to-do"},
+{slug:"zion",k:"YOUR GATEWAY EXPERIENCE",title:"Meet the people around Zion.",tag:"Springdale visitor gateway",intro:"Discover local hospitality, places to eat, tourism businesses and experiences near the park.",photo:scene.zion,button:"Explore nearby",href:"#/directory?park=zion"},
+{slug:"zion",k:"ADVENTURE WITH PURPOSE",title:"Remember every moment.",tag:"Trail experiences",intro:"Collect original stamps, plan responsibly, and preserve your family’s favorite park stories.",photo:scene.zionwide,button:"Open passport",href:"#/passport"}
+]:[
+{slug:"great-smoky-mountains",k:"AMERICA’S GREAT OUTDOORS",title:"Find your wild.",tag:"Great Smoky Mountains · Clingmans Dome",intro:"Follow mountain roads, misty ridgelines and the stories of America’s most searched-for parks.",photo:scene.smokies,button:"Explore the Smokies",href:"#/park/great-smoky-mountains"},
+{slug:"yellowstone",k:"THE EARTH IS ALIVE",title:"See the extraordinary.",tag:"Grand Prismatic Spring · Yellowstone",intro:"Color, heat and ancient geology—discover the unforgettable landscape beyond the geysers.",photo:scene.yellowstone,button:"Explore Yellowstone",href:"#/park/yellowstone"},
+{slug:"glacier",k:"WHERE MOUNTAINS MEET WATER",title:"Go beyond the horizon.",tag:"Lake McDonald · Glacier National Park",intro:"Alpine lakes, dramatic peaks and high-country routes define one of the Northwest’s icons.",photo:scene.glacier,button:"Discover Glacier",href:"#/park/glacier"},
+{slug:"yosemite",k:"A VALLEY LIKE NO OTHER",title:"Feel the scale of Yosemite.",tag:"Tunnel View · Yosemite Valley",intro:"El Capitan, Half Dome and towering waterfalls set the stage for a remarkable park experience.",photo:scene.yosemite,button:"Discover Yosemite",href:"#/park/yosemite"},
+{slug:"zion",k:"CANYONS THAT STAY WITH YOU",title:"The canyon changes you.",tag:"Canyon Overlook · Zion",intro:"An unforgettable landscape of stone, sky and river, surrounded by Southern Utah gateway communities.",photo:scene.zion,button:"Discover Zion",href:"#/park/zion"},
+{slug:"zion",k:"GO DEEPER INTO THE STORY",title:"Make the journey yours.",tag:"Zion National Park · The Narrows",intro:"Build an itinerary, find the right trails, collect experiences and support local people.",photo:scene.narrows,button:"Plan a park adventure",href:"#/trip-builder"}];
+function home(){
+let h=`<div class="npg-home">
+<div class="npg-split-hero" aria-label="Featured park carousel"><figure class="npg-hero-photo">${photo(featureSlides[0].photo,featureSlides[0].tag,"npg-hero-asset")}<figcaption id="v2HeroTag">${esc(featureSlides[0].tag)}</figcaption></figure>
+<div class="npg-hero-copy"><span class="eyebrow" id="v2Kicker">${esc(featureSlides[0].k)}</span><h1 id="v2Title">${esc(featureSlides[0].title)}</h1><p id="v2Intro">${esc(featureSlides[0].intro)}</p><div class="actions"><a class="btn gold" id="v2Go" href="${esc(featureSlides[0].href)}">${esc(featureSlides[0].button)} →</a><a class="btn alt" href="#/trip-builder">Plan your trip ↗</a></div>
+<div class="npg-hero-switch"><button id="v2Prev" aria-label="Previous featured park">←</button><span id="v2Count">01 / 06</span><button id="v2Next" aria-label="Next featured park">→</button></div><div class="npg-hero-dots" id="v2Dots"></div></div></div>
+<nav class="npg-journey-nav wrap" aria-label="Visitor journey shortcuts"><a href="#/parks">Discover <span>All 63 parks</span></a><a href="#/directory">Stay & explore <span>Local experiences</span></a><a href="#/trip-builder">Build your trip <span>Day-by-day itinerary</span></a><a href="#/passport">Earn & collect <span>Your adventure passport</span></a><a href="#/news">Inside parks <span>News & inspiration</span></a></nav>`;
+const featured=zion?D.featuredParks.filter(p=>p.slug==="zion"):D.featuredParks;
+h+=section("featured-parks","THE EDITOR’S FIRST STOPS","Five iconic destinations.","These five homepage features are selected from comparable U.S. park-name search demand. Every one of the 63 U.S. national parks has its own visitor hub.",`<div class="npg-photo-rail">${featured.map(p=>tile({kicker:"DESTINATION GUIDE · "+p.state,title:p.name,description:p.intro,image:scene[p.slug==="great-smoky-mountains"?"smokies":p.slug]||p.image,alt:p.short+" national park scenery",href:"#/park/"+p.slug,label:"Discover "+p.short})).join("")}</div>`,{href:"#/parks",text:"Explore all 63 U.S. national parks"});
+const categories=[
+["Plan your visit","Planning is the beginning of a better park day.","Route planning, entrance logistics, fees, passes, visitor seasons and practical decisions.",scene.yosemite,"#/park/"+(zion?"zion":"yosemite")+"/topic/plan","Prepare for the trip"],
+["Hikes & adventures","Trails worth telling stories about.","Choose experiences by difficulty, permits, condition, accessibility and the time you have.",scene.zion,"#/park/"+(zion?"zion":"zion")+"/topic/things-to-do/hikes-trails","Explore trails"],
+["Places to stay","Make the getaway more than a day.","Campgrounds, lodges, cabins and gateway-town accommodations with source verification.",scene.camping,"#/park/zion/topic/stay","Find places to stay"],
+["Wildlife & nature","Experience nature on its terms.","Bison, mountains, scenic landscapes and safe ways to observe wildlife.",scene.wildlife,"#/park/yellowstone/topic/things-to-do","Discover natural wonders"],
+["Local businesses","Meet the people behind the gateways.","Real restaurants, outfitters, tour services and locally owned hospitality.",scene.mountains,"#/directory","Discover local favorites"],
+["Park news","What’s happening beyond the trailhead.","Source-backed planning updates, ranger programs, conservation and gateway news.",scene.heritage,"#/news","Read park news"],
+["Deals & experiences","Adventure value should be real.","Explore merchant offers and original park rewards only after verification and actual terms.",scene.glacier,"#/shop","Browse park collectibles"],
+["Park gift shop","Collect the story, not just the souvenir.","Original park-inspired memorabilia, commemorative art and apparel concepts.",scene.zionwide,"#/shop","Explore collectible ideas"]];
+h+=section("inspiration","BEYOND THE MAP","What kind of adventure is calling?","Every content family opens a park-specific guide. These are visual destination stories, not disconnected generic icon blocks.",`<div class="npg-story-grid">${categories.map(([title,description,labelImage,image,href,cta],i)=>tile({kicker:["VISITOR INTELLIGENCE","EXPERIENCES","LODGING & CAMPSITES","WILDLIFE & SAFETY","GATEWAY ECONOMY","INSIDE NATIONAL PARKS NEWS","REWARDS","ORIGINAL COLLECTIBLES"][i],title,description:labelImage,image,href,label:cta,alt:title+" — location-specific national park editorial image"})).join("")}</div>`);
+h+=`<section class="npg-fullbleed-film"><div class="wrap npg-film-layout"><div><span class="eyebrow">MOTION, SOUND AND STORIES</span><h2>These places should move you.</h2><p>Watch actual official-source park footage here—not a static placeholder. The original commissioned 80-second Zion film and frontier score remain separate production deliverables.</p><a class="btn gold" href="#/videos">Explore the film library ↗</a></div><div class="npg-video-frame"><iframe title="Official Yosemite National Park Service park film" loading="lazy" src="https://www.nps.gov/media/video/embed.htm?id=01964B37-C8B7-8B9D-A2DB28BD3EBDF07E" allowfullscreen></iframe><div class="npg-film-source">National Park Service · Yosemite scenic film <a href="https://www.nps.gov/media/video/view.htm?id=01964B37-C8B7-8B9D-A2DB28BD3EBDF07E" target="_blank" rel="noopener">Original source ↗</a></div></div></div></section>`;
+const news=D.news.slice(0,2).map((n,i)=>tile({kicker:"PARK NEWS · SOURCE BRIEF",title:n.title,description:n.excerpt,image:i===0?scene.zionwide:scene.smokies,href:"#/article/"+n.id,label:"Read source-based story"})).join("");
+h+=section("park-news","INSIDE NATIONAL PARKS NEWS","The story never stops at the gate.","Original, sourced reporting and relevant stories connect visitor questions to living parks, gateway communities and conservation.",`<div class="npg-photo-rail">${news}${tile({kicker:"PARK SAFETY",title:"What to know before the trail",description:"Check official park closures, weather and route information, not unsourced claims.",image:scene.yellowstone,href:"#/safety",label:"Prepare responsibly"})}</div>`,{href:"#/news",text:"Inside National Parks News"});
+const deals= D.products.filter(x=>x.park===(zion?"zion":"yellowstone")).slice(0,4);
+h+=section("merch","ORIGINAL PARK COLLECTIBLES","Take the experience home.","Every product now has its own type-specific original illustrated concept artwork. Manufacturing, stock and checkout are not active.",`<div class="grid g4">${deals.map(x=>U.productCard(x)).join("")}</div>`,{href:"#/shop",text:"Explore all collectible concepts"});
+const questions=[
+["How do I choose the right U.S. national park?","Start with the season, the activities you want, available travel time and accessibility. Compare specific NPS park information before booking lodging or travel."],
+["Where can I find hotels and restaurants near a park?","Choose a park, then a local category and search radius. Business records display only where source-supported; many parks still require the full 25-mile import."],
+["Do all national parks use the same entrance permits?","No. Each park has its own fees, permits and seasonal access requirements. Check official NPS visitor planning for your specific destination and date."],
+["Can I earn rewards for visiting parks?","The planned adventure passport combines learning, responsible visiting and optional GPS verification. Real offers require verified eligibility and a deployed backend."],
+["Are park conditions and trail closures live here?","Not yet. The official park conditions and emergency agency sources remain authoritative. Never rely on this prelaunch website for live hazard decisions."]
+];
+h+=section("answers","QUESTIONS TRAVELERS ACTUALLY ASK","Plan with answers, not guesswork.","Visitor research needs precise answers and transparent, authoritative sources. These guide destinations toward more comprehensive park-level articles.",`<div class="npg-faq-list">${questions.map(([q,a])=>`<details class="npg-faq"><summary>${esc(q)}</summary><p>${esc(a)}</p><a href="https://www.nps.gov" target="_blank" rel="noopener">NPS official resources ↗</a></details>`).join("")}</div>`);
+h+=`<section class="npg-last-cta"><div class="wrap npg-last-grid"><div><span class="eyebrow">YOUR ADVENTURE, YOUR LEGACY</span><h2>Make every park part of your story.</h2><p>Discover places worth protecting, create your itinerary, and explore a lifelong adventure passport.</p><div class="actions"><a class="btn gold" href="#/trip-builder">Build your trip →</a><a class="btn alt" href="app/index.html">Experience the iPhone app ↗</a></div></div>${photo(scene.glacier,"Glacier National Park Lake McDonald lake and mountains")}</div></section>`;
+layout(h+"</div>");
+let index=0;
+const show=()=>{const s=featureSlides[index],img=document.querySelector(".npg-hero-asset");if(img){img.src=s.photo;img.alt=s.tag}U.$("v2Kicker").textContent=s.k;U.$("v2Title").textContent=s.title;U.$("v2Intro").textContent=s.intro;U.$("v2HeroTag").textContent=s.tag;U.$("v2Go").href=s.href;U.$("v2Go").textContent=s.button+" →";U.$("v2Count").textContent=String(index+1).padStart(2,"0")+" / "+String(featureSlides.length).padStart(2,"0");U.$("v2Dots").innerHTML=featureSlides.map((x,i)=>`<button data-slide="${i}" class="${i===index?"on":""}" aria-label="Show ${esc(x.slug)} hero slide"></button>`).join("");U.$("v2Dots").querySelectorAll?.("[data-slide]").forEach(b=>b.onclick=()=>{index=Number(b.dataset.slide);show()})};
+U.$("v2Prev").onclick=()=>{index=(index+featureSlides.length-1)%featureSlides.length;show()};
+U.$("v2Next").onclick=()=>{index=(index+1)%featureSlides.length;show()};
+show();
+}
+function geoPoster(p,type,i){
+const palettes=[["#537461","#9ab198"],["#426d7e","#b5d4dc"],["#b77753","#e7b68c"],["#66615b","#c5afa1"],["#668a80","#b7cec4"],["#516772","#acbec1"]];
+const [c1,c2]=palettes[(i+p.slug.length)%palettes.length];
+let seed=[...p.slug+type].reduce((n,c)=>n+c.charCodeAt(0),0);
+const rise=85+seed%40;return `<svg class="npg-park-poster" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Unique original ${esc(p.short)} ${esc(type)} category illustration, source photography pending"><defs><linearGradient id="v${seed}" x1="0" y1="1" x2="1" y2="0"><stop stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/></linearGradient></defs><rect width="400" height="200" fill="url(#v${seed})"/><circle cx="${260+seed%35}" cy="53" r="25" fill="#ffdda0" opacity=".7"/><path d="M0 150 65 ${rise-22} 113 ${rise+12} 184 ${rise-35} 256 ${rise+20} 333 ${rise-14} 400 143V200H0Z" fill="#2f514b" opacity=".65"/><path d="M0 174 85 ${rise+32} 154 ${rise+12} 235 ${rise+52} 321 ${rise+4} 400 181V200H0Z" fill="#213f39" opacity=".70"/><text x="22" y="178" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="800">${esc(p.short.toUpperCase().slice(0,25))}</text></svg>`}
+function directory(){
+const q=new URLSearchParams(location.hash.split("?")[1]||"");
+let ps=q.get("park")||(zion?"zion":"all"),category=q.get("category")||"all",selected=ps==="all"?null:D.parks.find(p=>p.slug===ps);
+const all=D.parkOrder||D.parks;
+const display=selected?[selected]:(zion?all.filter(p=>p.slug==="zion"):all);
+const segments=[
+["hotels","Hotels & places to stay","Book-worthy lodging and accommodations","fa-bed"],
+["restaurants","Restaurants & local food","Eat and explore gateway communities","fa-utensils"],
+["tour-guides","Tours & guided adventures","Guides, history and memorable experiences","fa-person-hiking"],
+["outdoor-vehicle-rentals","Outdoor rentals & outfitters","Gear, vehicles and equipment","fa-person-biking"],
+["campgrounds","Camping & RV stays","Campsites, wilderness-ready lodging and RV parks","fa-campground"],
+["family-activities","Things to do & attractions","Museums, scenic stops and family experiences","fa-camera-retro"]
+];
+const pagehead=`<div class="npg-dir-hero"><div class="wrap npg-dir-hero-grid"><div><span class="eyebrow">63 NATIONAL PARKS · YOUR LOCAL EXPERIENCES</span><h1>Discover what’s around every national park.</h1><p>Choose your destination first. From places to stay and memorable meals to guided trips and locally owned businesses, explore the visitor economy around America’s protected places.</p><div class="actions"><a class="btn gold" href="#park-sections">Explore by park ↓</a><a class="btn alt" href="#/parks">See all park guides ↗</a></div></div><div class="npg-dir-collage">${photo(scene.zion,"Zion canyon and mountains")}${photo(scene.glacier,"Glacier National Park Lake McDonald")}${photo(scene.yellowstone,"Yellowstone Grand Prismatic Spring")}</div></div></div>`;
+const filters=`<div class="wrap"><form id="npg-directory-filter" class="npg-dir-filter"><label>Destination <select id="npg-dir-park"><option value="all">All 63 national parks</option>${all.map(p=>`<option value="${p.slug}" ${p.slug===ps?"selected":""}>${esc(p.short)} — ${esc(p.state)}</option>`).join("")}</select></label><label>Experience <select id="npg-dir-category"><option value="all">All visitor categories</option>${segments.map(x=>`<option value="${x[0]}" ${x[0]===category?"selected":""}>${esc(x[1])}</option>`).join("")}</select></label><button type="submit" class="btn gold">Find experiences →</button></form></div>`;
+let segmentsHtml="";
+for(const [idx,p] of display.entries()){
+const count=D.merchants.filter(b=>b.park===p.slug).length;
+const img=(p.slug==="zion"?scene.zion:p.slug==="yellowstone"?scene.yellowstone:p.slug==="glacier"?scene.glacier:p.slug==="yosemite"?scene.yosemite:p.slug==="great-smoky-mountains"?scene.smokies:p.image||"");
+const related=segments.filter(s=>category==="all"||s[0]===category);
+const cards=related.map(([slug,label,desc,icon],i)=>{
+const actual=D.merchants.filter(b=>b.park===p.slug&&(b.category===slug||b.types?.includes(slug)));
+return `<article class="npg-experience-card"><div class="npg-experience-poster">${geoPoster(p,slug,i)}<span class="npg-poster-label">${esc(label)}</span></div><div class="npg-experience-body"><h3>${esc(label)} near ${esc(p.short)}</h3><p>${esc(desc)}. ${actual.length?`${actual.length} initial source record${actual.length===1?"":"s"} available.`:"Verified regional listings being imported."}</p><a href="#/park/${p.slug}/businesses/${slug}">Discover ${esc(label.toLowerCase())} →</a></div></article>`;
+}).join("");
+const merchantCards=D.merchants.filter(b=>b.park===p.slug).map(b=>`<article class="npg-merchant-profile"><div><span class="eyebrow">${esc(b.city)} · ${esc(b.category)}</span><h3>${esc(b.name)}</h3><p>${esc(b.description)}</p><a href="#/business/${b.id}">Explore business details ↗</a></div><span class="npg-source-status">Source record · gallery pending</span></article>`).join("");
+segmentsHtml+=`<section id="park-${p.slug}" class="npg-regional-section ${idx%2?"npg-alt":""}"><div class="wrap"><div class="npg-regional-header"><div class="npg-region-photo">${img?photo(img,p.name+" geographic visitor destination"):geoPoster(p,"park",idx)}</div><div class="npg-regional-title"><span class="eyebrow">DESTINATION ${String(idx+1).padStart(2,"0")} / ${display.length} · ${esc(p.state)}</span><h2>Things to do & local businesses near ${esc(p.name)}</h2><p>${esc(p.intro)}</p><div class="npg-park-cta"><a href="#/park/${p.slug}" class="btn">Explore ${esc(p.short)} park guide ↗</a><a class="btn alt" href="#/trip-builder?park=${p.slug}">Plan this trip</a></div></div></div><div class="npg-rail-label"><h3>Explore by visitor experience</h3><span>Drag or scroll →</span></div><div class="npg-scroll-rail">${cards}</div>${merchantCards?`<div class="npg-region-merchants"><h3>Source-identified local businesses</h3><div class="npg-merchant-rail">${merchantCards}</div></div>`:`<p class="npg-pending">Local business imports for ${esc(p.short)} are still awaiting complete verified 25-mile source coverage; these are category links, not fabricated merchant recommendations.</p>`}</div></section>`;
+}
+const faq=`<section class="npg-long-section"><div class="wrap"><span class="eyebrow">NATIONAL TRAVEL QUESTIONS</span><h2>Finding the right business around a park</h2><div class="npg-faq-list"><details class="npg-faq"><summary>How far do these listings extend from a national park?</summary><p>Our target is a 25-mile radius from verified park entrance or gateway reference points. Until each park has verified coordinates and a licensed complete source feed, listings are explicitly marked as incomplete.</p></details><details class="npg-faq"><summary>Can I book hotels or redeem discount codes directly?</summary><p>Not until a merchant has verified its listing, booking terms, discount inventory and participating commerce integrations. No availability or deal is invented.</p></details><details class="npg-faq"><summary>How are local businesses featured?</summary><p>Merchant profiles are organized by the park and actual service category, with source attribution, owner-claim status and privacy-compliant contact information. Featured placement must be labeled if sponsored.</p></details></div></div></section>`;
+layout(`<div class="npg-directory-page">${pagehead}${filters}<div id="park-sections">${segmentsHtml}</div>${faq}</div>`);
+const form=U.$("npg-directory-filter");
+form.onsubmit=e=>{e?.preventDefault?.();const a=U.$("npg-dir-park")?.value||"all",b=U.$("npg-dir-category")?.value||"all";location.hash="#/directory?park="+encodeURIComponent(a)+"&category="+encodeURIComponent(b)};
+}
+A.home=home;
+B.directory=directory;
+window.NPG_EDITORIAL_EXPERIENCE={scene,home,directory};
+})();

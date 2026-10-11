@@ -10,6 +10,7 @@
  */
 declare(strict_types=1);
 if (!defined('ABSPATH')) exit;
+require_once __DIR__.'/includes/class-clm-visitor-rewards.php';
 final class CLM_National_Parks_Core {
  const VERSION='0.1.0'; const NS='clm-parks/v1';
  const TYPES = [
@@ -35,7 +36,7 @@ final class CLM_National_Parks_Core {
   add_filter('woocommerce_product_get_status',[__CLASS__,'product_guard'],20,2);
   register_activation_hook(__FILE__,[__CLASS__,'activate']);
  }
- static function activate(): void { self::register(); flush_rewrite_rules(); }
+ static function activate(): void { self::register(); CLM_Park_Visitor_Rewards::install(); flush_rewrite_rules(); }
  static function register(): void {
   foreach(self::TYPES as $type=>$labels){
    register_post_type($type,[

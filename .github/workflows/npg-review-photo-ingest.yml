@@ -32,4 +32,7 @@ jobs:
           if git diff --cached --quiet; then echo 'No source media produced'; exit 0; fi
           git commit -m 'media(npg): new SEO-named source photographs; credit/license and crop approval required'
           git push origin "$branch"
-          gh pr create --draft --base main --head "$branch" --title 'NPG photos: SEO filenames, NPS/Commons licensing and manual review' --body 'Review each asset visually, confirm exact park/section geographic identity, license, source, alt text, credit and crop. Some failed media may require new rights-cleared source. DO NOT auto-deploy to WordPress or mark pages SEO complete.'
+          echo "::notice::10/variable source photographs pushed into GitHub review branch $branch. GitHub Actions token may lack PR creation privilege."
+          echo "Open a draft PR using the installed GitHub connector or the URL:"
+          echo "https://github.com/createlocalmarketing/clm-utah-templates/compare/main...$branch?expand=1"
+          echo "Mandatory manual photo identity, source/license/attribution, exact park, SEO filename and crop acceptance still applies."

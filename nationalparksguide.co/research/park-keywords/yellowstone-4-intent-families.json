@@ -1,0 +1,1846 @@
+{
+  "park": "yellowstone",
+  "seed": "yellowstone national park",
+  "platform": "Google",
+  "country": "United States",
+  "language": "en",
+  "captured": "2026-10-10",
+  "note": "Unfiltered KeywordTool.io query families. These are evidence for intent mapping, not final page copy or ranking guarantees. Monthly search volume only from source.",
+  "results": [
+    {
+      "type": "suggestions",
+      "success": true,
+      "count": 100,
+      "total": 642,
+      "rows": [
+        {
+          "q": "yellowstone national park",
+          "v": 673000,
+          "tr": 307,
+          "cmp": 0.89
+        },
+        {
+          "q": "yellowstone national park usa",
+          "v": 673000,
+          "tr": 307,
+          "cmp": 0.89
+        },
+        {
+          "q": "usa yellowstone national park",
+          "v": 673000,
+          "tr": 307,
+          "cmp": 0.89
+        },
+        {
+          "q": "yellowstone national park lodging",
+          "v": 135000,
+          "tr": -45,
+          "cmp": 0.07
+        },
+        {
+          "q": "yellowstone national park tours",
+          "v": 49500,
+          "tr": -33,
+          "cmp": 0.05
+        },
+        {
+          "q": "map of yellowstone national park",
+          "v": 40500,
+          "tr": 0,
+          "cmp": 0.88
+        },
+        {
+          "q": "yellowstone national park on a map",
+          "v": 40500,
+          "tr": 0,
+          "cmp": 0.88
+        },
+        {
+          "q": "volcano yellowstone national park",
+          "v": 40500,
+          "tr": -18,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park weather",
+          "v": 40500,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park where is it",
+          "v": 40500,
+          "tr": 50,
+          "cmp": 0.03
+        },
+        {
+          "q": "where is yellowstone national park",
+          "v": 40500,
+          "tr": 50,
+          "cmp": 0.03
+        },
+        {
+          "q": "weather yellowstone national park",
+          "v": 40500,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park hotels",
+          "v": 33100,
+          "tr": -18,
+          "cmp": 0.78
+        },
+        {
+          "q": "grand canyon yellowstone national park",
+          "v": 27100,
+          "tr": 22,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park live cam",
+          "v": 27100,
+          "tr": 23,
+          "cmp": 0.03
+        },
+        {
+          "q": "yellowstone national park webcams",
+          "v": 27100,
+          "tr": 23,
+          "cmp": 0.03
+        },
+        {
+          "q": "yellowstone national park hot springs",
+          "v": 22200,
+          "tr": 22,
+          "cmp": 0.12
+        },
+        {
+          "q": "lodging in yellowstone national park",
+          "v": 22200,
+          "tr": 0,
+          "cmp": 0.92
+        },
+        {
+          "q": "lodging inside yellowstone national park",
+          "v": 22200,
+          "tr": 0,
+          "cmp": 0.92
+        },
+        {
+          "q": "yellowstone national park photos",
+          "v": 18100,
+          "tr": 50,
+          "cmp": 0.23
+        },
+        {
+          "q": "yellowstone national park location",
+          "v": 18100,
+          "tr": 22,
+          "cmp": 0.84
+        },
+        {
+          "q": "location of yellowstone national park",
+          "v": 18100,
+          "tr": 22,
+          "cmp": 0.84
+        },
+        {
+          "q": "pictures of yellowstone national park",
+          "v": 18100,
+          "tr": 50,
+          "cmp": 0.23
+        },
+        {
+          "q": "yellowstone national park geyser",
+          "v": 14800,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "geyser in yellowstone national park",
+          "v": 14800,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "old faithful inn yellowstone national park",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park map",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.85
+        },
+        {
+          "q": "yellowstone national park camping",
+          "v": 12100,
+          "tr": -70,
+          "cmp": 0.42
+        },
+        {
+          "q": "yellowstone national park campgrounds",
+          "v": 12100,
+          "tr": -70,
+          "cmp": 0.42
+        },
+        {
+          "q": "yellowstone national park campsites",
+          "v": 12100,
+          "tr": 22,
+          "cmp": 0.53
+        },
+        {
+          "q": "camping in yellowstone national park",
+          "v": 12100,
+          "tr": 22,
+          "cmp": 0.53
+        },
+        {
+          "q": "campgrounds in yellowstone national park",
+          "v": 12100,
+          "tr": -70,
+          "cmp": 0.42
+        },
+        {
+          "q": "yellowstone national park eruption",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "eruption at yellowstone national park",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park animals",
+          "v": 9900,
+          "tr": -18,
+          "cmp": 0.06
+        },
+        {
+          "q": "animals in yellowstone national park",
+          "v": 9900,
+          "tr": -18,
+          "cmp": 0.06
+        },
+        {
+          "q": "yellowstone national park pass",
+          "v": 9900,
+          "tr": 49,
+          "cmp": 0.57
+        },
+        {
+          "q": "yellowstone national park best time to go",
+          "v": 8100,
+          "tr": 23,
+          "cmp": 0.2
+        },
+        {
+          "q": "good time to visit yellowstone national park",
+          "v": 8100,
+          "tr": 23,
+          "cmp": 0.2
+        },
+        {
+          "q": "montana yellowstone national park",
+          "v": 8100,
+          "tr": 22,
+          "cmp": 0.72
+        },
+        {
+          "q": "old faithful yellowstone national park wy",
+          "v": 8100,
+          "tr": 83,
+          "cmp": 0.06
+        },
+        {
+          "q": "how big is yellowstone national park",
+          "v": 6600,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "hotels near yellowstone national park",
+          "v": 6600,
+          "tr": 0,
+          "cmp": 0.92
+        },
+        {
+          "q": "airport closest to yellowstone national park",
+          "v": 6600,
+          "tr": 23,
+          "cmp": 0.15
+        },
+        {
+          "q": "airports close to yellowstone national park",
+          "v": 6600,
+          "tr": 23,
+          "cmp": 0.15
+        },
+        {
+          "q": "closest airport to yellowstone national park",
+          "v": 6600,
+          "tr": 23,
+          "cmp": 0.15
+        },
+        {
+          "q": "yellowstone national park is located where",
+          "v": 6600,
+          "tr": -19,
+          "cmp": 0.42
+        },
+        {
+          "q": "yellowstone national park what state is it in",
+          "v": 6600,
+          "tr": 50,
+          "cmp": 0.07
+        },
+        {
+          "q": "chicago sized bulge yellowstone national park",
+          "v": 5400,
+          "tr": -100,
+          "cmp": 0
+        },
+        {
+          "q": "bozeman to yellowstone national park",
+          "v": 5400,
+          "tr": 23,
+          "cmp": 0.05
+        },
+        {
+          "q": "madison campground yellowstone national park",
+          "v": 5400,
+          "tr": 0,
+          "cmp": 0.16
+        },
+        {
+          "q": "yellowstone national park north entrance",
+          "v": 5400,
+          "tr": 50,
+          "cmp": 0.47
+        },
+        {
+          "q": "north entrance to yellowstone national park",
+          "v": 5400,
+          "tr": 50,
+          "cmp": 0.47
+        },
+        {
+          "q": "yellowstone national park state",
+          "v": 5400,
+          "tr": 175,
+          "cmp": 0.28
+        },
+        {
+          "q": "muddy eruption yellowstone national park",
+          "v": 4400,
+          "tr": -100,
+          "cmp": 0.01
+        },
+        {
+          "q": "is yellowstone national park open",
+          "v": 4400,
+          "tr": -41,
+          "cmp": 0.05
+        },
+        {
+          "q": "altitude of yellowstone national park",
+          "v": 4400,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park deaths",
+          "v": 4400,
+          "tr": 83,
+          "cmp": 0.08
+        },
+        {
+          "q": "yellowstone national park elevation",
+          "v": 4400,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "elevation of yellowstone national park",
+          "v": 4400,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park facts",
+          "v": 4400,
+          "tr": -56,
+          "cmp": 0.02
+        },
+        {
+          "q": "facts about yellowstone national park",
+          "v": 4400,
+          "tr": -56,
+          "cmp": 0.02
+        },
+        {
+          "q": "fly to yellowstone national park",
+          "v": 4400,
+          "tr": 52,
+          "cmp": 0.35
+        },
+        {
+          "q": "forecast for yellowstone national park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park hikes",
+          "v": 4400,
+          "tr": -33,
+          "cmp": 0.31
+        },
+        {
+          "q": "yellowstone national park in the winter",
+          "v": 4400,
+          "tr": -33,
+          "cmp": 0.28
+        },
+        {
+          "q": "yellowstone national park lodging inside park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.98
+        },
+        {
+          "q": "yellowstone national park places to stay",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.98
+        },
+        {
+          "q": "places to stay in yellowstone national park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.98
+        },
+        {
+          "q": "stay in yellowstone national park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.98
+        },
+        {
+          "q": "yellowstone national park vacation packages",
+          "v": 4400,
+          "tr": -45,
+          "cmp": 0.77
+        },
+        {
+          "q": "vacation packages to yellowstone national park",
+          "v": 4400,
+          "tr": -45,
+          "cmp": 0.77
+        },
+        {
+          "q": "yellowstone national park winter",
+          "v": 4400,
+          "tr": -33,
+          "cmp": 0.28
+        },
+        {
+          "q": "where to stay in yellowstone national park",
+          "v": 4400,
+          "tr": 22,
+          "cmp": 0.97
+        },
+        {
+          "q": "how many acres is yellowstone national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "best places to stay in yellowstone national park",
+          "v": 3600,
+          "tr": 52,
+          "cmp": 0.91
+        },
+        {
+          "q": "yellowstone national park camping reservations",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.36
+        },
+        {
+          "q": "yellowstone national park fishing license",
+          "v": 3600,
+          "tr": 23,
+          "cmp": 0.05
+        },
+        {
+          "q": "yellowstone national park from salt lake city",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park geysers old faithful",
+          "v": 3600,
+          "tr": -18,
+          "cmp": 0.28
+        },
+        {
+          "q": "jackson hole to yellowstone national park",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.1
+        },
+        {
+          "q": "jackson wy to yellowstone national park",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.1
+        },
+        {
+          "q": "jackson to yellowstone national park",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.1
+        },
+        {
+          "q": "yellowstone national park news",
+          "v": 3600,
+          "tr": -56,
+          "cmp": 0.01
+        },
+        {
+          "q": "news yellowstone national park",
+          "v": 3600,
+          "tr": -56,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park old faithful",
+          "v": 3600,
+          "tr": -18,
+          "cmp": 0.28
+        },
+        {
+          "q": "yellowstone national park old faithful geyser",
+          "v": 3600,
+          "tr": -18,
+          "cmp": 0.28
+        },
+        {
+          "q": "old faithful yellowstone national park",
+          "v": 3600,
+          "tr": -18,
+          "cmp": 0.28
+        },
+        {
+          "q": "old faithful geyser in yellowstone national park",
+          "v": 3600,
+          "tr": -18,
+          "cmp": 0.28
+        },
+        {
+          "q": "yellowstone national park reviews",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "salt lake city to yellowstone national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park temperature",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "temperature in yellowstone national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "when was yellowstone national park established",
+          "v": 3600,
+          "tr": -45,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park xanterra",
+          "v": 3600,
+          "tr": 23,
+          "cmp": 0.3
+        },
+        {
+          "q": "xanterra yellowstone national park",
+          "v": 3600,
+          "tr": 23,
+          "cmp": 0.3
+        },
+        {
+          "q": "things to do in yellowstone national park",
+          "v": 2900,
+          "tr": 50,
+          "cmp": 1
+        },
+        {
+          "q": "cabins in yellowstone national park",
+          "v": 2900,
+          "tr": 0,
+          "cmp": 0.64
+        },
+        {
+          "q": "fun facts about yellowstone national park",
+          "v": 2900,
+          "tr": -64,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park grizzly bears",
+          "v": 2900,
+          "tr": -19,
+          "cmp": 0.01
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "questions",
+      "success": true,
+      "count": 100,
+      "total": 161,
+      "rows": [
+        {
+          "q": "yellowstone national park",
+          "v": 673000,
+          "tr": 307,
+          "cmp": 0.89
+        },
+        {
+          "q": "what states are yellowstone national park in",
+          "v": 6600,
+          "tr": 50,
+          "cmp": 0.07
+        },
+        {
+          "q": "how big is yellowstone national park",
+          "v": 6600,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "what state is yellowstone national park in",
+          "v": 6600,
+          "tr": 50,
+          "cmp": 0.07
+        },
+        {
+          "q": "where yellowstone national park is located",
+          "v": 6600,
+          "tr": -19,
+          "cmp": 0.42
+        },
+        {
+          "q": "which state is yellowstone national park in",
+          "v": 6600,
+          "tr": 50,
+          "cmp": 0.07
+        },
+        {
+          "q": "is yellowstone national park open",
+          "v": 4400,
+          "tr": -41,
+          "cmp": 0.05
+        },
+        {
+          "q": "where to stay in yellowstone national park",
+          "v": 4400,
+          "tr": 22,
+          "cmp": 0.97
+        },
+        {
+          "q": "how many acres is yellowstone national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "when was yellowstone national park established",
+          "v": 3600,
+          "tr": -45,
+          "cmp": 0.02
+        },
+        {
+          "q": "what to do in yellowstone national park",
+          "v": 2900,
+          "tr": 50,
+          "cmp": 0.99
+        },
+        {
+          "q": "is yellowstone national park in montana",
+          "v": 1900,
+          "tr": 53,
+          "cmp": 0.02
+        },
+        {
+          "q": "what city is yellowstone national park in",
+          "v": 1900,
+          "tr": 26,
+          "cmp": 0.06
+        },
+        {
+          "q": "when is the best time to visit yellowstone national park",
+          "v": 1900,
+          "tr": 26,
+          "cmp": 0.34
+        },
+        {
+          "q": "who founded yellowstone national park",
+          "v": 1900,
+          "tr": -34,
+          "cmp": 0.01
+        },
+        {
+          "q": "who made yellowstone a national park",
+          "v": 1900,
+          "tr": -34,
+          "cmp": 0.01
+        },
+        {
+          "q": "where is yellowstone national park volcano",
+          "v": 1600,
+          "tr": -19,
+          "cmp": 0.02
+        },
+        {
+          "q": "how to get to yellowstone national park",
+          "v": 1300,
+          "tr": 30,
+          "cmp": 0.23
+        },
+        {
+          "q": "what time is it in yellowstone national park",
+          "v": 1300,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "is yellowstone national park in wyoming",
+          "v": 1000,
+          "tr": 30,
+          "cmp": 0.32
+        },
+        {
+          "q": "what is the closest airport to yellowstone national park",
+          "v": 1000,
+          "tr": 48,
+          "cmp": 0.15
+        },
+        {
+          "q": "what animals are in yellowstone national park",
+          "v": 880,
+          "tr": -45,
+          "cmp": 0.03
+        },
+        {
+          "q": "how far is glacier national park from yellowstone",
+          "v": 880,
+          "tr": 81,
+          "cmp": 0.01
+        },
+        {
+          "q": "how old is yellowstone national park",
+          "v": 880,
+          "tr": -33,
+          "cmp": 0.01
+        },
+        {
+          "q": "when did yellowstone become a national park",
+          "v": 880,
+          "tr": -32,
+          "cmp": 0.02
+        },
+        {
+          "q": "where to stay when visiting yellowstone national park",
+          "v": 880,
+          "tr": 22,
+          "cmp": 0.8
+        },
+        {
+          "q": "how yellowstone national park was formed",
+          "v": 720,
+          "tr": -46,
+          "cmp": 0.02
+        },
+        {
+          "q": "how far is yellowstone national park from me",
+          "v": 720,
+          "tr": 177,
+          "cmp": 0.01
+        },
+        {
+          "q": "how many square miles is yellowstone national park",
+          "v": 720,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "what year was yellowstone national park established",
+          "v": 720,
+          "tr": -70,
+          "cmp": 0.01
+        },
+        {
+          "q": "does yellowstone national park have a volcano",
+          "v": 590,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "how to visit yellowstone national park",
+          "v": 590,
+          "tr": 0,
+          "cmp": 0.62
+        },
+        {
+          "q": "when yellowstone national park open",
+          "v": 590,
+          "tr": -19,
+          "cmp": 0.13
+        },
+        {
+          "q": "when to visit yellowstone national park",
+          "v": 590,
+          "tr": -18,
+          "cmp": 0.23
+        },
+        {
+          "q": "who owns yellowstone national park",
+          "v": 590,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "are dogs allowed in yellowstone national park",
+          "v": 480,
+          "tr": 175,
+          "cmp": 0.05
+        },
+        {
+          "q": "can you fish in yellowstone national park",
+          "v": 480,
+          "tr": 85,
+          "cmp": 0.11
+        },
+        {
+          "q": "why was yellowstone national park created",
+          "v": 480,
+          "tr": -76,
+          "cmp": 0.01
+        },
+        {
+          "q": "why was yellowstone national park established",
+          "v": 480,
+          "tr": -76,
+          "cmp": 0.01
+        },
+        {
+          "q": "can you hunt in yellowstone national park",
+          "v": 390,
+          "tr": -19,
+          "cmp": 0.04
+        },
+        {
+          "q": "is yellowstone national park open in the winter",
+          "v": 390,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "what airport for yellowstone national park",
+          "v": 390,
+          "tr": 50,
+          "cmp": 0.13
+        },
+        {
+          "q": "what is the best time to visit yellowstone national park",
+          "v": 390,
+          "tr": 23,
+          "cmp": 0.27
+        },
+        {
+          "q": "who discovered yellowstone national park",
+          "v": 390,
+          "tr": -19,
+          "cmp": 0.01
+        },
+        {
+          "q": "why yellowstone national park is important",
+          "v": 390,
+          "tr": -81,
+          "cmp": 0
+        },
+        {
+          "q": "which airport is closest to yellowstone national park",
+          "v": 320,
+          "tr": 52,
+          "cmp": 0.14
+        },
+        {
+          "q": "when does yellowstone national park open in 2026",
+          "v": 260,
+          "tr": 250,
+          "cmp": 0.08
+        },
+        {
+          "q": "when did yellowstone became a national park",
+          "v": 260,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "what airports are near yellowstone national park",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.17
+        },
+        {
+          "q": "can you camp in yellowstone national park",
+          "v": 210,
+          "tr": 86,
+          "cmp": 0.28
+        },
+        {
+          "q": "can you drive through yellowstone national park",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.07
+        },
+        {
+          "q": "can you swim at yellowstone national park",
+          "v": 210,
+          "tr": 179,
+          "cmp": 0.07
+        },
+        {
+          "q": "is yellowstone national park a volcano",
+          "v": 210,
+          "tr": 50,
+          "cmp": 0.03
+        },
+        {
+          "q": "is yellowstone national park dog friendly",
+          "v": 210,
+          "tr": 53,
+          "cmp": 0.07
+        },
+        {
+          "q": "where is yellowstone national park in montana",
+          "v": 210,
+          "tr": 21,
+          "cmp": 0.17
+        },
+        {
+          "q": "what is a geyser in yellowstone national park",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "can you stay in yellowstone national park",
+          "v": 140,
+          "tr": 91,
+          "cmp": 0.57
+        },
+        {
+          "q": "where is yellowstone national park in wyoming",
+          "v": 140,
+          "tr": -18,
+          "cmp": 0.05
+        },
+        {
+          "q": "does yellowstone national park allow dogs",
+          "v": 110,
+          "tr": 89,
+          "cmp": 0.05
+        },
+        {
+          "q": "what state has yellowstone national park",
+          "v": 110,
+          "tr": 27,
+          "cmp": 0.03
+        },
+        {
+          "q": "what states have yellowstone national park",
+          "v": 110,
+          "tr": 27,
+          "cmp": 0.03
+        },
+        {
+          "q": "can you live in yellowstone national park",
+          "v": 90,
+          "tr": 80,
+          "cmp": 0.03
+        },
+        {
+          "q": "who owned yellowstone before it became a national park",
+          "v": 90,
+          "tr": 133,
+          "cmp": 0
+        },
+        {
+          "q": "can dogs go to yellowstone national park",
+          "v": 70,
+          "tr": 80,
+          "cmp": 0.05
+        },
+        {
+          "q": "does yellowstone national park require reservations",
+          "v": 70,
+          "tr": 267,
+          "cmp": 0.17
+        },
+        {
+          "q": "is yellowstone national park in montana or wyoming",
+          "v": 70,
+          "tr": 120,
+          "cmp": 0.02
+        },
+        {
+          "q": "why is yellowstone national park in danger",
+          "v": 70,
+          "tr": -29,
+          "cmp": 0
+        },
+        {
+          "q": "why is yellowstone national park so popular",
+          "v": 70,
+          "tr": 29,
+          "cmp": 0
+        },
+        {
+          "q": "what national parks are near yellowstone",
+          "v": 50,
+          "tr": 75,
+          "cmp": 0.09
+        },
+        {
+          "q": "what time can you enter yellowstone national park",
+          "v": 50,
+          "tr": 22,
+          "cmp": 0.07
+        },
+        {
+          "q": "how many people have died in yellowstone national park",
+          "v": 50,
+          "tr": 120,
+          "cmp": 0
+        },
+        {
+          "q": "why did yellowstone become a national park",
+          "v": 50,
+          "tr": -71,
+          "cmp": 0
+        },
+        {
+          "q": "what are the entrances to yellowstone national park",
+          "v": 40,
+          "tr": 67,
+          "cmp": 0.19
+        },
+        {
+          "q": "is yellowstone national park in idaho",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "how many days should you spend in yellowstone national park",
+          "v": 40,
+          "tr": 33,
+          "cmp": 0.17
+        },
+        {
+          "q": "where should i stay when visiting yellowstone national park",
+          "v": 40,
+          "tr": 200,
+          "cmp": 0.25
+        },
+        {
+          "q": "where is the closest airport to yellowstone national park",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0.21
+        },
+        {
+          "q": "can you fly a drone in yellowstone national park",
+          "v": 30,
+          "tr": 600,
+          "cmp": 0
+        },
+        {
+          "q": "does yellowstone national park have timed entry",
+          "v": 30,
+          "tr": 67,
+          "cmp": 0.08
+        },
+        {
+          "q": "do you have to pay to enter yellowstone national park",
+          "v": 30,
+          "tr": 25,
+          "cmp": 0.11
+        },
+        {
+          "q": "is yellowstone national park open in october",
+          "v": 30,
+          "tr": -29,
+          "cmp": 0.34
+        },
+        {
+          "q": "how many days should i spend in yellowstone national park",
+          "v": 30,
+          "tr": 50,
+          "cmp": 0.19
+        },
+        {
+          "q": "which city is yellowstone national park in",
+          "v": 30,
+          "tr": 50,
+          "cmp": 0.08
+        },
+        {
+          "q": "who named yellowstone national park",
+          "v": 30,
+          "tr": -40,
+          "cmp": 0.02
+        },
+        {
+          "q": "can you have dogs in yellowstone national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.09
+        },
+        {
+          "q": "what airport should i fly into for yellowstone national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.19
+        },
+        {
+          "q": "how many days should i plan for yellowstone national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.15
+        },
+        {
+          "q": "where should i fly into for yellowstone national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.3
+        },
+        {
+          "q": "why yellowstone national park is famous",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.04
+        },
+        {
+          "q": "will yellowstone national park close",
+          "v": 20,
+          "tr": -86,
+          "cmp": 0
+        },
+        {
+          "q": "did yellowstone national park erupt",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "did yellowstone national park close",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "did yellowstone national park used to be a ranch",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "did yellowstone national park get banned",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "did yellowstone national park get banned from tiktok",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0
+        },
+        {
+          "q": "did yellowstone national park volcano erupt",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "does yellowstone national park close in the winter",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.13
+        },
+        {
+          "q": "does yellowstone national park have cell service",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "does yellowstone national park close at night",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.06
+        },
+        {
+          "q": "how long has yellowstone national park been around",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "related",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "rows": [],
+      "error": null
+    },
+    {
+      "type": "prepositions",
+      "success": true,
+      "count": 100,
+      "total": 221,
+      "rows": [
+        {
+          "q": "yellowstone national park",
+          "v": 673000,
+          "tr": 307,
+          "cmp": 0.89
+        },
+        {
+          "q": "yellowstone national park on a map",
+          "v": 40500,
+          "tr": 0,
+          "cmp": 0.88
+        },
+        {
+          "q": "yellowstone national park near airport",
+          "v": 6600,
+          "tr": 23,
+          "cmp": 0.15
+        },
+        {
+          "q": "yellowstone national park in winter",
+          "v": 4400,
+          "tr": -33,
+          "cmp": 0.28
+        },
+        {
+          "q": "yellowstone national park during winter",
+          "v": 4400,
+          "tr": -33,
+          "cmp": 0.28
+        },
+        {
+          "q": "yellowstone national park in the winter",
+          "v": 4400,
+          "tr": -33,
+          "cmp": 0.28
+        },
+        {
+          "q": "yellowstone national park from salt lake city",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park from jackson hole",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.1
+        },
+        {
+          "q": "yellowstone national park in fall",
+          "v": 2900,
+          "tr": -19,
+          "cmp": 0.23
+        },
+        {
+          "q": "yellowstone national park in october",
+          "v": 1900,
+          "tr": -19,
+          "cmp": 0.17
+        },
+        {
+          "q": "yellowstone national park from denver",
+          "v": 1900,
+          "tr": 50,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park to grand teton national park",
+          "v": 1900,
+          "tr": 50,
+          "cmp": 0.09
+        },
+        {
+          "q": "yellowstone national park in april",
+          "v": 1600,
+          "tr": -41,
+          "cmp": 0.13
+        },
+        {
+          "q": "yellowstone national park in may",
+          "v": 1600,
+          "tr": -18,
+          "cmp": 0.16
+        },
+        {
+          "q": "yellowstone national park in september",
+          "v": 1600,
+          "tr": 125,
+          "cmp": 0.17
+        },
+        {
+          "q": "yellowstone national park to glacier national park",
+          "v": 1600,
+          "tr": 19,
+          "cmp": 0.03
+        },
+        {
+          "q": "yellowstone national park in november",
+          "v": 1300,
+          "tr": -34,
+          "cmp": 0.11
+        },
+        {
+          "q": "yellowstone national park in montana",
+          "v": 1300,
+          "tr": -47,
+          "cmp": 0.64
+        },
+        {
+          "q": "yellowstone national park in october weather",
+          "v": 1300,
+          "tr": -34,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park in december",
+          "v": 1000,
+          "tr": -32,
+          "cmp": 0.15
+        },
+        {
+          "q": "yellowstone national park in june",
+          "v": 1000,
+          "tr": -18,
+          "cmp": 0.21
+        },
+        {
+          "q": "yellowstone national park weather by month",
+          "v": 1000,
+          "tr": -38,
+          "cmp": 0.03
+        },
+        {
+          "q": "yellowstone national park by train",
+          "v": 880,
+          "tr": -12,
+          "cmp": 0.24
+        },
+        {
+          "q": "yellowstone national park from seattle",
+          "v": 880,
+          "tr": 81,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park from las vegas",
+          "v": 880,
+          "tr": 39,
+          "cmp": 0.03
+        },
+        {
+          "q": "yellowstone national park with dogs",
+          "v": 720,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "yellowstone national park to jackson hole",
+          "v": 720,
+          "tr": 22,
+          "cmp": 0.13
+        },
+        {
+          "q": "yellowstone national park in august",
+          "v": 720,
+          "tr": 414,
+          "cmp": 0.14
+        },
+        {
+          "q": "yellowstone national park to mount rushmore",
+          "v": 590,
+          "tr": 23,
+          "cmp": 0.05
+        },
+        {
+          "q": "yellowstone national park of usa",
+          "v": 590,
+          "tr": -18,
+          "cmp": 0.44
+        },
+        {
+          "q": "yellowstone national park at christmas",
+          "v": 480,
+          "tr": -19,
+          "cmp": 0.33
+        },
+        {
+          "q": "yellowstone national park to salt lake city",
+          "v": 480,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park for families",
+          "v": 480,
+          "tr": 0,
+          "cmp": 0.12
+        },
+        {
+          "q": "yellowstone national park to yosemite",
+          "v": 480,
+          "tr": -19,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park vs glacier national park",
+          "v": 480,
+          "tr": 51,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park hotels near west entrance",
+          "v": 320,
+          "tr": 247,
+          "cmp": 0.64
+        },
+        {
+          "q": "yellowstone national park from san francisco",
+          "v": 320,
+          "tr": 23,
+          "cmp": 0.06
+        },
+        {
+          "q": "yellowstone national park in march",
+          "v": 260,
+          "tr": 0,
+          "cmp": 0.2
+        },
+        {
+          "q": "yellowstone national park to denver",
+          "v": 260,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park in what state",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park to las vegas",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park to cody wy",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park at night",
+          "v": 170,
+          "tr": -19,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park to seattle",
+          "v": 170,
+          "tr": 50,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park visitors per year",
+          "v": 170,
+          "tr": -46,
+          "cmp": 0
+        },
+        {
+          "q": "does paramount plus have yellowstone",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "yellowstone national park on a budget",
+          "v": 140,
+          "tr": 0,
+          "cmp": 0.24
+        },
+        {
+          "q": "issues in yellowstone national park",
+          "v": 110,
+          "tr": -55,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park vs yosemite",
+          "v": 90,
+          "tr": 80,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park from me",
+          "v": 90,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park to grand canyon",
+          "v": 90,
+          "tr": -22,
+          "cmp": 0.04
+        },
+        {
+          "q": "what is beneath yellowstone national park",
+          "v": 70,
+          "tr": 40,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park from my location",
+          "v": 70,
+          "tr": 22,
+          "cmp": 0.06
+        },
+        {
+          "q": "yellowstone national park to san francisco",
+          "v": 70,
+          "tr": 80,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park on world map",
+          "v": 70,
+          "tr": 55,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park top things to do",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0.94
+        },
+        {
+          "q": "yellowstone national park temperature by month",
+          "v": 70,
+          "tr": 29,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park time to visit",
+          "v": 70,
+          "tr": -29,
+          "cmp": 0.07
+        },
+        {
+          "q": "is yellowstone based on yellowstone national park",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park during thanksgiving",
+          "v": 50,
+          "tr": -50,
+          "cmp": 0.13
+        },
+        {
+          "q": "yellowstone national park to bozeman",
+          "v": 50,
+          "tr": 25,
+          "cmp": 0.01
+        },
+        {
+          "q": "volcano underneath yellowstone national park",
+          "v": 50,
+          "tr": -75,
+          "cmp": 0.02
+        },
+        {
+          "q": "what not to miss in yellowstone national park",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0.38
+        },
+        {
+          "q": "yellowstone national park near me",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0.13
+        },
+        {
+          "q": "yellowstone national park on tiktok",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park vs grand teton",
+          "v": 30,
+          "tr": 33,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park act of 1872",
+          "v": 30,
+          "tr": -67,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park before and after wolves",
+          "v": 30,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park from bozeman",
+          "v": 30,
+          "tr": -25,
+          "cmp": 0.17
+        },
+        {
+          "q": "yellowstone national park from chicago",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "is there a fee to enter yellowstone national park",
+          "v": 30,
+          "tr": 150,
+          "cmp": 0.21
+        },
+        {
+          "q": "do you have to pay to enter yellowstone national park",
+          "v": 30,
+          "tr": 25,
+          "cmp": 0.11
+        },
+        {
+          "q": "what are the boundaries of yellowstone national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park spans across which three states",
+          "v": 20,
+          "tr": 300,
+          "cmp": 0
+        },
+        {
+          "q": "national park below yellowstone",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "what to do when visiting yellowstone national park",
+          "v": 20,
+          "tr": 300,
+          "cmp": 0.39
+        },
+        {
+          "q": "yellowstone national park from los angeles",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.07
+        },
+        {
+          "q": "yellowstone national park from here",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.04
+        },
+        {
+          "q": "yellowstone national park on usa map",
+          "v": 20,
+          "tr": -40,
+          "cmp": 0.28
+        },
+        {
+          "q": "yellowstone national park number of visitors per year",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park post today",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.05
+        },
+        {
+          "q": "is yellowstone national park bigger than rhode island",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park to glacier national park road trip",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.02
+        },
+        {
+          "q": "what's up with yellowstone national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park on fire",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park on youtube",
+          "v": 10,
+          "tr": -67,
+          "cmp": 0.05
+        },
+        {
+          "q": "yellowstone national park height above sea level",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park from above",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park through the lens of time",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "yellowstone national park with kevin costner",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park near hotels",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.99
+        },
+        {
+          "q": "directions to old faithful yellowstone national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.02
+        },
+        {
+          "q": "yellowstone national park under canvas",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.65
+        },
+        {
+          "q": "yellowstone national park near montana",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.77
+        },
+        {
+          "q": "yellowstone national park remains open despite government shutdown",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "yellowstone national park for senior citizens",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.43
+        },
+        {
+          "q": "yellowstone national park for sale",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park inside lodging",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.81
+        },
+        {
+          "q": "alternatives to yellowstone national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.01
+        },
+        {
+          "q": "yellowstone national park off the beaten path",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.1
+        }
+      ],
+      "error": null
+    }
+  ]
+}

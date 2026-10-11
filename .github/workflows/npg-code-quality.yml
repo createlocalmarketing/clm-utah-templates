@@ -1,0 +1,44 @@
+name: National Parks Platform Code & Contract QA
+on:
+  push:
+    paths:
+      - 'engine/parks*'
+      - 'nationalparksguide.co/**'
+      - 'utahzionnationalpark.com/**'
+      - 'wordpress/plugins/clm-national-parks/**'
+      - 'tools/national-parks/**'
+  pull_request:
+    paths:
+      - 'engine/parks*'
+      - 'wordpress/plugins/clm-national-parks/**'
+      - 'tools/national-parks/**'
+jobs:
+  code-and-source-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: JavaScript parse check for all CLM Parks modules
+        run: |
+          for f in engine/parks*.js nationalparksguide.co/production-register/catalog.js; do
+            node --check "$f"
+          done
+      - name: JavaScript parse check for NPS/merchant import processors
+        run: |
+          node --check tools/national-parks/import-nps-official.mjs
+          node --check tools/national-parks/build-licensed-business-directory.mjs
+      - name: 63-park/source-rights/geo registry tests
+        run: node --test tools/national-parks/contract.test.mjs
+      - name: PHP lint for proprietary WordPress plugin and rewards
+        run: |
+          php -l wordpress/plugins/clm-national-parks/clm-national-parks.php
+          php -l wordpress/plugins/clm-national-parks/includes/class-clm-visitor-rewards.php
+      - name: Assert prelaunch pages carry noindex
+        run: |
+          grep -q 'noindex' nationalparksguide.co/index.html
+          grep -q 'noindex' utahzionnationalpark.com/index.html
+          grep -q 'noindex' nationalparksguide.co/production-register/index.html
+      - name: Prevent false acceptance of incomplete business coverage
+        run: node -e "const d=require('./nationalparksguide.co/data/nps-63-canonical-entities.json');if(d.parks.length!==63||d.parks.some(p=>p.merchantCoverage==='COMPLETE'))process.exit(1)"

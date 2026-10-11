@@ -1,0 +1,29 @@
+/*
+Theme Name: CLM National Parks
+Theme URI: https://nationalparksguide.co
+Author: Create Local Marketing
+Version: 0.1.0
+Requires PHP: 8.0
+Text Domain: clm-national-parks
+Description: Proprietary modular theme for National Parks Guide and Utah Zion with Elementor Pro and WooCommerce integrations.
+*/
+:root{--clm-forest:#173b30;--clm-gold:#d5a864;--clm-ink:#243c2e;--clm-paper:#f8f8f4;--clm-edge:#dbe4d9;--clm-wrap:1440px}
+body{margin:0;font:16px/1.65 system-ui,-apple-system,sans-serif;color:var(--clm-ink);background:var(--clm-paper)}
+*,*::before,*::after{box-sizing:border-box}
+a{color:var(--clm-forest)}.clm-wrap{width:min(var(--clm-wrap),calc(100% - 40px));margin:auto}
+.clm-header,.clm-footer{background:#15382c;color:#fff}.clm-header{padding:18px 0}.clm-footer{padding:48px 0;margin-top:50px}
+.clm-header a,.clm-footer a{color:#fff}.clm-header .clm-wrap{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.clm-nav{display:flex;gap:22px;flex-wrap:wrap}.clm-nav a{text-decoration:none;font-size:13px;font-weight:750}
+.clm-section{padding:64px 0}.clm-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.clm-card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid var(--clm-edge)}
+.clm-card img{width:100%;height:220px;object-fit:cover}.clm-card div{padding:20px}.clm-card h2{font-size:21px}
+.clm-hero{display:grid;grid-template-columns:1.2fr 1fr;min-height:540px;background:#eeeadd}
+.clm-hero figure{margin:0;min-height:540px}.clm-hero img{height:100%;width:100%;object-fit:cover}
+.clm-hero article{padding:clamp(35px,5vw,75px);align-self:center}.clm-hero h1{font-size:clamp(44px,5vw,75px);line-height:1.04;margin:16px 0}
+.clm-cta{background:var(--clm-forest);border-radius:6px;color:white;padding:12px 20px;display:inline-flex;text-decoration:none;font-weight:800}
+.clm-breadcrumb{padding:20px 0;font-size:12px}.clm-source{background:#fff4db;border-left:4px solid var(--clm-gold);padding:17px;margin:20px 0}
+.clm-content{max-width:840px;margin:auto;padding:42px 0}.clm-content h2{margin-top:40px}
+.clm-content h3{margin-top:28px}.clm-stamp{color:#876739;font-size:11px;text-transform:uppercase;font-weight:800;letter-spacing:.14em}
+body.clm-zion{--clm-forest:#673c2c;--clm-gold:#e1b572;--clm-paper:#faf4ed}
+@media(max-width:900px){.clm-grid{grid-template-columns:repeat(2,1fr)}.clm-hero{grid-template-columns:1fr}.clm-hero figure{min-height:300px}.clm-hero article{padding:35px}}
+@media(max-width:550px){.clm-grid{grid-template-columns:1fr}.clm-nav{gap:10px}.clm-hero h1{font-size:43px}.clm-header .clm-wrap{display:block}}

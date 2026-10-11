@@ -57,7 +57,7 @@ final class CLM_National_Parks_Core {
    'label'=>$v[0],'public'=>true,'hierarchical'=>true,'show_in_rest'=>true,'rewrite'=>['slug'=>$slug]
   ]);
   foreach(['clm_source_url','clm_source_checked_at','clm_editorial_status','clm_park_id','clm_merchant_id','clm_geo_lat','clm_geo_lon','clm_media_rights','clm_qa_approved','clm_approved_by','clm_approved_at'] as $meta){
-   register_post_meta('', $meta,['single'=>true,'type'=>'string','show_in_rest'=>false,'auth_callback'=>static fn()=>current_user_can('edit_posts')]);
+   foreach(array_keys(self::TYPES) as $type)register_post_meta($type,$meta,['single'=>true,'type'=>'string','show_in_rest'=>false,'auth_callback'=>static fn()=>current_user_can('edit_posts')]);
   }
  }
  static function acf(): void {

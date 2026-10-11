@@ -1,0 +1,256 @@
+/* Destination-verified filename candidates. Demo reference images only; image attribution/rights and cache not launch-approved. */
+window.NPG_ZION_MEDIA=[
+  {
+    "id": "angels",
+    "filename": "Angels Landing, United States (Unsplash -SID3IDjfJ4).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Angels%20Landing%2C%20United%20States%20(Unsplash%20-SID3IDjfJ4).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Angels_Landing%2C_United_States_(Unsplash_-SID3IDjfJ4).jpg",
+    "alt": "Angels Landing above Zion Canyon",
+    "place": "Angels Landing",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "canyon",
+    "filename": "Zion National Park Canyon Overlook Trail View.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20National%20Park%20Canyon%20Overlook%20Trail%20View.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Zion_National_Park_Canyon_Overlook_Trail_View.jpg",
+    "alt": "Sandstone ridges seen from Canyon Overlook",
+    "place": "Canyon Overlook",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "panorama",
+    "filename": "Zion NP20.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20NP20.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Zion_NP20.jpg",
+    "alt": "Panoramic Zion National Park sandstone cliffs",
+    "place": "Zion Canyon",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "watchman-camp",
+    "filename": "Watchman Campground Site B 9, Hurricane, United States (Unsplash zsfKWNKbGn8).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Watchman%20Campground%20Site%20B%209%2C%20Hurricane%2C%20United%20States%20(Unsplash%20zsfKWNKbGn8).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Watchman_Campground_Site_B_9%2C_Hurricane%2C_United_States_(Unsplash_zsfKWNKbGn8).jpg",
+    "alt": "Watchman Campground in Zion National Park",
+    "place": "Watchman Campground",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "patriarchs",
+    "filename": "Court of the Patriarchs, Zion National Park.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Court%20of%20the%20Patriarchs%2C%20Zion%20National%20Park.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Court_of_the_Patriarchs%2C_Zion_National_Park.jpg",
+    "alt": "The Court of the Patriarchs peaks inside Zion National Park",
+    "place": "Court of the Patriarchs",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "watchman-river",
+    "filename": "Watchman and Virgin River.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Watchman%20and%20Virgin%20River.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Watchman_and_Virgin_River.jpg",
+    "alt": "The Watchman summit rising behind the Virgin River",
+    "place": "Watchman / Virgin River",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "watchman-overlook",
+    "filename": "Zion National Park, Vigin River, Watchman.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20National%20Park%2C%20Vigin%20River%2C%20Watchman.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Zion_National_Park%2C_Vigin_River%2C_Watchman.jpg",
+    "alt": "Elevated view above the Virgin River in Zion Canyon",
+    "place": "Watchman view",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "parus",
+    "filename": "Pa'Rus trail, Zion National Park.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Pa'Rus%20trail%2C%20Zion%20National%20Park.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Pa'Rus_trail%2C_Zion_National_Park.jpg",
+    "alt": "Landscape along Pa'rus Trail in Zion National Park",
+    "place": "Pa'rus Trail",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "riverside",
+    "filename": "Riverside Walk to Zion Narrows, Zion Canyon, Zion National Park, Utah (8096055483).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Riverside%20Walk%20to%20Zion%20Narrows%2C%20Zion%20Canyon%2C%20Zion%20National%20Park%2C%20Utah%20(8096055483).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Riverside_Walk_to_Zion_Narrows%2C_Zion_Canyon%2C_Zion_National_Park%2C_Utah_(8096055483).jpg",
+    "alt": "Riverside Walk approach toward the Narrows",
+    "place": "Riverside Walk",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "narrows-hikers",
+    "filename": "Hiking the Narrows in Zion National Park.JPG",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiking%20the%20Narrows%20in%20Zion%20National%20Park.JPG?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiking_the_Narrows_in_Zion_National_Park.JPG",
+    "alt": "Hikers travelling through the river in Zion Narrows",
+    "place": "The Narrows",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "narrows-second",
+    "filename": "Riverside Walk to Zion Narrows, Zion Canyon, Zion National Park, Utah (8096057571).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Riverside%20Walk%20to%20Zion%20Narrows%2C%20Zion%20Canyon%2C%20Zion%20National%20Park%2C%20Utah%20(8096057571).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Riverside_Walk_to_Zion_Narrows%2C_Zion_Canyon%2C_Zion_National_Park%2C_Utah_(8096057571).jpg",
+    "alt": "Canyon walls and river along the Narrows",
+    "place": "The Narrows",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "narrows-third",
+    "filename": "Riverside Walk to Zion Narrows, Zion Canyon, Zion National Park, Utah (8096063552).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Riverside%20Walk%20to%20Zion%20Narrows%2C%20Zion%20Canyon%2C%20Zion%20National%20Park%2C%20Utah%20(8096063552).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Riverside_Walk_to_Zion_Narrows%2C_Zion_Canyon%2C_Zion_National_Park%2C_Utah_(8096063552).jpg",
+    "alt": "The Virgin River winding through the upper canyon",
+    "place": "Virgin River",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "emerald",
+    "filename": "Emerald Pools, Zion National Park.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Emerald%20Pools%2C%20Zion%20National%20Park.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Emerald_Pools%2C_Zion_National_Park.jpg",
+    "alt": "Emerald Pools trail scenery in Zion National Park",
+    "place": "Emerald Pools",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "shuttle",
+    "filename": "Shuttle bus stop at Zion Canyon National Park.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuttle%20bus%20stop%20at%20Zion%20Canyon%20National%20Park.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Shuttle_bus_stop_at_Zion_Canyon_National_Park.jpg",
+    "alt": "Zion Canyon shuttle stop in Zion National Park",
+    "place": "Shuttle access",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "zion-center",
+    "filename": "Zion Canyon Visitor Center, Zion Canyon, Zion National Park, Utah (1026168166).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20Canyon%20Visitor%20Center%2C%20Zion%20Canyon%2C%20Zion%20National%20Park%2C%20Utah%20(1026168166).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Zion_Canyon_Visitor_Center%2C_Zion_Canyon%2C_Zion_National_Park%2C_Utah_(1026168166).jpg",
+    "alt": "Zion Canyon Visitor Center and transport stop",
+    "place": "Visitor Center",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "weeping",
+    "filename": "Weeping Rock Trail, Zion National Park (5521652744).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Weeping%20Rock%20Trail%2C%20Zion%20National%20Park%20(5521652744).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Weeping_Rock_Trail%2C_Zion_National_Park_(5521652744).jpg",
+    "alt": "Landscape on the Weeping Rock Trail in Zion",
+    "place": "Weeping Rock",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "weeping-two",
+    "filename": "Weeping Rock Trail, Zion National Park (5521063411).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Weeping%20Rock%20Trail%2C%20Zion%20National%20Park%20(5521063411).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Weeping_Rock_Trail%2C_Zion_National_Park_(5521063411).jpg",
+    "alt": "Zion rock wall and vegetation near the Weeping Rock Trail",
+    "place": "Weeping Rock",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "patriarchs-two",
+    "filename": "Court Of The Patriarchs.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Court%20Of%20The%20Patriarchs.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Court_Of_The_Patriarchs.jpg",
+    "alt": "Three towering sandstone peaks of the Court of the Patriarchs",
+    "place": "Court of the Patriarchs",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "narrows-fourth",
+    "filename": "Riverside Walk to Zion Narrows, Zion Canyon, Zion National Park, Utah (8096053837).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Riverside%20Walk%20to%20Zion%20Narrows%2C%20Zion%20Canyon%2C%20Zion%20National%20Park%2C%20Utah%20(8096053837).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Riverside_Walk_to_Zion_Narrows%2C_Zion_Canyon%2C_Zion_National_Park%2C_Utah_(8096053837).jpg",
+    "alt": "Riverside corridor inside Zion Canyon",
+    "place": "Riverside corridor",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "emerald-two",
+    "filename": "Middle Emerald Pools in Zion National Park (Utah).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Middle%20Emerald%20Pools%20in%20Zion%20National%20Park%20(Utah).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Middle_Emerald_Pools_in_Zion_National_Park_(Utah).jpg",
+    "alt": "Middle Emerald Pools landscape and sandstone geology",
+    "place": "Emerald Pools",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "canyon-past",
+    "filename": "The Patriarchs, Zion National Park, UT (7132768931).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Patriarchs%2C%20Zion%20National%20Park%2C%20UT%20(7132768931).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Patriarchs%2C_Zion_National_Park%2C_UT_(7132768931).jpg",
+    "alt": "Court of the Patriarchs overlook in Zion",
+    "place": "Court of the Patriarchs",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "weeping-three",
+    "filename": "Weeping Rock Trail, Zion National Park (5521660016).jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Weeping%20Rock%20Trail%2C%20Zion%20National%20Park%20(5521660016).jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Weeping_Rock_Trail%2C_Zion_National_Park_(5521660016).jpg",
+    "alt": "Zion Canyon cliffs near Weeping Rock Trail",
+    "place": "Zion Canyon",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  },
+  {
+    "id": "springdale-gateway",
+    "filename": "Zion National Park, Springdale.jpg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20National%20Park%2C%20Springdale.jpg?width=1600",
+    "source": "https://commons.wikimedia.org/wiki/File:Zion_National_Park%2C_Springdale.jpg",
+    "alt": "The Watchman and Springdale Zion gateway area",
+    "place": "Springdale",
+    "status": "photo candidate; Commons source",
+    "rights": "Individual Commons source license, attribution and redistribution must be revalidated prior to publication",
+    "location": "Zion National Park"
+  }
+];

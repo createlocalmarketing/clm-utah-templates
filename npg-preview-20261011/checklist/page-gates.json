@@ -1,0 +1,209 @@
+{
+  "version": "2026-10-11",
+  "totalGates": 32,
+  "scope": "All 8411 registered target URLs, status per page",
+  "completionPolicy": "A route or template cannot imply an approved finished page. Each required gate needs evidence and human approval. Approved/released status is not editable by this static viewer.",
+  "groups": [
+    {
+      "id": "research",
+      "label": "Keyword, SERP & Search Architecture",
+      "items": [
+        [
+          "K01",
+          "Unique page-specific keyword evidence",
+          "Primary query and related clusters supported by query/source records"
+        ],
+        [
+          "K02",
+          "Fresh SERP and search intent review",
+          "Actual result analysis; commercial, local, informational or transactional intent"
+        ],
+        [
+          "K03",
+          "Verified question/PAA landscape",
+          "Sourced questions reflect actual questions rather than AI speculation"
+        ],
+        [
+          "K04",
+          "Unique title and meta description",
+          "Page-specific SERP copy with no index-wide boilerplate"
+        ],
+        [
+          "K05",
+          "Semantic H1–H5 outline and content coverage",
+          "One H1 and accurate headings supported by original body"
+        ],
+        [
+          "K06",
+          "Schema matches visible content",
+          "Applicable WebPage, TouristAttraction, LocalBusiness etc actually validated"
+        ],
+        [
+          "K07",
+          "Crawlable production URL and canonical",
+          "Canonical native path, status code, sitemap and no fragment indexing reliance"
+        ],
+        [
+          "K08",
+          "Internal linking / orphan / funnel logic",
+          "Links to parent, peers, entities and meaningful next actions"
+        ]
+      ]
+    },
+    {
+      "id": "editorial",
+      "label": "Original Editorial & Factual Quality",
+      "items": [
+        [
+          "C01",
+          "Original researched article for this exact URL",
+          "Not generic topic filler or mechanically duplicated location paragraph"
+        ],
+        [
+          "C02",
+          "Primary-source citations and update date",
+          "Each factual claim grounded; time-sensitive content refreshed"
+        ],
+        [
+          "C03",
+          "Local specificity, named entities and geography",
+          "Park gateways, town, feature or individual business verified"
+        ],
+        [
+          "C04",
+          "Useful visitor logistics and decisions",
+          "Access, time, route, permits, seasons, safety as relevant"
+        ],
+        [
+          "C05",
+          "Original FAQ/PAA answers and fact verification",
+          "Direct usable answers, no misleading live promises"
+        ],
+        [
+          "C06",
+          "Editorial E-E-A-T, byline, safety and disclosures",
+          "Author/reviewer, expertise, corrections and transparency present"
+        ]
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Dopamine-Rich Visual / Photo System",
+      "items": [
+        [
+          "M01",
+          "Two-column photographic hero carousel",
+          "Real photo left, strong copy right, more than one slide and functioning controls"
+        ],
+        [
+          "M02",
+          "Distinct authorized hero image per slide",
+          "Location-accurate, large, recognizable, correctly framed imagery"
+        ],
+        [
+          "M03",
+          "Photography on destination and business cards",
+          "Named item media, no fake merchant property photography or empty blocks"
+        ],
+        [
+          "M04",
+          "Section-level visual variety and motion",
+          "Carousels, immersive photography, video where appropriate, real user journey"
+        ],
+        [
+          "M05",
+          "Per-asset media SEO and rights",
+          "Descriptive filename, srcset, alt, copyright/attribution, consent and image load QA"
+        ]
+      ]
+    },
+    {
+      "id": "ux",
+      "label": "Design Meeting Flow / Responsive UX",
+      "items": [
+        [
+          "D01",
+          "Cross-site design tokens and approved identity",
+          "Brand, typography, colors, spacing, buttons and card standards"
+        ],
+        [
+          "D02",
+          "Working in-page links, controls and CTAs",
+          "No dead buttons, false bookings, misleading rewards or unsupported checkout"
+        ],
+        [
+          "D03",
+          "Desktop, tablet and actual mobile screenshot QA",
+          "Screenshot evidence at approved responsive breakpoints"
+        ],
+        [
+          "D04",
+          "Swipe, keyboard and reduced-motion accessibility",
+          "Carousel operates with arrows, swipe, keyboard and accessible labels"
+        ],
+        [
+          "D05",
+          "Visitor journey and page-to-page consistency",
+          "Relevant topical navigation, business discovery and next steps"
+        ]
+      ]
+    },
+    {
+      "id": "data",
+      "label": "Actual Park / Directory / Commerce Data",
+      "items": [
+        [
+          "G01",
+          "Actual park/location/entity source record",
+          "Canonical ID, documented source, verified place data"
+        ],
+        [
+          "G02",
+          "25-mile entrance/gateway business geo verification",
+          "Real coordinates, anchor, radius rules and provenance; N/A only if reviewed"
+        ],
+        [
+          "G03",
+          "Merchant/operator identity and media verified",
+          "Real operating status, address, approved photos, category, ownership where claimed"
+        ],
+        [
+          "G04",
+          "Booking/commerce/event data only when real",
+          "Current inventory, time, price, terms or explicitly excluded and gated"
+        ]
+      ]
+    },
+    {
+      "id": "approval",
+      "label": "Page-By-Page Review & Release Gate",
+      "items": [
+        [
+          "A01",
+          "Source-to-request requirement and change history",
+          "Original design request, task ID, comments and accountable owner"
+        ],
+        [
+          "A02",
+          "Preview URL and evidence attached",
+          "Exact page, desktop/tablet/iPhone screenshot and code/commit proof"
+        ],
+        [
+          "A03",
+          "SEO, images, links, privacy and accessibility tests pass",
+          "Automated checks plus independent human review evidence"
+        ],
+        [
+          "A04",
+          "Authorized human approval recorded in GitHub",
+          "Review decision, reviewer ID/date; publication forbidden before sign-off"
+        ]
+      ]
+    }
+  ],
+  "leadSources": [
+    "SEO Architecture Blueprint",
+    "Design Meeting Flow",
+    "NATIONAL-PARKS-GUIDE-COMPLETE-HISTORY-HANDOFF-2026-10-10(1).md"
+  ]
+}

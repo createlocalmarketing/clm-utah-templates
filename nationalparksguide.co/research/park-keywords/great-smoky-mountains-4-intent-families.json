@@ -1,0 +1,1477 @@
+{
+  "park": "great-smoky-mountains",
+  "seed": "great smoky mountains national park",
+  "platform": "Google",
+  "country": "United States",
+  "language": "en",
+  "captured": "2026-10-10",
+  "note": "Unfiltered KeywordTool.io query families. These are evidence for intent mapping, not final page copy or ranking guarantees. Monthly search volume only from source.",
+  "results": [
+    {
+      "type": "suggestions",
+      "success": true,
+      "count": 100,
+      "total": 495,
+      "rows": [
+        {
+          "q": "great smoky mountains national park",
+          "v": 1220000,
+          "tr": 5428,
+          "cmp": 0.99
+        },
+        {
+          "q": "great smoky mountains national park nc",
+          "v": 1220000,
+          "tr": 5428,
+          "cmp": 0.99
+        },
+        {
+          "q": "north carolina great smoky mountains national park",
+          "v": 1220000,
+          "tr": 5428,
+          "cmp": 0.99
+        },
+        {
+          "q": "great smoky mountains national park tennessee",
+          "v": 1220000,
+          "tr": 5428,
+          "cmp": 0.99
+        },
+        {
+          "q": "great smoky mountains national park trails",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.17
+        },
+        {
+          "q": "great smoky mountains national park hikes",
+          "v": 12100,
+          "tr": -93,
+          "cmp": 0.17
+        },
+        {
+          "q": "great smoky mountains national park hiking trails",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.17
+        },
+        {
+          "q": "hiking in the great smoky mountains national park",
+          "v": 12100,
+          "tr": -93,
+          "cmp": 0.17
+        },
+        {
+          "q": "hiking trails in great smoky mountains national park",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.17
+        },
+        {
+          "q": "trails in great smoky mountains national park",
+          "v": 12100,
+          "tr": 0,
+          "cmp": 0.17
+        },
+        {
+          "q": "great smoky mountains national park tours",
+          "v": 9900,
+          "tr": -96,
+          "cmp": 0.51
+        },
+        {
+          "q": "great smoky mountains national park map",
+          "v": 8100,
+          "tr": 817,
+          "cmp": 0.67
+        },
+        {
+          "q": "map of great smoky mountains national park",
+          "v": 8100,
+          "tr": 817,
+          "cmp": 0.67
+        },
+        {
+          "q": "the great smoky mountains national park map",
+          "v": 8100,
+          "tr": 817,
+          "cmp": 0.67
+        },
+        {
+          "q": "great smoky mountains national park tickets",
+          "v": 6600,
+          "tr": 817,
+          "cmp": 0.95
+        },
+        {
+          "q": "great smoky mountains national park photos",
+          "v": 6600,
+          "tr": 652,
+          "cmp": 0.13
+        },
+        {
+          "q": "great smoky mountains national park camping",
+          "v": 6600,
+          "tr": 22,
+          "cmp": 0.27
+        },
+        {
+          "q": "images of great smoky mountains national park",
+          "v": 6600,
+          "tr": 652,
+          "cmp": 0.13
+        },
+        {
+          "q": "pictures of great smoky mountains national park",
+          "v": 6600,
+          "tr": 652,
+          "cmp": 0.13
+        },
+        {
+          "q": "great smoky mountains national park lodging",
+          "v": 4400,
+          "tr": -84,
+          "cmp": 0.4
+        },
+        {
+          "q": "great smoky mountains national park places to stay",
+          "v": 4400,
+          "tr": -84,
+          "cmp": 0.4
+        },
+        {
+          "q": "great smoky mountains national park where to stay",
+          "v": 4400,
+          "tr": -84,
+          "cmp": 0.4
+        },
+        {
+          "q": "great smoky mountains national park weather",
+          "v": 2900,
+          "tr": 132,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park visitor center",
+          "v": 2900,
+          "tr": -64,
+          "cmp": 0.19
+        },
+        {
+          "q": "weather great smoky mountains national park",
+          "v": 2900,
+          "tr": 132,
+          "cmp": 0
+        },
+        {
+          "q": "camping great smoky mountains national park",
+          "v": 2400,
+          "tr": 0,
+          "cmp": 0.28
+        },
+        {
+          "q": "cades cove great smoky mountains national park",
+          "v": 2400,
+          "tr": 494,
+          "cmp": 0.03
+        },
+        {
+          "q": "where is great smoky mountains national park",
+          "v": 1600,
+          "tr": 50,
+          "cmp": 0.05
+        },
+        {
+          "q": "great smoky mountains national park things to do",
+          "v": 1300,
+          "tr": 511,
+          "cmp": 0.99
+        },
+        {
+          "q": "great smoky mountains national park location",
+          "v": 1300,
+          "tr": 1581,
+          "cmp": 0.59
+        },
+        {
+          "q": "attractions in great smoky mountains national park",
+          "v": 1300,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "great smoky mountains national park best hikes",
+          "v": 1300,
+          "tr": 60,
+          "cmp": 0.37
+        },
+        {
+          "q": "best hikes in great smoky mountains national park",
+          "v": 1300,
+          "tr": 60,
+          "cmp": 0.37
+        },
+        {
+          "q": "best hiking trails in great smoky mountains national park",
+          "v": 1300,
+          "tr": 60,
+          "cmp": 0.37
+        },
+        {
+          "q": "great smoky mountains national park entrances",
+          "v": 1300,
+          "tr": 23,
+          "cmp": 0.08
+        },
+        {
+          "q": "entrances to great smoky mountains national park",
+          "v": 1300,
+          "tr": 23,
+          "cmp": 0.08
+        },
+        {
+          "q": "great smoky mountains national park fall foliage",
+          "v": 1300,
+          "tr": -80,
+          "cmp": 0.01
+        },
+        {
+          "q": "great smoky mountains national park gatlinburg entrance",
+          "v": 1300,
+          "tr": 23,
+          "cmp": 0.08
+        },
+        {
+          "q": "location of great smoky mountains national park",
+          "v": 1300,
+          "tr": 1581,
+          "cmp": 0.59
+        },
+        {
+          "q": "great smoky mountains national park reviews",
+          "v": 1300,
+          "tr": 1275,
+          "cmp": 0.05
+        },
+        {
+          "q": "things to do in great smoky mountains national park",
+          "v": 1300,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "great smoky mountains national park parking pass",
+          "v": 1000,
+          "tr": -83,
+          "cmp": 0.11
+        },
+        {
+          "q": "great smoky mountains national park attractions",
+          "v": 880,
+          "tr": -80,
+          "cmp": 0.82
+        },
+        {
+          "q": "best time to visit great smoky mountains national park",
+          "v": 880,
+          "tr": 39,
+          "cmp": 0.11
+        },
+        {
+          "q": "great smoky mountains national park fireflies",
+          "v": 880,
+          "tr": 233,
+          "cmp": 0.03
+        },
+        {
+          "q": "bears great smoky mountains national park",
+          "v": 720,
+          "tr": -99,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park campgrounds",
+          "v": 720,
+          "tr": -19,
+          "cmp": 0.26
+        },
+        {
+          "q": "great smoky mountains national park parking tag",
+          "v": 720,
+          "tr": -94,
+          "cmp": 0.05
+        },
+        {
+          "q": "great smoky mountains national park waterfalls",
+          "v": 720,
+          "tr": 122,
+          "cmp": 0.16
+        },
+        {
+          "q": "waterfalls in great smoky mountains national park",
+          "v": 720,
+          "tr": 122,
+          "cmp": 0.16
+        },
+        {
+          "q": "great smoky mountains national park news",
+          "v": 590,
+          "tr": 81,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park bears",
+          "v": 590,
+          "tr": 860,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park fall colors",
+          "v": 590,
+          "tr": -89,
+          "cmp": 0
+        },
+        {
+          "q": "hotels near great smoky mountains national park",
+          "v": 590,
+          "tr": 0,
+          "cmp": 0.88
+        },
+        {
+          "q": "great smoky mountains national park trail map",
+          "v": 590,
+          "tr": 0,
+          "cmp": 0.29
+        },
+        {
+          "q": "great smoky mountains national park facts",
+          "v": 480,
+          "tr": -46,
+          "cmp": 0.02
+        },
+        {
+          "q": "facts about great smoky mountains national park",
+          "v": 480,
+          "tr": -46,
+          "cmp": 0.02
+        },
+        {
+          "q": "great smoky mountains national park history",
+          "v": 480,
+          "tr": -18,
+          "cmp": 0.05
+        },
+        {
+          "q": "history of great smoky mountains national park",
+          "v": 480,
+          "tr": -18,
+          "cmp": 0.05
+        },
+        {
+          "q": "what to do in great smoky mountains national park",
+          "v": 480,
+          "tr": 51,
+          "cmp": 1
+        },
+        {
+          "q": "great smoky mountains national park address",
+          "v": 390,
+          "tr": -19,
+          "cmp": 0.02
+        },
+        {
+          "q": "great smoky mountains national park appalachian trail",
+          "v": 390,
+          "tr": 22,
+          "cmp": 0.33
+        },
+        {
+          "q": "great smoky mountains national park camping reservations",
+          "v": 390,
+          "tr": -33,
+          "cmp": 0.17
+        },
+        {
+          "q": "how big is great smoky mountains national park",
+          "v": 390,
+          "tr": -19,
+          "cmp": 0.01
+        },
+        {
+          "q": "great smoky mountains national park map pdf",
+          "v": 390,
+          "tr": 1606,
+          "cmp": 0.12
+        },
+        {
+          "q": "great smoky mountains national park parking",
+          "v": 390,
+          "tr": 75,
+          "cmp": 0.08
+        },
+        {
+          "q": "when was the great smoky mountains national park established",
+          "v": 390,
+          "tr": -56,
+          "cmp": 0.01
+        },
+        {
+          "q": "great smoky mountains national park parking tags",
+          "v": 390,
+          "tr": -98,
+          "cmp": 0.03
+        },
+        {
+          "q": "great smoky mountains national park animals",
+          "v": 320,
+          "tr": -46,
+          "cmp": 0.01
+        },
+        {
+          "q": "animals in great smoky mountains national park",
+          "v": 320,
+          "tr": -46,
+          "cmp": 0.01
+        },
+        {
+          "q": "directions to great smoky mountains national park",
+          "v": 320,
+          "tr": -18,
+          "cmp": 0.01
+        },
+        {
+          "q": "elkmont campground great smoky mountains national park",
+          "v": 320,
+          "tr": -81,
+          "cmp": 0.05
+        },
+        {
+          "q": "great smoky mountains national park fishing",
+          "v": 320,
+          "tr": 23,
+          "cmp": 0.12
+        },
+        {
+          "q": "fishing in great smoky mountains national park",
+          "v": 320,
+          "tr": 23,
+          "cmp": 0.12
+        },
+        {
+          "q": "great smoky mountains national park jobs",
+          "v": 320,
+          "tr": 23,
+          "cmp": 0.02
+        },
+        {
+          "q": "nashville to great smoky mountains national park",
+          "v": 320,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "rainbow falls great smoky mountains national park",
+          "v": 320,
+          "tr": 175,
+          "cmp": 0.01
+        },
+        {
+          "q": "great smoky mountains national park sign",
+          "v": 320,
+          "tr": 85,
+          "cmp": 0.32
+        },
+        {
+          "q": "great smoky mountains national park usa",
+          "v": 320,
+          "tr": 23,
+          "cmp": 0.41
+        },
+        {
+          "q": "great smoky mountains national park united states",
+          "v": 320,
+          "tr": 23,
+          "cmp": 0.41
+        },
+        {
+          "q": "great smoky mountains national park closures",
+          "v": 260,
+          "tr": -59,
+          "cmp": 0
+        },
+        {
+          "q": "cabins near great smoky mountains national park",
+          "v": 260,
+          "tr": 50,
+          "cmp": 0.71
+        },
+        {
+          "q": "great smoky mountains national park entrance fee",
+          "v": 260,
+          "tr": 86,
+          "cmp": 0.04
+        },
+        {
+          "q": "great smoky mountains national park gift shop",
+          "v": 260,
+          "tr": 0,
+          "cmp": 0.7
+        },
+        {
+          "q": "sunset great smoky mountains national park",
+          "v": 260,
+          "tr": 1627,
+          "cmp": 0.01
+        },
+        {
+          "q": "great smoky mountains national park library tennessee 73 townsend tn",
+          "v": 260,
+          "tr": 191,
+          "cmp": 0.01
+        },
+        {
+          "q": "best things to do in great smoky mountains national park",
+          "v": 210,
+          "tr": 86,
+          "cmp": 0.99
+        },
+        {
+          "q": "great smoky mountains national park december",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.06
+        },
+        {
+          "q": "great smoky mountains national park fall",
+          "v": 210,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "great smoky mountains national park in december",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.06
+        },
+        {
+          "q": "great smoky mountains national park in winter",
+          "v": 210,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "is great smoky mountains national park open",
+          "v": 210,
+          "tr": -55,
+          "cmp": 0
+        },
+        {
+          "q": "lodging near great smoky mountains national park",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.87
+        },
+        {
+          "q": "places to stay near great smoky mountains national park",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.87
+        },
+        {
+          "q": "what state is great smoky mountains national park in",
+          "v": 210,
+          "tr": -35,
+          "cmp": 0.07
+        },
+        {
+          "q": "clingmans dome great smoky mountains national park",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.2
+        },
+        {
+          "q": "fun facts about great smoky mountains national park",
+          "v": 170,
+          "tr": -47,
+          "cmp": 0.01
+        },
+        {
+          "q": "great smoky mountains national park hours",
+          "v": 170,
+          "tr": 88,
+          "cmp": 0.03
+        },
+        {
+          "q": "knoxville to great smoky mountains national park",
+          "v": 170,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park gatlinburg tn 37738 united states",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.53
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "questions",
+      "success": true,
+      "count": 93,
+      "total": 93,
+      "rows": [
+        {
+          "q": "great smoky mountains national park",
+          "v": 1220000,
+          "tr": 5428,
+          "cmp": 0.99
+        },
+        {
+          "q": "what to do in great smoky mountains national park",
+          "v": 480,
+          "tr": 51,
+          "cmp": 1
+        },
+        {
+          "q": "how big is great smoky mountains national park",
+          "v": 390,
+          "tr": -19,
+          "cmp": 0.01
+        },
+        {
+          "q": "when was great smoky mountains national park established",
+          "v": 390,
+          "tr": -56,
+          "cmp": 0.01
+        },
+        {
+          "q": "when was the great smoky mountains national park established",
+          "v": 390,
+          "tr": -56,
+          "cmp": 0.01
+        },
+        {
+          "q": "when was the great smoky mountains national park founded",
+          "v": 390,
+          "tr": -56,
+          "cmp": 0.01
+        },
+        {
+          "q": "where to stay in great smoky mountains national park",
+          "v": 260,
+          "tr": 50,
+          "cmp": 0.95
+        },
+        {
+          "q": "is great smoky mountains national park open",
+          "v": 210,
+          "tr": -55,
+          "cmp": 0
+        },
+        {
+          "q": "what state is great smoky mountains national park in",
+          "v": 210,
+          "tr": -35,
+          "cmp": 0.07
+        },
+        {
+          "q": "when did the great smoky mountains became a national park",
+          "v": 140,
+          "tr": -64,
+          "cmp": 0.03
+        },
+        {
+          "q": "what to see in great smoky mountains national park",
+          "v": 90,
+          "tr": 27,
+          "cmp": 0.93
+        },
+        {
+          "q": "are dogs allowed in great smoky mountains national park",
+          "v": 70,
+          "tr": 80,
+          "cmp": 0.03
+        },
+        {
+          "q": "what is the great smoky mountains national park known for",
+          "v": 70,
+          "tr": 89,
+          "cmp": 0.04
+        },
+        {
+          "q": "what is great smoky mountains national park",
+          "v": 70,
+          "tr": -36,
+          "cmp": 0.04
+        },
+        {
+          "q": "where to stay when visiting great smoky mountains national park",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0.81
+        },
+        {
+          "q": "why is great smoky mountains national park so popular",
+          "v": 50,
+          "tr": 120,
+          "cmp": 0
+        },
+        {
+          "q": "how to get to great smoky mountains national park",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "how many acres is great smoky mountains national park",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "what city is great smoky mountains national park in",
+          "v": 50,
+          "tr": -40,
+          "cmp": 0.07
+        },
+        {
+          "q": "how many entrances to great smoky mountains national park",
+          "v": 40,
+          "tr": 80,
+          "cmp": 0.01
+        },
+        {
+          "q": "why was the great smoky mountains national park established",
+          "v": 40,
+          "tr": -75,
+          "cmp": 0
+        },
+        {
+          "q": "why is the great smoky mountains a national park",
+          "v": 40,
+          "tr": -80,
+          "cmp": 0
+        },
+        {
+          "q": "can you camp in the great smoky mountains national park",
+          "v": 30,
+          "tr": 100,
+          "cmp": 0.11
+        },
+        {
+          "q": "what year was great smoky mountains national park established",
+          "v": 30,
+          "tr": -67,
+          "cmp": 0
+        },
+        {
+          "q": "why is great smoky mountains national park the most visited",
+          "v": 30,
+          "tr": 800,
+          "cmp": 0
+        },
+        {
+          "q": "can you drive through the great smoky mountains national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.07
+        },
+        {
+          "q": "can you hunt in the great smoky mountains national park",
+          "v": 20,
+          "tr": -67,
+          "cmp": 0
+        },
+        {
+          "q": "can you fish in the great smoky mountains national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.02
+        },
+        {
+          "q": "how to visit great smoky mountains national park",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.56
+        },
+        {
+          "q": "how many days to visit great smoky mountains national park",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.19
+        },
+        {
+          "q": "is great smoky mountains national park dog friendly",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.05
+        },
+        {
+          "q": "when to visit great smoky mountains national park",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.03
+        },
+        {
+          "q": "when was the great smoky mountains national park",
+          "v": 20,
+          "tr": -89,
+          "cmp": 0.09
+        },
+        {
+          "q": "who founded the great smoky mountains national park",
+          "v": 20,
+          "tr": -67,
+          "cmp": 0.13
+        },
+        {
+          "q": "is the great smoky mountains national park free",
+          "v": 20,
+          "tr": 800,
+          "cmp": 0.04
+        },
+        {
+          "q": "can you bring dogs to great smoky mountains national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "can you swim in the great smoky mountains national park",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "how did elk reintroduction impact great smoky mountains national park",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0
+        },
+        {
+          "q": "why does great smoky mountains national park close its roads",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "is great smoky mountains national park worth visiting",
+          "v": 10,
+          "tr": 33,
+          "cmp": 0.01
+        },
+        {
+          "q": "why does great smoky mountains national park have temporary closures",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "is great smoky mountains national park closed",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "is great smoky mountains national park open during government shutdown",
+          "v": 10,
+          "tr": -86,
+          "cmp": 0
+        },
+        {
+          "q": "how busy is great smoky mountains national park",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.02
+        },
+        {
+          "q": "where is the great smoky mountains national park sign",
+          "v": 10,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "where to enter great smoky mountains national park",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.19
+        },
+        {
+          "q": "where to fly into for great smoky mountains national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "where to swim in great smoky mountains national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "who owns the great smoky mountains national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "why is great smoky mountains national park free",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "where are great smoky mountains national park"
+        },
+        {
+          "q": "are there bears in great smoky mountains national park"
+        },
+        {
+          "q": "can you get married in great smoky mountains national park"
+        },
+        {
+          "q": "when did great smoky mountains national park open"
+        },
+        {
+          "q": "does anyone live in the great smoky mountains national park"
+        },
+        {
+          "q": "what year did great smoky mountains national park open"
+        },
+        {
+          "q": "does great smoky mountains national park have an entrance fee"
+        },
+        {
+          "q": "does great smoky mountains national park allow dogs"
+        },
+        {
+          "q": "does great smoky mountains national park have waterfalls"
+        },
+        {
+          "q": "does great smoky mountains national park require reservations"
+        },
+        {
+          "q": "how does great smoky mountains national park manage bear encounters"
+        },
+        {
+          "q": "what time does great smoky mountains national park close"
+        },
+        {
+          "q": "what time does great smoky mountains national park open"
+        },
+        {
+          "q": "is great smoky mountains national park the most visited"
+        },
+        {
+          "q": "is great smoky mountain national park worth it"
+        },
+        {
+          "q": "can you have dogs in great smoky mountains national park"
+        },
+        {
+          "q": "is great smoky mountains national park in north carolina"
+        },
+        {
+          "q": "is great smoky mountains national park open today"
+        },
+        {
+          "q": "is great smoky mountains national park in the appalachian mountains"
+        },
+        {
+          "q": "why should people visit great smoky mountains national park"
+        },
+        {
+          "q": "why should i visit great smoky mountains national park"
+        },
+        {
+          "q": "where was great smoky mountains national park"
+        },
+        {
+          "q": "when was great smoky mountains national park founded"
+        },
+        {
+          "q": "what is great smoky mountains national park famous for"
+        },
+        {
+          "q": "what airport is closest to great smoky mountains national park"
+        },
+        {
+          "q": "where is the entrance to great smoky mountains national park"
+        },
+        {
+          "q": "where to camp in great smoky mountains national park"
+        },
+        {
+          "q": "where to see elk in great smoky mountains national park"
+        },
+        {
+          "q": "which airport for great smoky mountains national park"
+        },
+        {
+          "q": "which airport is closest to great smoky mountains national park"
+        },
+        {
+          "q": "who is the superintendent of great smoky mountains national park"
+        },
+        {
+          "q": "who created the great smoky mountains national park"
+        },
+        {
+          "q": "who made great smoky mountains national park"
+        },
+        {
+          "q": "who was the great smoky mountains founded by"
+        },
+        {
+          "q": "who discovered the great smoky mountains national park"
+        },
+        {
+          "q": "why did the great smoky mountains become a national park"
+        },
+        {
+          "q": "why visit great smoky mountains national park"
+        },
+        {
+          "q": "will great smoky mountains national park shut down"
+        },
+        {
+          "q": "will great smoky mountains national park close"
+        },
+        {
+          "q": "why is great smoky mountains national park famous"
+        },
+        {
+          "q": "why is great smoky mountains national park a national park"
+        },
+        {
+          "q": "is the great smoky mountains considered a national park"
+        },
+        {
+          "q": "what makes great smoky mountains national park special"
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "related",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "rows": [],
+      "error": null
+    },
+    {
+      "type": "prepositions",
+      "success": true,
+      "count": 97,
+      "total": 97,
+      "rows": [
+        {
+          "q": "great smoky mountains national park",
+          "v": 1220000,
+          "tr": 5428,
+          "cmp": 0.99
+        },
+        {
+          "q": "great smoky mountains national park in tennessee",
+          "v": 1220000,
+          "tr": 5428,
+          "cmp": 0.99
+        },
+        {
+          "q": "great smoky mountains national park where to stay",
+          "v": 4400,
+          "tr": -84,
+          "cmp": 0.4
+        },
+        {
+          "q": "great smoky mountains national park in december",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.06
+        },
+        {
+          "q": "great smoky mountains national park in winter",
+          "v": 210,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "great smoky mountains national park in november",
+          "v": 140,
+          "tr": -19,
+          "cmp": 0.05
+        },
+        {
+          "q": "great smoky mountains national park best time to visit",
+          "v": 140,
+          "tr": 191,
+          "cmp": 0.15
+        },
+        {
+          "q": "great smoky mountains national park in march",
+          "v": 90,
+          "tr": 25,
+          "cmp": 0.08
+        },
+        {
+          "q": "great smoky mountains national park in april",
+          "v": 90,
+          "tr": -57,
+          "cmp": 0.12
+        },
+        {
+          "q": "great smoky mountains national park in north carolina",
+          "v": 90,
+          "tr": -22,
+          "cmp": 0.47
+        },
+        {
+          "q": "great smoky mountains national park on map",
+          "v": 70,
+          "tr": 57,
+          "cmp": 0.03
+        },
+        {
+          "q": "great smoky mountains national park in october",
+          "v": 50,
+          "tr": 50,
+          "cmp": 0.1
+        },
+        {
+          "q": "great smoky mountains national park weather by month",
+          "v": 40,
+          "tr": 367,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park in may",
+          "v": 40,
+          "tr": 100,
+          "cmp": 0.08
+        },
+        {
+          "q": "great smoky mountains national park in february",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "great smoky mountains national park in january",
+          "v": 40,
+          "tr": -25,
+          "cmp": 0.06
+        },
+        {
+          "q": "great smoky mountains national park in fall",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "great smoky mountains national park location on map",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.09
+        },
+        {
+          "q": "great smoky mountains national park to nashville",
+          "v": 30,
+          "tr": 600,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park near gatlinburg",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.13
+        },
+        {
+          "q": "great smoky mountains national park to gatlinburg",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "suggest less crowded alternatives to great smoky mountains national park",
+          "v": 20,
+          "tr": -95,
+          "cmp": 0.08
+        },
+        {
+          "q": "great smoky mountains national park visitors per year",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park on us map",
+          "v": 20,
+          "tr": -67,
+          "cmp": 0.03
+        },
+        {
+          "q": "great smoky mountains national park temperature by month",
+          "v": 10,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park camping with a barbecue grill",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.2
+        },
+        {
+          "q": "great smoky mountains national park near me",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.05
+        },
+        {
+          "q": "great smoky mountains national park trails near gatlinburg",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.4
+        },
+        {
+          "q": "great smoky mountains national park visitor center near me",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.11
+        },
+        {
+          "q": "great smoky mountains national park from nashville",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park to asheville nc",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park in september",
+          "v": 10,
+          "tr": 400,
+          "cmp": 0.07
+        },
+        {
+          "q": "suggest less crowded towns near great smoky mountains national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park top 5 things to do",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.86
+        },
+        {
+          "q": "great smoky mountains national park top things to do",
+          "v": 10,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "is great smoky mountains national park worth visiting",
+          "v": 10,
+          "tr": 33,
+          "cmp": 0.01
+        },
+        {
+          "q": "is smoky mountain national park worth visiting",
+          "v": 10,
+          "tr": 200,
+          "cmp": 0
+        },
+        {
+          "q": "great smoky mountains national park vs shenandoah"
+        },
+        {
+          "q": "great smoky mountains national park with kids"
+        },
+        {
+          "q": "great smoky mountains national park with toddlers"
+        },
+        {
+          "q": "great smoky mountains national park with dog"
+        },
+        {
+          "q": "great smoky mountains national park with baby"
+        },
+        {
+          "q": "great smoky mountains national park trails with waterfalls"
+        },
+        {
+          "q": "great smoky mountains national park camping with wifi"
+        },
+        {
+          "q": "great smoky mountains national park hikes with kids"
+        },
+        {
+          "q": "great smoky mountains national park camping with rv sites"
+        },
+        {
+          "q": "great smoky mountains national park camping with restrooms"
+        },
+        {
+          "q": "great smoky mountains national park at night"
+        },
+        {
+          "q": "great smoky mountains national park at christmas"
+        },
+        {
+          "q": "great smoky mountains national park under canvas"
+        },
+        {
+          "q": "great smoky mountains national park near nashville tn"
+        },
+        {
+          "q": "great smoky mountains national park near dollywood"
+        },
+        {
+          "q": "great smoky mountains national park entrance near me"
+        },
+        {
+          "q": "great smoky mountains national park entrance near gatlinburg tn"
+        },
+        {
+          "q": "great smoky mountains national park trails near me"
+        },
+        {
+          "q": "best hikes in smoky mountain national park near gatlinburg"
+        },
+        {
+          "q": "great smoky mountains national park from gatlinburg"
+        },
+        {
+          "q": "great smoky mountains national park from asheville"
+        },
+        {
+          "q": "great smoky mountains national park from pigeon forge"
+        },
+        {
+          "q": "great smoky mountains national park from charlotte"
+        },
+        {
+          "q": "great smoky mountains national park from raleigh"
+        },
+        {
+          "q": "great smoky mountains national park from atlanta"
+        },
+        {
+          "q": "great smoky mountains national park from knoxville"
+        },
+        {
+          "q": "great smoky mountains national park from chicago"
+        },
+        {
+          "q": "great smoky mountains national park distance from nashville"
+        },
+        {
+          "q": "great smoky mountains national park to charlotte nc"
+        },
+        {
+          "q": "great smoky mountains national park to dollywood"
+        },
+        {
+          "q": "great smoky mountains national park for kids"
+        },
+        {
+          "q": "great smoky mountains national park to pigeon forge"
+        },
+        {
+          "q": "great smoky mountains national park to knoxville tennessee"
+        },
+        {
+          "q": "why does great smoky mountains national park cut down trees"
+        },
+        {
+          "q": "great smoky mountains national park during thanksgiving"
+        },
+        {
+          "q": "great smoky mountains national park to atlanta"
+        },
+        {
+          "q": "great smoky mountains national park to do"
+        },
+        {
+          "q": "great smoky mountains national park to mammoth cave"
+        },
+        {
+          "q": "great smoky mountains national park mid march"
+        },
+        {
+          "q": "great smoky mountains national park off roading"
+        },
+        {
+          "q": "off road trails in great smoky mountains national park"
+        },
+        {
+          "q": "is great smoky mountains national park open after hurricane helene"
+        },
+        {
+          "q": "great smoky mountains national park open during government shutdown"
+        },
+        {
+          "q": "great smoky mountains national park to shenandoah national park"
+        },
+        {
+          "q": "great smoky mountains national park to mammoth cave national park"
+        },
+        {
+          "q": "great smoky mountains national park where to fly into"
+        },
+        {
+          "q": "great smoky mountains unto these hills"
+        },
+        {
+          "q": "great smoky mountains national park iron on patch"
+        },
+        {
+          "q": "is great smoky mountain national park open on thanksgiving"
+        },
+        {
+          "q": "great smoky mountains national park vs yellowstone"
+        },
+        {
+          "q": "great smoky mountains national park by car"
+        },
+        {
+          "q": "great smoky mountains national park visitors by month"
+        },
+        {
+          "q": "great smoky mountains national park paint by number"
+        },
+        {
+          "q": "great smoky mountains national park average temperature by month"
+        },
+        {
+          "q": "great smoky mountains national park vs rocky mountain national park"
+        },
+        {
+          "q": "great smoky mountains national park vs acadia national park"
+        },
+        {
+          "q": "great smoky mountains national park with dogs"
+        },
+        {
+          "q": "great smoky mountains national park worth it"
+        },
+        {
+          "q": "great smoky mountains worth it"
+        },
+        {
+          "q": "great smoky mountains worth it reddit"
+        }
+      ],
+      "error": null
+    }
+  ]
+}

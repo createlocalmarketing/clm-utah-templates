@@ -1,0 +1,641 @@
+{
+  "version": "2026-10-10",
+  "editorialStatus": "NPS primary-source draft, user editorial approval pending, safety facts must be rechecked before publication",
+  "sourceNote": "NPS official source pages linked per fact. Keyword routes come from live KeywordTool.io Google US search demand, not guessed keyword volumes.",
+  "parks": {
+    "zion": {
+      "title": "Zion National Park: Canyon Travel, Shuttles and Trail Planning",
+      "deck": "The most useful first decision is how you will enter Zion Canyon and what kind of hike matches your group. Plan for shuttle operations, permitted sections, river hazards and time in Springdale.",
+      "blocks": [
+        {
+          "h": "Zion Canyon access and shuttles",
+          "p": "Zion states that regular park entry and rides on its park shuttle do not require an advance reservation or shuttle ticket. Visitors still need a valid entrance pass or must pay the park entrance fee. Shuttle service and schedules change seasonally, so confirm the operating dates and plan around stop locations.",
+          "src": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
+        },
+        {
+          "h": "Angels Landing versus Scout Lookout",
+          "p": "The chain-supported section from Scout Lookout to Angels Landing requires an Angels Landing hiking permit. Hiking to Scout Lookout by the West Rim Trail does not require that specific permit, although the approach is strenuous and conditions still matter.",
+          "src": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+        },
+        {
+          "h": "The Narrows: choose the correct route",
+          "p": "The common bottom-up approach from the Temple of Sinawava does not require a wilderness permit within its allowed upstream boundary. The long top-down route from Chamberlain’s Ranch does require a permit. Flash flooding and river conditions can close routes with little notice.",
+          "src": "https://www.nps.gov/zion/planyourvisit/narrowsregulations.htm"
+        }
+      ],
+      "faq": [
+        [
+          "Do I need a reservation to enter Zion National Park?",
+          "NPS says no general entrance reservation or shuttle ticket is required; an entrance pass or fee is still required. Special activities can have their own permits.",
+          "https://www.nps.gov/zion/planyourvisit/permitsandreservations.htm"
+        ],
+        [
+          "Do I need a permit for Angels Landing?",
+          "Yes for the chain section beyond Scout Lookout. The approach to Scout Lookout itself does not require that particular permit.",
+          "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+        ],
+        [
+          "Is The Narrows hike always open?",
+          "No. Flood risk, high river flow and other changing hazards affect access. Always check the official conditions on the day of your visit.",
+          "https://www.nps.gov/zion/planyourvisit/planning-guide.htm"
+        ]
+      ],
+      "searchDemand": {
+        "primary": "zion national park",
+        "cats": [
+          {
+            "id": "weather",
+            "title": "Weather & Seasonal Planning",
+            "path": "plan/weather-seasons",
+            "headQuery": "zion national park weather",
+            "searchVolume": 49500,
+            "examples": [
+              "zion national park weather",
+              "zion national park forecast",
+              "forecast zion national park",
+              "zion national park utah weather"
+            ]
+          },
+          {
+            "id": "hikes",
+            "title": "Trail & Hike Planning",
+            "path": "things-to-do/hikes-trails",
+            "headQuery": "the narrows zion national park",
+            "searchVolume": 40500,
+            "examples": [
+              "the narrows zion national park",
+              "zion national park trails",
+              "zion national park hikes",
+              "hikes in zion national park"
+            ]
+          },
+          {
+            "id": "stays",
+            "title": "Hotels, Lodging & Camping",
+            "path": "stay/hotels",
+            "headQuery": "zion national park hotels",
+            "searchVolume": 22200,
+            "examples": [
+              "zion national park hotels",
+              "zion national park camping",
+              "zion national park campground",
+              "camping in zion national park"
+            ]
+          },
+          {
+            "id": "maps",
+            "title": "Maps & Access",
+            "path": "plan/maps-directions",
+            "headQuery": "zion national park map",
+            "searchVolume": 9900,
+            "examples": [
+              "zion national park map",
+              "map of zion national park",
+              "zion national park utah map",
+              "zion national park on us map"
+            ]
+          },
+          {
+            "id": "permits",
+            "title": "Permits & Fees",
+            "path": "plan/fees-permits",
+            "headQuery": "zion national park permits",
+            "searchVolume": 2400,
+            "examples": [
+              "zion national park permits",
+              "does zion national park require reservations",
+              "does zion national park have timed entry"
+            ]
+          },
+          {
+            "id": "attractions",
+            "title": "Things to Do",
+            "path": "things-to-do",
+            "headQuery": "things to do in zion national park",
+            "searchVolume": 6600,
+            "examples": [
+              "things to do in zion national park",
+              "best time to visit zion national park",
+              "best month to visit zion national park",
+              "visitor center zion national park"
+            ]
+          }
+        ],
+        "visitorQuestions": [
+          "zion national park",
+          "where is zion national park in utah",
+          "how far is zion national park from las vegas",
+          "what to do in zion national park",
+          "is zion national park open",
+          "where to stay near zion national park",
+          "how many days in zion national park",
+          "what city is zion national park in"
+        ],
+        "researchRef": "nationalparksguide.co/research/park-keywords/zion-4-intent-families.json"
+      }
+    },
+    "great-smoky-mountains": {
+      "title": "Great Smoky Mountains: Trailheads, Shuttles and Parking",
+      "deck": "Access choices matter in the Smokies: popular trailhead lots fill, parking tags do not reserve spaces, and guided gateway transportation can reduce parking stress.",
+      "blocks": [
+        {
+          "h": "Parking tags and scarce trailhead spaces",
+          "p": "A valid parking tag does not guarantee a parking space. NPS points to busy trailheads and overlooks with limited capacity and recommends planning around demand rather than assuming a tag creates a reservation.",
+          "src": "https://www.nps.gov/grsm/planyourvisit/shuttles.htm"
+        },
+        {
+          "h": "Getting to trails and popular viewpoints",
+          "p": "Shuttle operators are listed by NPS as transportation options in the region. Confirm a provider’s departure location, availability, accessibility and fees independently before planning a route.",
+          "src": "https://www.nps.gov/grsm/planyourvisit/shuttles.htm"
+        },
+        {
+          "h": "Build an itinerary across both states",
+          "p": "Great Smoky Mountains spans Tennessee and North Carolina. Travelers should choose a gateway and driving route deliberately instead of assuming every trail or attraction is close to the same entrance.",
+          "src": "https://www.nps.gov/grsm/planyourvisit/index.htm"
+        }
+      ],
+      "faq": [
+        [
+          "Does a Smokies parking tag reserve a space?",
+          "No. A parking tag does not guarantee a particular spot, and popular trailhead lots may fill.",
+          "https://www.nps.gov/grsm/planyourvisit/shuttles.htm"
+        ],
+        [
+          "Can I use a shuttle around the Smokies?",
+          "The NPS lists regional shuttle services; confirm each operator’s routes and current terms directly.",
+          "https://www.nps.gov/grsm/planyourvisit/shuttles.htm"
+        ]
+      ],
+      "searchDemand": {
+        "primary": "great smoky mountains national park",
+        "cats": [
+          {
+            "id": "weather",
+            "title": "Weather & Seasonal Planning",
+            "path": "plan/weather-seasons",
+            "headQuery": "great smoky mountains national park weather",
+            "searchVolume": 2900,
+            "examples": [
+              "great smoky mountains national park weather",
+              "weather great smoky mountains national park",
+              "great smoky mountains national park weather by month",
+              "great smoky mountains national park temperature by month"
+            ]
+          },
+          {
+            "id": "hikes",
+            "title": "Trail & Hike Planning",
+            "path": "things-to-do/hikes-trails",
+            "headQuery": "great smoky mountains national park trails",
+            "searchVolume": 12100,
+            "examples": [
+              "great smoky mountains national park trails",
+              "great smoky mountains national park hikes",
+              "great smoky mountains national park hiking trails",
+              "hiking in the great smoky mountains national park"
+            ]
+          },
+          {
+            "id": "stays",
+            "title": "Hotels, Lodging & Camping",
+            "path": "stay/hotels",
+            "headQuery": "great smoky mountains national park camping",
+            "searchVolume": 6600,
+            "examples": [
+              "great smoky mountains national park camping",
+              "great smoky mountains national park lodging",
+              "great smoky mountains national park places to stay",
+              "great smoky mountains national park where to stay"
+            ]
+          },
+          {
+            "id": "maps",
+            "title": "Maps & Access",
+            "path": "plan/maps-directions",
+            "headQuery": "great smoky mountains national park map",
+            "searchVolume": 8100,
+            "examples": [
+              "great smoky mountains national park map",
+              "map of great smoky mountains national park",
+              "the great smoky mountains national park map",
+              "great smoky mountains national park entrances"
+            ]
+          },
+          {
+            "id": "permits",
+            "title": "Permits & Fees",
+            "path": "plan/fees-permits",
+            "headQuery": "great smoky mountains national park camping reservations",
+            "searchVolume": 390,
+            "examples": [
+              "great smoky mountains national park camping reservations",
+              "does great smoky mountains national park require reservations"
+            ]
+          },
+          {
+            "id": "attractions",
+            "title": "Things to Do",
+            "path": "things-to-do",
+            "headQuery": "great smoky mountains national park tennessee",
+            "searchVolume": 1220000,
+            "examples": [
+              "great smoky mountains national park tennessee",
+              "great smoky mountains national park in tennessee",
+              "great smoky mountains national park tours",
+              "great smoky mountains national park visitor center"
+            ]
+          }
+        ],
+        "visitorQuestions": [
+          "great smoky mountains national park",
+          "what to do in great smoky mountains national park",
+          "how big is great smoky mountains national park",
+          "when was great smoky mountains national park established",
+          "when was the great smoky mountains national park established",
+          "when was the great smoky mountains national park founded",
+          "where to stay in great smoky mountains national park",
+          "is great smoky mountains national park open"
+        ],
+        "researchRef": "nationalparksguide.co/research/park-keywords/great-smoky-mountains-4-intent-families.json"
+      }
+    },
+    "yellowstone": {
+      "title": "Yellowstone: Geysers, Wildlife and Safe Exploration",
+      "deck": "Yellowstone combines multiple geographic regions, active geothermal systems and wild animals. Plan by entrance and travel time, give wildlife space, and stay on the designated thermal walkways.",
+      "blocks": [
+        {
+          "h": "Respect wildlife viewing distances",
+          "p": "Yellowstone NPS guidance requires at least 100 yards of separation from bears, wolves and cougars, and at least 25 yards from other large animals including bison and elk. Never approach wildlife for a photo.",
+          "src": "https://www.nps.gov/yell/planyourvisit/conditions.htm"
+        },
+        {
+          "h": "Thermal basins are not ordinary trails",
+          "p": "Stay on boardwalks and marked routes around thermal features. Thin ground and scalding water are dangerous, and entering hot springs is prohibited.",
+          "src": "https://www.nps.gov/yell/planyourvisit/safety-press.htm"
+        },
+        {
+          "h": "Five entrances and enormous distances",
+          "p": "Yellowstone lies across Wyoming, Montana and Idaho and has five main entrances. Choose lodging and daily routes by region instead of assuming you can reach every attraction on a short drive.",
+          "src": "https://www.nps.gov/yell/planyourvisit/index.htm"
+        }
+      ],
+      "faq": [
+        [
+          "How close can I get to bison in Yellowstone?",
+          "Stay at least 25 yards away, and farther if an animal approaches. For bears, wolves and cougars, stay at least 100 yards away.",
+          "https://www.nps.gov/yell/planyourvisit/safety.htm"
+        ],
+        [
+          "May I step off geyser boardwalks for a photo?",
+          "No. Remain on designated boardwalks and trails; fragile ground and extremely hot water can be deadly.",
+          "https://www.nps.gov/yell/planyourvisit/safety-press.htm"
+        ]
+      ],
+      "searchDemand": {
+        "primary": "yellowstone national park",
+        "cats": [
+          {
+            "id": "weather",
+            "title": "Weather & Seasonal Planning",
+            "path": "plan/weather-seasons",
+            "headQuery": "yellowstone national park weather",
+            "searchVolume": 40500,
+            "examples": [
+              "yellowstone national park weather",
+              "weather yellowstone national park",
+              "forecast for yellowstone national park",
+              "yellowstone national park temperature"
+            ]
+          },
+          {
+            "id": "hikes",
+            "title": "Trail & Hike Planning",
+            "path": "things-to-do/hikes-trails",
+            "headQuery": "yellowstone national park hikes",
+            "searchVolume": 4400,
+            "examples": [
+              "yellowstone national park hikes"
+            ]
+          },
+          {
+            "id": "stays",
+            "title": "Hotels, Lodging & Camping",
+            "path": "stay/hotels",
+            "headQuery": "yellowstone national park lodging",
+            "searchVolume": 135000,
+            "examples": [
+              "yellowstone national park lodging",
+              "yellowstone national park hotels",
+              "lodging in yellowstone national park",
+              "lodging inside yellowstone national park"
+            ]
+          },
+          {
+            "id": "maps",
+            "title": "Maps & Access",
+            "path": "plan/maps-directions",
+            "headQuery": "map of yellowstone national park",
+            "searchVolume": 40500,
+            "examples": [
+              "map of yellowstone national park",
+              "yellowstone national park on a map",
+              "yellowstone national park map",
+              "yellowstone national park north entrance"
+            ]
+          },
+          {
+            "id": "permits",
+            "title": "Permits & Fees",
+            "path": "plan/fees-permits",
+            "headQuery": "yellowstone national park camping reservations",
+            "searchVolume": 3600,
+            "examples": [
+              "yellowstone national park camping reservations",
+              "does yellowstone national park require reservations",
+              "does yellowstone national park have timed entry",
+              "yellowstone national park with kevin costner"
+            ]
+          },
+          {
+            "id": "attractions",
+            "title": "Things to Do",
+            "path": "things-to-do",
+            "headQuery": "yellowstone national park tours",
+            "searchVolume": 49500,
+            "examples": [
+              "yellowstone national park tours",
+              "good time to visit yellowstone national park",
+              "things to do in yellowstone national park",
+              "what to do in yellowstone national park"
+            ]
+          }
+        ],
+        "visitorQuestions": [
+          "yellowstone national park",
+          "what states are yellowstone national park in",
+          "how big is yellowstone national park",
+          "what state is yellowstone national park in",
+          "where yellowstone national park is located",
+          "which state is yellowstone national park in",
+          "is yellowstone national park open",
+          "where to stay in yellowstone national park"
+        ],
+        "researchRef": "nationalparksguide.co/research/park-keywords/yellowstone-4-intent-families.json"
+      }
+    },
+    "glacier": {
+      "title": "Glacier: Going-to-the-Sun Road, Logan Pass and Shuttles",
+      "deck": "Glacier’s scenic high road is seasonal and weather-dependent. In 2026, vehicle entry reservations are not required, but Logan Pass shuttle operations and parking limits require distinct planning.",
+      "blocks": [
+        {
+          "h": "Going-to-the-Sun Road season and weather",
+          "p": "The alpine portion of Going-to-the-Sun Road has no guaranteed annual opening date. Snow, storms and roadwork can close sections unexpectedly even in periods when the route is normally accessible.",
+          "src": "https://www.nps.gov/glac/planyourvisit/gtsrinfo.htm"
+        },
+        {
+          "h": "2026 vehicle versus shuttle reservations",
+          "p": "NPS announced that vehicle reservations were not required anywhere in Glacier for the 2026 season. That is different from Logan Pass seasonal shuttle arrangements: certain shuttle service requires reservations and time-limited parking rules apply.",
+          "src": "https://www.nps.gov/glac/learn/news/glacier-national-park-remind-visitors-about-2026-shuttle-system-and-logan-pass-access-changes.htm"
+        },
+        {
+          "h": "Plan around changing trail access",
+          "p": "NPS trail status reports show known closures and hazards but cannot monitor every stretch at every moment. Prepare for rapidly shifting alpine conditions before committing to a hike.",
+          "src": "https://www.nps.gov/glac/planyourvisit/conditions.htm"
+        }
+      ],
+      "faq": [
+        [
+          "Is Going-to-the-Sun Road open year-round?",
+          "No. Lower portions may remain accessible, but the alpine section is seasonal and can close based on snowfall and weather.",
+          "https://www.nps.gov/glac/planyourvisit/gtsrinfo.htm"
+        ],
+        [
+          "Did Glacier require vehicle reservations in 2026?",
+          "NPS said no vehicle reservations were required in the park in 2026; certain Logan Pass shuttle services had separate reservations.",
+          "https://www.nps.gov/glac/learn/news/glacier-national-park-remind-visitors-about-2026-shuttle-system-and-logan-pass-access-changes.htm"
+        ]
+      ],
+      "searchDemand": {
+        "primary": "glacier national park",
+        "cats": [
+          {
+            "id": "weather",
+            "title": "Weather & Seasonal Planning",
+            "path": "plan/weather-seasons",
+            "headQuery": "glacier national park weather",
+            "searchVolume": 18100,
+            "examples": [
+              "glacier national park weather",
+              "glacier national park montana weather",
+              "weather glacier national park",
+              "glacier national park weather by month"
+            ]
+          },
+          {
+            "id": "hikes",
+            "title": "Trail & Hike Planning",
+            "path": "things-to-do/hikes-trails",
+            "headQuery": "glacier national park going to the sun road",
+            "searchVolume": 60500,
+            "examples": [
+              "glacier national park going to the sun road",
+              "going to the sun road glacier national park",
+              "glacier national park sun road",
+              "sun road glacier national park"
+            ]
+          },
+          {
+            "id": "stays",
+            "title": "Hotels, Lodging & Camping",
+            "path": "stay/hotels",
+            "headQuery": "glacier national park lodging",
+            "searchVolume": 33100,
+            "examples": [
+              "glacier national park lodging",
+              "lodging in glacier national park",
+              "glacier national park hotels",
+              "glacier national park places to stay"
+            ]
+          },
+          {
+            "id": "maps",
+            "title": "Maps & Access",
+            "path": "plan/maps-directions",
+            "headQuery": "map of glacier national park",
+            "searchVolume": 14800,
+            "examples": [
+              "map of glacier national park",
+              "glacier national park on map",
+              "glacier national park entrance pass",
+              "glacier national park shuttle"
+            ]
+          },
+          {
+            "id": "permits",
+            "title": "Permits & Fees",
+            "path": "plan/fees-permits",
+            "headQuery": "glacier national park vehicle reservations",
+            "searchVolume": 6600,
+            "examples": [
+              "glacier national park vehicle reservations",
+              "glacier national park reservations",
+              "glacier national park camping reservations",
+              "does glacier national park require reservations"
+            ]
+          },
+          {
+            "id": "attractions",
+            "title": "Things to Do",
+            "path": "things-to-do",
+            "headQuery": "best time to visit glacier national park",
+            "searchVolume": 8100,
+            "examples": [
+              "best time to visit glacier national park",
+              "best time of year to visit glacier national park",
+              "glacier national park tours",
+              "glacier national park red bus tours"
+            ]
+          }
+        ],
+        "visitorQuestions": [
+          "glacier national park",
+          "where is glacier national park in montana",
+          "where to fly into for glacier national park",
+          "what to do glacier national park",
+          "what to do in glacier national park",
+          "where is glacier bay national park",
+          "how to get to glacier national park",
+          "is glacier national park open"
+        ],
+        "researchRef": "nationalparksguide.co/research/park-keywords/glacier-4-intent-families.json"
+      }
+    },
+    "yosemite": {
+      "title": "Yosemite: Valley Access, Overnight Permits and Half Dome",
+      "deck": "Yosemite's granite scenery can be experienced in many ways, but reservations for overnight stays, wilderness travel and certain technical routes differ from park entrance requirements.",
+      "blocks": [
+        {
+          "h": "Entrance planning in 2026",
+          "p": "The National Park Service states that an entrance reservation is not required to enter Yosemite during 2026. Park fees, normal access restrictions and evolving conditions still apply.",
+          "src": "https://www.nps.gov/yose/planyourvisit/permitsandreservations.htm"
+        },
+        {
+          "h": "Half Dome and wilderness permits",
+          "p": "Permits are required for Half Dome when its cables are up, and wilderness permits apply to overnight backcountry travel. These are distinct from general day entry requirements.",
+          "src": "https://www.nps.gov/yose/planyourvisit/permitsandreservations.htm"
+        },
+        {
+          "h": "Lodging and campground reservations",
+          "p": "Overnight stays require appropriate accommodation bookings. Confirm campground or lodging availability independently and consider the travel time between lodging communities and valley destinations.",
+          "src": "https://www.nps.gov/yose/planyourvisit/permitsandreservations.htm"
+        }
+      ],
+      "faq": [
+        [
+          "Do I need a reservation simply to enter Yosemite in 2026?",
+          "No general entrance reservation is required according to NPS, but special activities and stays still have separate requirements.",
+          "https://www.nps.gov/yose/planyourvisit/permitsandreservations.htm"
+        ],
+        [
+          "Do I need a permit to hike Half Dome?",
+          "Yes when the cables are up. An overnight wilderness permit does not automatically eliminate the Half Dome permit requirement.",
+          "https://www.nps.gov/yose/planyourvisit/permitsandreservations.htm"
+        ]
+      ],
+      "searchDemand": {
+        "primary": "yosemite national park",
+        "cats": [
+          {
+            "id": "weather",
+            "title": "Weather & Seasonal Planning",
+            "path": "plan/weather-seasons",
+            "headQuery": "yosemite national park weather",
+            "searchVolume": 74000,
+            "examples": [
+              "yosemite national park weather",
+              "weather in yosemite national park",
+              "temperature in yosemite national park",
+              "yosemite national park weather by month"
+            ]
+          },
+          {
+            "id": "hikes",
+            "title": "Trail & Hike Planning",
+            "path": "things-to-do/hikes-trails",
+            "headQuery": "yosemite national park mist trail",
+            "searchVolume": 18100,
+            "examples": [
+              "yosemite national park mist trail",
+              "mist trail yosemite national park",
+              "yosemite national park hikes",
+              "hikes in yosemite national park"
+            ]
+          },
+          {
+            "id": "stays",
+            "title": "Hotels, Lodging & Camping",
+            "path": "stay/hotels",
+            "headQuery": "yosemite national park lodging",
+            "searchVolume": 49500,
+            "examples": [
+              "yosemite national park lodging",
+              "yosemite national park camping",
+              "camping in yosemite national park",
+              "yosemite national park hotels"
+            ]
+          },
+          {
+            "id": "maps",
+            "title": "Maps & Access",
+            "path": "plan/maps-directions",
+            "headQuery": "map of yosemite national park",
+            "searchVolume": 18100,
+            "examples": [
+              "map of yosemite national park",
+              "yosemite national park map",
+              "yosemite national park on map",
+              "yosemite national park entrance fee"
+            ]
+          },
+          {
+            "id": "permits",
+            "title": "Permits & Fees",
+            "path": "plan/fees-permits",
+            "headQuery": "yosemite national park camping reservations",
+            "searchVolume": 18100,
+            "examples": [
+              "yosemite national park camping reservations",
+              "yosemite national park reservations",
+              "reservations for yosemite national park",
+              "entry fee for yosemite national park"
+            ]
+          },
+          {
+            "id": "attractions",
+            "title": "Things to Do",
+            "path": "things-to-do",
+            "headQuery": "yosemite national park tours",
+            "searchVolume": 22200,
+            "examples": [
+              "yosemite national park tours",
+              "things to do in yosemite national park",
+              "best time to visit yosemite national park",
+              "yosemite national park what to do"
+            ]
+          }
+        ],
+        "visitorQuestions": [
+          "yosemite national park",
+          "where to stay in yosemite national park",
+          "is yosemite national park open",
+          "how to pronounce yosemite national park",
+          "how big is yosemite national park",
+          "what to do in yosemite national park",
+          "how far is yosemite national park from san francisco",
+          "are dogs allowed in yosemite national park"
+        ],
+        "researchRef": "nationalparksguide.co/research/park-keywords/yosemite-4-intent-families.json"
+      }
+    }
+  }
+}

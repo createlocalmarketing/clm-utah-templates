@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>National Parks Guide | Complete Page Directory</title>
+<meta name="description" content="Every National Parks Guide and Utah Zion registered page with direct preview links, implementation state, production target and page review checklist.">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#173b2d;--forest2:#0d281f;--gold:#cca06b;--warm:#f4f6f1;--line:#d9e5d9;--ink:#20382a;--muted:#61786a}
+*{box-sizing:border-box}body{margin:0;background:var(--warm);color:var(--ink);font:14px/1.6 'DM Sans',system-ui,sans-serif}
+a{color:inherit}button,input,select{font:inherit}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+header{background:var(--forest2);color:white;padding:19px max(25px,calc((100vw - 1600px)/2));display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
+header strong{font:800 20px Outfit;letter-spacing:.02em}header strong small{color:#dcb17c;display:block;font:800 10px 'DM Sans';letter-spacing:.16em}
+header nav{display:flex;gap:18px;font-size:12px;font-weight:800;flex-wrap:wrap;color:#d4e0d4}
+.wrap{max-width:1600px;margin:auto;padding:0 24px}
+.hero{padding:52px 0 34px;background:linear-gradient(130deg,#eff4e9,#e5eee3)}
+.eyebrow{font-size:11px;letter-spacing:.18em;color:#a6753e;font-weight:850;text-transform:uppercase}
+h1{font:800 clamp(38px,4.8vw,68px)/1.03 Outfit;letter-spacing:-.045em;margin:12px 0}
+.hero p{max-width:900px;color:#637666;font-size:16px}
+.site-tabs{display:flex;gap:8px;margin-top:24px;flex-wrap:wrap}
+.site-tabs a{border:1px solid #b8c9b6;background:white;padding:12px 19px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:850}
+.site-tabs a.active{background:#1d4533;color:white}
+.metrics{display:flex;gap:11px;flex-wrap:wrap;margin-top:24px}
+.metric{background:white;border:1px solid #d7e3d4;padding:13px 20px;min-width:170px;border-radius:8px}
+.metric strong{display:block;font:800 29px Outfit}.metric span{font-size:11px;color:#627667;font-weight:750}
+.banner{margin:17px 0;background:#fff6e6;border-left:4px solid #c8974c;padding:13px 17px;font-size:12px;color:#786142;max-width:1130px}
+.shell{padding:28px 0 75px}
+.toolbar{background:white;border:1px solid var(--line);padding:17px;border-radius:9px;display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(140px,1fr)) auto;gap:9px;align-items:end}
+label>span{font-size:10px;display:block;font-weight:850;letter-spacing:.1em;text-transform:uppercase;color:#617365;margin-bottom:7px}
+input,select{border:1px solid #d3ded2;border-radius:6px;width:100%;min-height:43px;padding:10px;background:white;color:#304c3b}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:var(--forest);color:white;padding:12px 16px;border:1px solid var(--forest);border-radius:6px;font-size:12px;font-weight:800;min-height:43px}
+.btn.alt{background:white;color:var(--forest);border-color:#9cbaa1}
+.btn.gold{background:#d9ad70;border-color:#d9ad70;color:#17342a}
+.countline{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:23px 0 13px;flex-wrap:wrap}
+.countline strong{font:800 22px Outfit}.countline span{font-size:12px;color:#647766}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.tile{background:white;border:1px solid var(--line);border-radius:9px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 6px 19px #123d210b}
+.tile:hover{border-color:#b1c8b4}
+.tile .tag{font-size:10px;font-weight:850;letter-spacing:.12em;color:#a47138;text-transform:uppercase;padding:18px 19px 0}
+.tile h3{font:800 19px/1.2 Outfit;letter-spacing:-.025em;padding:0 19px;margin:11px 0}
+.tile p{font-size:11px;color:#66786a;line-height:1.5;margin:3px 19px 14px}
+.tile code{font:10px/1.5 ui-monospace,monospace;color:#607864;word-break:break-word;margin:0 19px 16px}
+.tile .state{display:inline-block;align-self:flex-start;margin:0 19px 14px;padding:5px 9px;background:#f9f0dc;color:#85622f;font-size:10px;font-weight:800;border-radius:5px}
+.tile .state.preview{background:#e4f1e7;color:#315f3c}
+.tile .actions{border-top:1px solid #edf0ea;margin-top:auto;padding:14px 19px;display:flex;flex-wrap:wrap;gap:8px}
+.tile .actions a{font-size:11px;font-weight:850;color:#23613f;text-decoration:underline;text-underline-offset:3px}
+.tile .actions a.review{color:#a2743a}
+.empty{padding:48px;background:white;border:1px solid var(--line);border-radius:10px;text-align:center;color:#6b7d6e}
+.pager{display:flex;align-items:center;justify-content:center;gap:11px;margin:29px 0}
+.pager button{border:1px solid #c7d8c9;background:white;border-radius:6px;padding:11px 20px;color:#284b36;font-size:12px;font-weight:800}
+.pager button:disabled{opacity:.38;cursor:not-allowed}
+.detail{background:white;border:1px solid var(--line);border-radius:10px;padding:34px;margin:20px 0}
+.detail h2{font:800 clamp(28px,3vw,43px)/1.1 Outfit;margin:13px 0}
+.detail p{color:#586d5d;max-width:1000px}
+.detail .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
+.detail code{overflow-wrap:anywhere;background:#eff3ee;padding:8px 11px;border-radius:5px;font-size:11px;display:inline-block}
+.detail .status{color:#805622;font-size:12px;font-weight:800}
+.npg-nl{margin:28px 0;color:#5c6d60}
+@media(max-width:1150px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar label:first-child{grid-column:span 2}}
+@media(max-width:680px){.grid{grid-template-columns:1fr}.toolbar{display:block}.toolbar label{display:block;margin-bottom:12px}.toolbar label:first-child{grid-column:auto}.wrap{padding:0 14px}.hero{padding:37px 0 28px}.metric{min-width:135px}header{padding:15px}.detail{padding:22px}}
+</style></head><body>
+<header><strong>NATIONAL PARKS GUIDE <small>COMPLETE WEBSITE PAGE INDEX</small></strong><nav><a href="../review-20261011/index.html">Website walkthrough ↗</a><a href="../../npg-preview-20261011/index.html">Review center ↗</a><a href="../../npg-preview-20261011/checklist/index.html">32-gate QA checklist ↗</a></nav></header>
+<div class="hero"><div class="wrap"><span class="eyebrow">Every registered page · every destination · every category</span><h1 id="headline">Complete website page directory.</h1><p id="intro">Two separate site inventories with a direct review destination for every registered target, grouped by park, visitor intent and page type. Incomplete pages are not represented as finished articles.</p>
+<nav class="site-tabs" aria-label="Choose website directory"><a data-site="NATIONAL" href="../../nationalparksguide.co/all-pages/index.html">NationalParksGuide.co</a><a data-site="ZION" href="../../utahzionnationalpark.com/all-pages/index.html">Utah Zion National Park</a><a data-site="APP" href="../../nationalparksguide.co/all-pages/index.html?site=APP">Mobile application targets</a></nav>
+<div class="metrics"><div class="metric"><strong id="allCount">—</strong><span>Registered targets for this surface</span></div><div class="metric"><strong id="routed">—</strong><span>Existing review route references</span></div><div class="metric"><strong id="unbuilt">—</strong><span>Targets without a review route</span></div><div class="metric"><strong>0</strong><span>Approved complete</span></div></div>
+<div class="banner"><strong>Important distinction:</strong> Every target has an individual acceptance-record link. Only targets with a functioning preview route receive an “Open page preview” link. Thousands of those routes still display incomplete/generic content and are NOT finished SEO publications. Film, coverage and native app targets without a route are clearly identified.</div></div></div>
+<div class="wrap shell">
+<div class="toolbar"><label><span>Find any page, park or keyword</span><input id="query" type="search" placeholder="Search Zion, hotels, hiking, merchant, trail…"></label>
+<label><span>National Park</span><select id="park"><option value="all">All parks</option></select></label>
+<label><span>Page Family</span><select id="family"><option value="all">All page types</option></select></label>
+<label><span>Implementation</span><select id="status"><option value="all">All statuses</option><option value="routed">Has a preview route</option><option value="unbuilt">No preview route</option><option value="deep">Zion expanded preview</option></select></label>
+<button id="export" class="btn gold" type="button">Export ALL links (CSV) ↧</button></div>
+<div id="pageDetail" hidden></div>
+<div class="countline"><div><strong id="resultTitle">Page inventory</strong><span id="showing">Loading inventory…</span></div><a class="btn alt" href="../../npg-preview-20261011/checklist/index.html">Review a page's 32 acceptance gates ↗</a></div>
+<div class="grid" id="cards" aria-live="polite"></div>
+<div class="pager"><button type="button" id="previous">← Previous 120</button><span id="pageCounter">—</span><button type="button" id="next">Next 120 →</button></div>
+<p class="npg-nl">The register contains proposal targets, not a published XML sitemap. Production SEO URLs require WordPress/Kinsta deployment, original content, verified media and approval. This index remains noindex.</p>
+</div>
+<script src="../../engine/parks.data.js"></script><script src="../../engine/parks.national-registry.js"></script><script src="../../nationalparksguide.co/production-register/catalog.js"></script>
+<script>
+(function(){
+"use strict";
+const $=id=>document.getElementById(id),root="https://createlocalmarketing.github.io/clm-utah-templates/";
+const esc=x=>String(x??"").replace(/[&<>"']/g,y=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[y]));
+const list=window.CLM_NPG_PRODUCTION_REGISTER?.items||[];
+const urlParams=new URLSearchParams(location.search);
+const defaultSite=location.pathname.includes("utahzionnationalpark.com")?"ZION":"NATIONAL";
+const site=["NATIONAL","ZION","APP"].includes(urlParams.get("site"))?urlParams.get("site"):defaultSite;
+const records=list.filter(x=>x.domain===site);
+const deeper=new Set(["hikes-trails","iconic-photo-spots","hotels","restaurants","campgrounds","shuttles-parking","gear-rentals","tour-guides"]);
+function deep(x){return x.parkSlug==="zion"&&x.family.includes("Topic Subcategory")&&deeper.has((x.reviewUrl||"").split("/").pop())}
+function getRoute(x){
+ if(x.family==="Homepage"||x.family==="Zion Global / Homepage")return "#/";
+ if(!x.reviewUrl)return null;
+ const idx=x.reviewUrl.indexOf("#/");
+ return idx===-1?null:x.reviewUrl.slice(idx);
+}
+function preview(x){
+ const fragment=getRoute(x);
+ if(!fragment)return null;
+ return root+(site==="ZION"?"utahzionnationalpark.com":"nationalparksguide.co")+"/review-20261011/index.html"+fragment;
+}
+function acceptance(x){return root+"npg-preview-20261011/checklist/index.html?route="+encodeURIComponent((getRoute(x)||"").slice(2))+"&domain="+encodeURIComponent(site)+"&id="+encodeURIComponent(x.id)}
+function single(x){return location.pathname+"?site="+site+"&id="+encodeURIComponent(x.id)}
+function status(x){return deep(x)?"Expanded visual review · NOT APPROVED":getRoute(x)?"Preview route · CONTENT INCOMPLETE":"NOT BUILT · No preview route"}
+$("headline").textContent=site==="ZION"?"Utah Zion — all 167 registered pages":site==="APP"?"National Parks Guide — 99 app targets":"NationalParksGuide.co — all 8,145 registered pages";
+$("intro").textContent=site==="ZION"?"All Utah Zion registered homepage, taxonomy, trail, merchant, news, event and commerce targets. Click each review route or its page-specific acceptance record.":"Every national park and content family, from Acadia through Zion: thousands of individually identified topics, businesses, events and commerce targets. Preview availability is not content completion.";
+document.querySelectorAll(".site-tabs a").forEach(a=>a.classList.toggle("active",a.dataset.site===site));
+$("allCount").textContent=records.length.toLocaleString();$("routed").textContent=records.filter(getRoute).length.toLocaleString();$("unbuilt").textContent=records.filter(x=>!getRoute(x)).length.toLocaleString();
+const parks=[...new Set(records.map(x=>x.park))].filter(Boolean).sort();
+const families=[...new Set(records.map(x=>x.family))].filter(Boolean).sort();
+parks.forEach(s=>$("park").insertAdjacentHTML("beforeend",'<option value="'+esc(s)+'">'+esc(s)+'</option>'));
+families.forEach(s=>$("family").insertAdjacentHTML("beforeend",'<option value="'+esc(s)+'">'+esc(s)+'</option>'));
+const pageSize=120;let filtered=records.slice(),offset=0;
+function card(x){
+ return '<article class="tile"><div class="tag">'+esc(x.park)+' · '+esc(x.family)+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.primaryKeywordCandidate)+'</p><code>'+esc(x.proposedProductionUrl||x.id)+'</code><span class="state '+(deep(x)?"preview":"")+'">'+esc(status(x))+'</span><div class="actions">'+(preview(x)?'<a target="_blank" rel="noopener" href="'+esc(preview(x))+'">Open page preview ↗</a>':'<a class="review" href="'+esc(single(x))+'">See missing-page record ↗</a>')+'<a class="review" href="'+esc(acceptance(x))+'" target="_blank" rel="noopener">32-point checklist ↗</a><a class="review" href="'+esc(single(x))+'">Page record ↗</a></div></article>';
+}
+function render(){
+const sl=filtered.slice(offset,offset+pageSize);
+$("cards").innerHTML=sl.map(card).join("")||'<div class="empty">No matching page targets.</div>';
+$("showing").textContent=" · "+filtered.length.toLocaleString()+" results, showing "+(filtered.length?offset+1:0)+"–"+Math.min(offset+pageSize,filtered.length);
+$("pageCounter").textContent="Page "+(Math.floor(offset/pageSize)+1)+" / "+Math.max(1,Math.ceil(filtered.length/pageSize));
+$("previous").disabled=offset===0;$("next").disabled=offset+pageSize>=filtered.length;
+}
+function apply(){
+const q=$("query").value.toLowerCase().trim(),park=$("park").value,family=$("family").value,kind=$("status").value;
+filtered=records.filter(x=>(park==="all"||x.park===park)&&(family==="all"||x.family===family)&&(kind==="all"||(kind==="routed"&&!!getRoute(x))||(kind==="unbuilt"&&!getRoute(x))||(kind==="deep"&&deep(x)))&&(!q||[x.id,x.title,x.park,x.family,x.primaryKeywordCandidate,x.proposedProductionUrl].join(" ").toLowerCase().includes(q)));
+offset=0;render();
+}
+for(const id of ["park","family","status"])$(id).addEventListener("change",apply);
+$("query").addEventListener("input",apply);
+$("previous").addEventListener("click",()=>{offset=Math.max(0,offset-pageSize);render();$("cards").scrollIntoView({block:"start"})});
+$("next").addEventListener("click",()=>{offset+=pageSize;render();$("cards").scrollIntoView({block:"start"})});
+$("export").addEventListener("click",()=>{
+const headers=["Site","Park","Family","Title","Implementation","Current review link","Individual page record","32-point checklist","Proposed production URL","Page ID","Source status"];
+const csv=[headers, ...records.map(x=>[site,x.park,x.family,x.title,status(x),preview(x)||"",single(x),acceptance(x),x.proposedProductionUrl,x.id,x.status])].map(row=>row.map(v=>'"'+String(v??"").replace(/"/g,'""')+'"').join(",")).join("\r\n");
+const blob=new Blob(["\ufeff"+csv],{type:"text/csv;charset=utf-8"}),href=URL.createObjectURL(blob),a=document.createElement("a");
+a.href=href;a.download=(site==="ZION"?"utah-zion":site==="APP"?"national-parks-app":"national-parks-guide")+"-all-"+records.length+"-page-links.csv";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(href),1000);
+});
+const selected=records.find(x=>x.id===urlParams.get("id"));
+if(selected){
+$("pageDetail").hidden=false;
+$("pageDetail").innerHTML='<section class="detail"><span class="eyebrow">Individual page record · '+esc(selected.domain)+' · '+esc(selected.park)+'</span><h2>'+esc(selected.title)+'</h2><span class="status">'+esc(status(selected))+'</span><p>Page type: '+esc(selected.family)+' · Keyword candidate: '+esc(selected.primaryKeywordCandidate)+'</p><p>Source status: '+esc(selected.status)+'</p><p><strong>Target production path:</strong> '+esc(selected.proposedProductionUrl||"Not registered")+'</p><code>'+esc(selected.id)+'</code><div class="actions">'+(preview(selected)?'<a class="btn gold" href="'+esc(preview(selected))+'" target="_blank" rel="noopener">Open exact route ↗</a>':'<span class="status">No functioning preview route exists yet</span>')+'<a class="btn alt" href="'+esc(acceptance(selected))+'" target="_blank" rel="noopener">Open exact 32-gate checklist ↗</a><a class="btn alt" href="?site='+site+'">← All '+site+' pages</a></div></section>';
+$("pageDetail").scrollIntoView({block:"start"});
+}
+const qparam=urlParams.get("q");if(qparam)$("query").value=qparam;
+apply();
+})();
+</script></body></html>

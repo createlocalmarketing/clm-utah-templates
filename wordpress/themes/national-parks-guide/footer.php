@@ -1,7 +1,18 @@
 <?php
 /** National Parks Guide footer: native Elementor Theme Builder or accessible fallback. */
 defined( 'ABSPATH' ) || exit;
-if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'footer' ) ) :
+$npg_footer_rendered = function_exists( 'elementor_theme_do_location' ) && elementor_theme_do_location( 'footer' );
+if ( ! $npg_footer_rendered && class_exists( 'Elementor\\Plugin' ) ) {
+    $npg_footer_id = (int) get_option( 'npg_footer_template_id', 2624 );
+    if ( 'publish' === get_post_status( $npg_footer_id ) ) {
+        $npg_footer_markup = \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $npg_footer_id, true );
+        if ( is_string( $npg_footer_markup ) && trim( $npg_footer_markup ) !== '' ) {
+            echo $npg_footer_markup; // Full content is constructed with native Elementor widgets.
+            $npg_footer_rendered = true;
+        }
+    }
+}
+if ( ! $npg_footer_rendered ) :
     $npg_footer = '';
     if ( class_exists( '\\Elementor\\Plugin' ) ) {
         $npg_footer = \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( 2580, true );

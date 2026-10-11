@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-10-11T05:23:41.354Z",
+  "status": "PRELAUNCH_MEDIA_QA_PENDING",
+  "assets": [
+    {
+      "id": "zion-canyon-overlook",
+      "filename": "zion-canyon-overlook.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Zion%20National%20Park%20Canyon%20Overlook%20Trail%20View.jpg",
+      "license": "CC0",
+      "alt": "Zion National Park Canyon Overlook Trail viewpoint",
+      "route": "/park/zion",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 932596,
+      "src": "assets/photos/zion-canyon-overlook.jpg"
+    },
+    {
+      "id": "zion-canyon-panorama",
+      "filename": "zion-canyon-panorama.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Zion%20NP20.jpg",
+      "license": "Public domain",
+      "alt": "Zion Canyon scenic overview from Canyon Overlook",
+      "route": "/park/zion/topic/things-to-do",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 873203,
+      "src": "assets/photos/zion-canyon-panorama.jpg"
+    },
+    {
+      "id": "zion-campground",
+      "filename": "zion-campground.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:South%20Campground%2C%20Zion%20National%20Park.jpg",
+      "license": "NPS public domain",
+      "alt": "South Campground at Zion National Park",
+      "route": "/park/zion/topic/stay",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 32080,
+      "src": "assets/photos/zion-campground.jpg"
+    },
+    {
+      "id": "zion-angels-landing",
+      "filename": "zion-angels-landing.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Angelslanding.jpg",
+      "license": "Public domain",
+      "alt": "Angels Landing cliff trail at Zion",
+      "route": "/trail/zion-angels-landing",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 94575,
+      "src": "assets/photos/zion-angels-landing.jpg"
+    },
+    {
+      "id": "yellowstone-grand-prismatic",
+      "filename": "yellowstone-grand-prismatic.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand%20prismatic%20spring.jpg",
+      "license": "NPS public domain",
+      "alt": "Yellowstone Grand Prismatic Spring seen from above",
+      "route": "/park/yellowstone",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 423299,
+      "src": "assets/photos/yellowstone-grand-prismatic.jpg"
+    },
+    {
+      "id": "yellowstone-bison",
+      "filename": "yellowstone-bison.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellowstone%20National%20Park%20-%20Bison.jpg",
+      "license": "CC0",
+      "alt": "Bison photographed in Yellowstone National Park",
+      "route": "/park/yellowstone/topic/things-to-do",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 60124,
+      "src": "assets/photos/yellowstone-bison.jpg"
+    },
+    {
+      "id": "great-smoky-mountains-clingmans",
+      "filename": "great-smoky-mountains-clingmans.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Views%20from%20the%20walkway%20to%20Clingmans%20Dome%20Tower%20(4b006749-e564-496e-a32c-f69932d039a7).jpg",
+      "license": "NPS public domain",
+      "alt": "Clingmans Dome trail walkway Great Smoky Mountains",
+      "route": "/park/great-smoky-mountains",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 417926,
+      "src": "assets/photos/great-smoky-mountains-clingmans.jpg"
+    },
+    {
+      "id": "glacier-lake-mcdonald",
+      "filename": "glacier-lake-mcdonald.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake%20mcdonald%20in%20glacier%20national%20park%20Montana.jpg",
+      "license": "Public domain",
+      "alt": "Lake McDonald lake and mountains Glacier National Park",
+      "route": "/park/glacier",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 214048,
+      "src": "assets/photos/glacier-lake-mcdonald.jpg"
+    },
+    {
+      "id": "glacier-lake-mcdonald-mountains",
+      "filename": "glacier-lake-mcdonald-mountains.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake%20McDonald%20with%20Mt%20Cannon%2C%20Mt%20Brown%2C%20Little%20Matterhorn%2C%20Mt%20Edwards%2C%20and%20Gunsight%20Mountain%20(12091853594).jpg",
+      "license": "NPS public domain",
+      "alt": "Glacier National Park Lake McDonald mountain panorama",
+      "route": "/park/glacier/topic/things-to-do",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 323031,
+      "src": "assets/photos/glacier-lake-mcdonald-mountains.jpg"
+    },
+    {
+      "id": "yosemite-tunnel-view",
+      "filename": "yosemite-tunnel-view.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E2%80%9CTunnel%20View%E2%80%9D%20overlook%20showing%20famous%20rock%20formations%20in%20Yosemite%20Valley%2003.jpg",
+      "license": "CC0",
+      "alt": "Yosemite Tunnel View with El Capitan Half Dome and Bridalveil Fall",
+      "route": "/park/yosemite",
+      "status": "INGESTED_MEDIA_RIGHTS_FINAL_QA_PENDING",
+      "bytes": 954550,
+      "src": "assets/photos/yosemite-tunnel-view.jpg"
+    }
+  ],
+  "problems": []
+}

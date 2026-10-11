@@ -16,8 +16,8 @@
 .npg-depth-v2-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
 .npg-depth-v2-bylines{font-size:10px;text-transform:uppercase;letter-spacing:.13em;line-height:1.7;color:#738371;margin-top:29px}
 .npg-depth-v2-jump{padding-top:17px;padding-bottom:17px;display:flex;overflow-x:auto;gap:9px;scrollbar-width:thin}
-.npg-depth-v2-jump a{flex:0 0 auto;white-space:nowrap;font-size:12px;font-weight:850;background:#fff;border:1px solid #d7e3d4;padding:11px 15px;border-radius:6px;color:#385e47}
-.npg-depth-v2-jump a:hover{background:#e7f0e3}
+.npg-depth-v2-jump button{flex:0 0 auto;white-space:nowrap;font-size:12px;font-weight:850;background:#fff;border:1px solid #d7e3d4;padding:11px 15px;border-radius:6px;color:#385e47}
+.npg-depth-v2-jump button:hover{background:#e7f0e3}
 .npg-depth-v2-warning{margin-top:22px;margin-bottom:22px;display:flex;gap:14px;align-items:start;color:#515f48;background:#fff7e3;border:1px solid #ead6a8;border-left:4px solid #c48a47;padding-top:17px;padding-bottom:17px;font-size:12px;line-height:1.65}
 .npg-depth-v2-warning i{font-size:20px;color:#a6763b;margin-top:3px}.npg-depth-v2-warning a{text-decoration:underline}
 .npg-depth-v2-section{padding:78px 0;border-top:1px solid #e1e7dd;scroll-margin-top:100px}

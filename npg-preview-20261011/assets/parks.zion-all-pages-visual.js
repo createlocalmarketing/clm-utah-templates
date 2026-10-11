@@ -63,10 +63,23 @@ function enrich(p,route){
   });
  }
 }
+function fillMerchantPhotos(){
+ const cards=[...document.querySelectorAll("#npg-zion-guide .npg-zion-card")];
+ const perRail=new Map();
+ for(const card of cards){
+  const art=card.querySelector(".npg-zion-business-art");
+  if(!art||art.querySelector(".npg-zion-local-photo"))continue;
+  const rail=card.closest(".npg-zion-rail-section")?.id||"zion";
+  const index=perRail.get(rail)||0;perRail.set(rail,index+1);
+  const m=photos[(h(rail)+index*7)%photos.length];
+  art.insertAdjacentHTML("afterbegin",'<img class="npg-zion-local-photo" loading="lazy" decoding="async" src="'+esc(m.src)+'" alt="'+esc(m.alt)+' — Zion regional context only, not this business property" onerror="this.classList.add(\'npg-photo-failed\')"><small class="npg-zion-photo-disclaimer">ZION SCENERY · NOT VENUE PHOTO</small>');
+ }
+}
 const origTopic=A.topicPage;
 A.topicPage=(p,t,sub)=>{origTopic(p,t,sub);if(!document.querySelector(".npg-depth-v2"))enrich(p,["topic",p.slug,t.id,sub||""].join(":"))};
+const origHome=A.home;A.home=(...args)=>{origHome(...args);fillMerchantPhotos()};
 const origPark=A.parkPage;
-A.parkPage=(p)=>{origPark(p);enrich(p,"park:"+p.slug)};
+A.parkPage=(p)=>{origPark(p);enrich(p,"park:"+p.slug);if(p.slug==="zion")fillMerchantPhotos()};
 if(E&&typeof E.category==="function"){
  const o=E.category;E.category=(p,k,s)=>{o(p,k,s);enrich(p,"category:"+p.slug+":"+k+":"+s)};
 }

@@ -1,0 +1,1846 @@
+{
+  "park": "glacier",
+  "seed": "glacier national park",
+  "platform": "Google",
+  "country": "United States",
+  "language": "en",
+  "captured": "2026-10-10",
+  "note": "Unfiltered KeywordTool.io query families. These are evidence for intent mapping, not final page copy or ranking guarantees. Monthly search volume only from source.",
+  "results": [
+    {
+      "type": "suggestions",
+      "success": true,
+      "count": 100,
+      "total": 649,
+      "rows": [
+        {
+          "q": "glacier national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.86
+        },
+        {
+          "q": "us glacier national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.86
+        },
+        {
+          "q": "glacier national park going to the sun road",
+          "v": 60500,
+          "tr": 22,
+          "cmp": 0.04
+        },
+        {
+          "q": "going to the sun road glacier national park",
+          "v": 60500,
+          "tr": 233,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park highway to the sun",
+          "v": 60500,
+          "tr": 22,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park road to the sun",
+          "v": 60500,
+          "tr": 22,
+          "cmp": 0.04
+        },
+        {
+          "q": "road to the sun glacier national park",
+          "v": 60500,
+          "tr": 22,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park sun road",
+          "v": 60500,
+          "tr": 22,
+          "cmp": 0.04
+        },
+        {
+          "q": "sun road glacier national park",
+          "v": 60500,
+          "tr": 22,
+          "cmp": 0.04
+        },
+        {
+          "q": "the sun road glacier national park",
+          "v": 60500,
+          "tr": 233,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park montana",
+          "v": 40500,
+          "tr": 50,
+          "cmp": 0.27
+        },
+        {
+          "q": "glacier national park mountains",
+          "v": 40500,
+          "tr": 50,
+          "cmp": 0.27
+        },
+        {
+          "q": "montana glacier national park",
+          "v": 40500,
+          "tr": 50,
+          "cmp": 0.27
+        },
+        {
+          "q": "mount glacier national park",
+          "v": 40500,
+          "tr": 50,
+          "cmp": 0.27
+        },
+        {
+          "q": "glacier national park lodging",
+          "v": 33100,
+          "tr": 49,
+          "cmp": 0.28
+        },
+        {
+          "q": "lodging in glacier national park",
+          "v": 33100,
+          "tr": 49,
+          "cmp": 0.28
+        },
+        {
+          "q": "where is glacier national park",
+          "v": 22200,
+          "tr": 173,
+          "cmp": 0.04
+        },
+        {
+          "q": "where is glacier national park in montana",
+          "v": 22200,
+          "tr": 173,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park weather",
+          "v": 18100,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park montana weather",
+          "v": 18100,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "weather glacier national park",
+          "v": 18100,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "highline trail glacier national park",
+          "v": 14800,
+          "tr": -18,
+          "cmp": 0.08
+        },
+        {
+          "q": "glacier national park photos",
+          "v": 14800,
+          "tr": 234,
+          "cmp": 0.18
+        },
+        {
+          "q": "glacier national park hotels",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.35
+        },
+        {
+          "q": "glacier national park highline trail",
+          "v": 14800,
+          "tr": -18,
+          "cmp": 0.08
+        },
+        {
+          "q": "map of glacier national park",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.87
+        },
+        {
+          "q": "glacier national park places to stay",
+          "v": 14800,
+          "tr": 23,
+          "cmp": 0.84
+        },
+        {
+          "q": "photos of glacier national park",
+          "v": 14800,
+          "tr": 234,
+          "cmp": 0.18
+        },
+        {
+          "q": "glacier national park camping",
+          "v": 12100,
+          "tr": 174,
+          "cmp": 0.22
+        },
+        {
+          "q": "glacier national park campgrounds",
+          "v": 12100,
+          "tr": 174,
+          "cmp": 0.22
+        },
+        {
+          "q": "glacier national park cameras",
+          "v": 12100,
+          "tr": 234,
+          "cmp": 0.01
+        },
+        {
+          "q": "camping in glacier national park",
+          "v": 12100,
+          "tr": 174,
+          "cmp": 0.22
+        },
+        {
+          "q": "glacier national park hikes",
+          "v": 12100,
+          "tr": -45,
+          "cmp": 0.11
+        },
+        {
+          "q": "hikes in glacier national park",
+          "v": 12100,
+          "tr": -45,
+          "cmp": 0.11
+        },
+        {
+          "q": "glacier national park live cam",
+          "v": 12100,
+          "tr": 234,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park trails",
+          "v": 12100,
+          "tr": -45,
+          "cmp": 0.11
+        },
+        {
+          "q": "trails in glacier national park",
+          "v": 12100,
+          "tr": -45,
+          "cmp": 0.11
+        },
+        {
+          "q": "glacier national park webcams",
+          "v": 12100,
+          "tr": 234,
+          "cmp": 0.01
+        },
+        {
+          "q": "webcam glacier national park",
+          "v": 12100,
+          "tr": 234,
+          "cmp": 0.01
+        },
+        {
+          "q": "best time to visit glacier national park",
+          "v": 8100,
+          "tr": 50,
+          "cmp": 0.1
+        },
+        {
+          "q": "best time of year to visit glacier national park",
+          "v": 8100,
+          "tr": 50,
+          "cmp": 0.1
+        },
+        {
+          "q": "glacier national park tours",
+          "v": 8100,
+          "tr": -76,
+          "cmp": 0.99
+        },
+        {
+          "q": "red bus tour glacier national park",
+          "v": 6600,
+          "tr": 83,
+          "cmp": 0.18
+        },
+        {
+          "q": "many glacier glacier national park",
+          "v": 6600,
+          "tr": 83,
+          "cmp": 0.1
+        },
+        {
+          "q": "glacier national park red bus tours",
+          "v": 6600,
+          "tr": 83,
+          "cmp": 0.18
+        },
+        {
+          "q": "glacier national park vehicle reservations",
+          "v": 6600,
+          "tr": 519,
+          "cmp": 0
+        },
+        {
+          "q": "things to do in glacier national park",
+          "v": 5400,
+          "tr": 83,
+          "cmp": 1
+        },
+        {
+          "q": "glacier national park bear attack",
+          "v": 5400,
+          "tr": 53,
+          "cmp": 0.01
+        },
+        {
+          "q": "bear attack glacier national park",
+          "v": 5400,
+          "tr": 53,
+          "cmp": 0.01
+        },
+        {
+          "q": "lake mcdonald lodge glacier national park",
+          "v": 5400,
+          "tr": -18,
+          "cmp": 0.14
+        },
+        {
+          "q": "airport near glacier national park",
+          "v": 4400,
+          "tr": 52,
+          "cmp": 0.13
+        },
+        {
+          "q": "avalanche lake glacier national park",
+          "v": 4400,
+          "tr": 83,
+          "cmp": 0.04
+        },
+        {
+          "q": "airport for glacier national park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.08
+        },
+        {
+          "q": "glacier national park entrance pass",
+          "v": 4400,
+          "tr": 108,
+          "cmp": 0.02
+        },
+        {
+          "q": "hotels near glacier national park",
+          "v": 4400,
+          "tr": 86,
+          "cmp": 0.96
+        },
+        {
+          "q": "nearest airport to glacier national park",
+          "v": 4400,
+          "tr": 52,
+          "cmp": 0.13
+        },
+        {
+          "q": "glacier national park tickets",
+          "v": 4400,
+          "tr": 83,
+          "cmp": 0.95
+        },
+        {
+          "q": "what airport for glacier national park",
+          "v": 4400,
+          "tr": 50,
+          "cmp": 0.08
+        },
+        {
+          "q": "lake mcdonald glacier national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.82
+        },
+        {
+          "q": "flights to glacier national park",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.35
+        },
+        {
+          "q": "glacier national park best hikes",
+          "v": 3600,
+          "tr": 50,
+          "cmp": 0.23
+        },
+        {
+          "q": "best hikes in glacier national park",
+          "v": 3600,
+          "tr": 50,
+          "cmp": 0.23
+        },
+        {
+          "q": "glacier national park flights",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.35
+        },
+        {
+          "q": "flying to glacier national park",
+          "v": 3600,
+          "tr": 24,
+          "cmp": 0.35
+        },
+        {
+          "q": "mcdonald lake glacier national park",
+          "v": 3600,
+          "tr": 0,
+          "cmp": 0.82
+        },
+        {
+          "q": "hidden lake glacier national park",
+          "v": 2900,
+          "tr": 50,
+          "cmp": 0.04
+        },
+        {
+          "q": "closest airport to glacier national park",
+          "v": 2400,
+          "tr": 26,
+          "cmp": 0.12
+        },
+        {
+          "q": "glacier national park altitude",
+          "v": 2400,
+          "tr": 24,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park animals",
+          "v": 2400,
+          "tr": -17,
+          "cmp": 0.03
+        },
+        {
+          "q": "airport closest to glacier national park",
+          "v": 2400,
+          "tr": 26,
+          "cmp": 0.12
+        },
+        {
+          "q": "glacier national park elevation",
+          "v": 2400,
+          "tr": 24,
+          "cmp": 0.01
+        },
+        {
+          "q": "elevation of glacier national park",
+          "v": 2400,
+          "tr": 24,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park lakes",
+          "v": 2400,
+          "tr": 21,
+          "cmp": 0.24
+        },
+        {
+          "q": "logan pass glacier national park",
+          "v": 2400,
+          "tr": 132,
+          "cmp": 0.61
+        },
+        {
+          "q": "lakes in glacier national park",
+          "v": 2400,
+          "tr": 21,
+          "cmp": 0.24
+        },
+        {
+          "q": "places to stay near glacier national park",
+          "v": 2400,
+          "tr": 50,
+          "cmp": 0.97
+        },
+        {
+          "q": "places to stay near glacier national park montana",
+          "v": 2400,
+          "tr": 50,
+          "cmp": 0.97
+        },
+        {
+          "q": "glacier national park shuttle",
+          "v": 2400,
+          "tr": 53,
+          "cmp": 0.07
+        },
+        {
+          "q": "st mary campground glacier national park",
+          "v": 2400,
+          "tr": 83,
+          "cmp": 0.03
+        },
+        {
+          "q": "bozeman to glacier national park",
+          "v": 1900,
+          "tr": 50,
+          "cmp": 0.02
+        },
+        {
+          "q": "campgrounds near glacier national park",
+          "v": 1900,
+          "tr": 19,
+          "cmp": 0.7
+        },
+        {
+          "q": "glacier national park horseback riding",
+          "v": 1900,
+          "tr": 53,
+          "cmp": 0.28
+        },
+        {
+          "q": "horseback riding glacier national park",
+          "v": 1900,
+          "tr": 53,
+          "cmp": 0.28
+        },
+        {
+          "q": "glacier national park pass",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.15
+        },
+        {
+          "q": "glacier national park pictures",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.89
+        },
+        {
+          "q": "pictures of glacier national park",
+          "v": 1900,
+          "tr": 0,
+          "cmp": 0.89
+        },
+        {
+          "q": "glacier national park reservations",
+          "v": 1900,
+          "tr": -70,
+          "cmp": 0.35
+        },
+        {
+          "q": "rafting glacier national park",
+          "v": 1900,
+          "tr": 123,
+          "cmp": 1
+        },
+        {
+          "q": "two medicine glacier national park",
+          "v": 1900,
+          "tr": 53,
+          "cmp": 0.05
+        },
+        {
+          "q": "glacier national park xanterra",
+          "v": 1900,
+          "tr": 89,
+          "cmp": 0.32
+        },
+        {
+          "q": "xanterra glacier national park",
+          "v": 1900,
+          "tr": 89,
+          "cmp": 0.32
+        },
+        {
+          "q": "glacier national park best time to visit",
+          "v": 1600,
+          "tr": 230,
+          "cmp": 0.13
+        },
+        {
+          "q": "amtrak to glacier national park",
+          "v": 1600,
+          "tr": 60,
+          "cmp": 0.14
+        },
+        {
+          "q": "glacier national park boat tours",
+          "v": 1600,
+          "tr": 81,
+          "cmp": 1
+        },
+        {
+          "q": "glacier national park bear",
+          "v": 1600,
+          "tr": 46,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park camping reservations",
+          "v": 1600,
+          "tr": 50,
+          "cmp": 0.12
+        },
+        {
+          "q": "cabins in glacier national park",
+          "v": 1600,
+          "tr": 0,
+          "cmp": 0.61
+        },
+        {
+          "q": "glacier national park entrance fee",
+          "v": 1600,
+          "tr": 39,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park flooding",
+          "v": 1600,
+          "tr": 1300,
+          "cmp": 0
+        },
+        {
+          "q": "fish creek campground glacier national park",
+          "v": 1600,
+          "tr": 222,
+          "cmp": 0.05
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "questions",
+      "success": true,
+      "count": 100,
+      "total": 154,
+      "rows": [
+        {
+          "q": "glacier national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.86
+        },
+        {
+          "q": "where is glacier national park in montana",
+          "v": 22200,
+          "tr": 173,
+          "cmp": 0.04
+        },
+        {
+          "q": "where to fly into for glacier national park",
+          "v": 2400,
+          "tr": 50,
+          "cmp": 0.1
+        },
+        {
+          "q": "what to do glacier national park",
+          "v": 1600,
+          "tr": 81,
+          "cmp": 1
+        },
+        {
+          "q": "what to do in glacier national park",
+          "v": 1600,
+          "tr": 81,
+          "cmp": 1
+        },
+        {
+          "q": "where is glacier bay national park",
+          "v": 1600,
+          "tr": 50,
+          "cmp": 0.05
+        },
+        {
+          "q": "how to get to glacier national park",
+          "v": 1300,
+          "tr": 48,
+          "cmp": 0.09
+        },
+        {
+          "q": "is glacier national park open",
+          "v": 1300,
+          "tr": 0,
+          "cmp": 0.03
+        },
+        {
+          "q": "what state is glacier national park in",
+          "v": 1300,
+          "tr": 85,
+          "cmp": 0.02
+        },
+        {
+          "q": "how far is glacier national park from yellowstone",
+          "v": 880,
+          "tr": 81,
+          "cmp": 0.01
+        },
+        {
+          "q": "what airport is closest to glacier national park",
+          "v": 880,
+          "tr": 69,
+          "cmp": 0.08
+        },
+        {
+          "q": "how big is glacier national park",
+          "v": 720,
+          "tr": 14,
+          "cmp": 0.01
+        },
+        {
+          "q": "when does glacier national park open",
+          "v": 720,
+          "tr": 23,
+          "cmp": 0.04
+        },
+        {
+          "q": "how many days in glacier national park",
+          "v": 590,
+          "tr": 51,
+          "cmp": 0.05
+        },
+        {
+          "q": "when was glacier national park established",
+          "v": 590,
+          "tr": -64,
+          "cmp": 0
+        },
+        {
+          "q": "when is the best time to visit glacier national park",
+          "v": 590,
+          "tr": 49,
+          "cmp": 0.15
+        },
+        {
+          "q": "are dogs allowed in glacier national park",
+          "v": 480,
+          "tr": 50,
+          "cmp": 0.02
+        },
+        {
+          "q": "are there glaciers in glacier national park",
+          "v": 480,
+          "tr": 50,
+          "cmp": 0.04
+        },
+        {
+          "q": "how many glaciers are in glacier national park",
+          "v": 480,
+          "tr": 49,
+          "cmp": 0.01
+        },
+        {
+          "q": "when does glacier national park close",
+          "v": 480,
+          "tr": 48,
+          "cmp": 0.02
+        },
+        {
+          "q": "when to visit glacier national park",
+          "v": 480,
+          "tr": 23,
+          "cmp": 0.07
+        },
+        {
+          "q": "where to stay when visiting glacier national park",
+          "v": 390,
+          "tr": 22,
+          "cmp": 0.71
+        },
+        {
+          "q": "can you carry a gun in glacier national park",
+          "v": 260,
+          "tr": 129,
+          "cmp": 0.01
+        },
+        {
+          "q": "does glacier national park have glaciers",
+          "v": 260,
+          "tr": 129,
+          "cmp": 0.01
+        },
+        {
+          "q": "is glacier national park in montana",
+          "v": 260,
+          "tr": 85,
+          "cmp": 0.57
+        },
+        {
+          "q": "what airport for glacier national park",
+          "v": 260,
+          "tr": 24,
+          "cmp": 0.06
+        },
+        {
+          "q": "can you fish in glacier national park",
+          "v": 210,
+          "tr": 88,
+          "cmp": 0.04
+        },
+        {
+          "q": "what is the elevation of glacier national park",
+          "v": 210,
+          "tr": 129,
+          "cmp": 0
+        },
+        {
+          "q": "what animals are in glacier national park",
+          "v": 170,
+          "tr": -19,
+          "cmp": 0.03
+        },
+        {
+          "q": "what airport is near glacier national park",
+          "v": 170,
+          "tr": 55,
+          "cmp": 0.08
+        },
+        {
+          "q": "when does glacier national park close for the season",
+          "v": 170,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "can you camp in glacier national park",
+          "v": 140,
+          "tr": 55,
+          "cmp": 0.13
+        },
+        {
+          "q": "can you swim in glacier national park",
+          "v": 140,
+          "tr": 133,
+          "cmp": 0.06
+        },
+        {
+          "q": "does glacier national park require reservations",
+          "v": 140,
+          "tr": 89,
+          "cmp": 0.07
+        },
+        {
+          "q": "how glacier national park was formed",
+          "v": 140,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "how was glacier national park formed",
+          "v": 140,
+          "tr": -18,
+          "cmp": 0
+        },
+        {
+          "q": "what is the best time to visit glacier national park",
+          "v": 140,
+          "tr": 56,
+          "cmp": 0.14
+        },
+        {
+          "q": "which airport is closest to glacier national park",
+          "v": 140,
+          "tr": 89,
+          "cmp": 0.06
+        },
+        {
+          "q": "is glacier national park dog friendly",
+          "v": 110,
+          "tr": 27,
+          "cmp": 0.02
+        },
+        {
+          "q": "is glacier national park open in winter",
+          "v": 110,
+          "tr": 27,
+          "cmp": 0.01
+        },
+        {
+          "q": "why is it called glacier national park",
+          "v": 110,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "can you drive through glacier national park",
+          "v": 90,
+          "tr": 100,
+          "cmp": 0.11
+        },
+        {
+          "q": "when did glacier national park become a national park",
+          "v": 90,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "does glacier national park still have glaciers",
+          "v": 90,
+          "tr": 57,
+          "cmp": 0
+        },
+        {
+          "q": "does glacier national park go into canada",
+          "v": 90,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "which airport for glacier national park",
+          "v": 90,
+          "tr": 80,
+          "cmp": 0.04
+        },
+        {
+          "q": "why was glacier national park established",
+          "v": 90,
+          "tr": -86,
+          "cmp": 0
+        },
+        {
+          "q": "can you drive to glacier bay national park",
+          "v": 70,
+          "tr": 29,
+          "cmp": 0.05
+        },
+        {
+          "q": "can you stay in glacier national park",
+          "v": 70,
+          "tr": 40,
+          "cmp": 0.48
+        },
+        {
+          "q": "does glacier national park have timed entry",
+          "v": 70,
+          "tr": 175,
+          "cmp": 0.03
+        },
+        {
+          "q": "is glacier national park open in october",
+          "v": 70,
+          "tr": 24,
+          "cmp": 0.04
+        },
+        {
+          "q": "what is logan pass in glacier national park",
+          "v": 70,
+          "tr": 600,
+          "cmp": 0.82
+        },
+        {
+          "q": "what is the weather in glacier national park",
+          "v": 70,
+          "tr": -18,
+          "cmp": 0.01
+        },
+        {
+          "q": "can dogs go to glacier national park",
+          "v": 50,
+          "tr": 75,
+          "cmp": 0.01
+        },
+        {
+          "q": "when did glacier national park open",
+          "v": 50,
+          "tr": -43,
+          "cmp": 0
+        },
+        {
+          "q": "how did glacier national park get its name",
+          "v": 50,
+          "tr": 40,
+          "cmp": 0
+        },
+        {
+          "q": "does glacier national park have grizzly bears",
+          "v": 50,
+          "tr": 75,
+          "cmp": 0
+        },
+        {
+          "q": "does glacier national park allow dogs",
+          "v": 50,
+          "tr": 133,
+          "cmp": 0.01
+        },
+        {
+          "q": "is glacier national park dangerous",
+          "v": 50,
+          "tr": 133,
+          "cmp": 0
+        },
+        {
+          "q": "how many people have died in glacier national park",
+          "v": 50,
+          "tr": 29,
+          "cmp": 0
+        },
+        {
+          "q": "how to fly into glacier national park",
+          "v": 50,
+          "tr": 100,
+          "cmp": 0.1
+        },
+        {
+          "q": "is glacier national park open year round",
+          "v": 50,
+          "tr": -18,
+          "cmp": 0.02
+        },
+        {
+          "q": "how many days should you spend in glacier national park",
+          "v": 50,
+          "tr": 67,
+          "cmp": 0.09
+        },
+        {
+          "q": "which airport to fly into for glacier national park",
+          "v": 50,
+          "tr": 150,
+          "cmp": 0.03
+        },
+        {
+          "q": "which state is glacier national park in",
+          "v": 50,
+          "tr": 250,
+          "cmp": 0.06
+        },
+        {
+          "q": "can you rent bear spray in glacier national park",
+          "v": 40,
+          "tr": 450,
+          "cmp": 0.02
+        },
+        {
+          "q": "can you visit glacier national park in october",
+          "v": 40,
+          "tr": 0,
+          "cmp": 1
+        },
+        {
+          "q": "how did glacier national park form",
+          "v": 40,
+          "tr": -20,
+          "cmp": 0
+        },
+        {
+          "q": "is glacier national park smoky right now",
+          "v": 40,
+          "tr": 700,
+          "cmp": 0.01
+        },
+        {
+          "q": "when was the last bear attack in glacier national park",
+          "v": 40,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "where is logan pass in glacier national park",
+          "v": 40,
+          "tr": 250,
+          "cmp": 0.01
+        },
+        {
+          "q": "who established glacier national park",
+          "v": 40,
+          "tr": -86,
+          "cmp": 0
+        },
+        {
+          "q": "are the glaciers in glacier national park gone",
+          "v": 30,
+          "tr": 150,
+          "cmp": 0.01
+        },
+        {
+          "q": "does glacier national park have bears",
+          "v": 30,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "how much is glacier national park",
+          "v": 30,
+          "tr": 67,
+          "cmp": 0.04
+        },
+        {
+          "q": "is glacier national park open in september",
+          "v": 30,
+          "tr": 350,
+          "cmp": 0.07
+        },
+        {
+          "q": "where is glacier national park in canada",
+          "v": 30,
+          "tr": 25,
+          "cmp": 0.03
+        },
+        {
+          "q": "where is iceberg lake in glacier national park",
+          "v": 30,
+          "tr": -29,
+          "cmp": 0.05
+        },
+        {
+          "q": "why is glacier bay a national park",
+          "v": 30,
+          "tr": -50,
+          "cmp": 0.07
+        },
+        {
+          "q": "what is special about glacier national park",
+          "v": 30,
+          "tr": -25,
+          "cmp": 0.15
+        },
+        {
+          "q": "how many days to do glacier national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "does glacier national park close in the winter",
+          "v": 20,
+          "tr": 150,
+          "cmp": 0.02
+        },
+        {
+          "q": "does glacier national park have cell service",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "what state has glacier national park",
+          "v": 20,
+          "tr": -75,
+          "cmp": 0
+        },
+        {
+          "q": "who owns glacier national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.37
+        },
+        {
+          "q": "do you have to have reservations for glacier national park",
+          "v": 20,
+          "tr": -50,
+          "cmp": 0.71
+        },
+        {
+          "q": "how to do glacier national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.51
+        },
+        {
+          "q": "how is glacier national park in september",
+          "v": 20,
+          "tr": 600,
+          "cmp": 0.03
+        },
+        {
+          "q": "what airport should i fly into for glacier national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.19
+        },
+        {
+          "q": "where should i stay in glacier national park",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.54
+        },
+        {
+          "q": "when glacier national park open",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.04
+        },
+        {
+          "q": "where is sun road glacier national park",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.01
+        },
+        {
+          "q": "who discovered glacier national park",
+          "v": 20,
+          "tr": -33,
+          "cmp": 0
+        },
+        {
+          "q": "what mountains are glacier national park",
+          "v": 10,
+          "tr": 50,
+          "cmp": 0
+        },
+        {
+          "q": "did glacier national park get snow yesterday",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "did glacier national park get snow",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "does glacier national park charge per person or per vehicle",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.1
+        },
+        {
+          "q": "how much is a pass for glacier national park",
+          "v": 10,
+          "tr": 300,
+          "cmp": 0.03
+        },
+        {
+          "q": "where should i fly into for glacier national park",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.16
+        },
+        {
+          "q": "how long should you spend in glacier national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.12
+        }
+      ],
+      "error": null
+    },
+    {
+      "type": "related",
+      "success": true,
+      "count": 0,
+      "total": 0,
+      "rows": [],
+      "error": null
+    },
+    {
+      "type": "prepositions",
+      "success": true,
+      "count": 100,
+      "total": 235,
+      "rows": [
+        {
+          "q": "glacier national park",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.86
+        },
+        {
+          "q": "glacier national park in montana",
+          "v": 550000,
+          "tr": 307,
+          "cmp": 0.86
+        },
+        {
+          "q": "glacier national park on map",
+          "v": 14800,
+          "tr": 50,
+          "cmp": 0.87
+        },
+        {
+          "q": "glacier national park in winter",
+          "v": 1600,
+          "tr": -32,
+          "cmp": 0.07
+        },
+        {
+          "q": "glacier national park from yellowstone",
+          "v": 1600,
+          "tr": 19,
+          "cmp": 0.03
+        },
+        {
+          "q": "glacier national park by amtrak",
+          "v": 1600,
+          "tr": 60,
+          "cmp": 0.14
+        },
+        {
+          "q": "glacier national park in the winter",
+          "v": 1600,
+          "tr": -32,
+          "cmp": 0.07
+        },
+        {
+          "q": "glacier national park in october",
+          "v": 1000,
+          "tr": -17,
+          "cmp": 0.15
+        },
+        {
+          "q": "glacier national park in may",
+          "v": 1000,
+          "tr": 0,
+          "cmp": 0.1
+        },
+        {
+          "q": "glacier national park in september",
+          "v": 1000,
+          "tr": 140,
+          "cmp": 0.18
+        },
+        {
+          "q": "glacier national park to yellowstone",
+          "v": 1000,
+          "tr": 48,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park to yellowstone national park",
+          "v": 1000,
+          "tr": 48,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park by train",
+          "v": 880,
+          "tr": 22,
+          "cmp": 0.23
+        },
+        {
+          "q": "glacier national park in june",
+          "v": 880,
+          "tr": 0,
+          "cmp": 0.06
+        },
+        {
+          "q": "glacier national park to banff",
+          "v": 880,
+          "tr": 39,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park from seattle",
+          "v": 880,
+          "tr": 49,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park by rail",
+          "v": 880,
+          "tr": 22,
+          "cmp": 0.23
+        },
+        {
+          "q": "glacier national park in march",
+          "v": 590,
+          "tr": -18,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park in april",
+          "v": 590,
+          "tr": -33,
+          "cmp": 0.05
+        },
+        {
+          "q": "glacier national park in august",
+          "v": 590,
+          "tr": 436,
+          "cmp": 0.23
+        },
+        {
+          "q": "glacier national park weather by month",
+          "v": 590,
+          "tr": 49,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park vs yellowstone",
+          "v": 480,
+          "tr": 51,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park near airport",
+          "v": 480,
+          "tr": 50,
+          "cmp": 0.07
+        },
+        {
+          "q": "glacier national park in november",
+          "v": 480,
+          "tr": -28,
+          "cmp": 0.03
+        },
+        {
+          "q": "glacier national park vs yellowstone national park",
+          "v": 480,
+          "tr": 51,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park vs banff",
+          "v": 390,
+          "tr": 85,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park by train from chicago",
+          "v": 390,
+          "tr": 22,
+          "cmp": 0.21
+        },
+        {
+          "q": "glacier national park from calgary",
+          "v": 390,
+          "tr": 22,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park under canvas",
+          "v": 320,
+          "tr": 321,
+          "cmp": 0.84
+        },
+        {
+          "q": "glacier national park in the fall",
+          "v": 260,
+          "tr": -33,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park to bozeman",
+          "v": 210,
+          "tr": 24,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park to seattle",
+          "v": 210,
+          "tr": 86,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park to yellowstone distance",
+          "v": 210,
+          "tr": 88,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park temperature by month",
+          "v": 170,
+          "tr": -21,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park to calgary",
+          "v": 140,
+          "tr": 55,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park to grand tetons",
+          "v": 140,
+          "tr": 27,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park to banff national park",
+          "v": 140,
+          "tr": 133,
+          "cmp": 0.01
+        },
+        {
+          "q": "things to do in glacier national park besides hiking",
+          "v": 110,
+          "tr": -18,
+          "cmp": 0.31
+        },
+        {
+          "q": "glacier national park in late september",
+          "v": 110,
+          "tr": 86,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park to missoula",
+          "v": 110,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park vs grand teton",
+          "v": 90,
+          "tr": 120,
+          "cmp": 0
+        },
+        {
+          "q": "does glacier national park go into canada",
+          "v": 90,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park to spokane",
+          "v": 90,
+          "tr": 100,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park of canada map",
+          "v": 90,
+          "tr": 56,
+          "cmp": 0.05
+        },
+        {
+          "q": "glacier national park on us map",
+          "v": 90,
+          "tr": 0,
+          "cmp": 0.15
+        },
+        {
+          "q": "glacier national park to mount rushmore",
+          "v": 90,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park at night",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park before and after",
+          "v": 70,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park from bozeman",
+          "v": 50,
+          "tr": 40,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park during winter",
+          "v": 50,
+          "tr": 75,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park in september weather",
+          "v": 50,
+          "tr": 175,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park mid september",
+          "v": 50,
+          "tr": 325,
+          "cmp": 0.05
+        },
+        {
+          "q": "glacier national park visitors per year",
+          "v": 50,
+          "tr": -78,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park to olympic national park",
+          "v": 50,
+          "tr": 25,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park to salt lake city",
+          "v": 50,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "do you need a pass for glacier national park",
+          "v": 50,
+          "tr": 125,
+          "cmp": 0.1
+        },
+        {
+          "q": "glacier national park vs yosemite",
+          "v": 40,
+          "tr": 67,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park with dogs",
+          "v": 40,
+          "tr": 75,
+          "cmp": 0.06
+        },
+        {
+          "q": "glacier national park near me",
+          "v": 40,
+          "tr": 400,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park from me",
+          "v": 40,
+          "tr": 67,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park in early october",
+          "v": 40,
+          "tr": 100,
+          "cmp": 0.04
+        },
+        {
+          "q": "glacier national park to grand teton national park",
+          "v": 40,
+          "tr": 250,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park without a car",
+          "v": 40,
+          "tr": 33,
+          "cmp": 0.06
+        },
+        {
+          "q": "which entrance to glacier national park is best",
+          "v": 30,
+          "tr": 100,
+          "cmp": 0.08
+        },
+        {
+          "q": "are the glaciers in glacier national park gone",
+          "v": 30,
+          "tr": 150,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park for seniors",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0.14
+        },
+        {
+          "q": "glacier national park from my location",
+          "v": 30,
+          "tr": 33,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park mid june",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park to waterton lakes national park",
+          "v": 30,
+          "tr": -20,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park vs rocky mountain national park",
+          "v": 30,
+          "tr": 400,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park vs yellowstone vs grand teton",
+          "v": 30,
+          "tr": -40,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park vs north cascades",
+          "v": 30,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park on montana map",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.3
+        },
+        {
+          "q": "glacier national park over the years",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.01
+        },
+        {
+          "q": "which side of glacier national park is best",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.14
+        },
+        {
+          "q": "what are the entrances to glacier national park",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.07
+        },
+        {
+          "q": "what passes do i need for glacier national park",
+          "v": 20,
+          "tr": 50,
+          "cmp": 0.1
+        },
+        {
+          "q": "glacier national park from missoula",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park from whitefish",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0.15
+        },
+        {
+          "q": "glacier national park from kalispell",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.07
+        },
+        {
+          "q": "glacier national park mid october",
+          "v": 20,
+          "tr": -29,
+          "cmp": 0.03
+        },
+        {
+          "q": "glacier national park on a budget",
+          "v": 20,
+          "tr": 100,
+          "cmp": 0.35
+        },
+        {
+          "q": "glacier national park on world map",
+          "v": 20,
+          "tr": 133,
+          "cmp": 0
+        },
+        {
+          "q": "is glacier national park better than yellowstone",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park vs olympic national park",
+          "v": 20,
+          "tr": 200,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park without hiking",
+          "v": 20,
+          "tr": 0,
+          "cmp": 0.15
+        },
+        {
+          "q": "glacier national park on amtrak",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.19
+        },
+        {
+          "q": "glacier national park over time",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park after labor day",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.02
+        },
+        {
+          "q": "glacier national park after dark",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "whens the best time to go to glacier national park",
+          "v": 10,
+          "tr": 25,
+          "cmp": 0.11
+        },
+        {
+          "q": "glacier national park after 3pm",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "alternatives to glacier national park",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.17
+        },
+        {
+          "q": "glacier national park with family",
+          "v": 10,
+          "tr": -50,
+          "cmp": 0.16
+        },
+        {
+          "q": "glacier national park near what city",
+          "v": 10,
+          "tr": -33,
+          "cmp": 0.01
+        },
+        {
+          "q": "glacier national park at christmas",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.08
+        },
+        {
+          "q": "glacier national park before 6am",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0
+        },
+        {
+          "q": "glacier national park near yellowstone",
+          "v": 10,
+          "tr": 50,
+          "cmp": 0.61
+        },
+        {
+          "q": "glacier national park near montana",
+          "v": 10,
+          "tr": 0,
+          "cmp": 0.19
+        },
+        {
+          "q": "glacier national park from nyc",
+          "v": 10,
+          "tr": 100,
+          "cmp": 0.03
+        }
+      ],
+      "error": null
+    }
+  ]
+}

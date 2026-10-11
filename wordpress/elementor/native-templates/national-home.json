@@ -7,7 +7,7 @@
     {
       "id": "0000002f",
       "elType": "container",
-      "isInner": true,
+      "isInner": false,
       "settings": {
         "container_type": "flex",
         "flex_direction": "column",
@@ -961,7 +961,7 @@
     {
       "id": "00000051",
       "elType": "container",
-      "isInner": true,
+      "isInner": false,
       "settings": {
         "container_type": "flex",
         "flex_direction": "column",
@@ -1636,7 +1636,7 @@
     {
       "id": "00000083",
       "elType": "container",
-      "isInner": true,
+      "isInner": false,
       "settings": {
         "container_type": "flex",
         "flex_direction": "column",
@@ -2650,7 +2650,7 @@
     {
       "id": "000000b5",
       "elType": "container",
-      "isInner": true,
+      "isInner": false,
       "settings": {
         "container_type": "flex",
         "flex_direction": "column",
@@ -3664,7 +3664,7 @@
     {
       "id": "000000d6",
       "elType": "container",
-      "isInner": true,
+      "isInner": false,
       "settings": {
         "container_type": "flex",
         "flex_direction": "column",

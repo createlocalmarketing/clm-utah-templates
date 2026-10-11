@@ -17,6 +17,8 @@ define( 'NPG_CORE_PATH', plugin_dir_path( __FILE__ ) );
 require_once NPG_CORE_PATH . 'includes/content-model.php';
 require_once NPG_CORE_PATH . 'includes/fields.php';
 require_once NPG_CORE_PATH . 'includes/geo-api.php';
+require_once NPG_CORE_PATH . 'includes/brand-reset.php';
+require_once NPG_CORE_PATH . 'includes/legacy-cleanup.php';
 add_action( 'init', 'npg_register_content_model', 10 );
 add_action( 'acf/init', 'npg_register_acf_fields' );
 add_action( 'rest_api_init', 'npg_register_api_routes' );

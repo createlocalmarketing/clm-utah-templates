@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-10",
+  "total_detail_route_cases": 2752,
+  "opened_records": {
+    "desktop": 1376,
+    "iphone": 1376
+  },
+  "failed_record_routes": 0,
+  "failures": [],
+  "known_limitations": [
+    "click/navigation only; no record edit, messaging, storage, cross-session, permissions or final human sign-off",
+    "mobile detail screens need dedicated UX inspection",
+    "actual businesses CRM and communications not connected"
+  ],
+  "duration_seconds": 17.5
+}

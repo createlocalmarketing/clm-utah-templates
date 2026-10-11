@@ -33,6 +33,14 @@ Each desktop and iPhone route has a row in [ROUTE_AUDIT.csv](./ROUTE_AUDIT.csv).
 - **34** distinct action identifiers detected in the source (not yet proven functional).
 - **9** distinct form identifiers detected in the source (not yet proven persistent).
 
+## Individual seeded record/detail coverage
+
+See [DETAIL_FLOW_AUDIT.csv](./DETAIL_FLOW_AUDIT.csv) for **2,752** record-route cases across desktop and iPhone, with record-specific title correctness, click-through, visual QA, actual data, permissions, and final acceptance columns. [DETAIL_TEST_REPORT.json](./DETAIL_TEST_REPORT.json) records the browser results.
+
+During the first pass, **68 desktop calendar record links failed** with "Record not found". The calendar source routing was corrected and all 2,752 record links now open with matching record titles in the local Chromium smoke test. **All remain UNAPPROVED for design and real integration.**
+
+These cases are distinct from the 1,258 general workspace/module route combinations. Totals: **4,010 modeled route cases**, *not 4,010 bespoke finished pages*. Additional creation/edit/confirmation/error workflows remain separately enumerated as action and form tests.
+
 ## Release-blocking findings from 2026-10-10 feedback
 
 - [ ] **P0 — Screen Explorer:** prior 17×37 tiny dark chips, dark-on-dark text, broken visual hierarchy. Replace with editorial image-led cards and progressive disclosure; click every workspace and its module sections.

@@ -15,6 +15,14 @@ The first published Screen Explorer was a 17×37 repeated matrix of tiny dark-on
 - Generated full 1,258-row desktop/iPhone context manifest, canonical module/feature checklist, action list, forms and 2-pass acceptance policy.
 - Automated local render exercise across 629 desktop and 629 iPhone context routes with zero JS errors, and interaction checks for first explorer/filter/expand/navigation. No claim that every primary action was individually clicked.
 
+## Second-stage detail link testing
+
+- Added 2,752 specific seed-record clickthrough cases, independent of the module view routes.
+- Initial discovery: 68 desktop calendar event detail links showed `Record not found`, P0.
+- Fixed desktop calendar record source and expanded mobile detail support to calendar, events, campaigns, offers, calls analytics, transactions, pipeline, and SMS.
+- Reran full detail-click suite: **1,376 desktop / 1,376 iPhone detail titles correct** in Chromium; all 2,752 link renderings passed. Tested demo fixture data, not live integrations.
+- Dedicated desktop/mobile project detail behavior remains subject to separate visual/functional review; added iPhone project detail task list.
+
 ## Verification and caveats
 
 - **PASS (local):** Node JS syntax; 1,258 contextual screens render; 17 explorer cards; filter, expand 37 modules, workspace navigation.

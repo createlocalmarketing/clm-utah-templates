@@ -1,0 +1,3 @@
+<?php if(!defined('ABSPATH'))exit; ?><!doctype html><html <?php language_attributes(); ?>><head><meta charset="<?php bloginfo('charset'); ?>"><meta name="viewport" content="width=device-width,initial-scale=1"><?php wp_head(); ?></head><body <?php body_class(); ?>><?php wp_body_open(); ?>
+<?php if(!function_exists('elementor_theme_do_location')||!elementor_theme_do_location('header')): ?>
+<header class="clm-header"><div class="clm-wrap"><a href="<?php echo esc_url(home_url('/')); ?>" aria-label="National Parks Guide home"><strong><?php echo esc_html(get_bloginfo('name')); ?></strong></a><nav aria-label="Primary navigation" class="clm-nav"><?php wp_nav_menu(['theme_location'=>'primary','container'=>false,'fallback_cb'=>false]); ?></nav></div></header><?php endif; ?>

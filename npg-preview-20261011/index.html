@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>National Parks Guide — Design Review Walkthrough</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+:root{--pine:#103c30;--gold:#dbab69;--ink:#1a3228;--muted:#688075;--off:#f0f3ef;--line:#d7dfd7}
+*{box-sizing:border-box}body{margin:0;background:var(--off);color:var(--ink);font:15px/1.5 'DM Sans',sans-serif}button,a{font:inherit}button{cursor:pointer}a{color:inherit}
+header{background:var(--pine);color:white;padding:25px clamp(20px,4vw,70px);display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{display:flex;align-items:center;gap:12px;font:800 17px Outfit,sans-serif;letter-spacing:.04em}
+.brand img{width:50px;height:50px}.tag{font-size:11px;color:#e3c18b;letter-spacing:.15em;text-transform:uppercase;font-weight:800}
+.shell{max-width:1550px;margin:auto;padding:38px 25px 70px}
+h1{font:850 clamp(33px,4vw,56px)/1.05 Outfit,sans-serif;letter-spacing:-.04em;margin:12px 0 16px}
+h2{font:850 21px/1.15 Outfit,sans-serif;letter-spacing:-.02em}
+.lead{font-size:15px;color:#5c7567;max-width:900px}
+.review-note{border-left:4px solid #c49150;background:#fff8e9;padding:13px 19px;font-size:12px;margin:25px 0;max-width:1000px}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.tabs button{background:white;border:1px solid #b6c8ba;padding:13px 21px;font-weight:800;border-radius:7px;color:var(--pine)}
+.tabs button.active{background:var(--pine);color:white;border-color:var(--pine)}
+.tabs button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin-bottom:12px}
+.toolbar p{font-size:12px;color:var(--muted);margin:0}.toolbar a{background:var(--gold);color:var(--ink);padding:10px 14px;border-radius:5px;text-decoration:none;font-size:12px;font-weight:850}
+.viewport{background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 16px 55px #1c3d2912}
+.viewport iframe{display:block;width:100%;height:min(81vh,1000px);min-height:610px;border:0;background:#fff}
+.viewport.mobile{background:#10271f}.viewport.mobile iframe{height:min(91vh,1150px);min-height:740px}
+.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:23px}
+.links a{display:block;text-decoration:none;background:white;border:1px solid var(--line);border-radius:10px;padding:20px}
+.links b{display:block;font-size:15px}.links span{display:block;color:#6c8073;font-size:12px;margin-top:7px}
+footer{margin-top:25px;color:#6b7f72;font-size:11px}
+@media(max-width:850px){header{display:block}.tag{margin:8px 0}.links{grid-template-columns:1fr}.shell{padding:23px 12px 45px}.viewport iframe{height:740px}.viewport.mobile iframe{height:1070px}}
+</style></head><body>
+<header><div><div class="brand"><img src="../nationalparksguide.co/assets/brand/npg-symbol.svg" alt="">NATIONAL PARKS GUIDE</div><div class="tag">DESIGN REVIEW CENTER · OCTOBER 2026</div></div><div class="tag">PRIVATE-INTENT PREVIEW · NOINDEX</div></header>
+<main class="shell"><span class="tag" style="color:#a5753c">CODED WEBSITE AND PHONE WALKTHROUGHS</span><h1>Explore the actual experience.</h1>
+<p class="lead">Review the reworked national website, dedicated Utah Zion destination edition, and clickable mobile experience in its on-screen iPhone frame. All demonstrations below are live HTML/JavaScript prototypes, not static screenshots.</p>
+<div class="review-note"><strong>Editorial and production review:</strong> The Zion module has ten categories with 62 displayed cards across 47 unique merchant/location candidates plus trails and photo stops. It is not an approved 25-mile business census. Photography rights, exact coordinates, business verification, real reservations, app store builds and production WordPress connection remain incomplete. The underlying PR is still awaiting approval.</div>
+<nav class="tabs" aria-label="Select review surface"><button data-demo="national" class="active">National Parks Guide website</button><button data-demo="zion">Utah Zion destination</button><button data-demo="phone">Mobile app in iPhone frame</button></nav>
+<div class="toolbar"><p id="description">National website: six-slide hero, featured parks and Zion local discovery sections.</p><a id="openFull" href="../nationalparksguide.co/review-20261011/index.html" target="_blank" rel="noopener noreferrer">Open full-window walkthrough ↗</a></div>
+<div class="viewport" id="viewport"><iframe id="walkthrough" title="Interactive National Parks Guide website walkthrough" src="../nationalparksguide.co/review-20261011/index.html" loading="eager"></iframe></div>
+<div class="links">
+<a href="../nationalparksguide.co/review-20261011/index.html" target="_blank" rel="noopener noreferrer"><b>National Parks Guide website ↗</b><span>Open the website in its own browser tab for full-width scrolling.</span></a>
+<a href="../utahzionnationalpark.com/review-20261011/index.html" target="_blank" rel="noopener noreferrer"><b>Utah Zion destination ↗</b><span>Explore local trails, restaurants, stays, guides and rentals.</span></a>
+<a href="mobile/index.html" target="_blank" rel="noopener noreferrer"><b>Interactive iPhone app ↗</b><span>Review six clickable in-device screens, including Zion discovery.</span></a>
+</div>
+<footer>Source: createlocalmarketing/clm-utah-templates · Preview assets intentionally isolated from the current main website router · GitHub PR #4 holds the working redesign branch. Demo screens do not guarantee live availability or confirm merchant participation.</footer>
+</main>
+<script>
+const demos={
+national:{src:"../nationalparksguide.co/review-20261011/index.html",label:"National website: six-slide hero, featured parks and Zion local discovery sections.",title:"National Parks Guide interactive website",mobile:false},
+zion:{src:"../utahzionnationalpark.com/review-20261011/index.html",label:"Utah Zion: visitor-first Springdale and park local experiences, 10 horizontally scrolling directories.",title:"Utah Zion destination website",mobile:false},
+phone:{src:"mobile/index.html",label:"Interactive app browser simulation inside a fixed-size on-screen iPhone. Choose six screens and browse Zion businesses.",title:"National Parks Guide clickable iPhone frame",mobile:true}
+};
+const frame=document.getElementById("walkthrough"),btn=document.getElementById("openFull"),box=document.getElementById("viewport"),detail=document.getElementById("description");
+document.querySelectorAll("[data-demo]").forEach(button=>button.addEventListener("click",()=>{
+document.querySelectorAll("[data-demo]").forEach(b=>b.classList.toggle("active",b===button));
+const v=demos[button.dataset.demo];
+frame.src=v.src;frame.title=v.title;btn.href=v.src;detail.textContent=v.label;box.classList.toggle("mobile",v.mobile);
+}));
+</script></body></html>

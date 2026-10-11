@@ -91,3 +91,23 @@
 @media(max-width:1080px){.npg-story-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.npg-hero-copy{padding:45px}.npg-film-layout{gap:35px}.npg-dir-hero-grid{gap:30px}}
 @media(max-width:780px){.npg-split-hero{grid-template-columns:1fr}.npg-hero-photo{height:400px;min-height:0}.npg-hero-copy{padding:40px 28px 50px}.npg-hero-copy h1{font-size:clamp(48px,8vw,68px)}.npg-journey-nav{grid-template-columns:repeat(2,1fr)}.npg-section-intro{grid-template-columns:1fr;gap:12px}.npg-long-section{padding:58px 0}.npg-film-layout,.npg-last-grid,.npg-dir-hero-grid{grid-template-columns:1fr}.npg-dir-hero{padding:55px 0 68px}.npg-dir-collage{height:240px;grid-template-rows:1fr 1fr}.npg-dir-filter{grid-template-columns:1fr}.npg-regional-header{grid-template-columns:1fr}.npg-region-photo{height:290px}}
 @media(max-width:480px){.npg-story-grid{grid-template-columns:1fr}.npg-photo-rail>.npg-image-tile{flex-basis:88%}.npg-hero-photo{height:295px}.npg-hero-copy h1{font-size:50px}.npg-section-intro h2{font-size:36px}.npg-journey-nav{gap:8px}.npg-journey-nav a{padding:15px;font-size:13px}.npg-regional-section{padding:40px 0}.npg-regional-title h2{font-size:30px}.npg-dir-hero h1{font-size:46px}.npg-dir-collage{height:210px}.npg-film-layout h2{font-size:44px}}
+
+
+/* SIX horizontally scrollable business category shelves PER PARK. Up to 63 × 6.
+   Merchants are rendered only from licensed source entities; zero-source rails show a distinct status panel, not fake inventory. */
+.npg-six-business-rails{margin-top:20px;display:grid;gap:28px}
+.npg-business-shelf{padding:6px 0 18px;border-top:1px solid #dce7da}
+.npg-business-shelf-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 0}
+.npg-business-shelf-heading h3{font:850 24px/1.2 var(--display);margin:0}
+.npg-business-shelf-heading a{font-size:12px;text-decoration:underline;font-weight:850;white-space:nowrap}
+.npg-business-shelf-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;gap:16px;padding-bottom:12px}
+.npg-business-shelf-card{flex:0 0 295px;scroll-snap-align:start;overflow:hidden;border:1px solid #d9e4d7;border-radius:9px;background:white}
+.npg-business-shelf-media{height:163px;background:#3d6659}.npg-business-shelf-media img,.npg-business-shelf-media svg{width:100%;height:100%;object-fit:cover;display:block}
+.npg-business-shelf-copy{padding:19px}.npg-business-shelf-copy h4{font:850 22px/1.16 var(--display);margin:9px 0}
+.npg-business-shelf-copy p{font-size:12px;line-height:1.65;color:#667969}.npg-business-shelf-copy a{color:var(--pine);font-weight:850;text-decoration:underline;font-size:12px}
+.npg-business-shelf-empty{scroll-snap-align:start;display:grid;grid-template-columns:250px minmax(300px,1fr);min-width:min(100%,650px);border:1px solid #dce4d7;background:#fff;border-radius:9px;overflow:hidden}
+.npg-business-empty-visual{min-height:170px}.npg-business-empty-visual svg{width:100%;height:100%}
+.npg-business-shelf-empty>div:last-child{padding:20px}
+.npg-business-shelf-empty h4{font:850 22px var(--display);margin:10px 0}.npg-business-shelf-empty p{font-size:12px;color:#718071;line-height:1.6}
+.npg-business-shelf-empty a{font-size:12px;color:var(--pine);text-decoration:underline;font-weight:850}
+@media(max-width:630px){.npg-business-shelf-empty{grid-template-columns:1fr;min-width:88vw}.npg-business-empty-visual{height:125px;min-height:125px}.npg-business-shelf-heading h3{font-size:20px}}

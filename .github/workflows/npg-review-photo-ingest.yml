@@ -1,0 +1,35 @@
+name: NPG SEO Image Source Import — Draft Review
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'nationalparksguide.co/content/approved-source-photo-candidates.json'
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  media-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Import source-reviewed public domain photos with SEO filenames
+        run: |
+          node tools/national-parks/import-approved-image-candidates.mjs || echo '::warning::Some source images failed; ledger will document unresolved media'
+      - name: Propose binary image assets for review rather than deploying
+        shell: bash
+        run: |
+          branch="media/npg-sourced-images-$GITHUB_RUN_ID"
+          git config user.name 'clm-media-research-bot'
+          git config user.email 'clm-media-research-bot@users.noreply.github.com'
+          git checkout -b "$branch"
+          git add nationalparksguide.co/assets/photos
+          if git diff --cached --quiet; then echo 'No source media produced'; exit 0; fi
+          git commit -m 'media(npg): new SEO-named source photographs; credit/license and crop approval required'
+          git push origin "$branch"
+          gh pr create --draft --base main --head "$branch" --title 'NPG photos: SEO filenames, NPS/Commons licensing and manual review' --body 'Review each asset visually, confirm exact park/section geographic identity, license, source, alt text, credit and crop. Some failed media may require new rights-cleared source. DO NOT auto-deploy to WordPress or mark pages SEO complete.'

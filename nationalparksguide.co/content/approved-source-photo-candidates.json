@@ -1,0 +1,116 @@
+{
+  "version": "2026-10-10",
+  "notes": "Ten DIFFERENT location-correct photo assets with individual source pages and rights. No image is duplicated between separate product artwork concepts; product artwork is generated as original concept graphics, not reused park landscape. Pending production image download/re-encode and SEO filename ingest.",
+  "assets": [
+    {
+      "id": "zion-canyon-overlook",
+      "park": "Zion National Park",
+      "filename": "zion-canyon-overlook.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20National%20Park%20Canyon%20Overlook%20Trail%20View.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Zion%20National%20Park%20Canyon%20Overlook%20Trail%20View.jpg",
+      "license": "CC0",
+      "alt": "Zion National Park Canyon Overlook Trail viewpoint",
+      "route": "/park/zion",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "zion-canyon-panorama",
+      "park": "Zion National Park",
+      "filename": "zion-canyon-panorama.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion%20NP20.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Zion%20NP20.jpg",
+      "license": "Public domain",
+      "alt": "Zion Canyon scenic overview from Canyon Overlook",
+      "route": "/park/zion/topic/things-to-do",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "zion-campground",
+      "park": "Zion National Park",
+      "filename": "zion-campground.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/South%20Campground%2C%20Zion%20National%20Park.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:South%20Campground%2C%20Zion%20National%20Park.jpg",
+      "license": "NPS public domain",
+      "alt": "South Campground at Zion National Park",
+      "route": "/park/zion/topic/stay",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "zion-angels-landing",
+      "park": "Zion National Park",
+      "filename": "zion-angels-landing.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Angelslanding.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Angelslanding.jpg",
+      "license": "Public domain",
+      "alt": "Angels Landing cliff trail at Zion",
+      "route": "/trail/zion-angels-landing",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "yellowstone-grand-prismatic",
+      "park": "Yellowstone National Park",
+      "filename": "yellowstone-grand-prismatic.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20prismatic%20spring.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Grand%20prismatic%20spring.jpg",
+      "license": "NPS public domain",
+      "alt": "Yellowstone Grand Prismatic Spring seen from above",
+      "route": "/park/yellowstone",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "yellowstone-bison",
+      "park": "Yellowstone National Park",
+      "filename": "yellowstone-bison.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellowstone%20National%20Park%20-%20Bison.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellowstone%20National%20Park%20-%20Bison.jpg",
+      "license": "CC0",
+      "alt": "Bison photographed in Yellowstone National Park",
+      "route": "/park/yellowstone/topic/things-to-do",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "great-smoky-mountains-clingmans",
+      "park": "Great Smoky Mountains National Park",
+      "filename": "great-smoky-mountains-clingmans.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Views%20from%20the%20walkway%20to%20Clingmans%20Dome%20Tower%20(4b006749-e564-496e-a32c-f69932d039a7).jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Views%20from%20the%20walkway%20to%20Clingmans%20Dome%20Tower%20(4b006749-e564-496e-a32c-f69932d039a7).jpg",
+      "license": "NPS public domain",
+      "alt": "Clingmans Dome trail walkway Great Smoky Mountains",
+      "route": "/park/great-smoky-mountains",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "glacier-lake-mcdonald",
+      "park": "Glacier National Park",
+      "filename": "glacier-lake-mcdonald.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20mcdonald%20in%20glacier%20national%20park%20Montana.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake%20mcdonald%20in%20glacier%20national%20park%20Montana.jpg",
+      "license": "Public domain",
+      "alt": "Lake McDonald lake and mountains Glacier National Park",
+      "route": "/park/glacier",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "glacier-lake-mcdonald-mountains",
+      "park": "Glacier National Park",
+      "filename": "glacier-lake-mcdonald-mountains.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20McDonald%20with%20Mt%20Cannon%2C%20Mt%20Brown%2C%20Little%20Matterhorn%2C%20Mt%20Edwards%2C%20and%20Gunsight%20Mountain%20(12091853594).jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake%20McDonald%20with%20Mt%20Cannon%2C%20Mt%20Brown%2C%20Little%20Matterhorn%2C%20Mt%20Edwards%2C%20and%20Gunsight%20Mountain%20(12091853594).jpg",
+      "license": "NPS public domain",
+      "alt": "Glacier National Park Lake McDonald mountain panorama",
+      "route": "/park/glacier/topic/things-to-do",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    },
+    {
+      "id": "yosemite-tunnel-view",
+      "park": "Yosemite National Park",
+      "filename": "yosemite-tunnel-view.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%E2%80%9CTunnel%20View%E2%80%9D%20overlook%20showing%20famous%20rock%20formations%20in%20Yosemite%20Valley%2003.jpg?width=1600",
+      "source": "https://commons.wikimedia.org/wiki/File:%E2%80%9CTunnel%20View%E2%80%9D%20overlook%20showing%20famous%20rock%20formations%20in%20Yosemite%20Valley%2003.jpg",
+      "license": "CC0",
+      "alt": "Yosemite Tunnel View with El Capitan Half Dome and Bridalveil Fall",
+      "route": "/park/yosemite",
+      "importStatus": "direct Wikimedia Commons source reference; verify binary crop and attribution before production CDN import"
+    }
+  ]
+}

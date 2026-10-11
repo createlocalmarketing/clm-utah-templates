@@ -1,0 +1,15 @@
+
+.npg-topic-complete{background:#f8f9f5}.npg-topic-hero{display:grid;grid-template-columns:1fr 1fr;background:#edf1e9;min-height:500px}.npg-topic-hero-photo{min-height:450px;background:#416c5d;position:relative;overflow:hidden}.npg-topic-hero-photo>img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.npg-topic-hero-content{padding:clamp(38px,5vw,83px);align-self:center}
+.npg-topic-hero-content h1{font:850 clamp(43px,4.8vw,74px)/1 var(--display);letter-spacing:-.05em;margin:15px 0}.npg-topic-hero-content p{font-size:14px;color:#526c5c;line-height:1.7}.npg-topic-hero-content .npg-topic-lead{font-size:18px;color:#213e30;font-weight:750}
+.npg-topic-blocks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}
+.npg-topic-editorial{background:white;border:1px solid #dbe5db;border-radius:10px;padding:25px}
+.npg-topic-editorial h3{font:850 27px/1.12 var(--display);margin:13px 0}.npg-topic-editorial p{font-size:14px;line-height:1.7;color:#64786a}.npg-topic-editorial a{font-size:12px;text-decoration:underline;font-weight:800}
+.npg-topic-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+.npg-topic-related{display:flex;flex-direction:column;justify-content:space-between;gap:13px;min-height:146px;background:white;padding:23px;border:1px solid #dbe5da;border-radius:10px}
+.npg-topic-related strong{font:850 22px/1.15 var(--display)}.npg-topic-related>span:last-child{font-size:12px;text-decoration:underline;font-weight:800;color:#164d35}
+.npg-topic-journey{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:24px}
+.npg-topic-journey>a{display:block;background:white;border:1px solid #cdded2;padding:21px;border-radius:7px;color:#234a35;font-size:13px;font-weight:850}
+.npg-topic-journey>a:hover{background:#e4eee2}
+@media(max-width:1000px){.npg-topic-links{grid-template-columns:repeat(2,minmax(0,1fr))}.npg-topic-hero-content{padding:32px}.npg-topic-hero-content h1{font-size:49px}}
+@media(max-width:760px){.npg-topic-hero{grid-template-columns:1fr}.npg-topic-hero-photo{min-height:280px}.npg-topic-blocks{grid-template-columns:1fr}.npg-topic-journey{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.npg-topic-hero-content h1{font-size:39px}.npg-topic-links{grid-template-columns:1fr}.npg-topic-journey{grid-template-columns:1fr}}

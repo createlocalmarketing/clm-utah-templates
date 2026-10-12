@@ -10,7 +10,7 @@ Shared source: engine/app.css, core.js, pages.js, brands.js; data/templates.json
 ## Confirmed defects and status
 | ID | Priority | Evidence / failure | Status |
 | --- | --- | --- | --- |
-| AG-001 | P0 | /things-to-do/ returns HTTP 404 | OPEN |
+| AG-001 | P0 | /things-to-do/ formerly HTTP 404 | PARTIAL: page 2328 now published HTTP 200 with 9 linked cards; live activity feed not yet present |
 | AG-002 | P0 | /events/ 2093 previously a one-screen generic section; real event feed missing | PARTIAL: editorial portal deployed |
 | AG-003 | P0 | /business-directory/ 2092 previously a one-screen generic section; real business records and search missing | PARTIAL: category portal deployed |
 | AG-004 | P0 | /relocation/schools/ 675 renders the same Historic Main Street asset ID 256 three times | OPEN |
@@ -47,3 +47,7 @@ Shared source: engine/app.css, core.js, pages.js, brands.js; data/templates.json
 5. Move from editorial portals to actual verified dynamic event, business/provider, geo and education objects using reusable native Elementor/ACF families.
 
 Historical sources: realtor-website-template archives 1–4, single-listing-sites archives 1–2, content-engine, website-architecture-blueprint-checklist 1–3, dental-directory-city-site-blueprint, nationalparksguide-template, quality-crm, Adam website and directory/city sites. Newest approved user requirements prevail.
+## Production follow-up: Things To Do
+- Created WordPress page 2328 at `/things-to-do/` with full editorial hero, 3 thematic card grids (9 linked cards), local place/activity/relocation modules, internal anchors, FAQs, conversion CTAs and shared theme-level scoped CSS.
+- Cleared Elementor/WordPress object caches and verified public frontend HTTP 200 with `ag-card` + `ag-hero`, no more 404.
+- Remains PARTIAL pending actual verified activity/POI content object feeds, formal post type/template architecture, image licensing checks and responsive screenshot QA.

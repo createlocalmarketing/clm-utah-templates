@@ -6,11 +6,13 @@ on:
       - 'nationalparksguide.co/**'
       - 'utahzionnationalpark.com/**'
       - 'wordpress/plugins/clm-national-parks/**'
+      - 'wordpress/themes/clm-national-parks/**'
       - 'tools/national-parks/**'
   pull_request:
     paths:
       - 'engine/parks*'
       - 'wordpress/plugins/clm-national-parks/**'
+      - 'wordpress/themes/clm-national-parks/**'
       - 'tools/national-parks/**'
 jobs:
   code-and-source-checks:
@@ -31,10 +33,13 @@ jobs:
           node --check tools/national-parks/build-licensed-business-directory.mjs
       - name: 63-park/source-rights/geo registry tests
         run: node --test tools/national-parks/contract.test.mjs
+      - name: Native Elementor template precedence source regression
+        run: node tools/national-parks/verify-native-elementor-templates.mjs
       - name: PHP lint for proprietary WordPress plugin and rewards
         run: |
           php -l wordpress/plugins/clm-national-parks/clm-national-parks.php
           php -l wordpress/plugins/clm-national-parks/includes/class-clm-visitor-rewards.php
+          for f in wordpress/themes/clm-national-parks/*.php; do php -l "$f"; done
       - name: Assert prelaunch pages carry noindex
         run: |
           grep -q 'noindex' nationalparksguide.co/index.html

@@ -1,7 +1,22 @@
 <?php
 if(!defined('ABSPATH'))exit;
 get_header();
+// Honor the approved Elementor Pro single template and its display conditions.
+if (function_exists('elementor_theme_do_location') && elementor_theme_do_location('single')) {
+ get_footer();
+ return;
+}
 if(have_posts())while(have_posts()):the_post();
+// A specific park authored in native Elementor owns all its visible sections.
+$id=get_the_ID();
+$native_park=get_post_meta($id,'_elementor_edit_mode',true)==='builder'
+ && (string)get_post_meta($id,'_elementor_data',true)!=='';
+if($native_park) {
+ echo '<main id="site-main" class="npg-native-elementor-park">';
+ the_content();
+ echo '</main>';
+ continue;
+}
 $id=get_the_ID();$approved=class_exists('CLM_National_Parks_Core')&&CLM_National_Parks_Core::approved($id);
 ?>
 <main id="site-main"><div class="clm-wrap"><nav class="clm-breadcrumb"><a href="<?php echo esc_url(home_url('/')); ?>">National Parks Guide</a> / <a href="<?php echo esc_url(get_post_type_archive_link('clm_park')); ?>">Parks</a> / <?php the_title(); ?></nav></div>

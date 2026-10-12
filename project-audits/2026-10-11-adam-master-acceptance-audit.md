@@ -51,3 +51,13 @@ Historical sources: realtor-website-template archives 1–4, single-listing-site
 - Created WordPress page 2328 at `/things-to-do/` with full editorial hero, 3 thematic card grids (9 linked cards), local place/activity/relocation modules, internal anchors, FAQs, conversion CTAs and shared theme-level scoped CSS.
 - Cleared Elementor/WordPress object caches and verified public frontend HTTP 200 with `ag-card` + `ag-hero`, no more 404.
 - Remains PARTIAL pending actual verified activity/POI content object feeds, formal post type/template architecture, image licensing checks and responsive screenshot QA.
+
+## 2026-10-12 native Elementor remediation
+- Verified uploaded @website-design-master-checklist.md v1.0 prohibits raw HTML page-building and requires native editable Elementor module families, original content, URL-by-URL acceptance evidence.
+- Confirmed old `neighborhood-guide/` 2104 was HTML-in-post content rendered without required styling; live `old-town/` 2122 had no saved Elementor element tree and only 391 characters of generic content.
+- Updated child-theme functions.php to enqueue stylesheet with `filemtime(style.css)` rather than permanent v1.0.0 query. Later verified current frontend style.css query changed to file mtime. First-party backup created.
+- Saved 7 top-level native Elementor sections on Old Town 2122, with native image/heading/text/button widgets and six connected cards, property due diligence, local intelligence and FAQs.
+- Rebuilt Neighborhood Guide 2104 as 7 top-level editable native Elementor sections with its own neighborhood-intent heading, compare criteria, six contextual cards, FAQ and navigation; patched Old Town CTA to actual Old Town URL.
+- Added narrowly scoped responsive `.ag-native-*` card/button styling to custom child theme, not Elementor Kit or 7169 microsite. Clear caches completed.
+- Same-site frontend: both pages HTTP 200, Elementor IDs 2122/2104 rendered and 6 `ag-native-card` occurrences each; CSS link query now versioned using file mtime. This is PARTIAL: manual screenshot/button QA, distinct media assignment, full-depth data feeds, accessibility and all master checklist gates still pending.
+- Important regression: prior assistant-built raw HTML portals (including other 14 pages) violate the newly supplied master checklist, despite being live. Must migrate to native Elementor and re-QA. No 7K+ complete pages established.

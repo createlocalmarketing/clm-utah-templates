@@ -1,6 +1,23 @@
 <?php
 if(!defined('ABSPATH'))exit;
 get_header();
+// Honor the WordPress homepage authored as a native Elementor document.
+// This prevents the old PHP tile layout from overriding approved Elementor sections.
+$front_id = (int) get_queried_object_id();
+$native_front_page = $front_id > 0
+ && get_post_meta($front_id, '_elementor_edit_mode', true) === 'builder'
+ && (string) get_post_meta($front_id, '_elementor_data', true) !== '';
+if ($native_front_page) {
+ while (have_posts()) {
+  the_post();
+  echo '<main id="site-main" class="npg-native-elementor-home">';
+  the_content();
+  echo '</main>';
+ }
+ get_footer();
+ return;
+}
+// Editorial-only fallback when a native Elementor homepage is not configured.
 $parks=clm_parks_featured_posts();
 $feature=$parks[0]??null;
 if($feature):

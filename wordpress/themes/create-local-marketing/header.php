@@ -28,4 +28,3 @@ if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_
 		</div>
 	</header>
 <?php endif; ?>
-<a id="main-content" class="clm-main-anchor" tabindex="-1"></a>

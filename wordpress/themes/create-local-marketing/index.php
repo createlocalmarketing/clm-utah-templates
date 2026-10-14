@@ -2,7 +2,7 @@
 /** Accessible fallback archive template. */
 get_header();
 ?>
-<main class="clm-container clm-section">
+<main id="main-content" class="clm-container clm-section">
 	<?php if ( have_posts() ) : ?>
 		<header class="clm-page-intro">
 			<p class="clm-eyebrow"><?php esc_html_e( 'Create Local Marketing', 'create-local-marketing' ); ?></p>

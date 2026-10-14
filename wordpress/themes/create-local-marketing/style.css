@@ -138,6 +138,11 @@ body.clm-site .clm-hero-image img { aspect-ratio: 1 / 1; }
 body.clm-site .clm-person-image img { aspect-ratio: 4 / 3; }
 body.clm-site .clm-image-caption,
 body.clm-site .clm-caption { color: var(--clm-muted); font-size: .9rem; }
+body.clm-site .clm-heart-chat { position: relative; display: inline-flex; width: max-content; }
+body.clm-site .clm-heart-chat .elementor-icon { position: relative; width: 66px; height: 66px; border-radius: 22px; background: var(--clm-green-soft); color: var(--clm-green-dark); }
+body.clm-site .clm-heart-chat .elementor-icon i { font-size: 34px; }
+body.clm-site .clm-heart-chat .elementor-icon::after { content: "♥"; position: absolute; inset: 17px 0 0; color: #fff; font-size: 17px; line-height: 1; text-align: center; text-shadow: 0 1px 3px rgba(36,38,41,.18); }
+body.clm-site .clm-heart-chat .elementor-icon svg { display: none; }
 body.clm-site .clm-services .elementor-container > .elementor-column:nth-child(n+2),
 body.clm-site .clm-work .elementor-container > .elementor-column:nth-child(n+2) {
 	margin-top: 18px;

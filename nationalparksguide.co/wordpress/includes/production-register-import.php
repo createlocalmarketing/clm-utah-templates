@@ -73,8 +73,8 @@ function npg_catalog_elementor(array $item, string $parkName, string $npsUrl, in
     $title = sanitize_text_field((string)$item['title']);
     $family = sanitize_text_field((string)($item['family']??'Visitor Guide'));
     $keyword = sanitize_text_field((string)($item['keyword']??$title));
-    $parkLabel = $parkName !== '' ? $parkName.' National Park' : 'America’s National Parks';
-    $subject = $parkName !== '' ? $title.' at '.$parkLabel : $title.' across America’s national parks';
+    $parkLabel = $parkName !== '' ? (preg_match('/National Park$/i', $parkName) ? $parkName : $parkName.' National Park') : 'America’s National Parks';
+    $subject = $parkName !== '' ? (strcasecmp($title,$parkLabel)===0 ? $parkLabel : $title.' at '.$parkLabel) : $title.' across America’s national parks';
     $source = $npsUrl !== '' ? $npsUrl : 'https://www.nps.gov/planyourvisit/index.htm';
     $familyNotice = 'Editorial category: '.$family.'. Primary research topic: '.$keyword.'. This page has not passed original reporting, approved media, business verification or page-by-page quality acceptance.';
     return [

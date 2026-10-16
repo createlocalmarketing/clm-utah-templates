@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-16",
   "groups": [
     {
       "id": "00-control",
@@ -254,9 +254,9 @@
       "repository": "createlocalmarketing/clm-utah-templates",
       "website": "https://www.createlocalmarketing.com/",
       "audit_path": "project-audits/create-local-marketing-website.md",
-      "last_action": "Removed client portraits from homepage, replaced them with original CLM community illustrations, and implemented dark/light logo states.",
-      "next_action": "Reconcile the master page list and per-page SEO/SERP/YMYL/E-E-A-T/AEO/AIO/schema map in GitHub.",
-      "updated_at": "2026-10-15T22:53:00-06:00"
+      "last_action": "Created a GitHub box-by-box homepage content inventory; documented incomplete image/card fields and rejected illustrations.",
+      "next_action": "Replace icon-only and hand-drawn homepage cards with licensed, relevant image-led cards; then complete page-level SEO master blueprint.",
+      "updated_at": "2026-10-16T22:58:00-06:00"
     }
   ]
 }

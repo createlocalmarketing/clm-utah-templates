@@ -1015,8 +1015,8 @@
       "owner": "ChatGPT",
       "waiting_on": null,
       "verification": "pending",
-      "updated_at": "2026-10-16T22:58:00-06:00",
-      "notes": "Page-family plan and launch matrix are now committed in GitHub: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-site-map-and-page-family-register.md. It specifies 29 Utah counties × 12 core service clusters (348 planned county/service rows), plus city/service pages, deeper Salt Lake City/Park City/St. George office hubs, and 10 initial state markets × 12 clusters (120 planned state/service rows). All rows remain planned until unique local proof, human review, and page QA pass. Homepage element registry: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-element-level-seo-schema-register.json. The live canonical homepage cache still needs a purge/refresh after source edits; do not count the current query-busted validation view as proof that the root cache is refreshed."
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "Page-family plan and launch matrix are now committed in GitHub: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-site-map-and-page-family-register.md. It specifies 29 Utah counties × 12 core service clusters (348 planned county/service rows), plus city/service pages, deeper Salt Lake City/Park City/St. George office hubs, and 10 initial state markets × 12 clusters (120 planned state/service rows). All rows remain planned until unique local proof, human review, and page QA pass. Homepage element registry: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-element-level-seo-schema-register.json.  Verified on the normal canonical homepage URL https://www.createlocalmarketing.com/ in a clean browser render on 2026-10-16. Current versioned header assets load. The 29-county/10-state counts remain planned scope, not published pages. URL-by-URL target keywords and unique local page rows are tracked separately in task clm-url-keyword-matrix-001; this family blueprint is not a complete URL inventory."
     },
     {
       "id": "clm-homepage-box-inventory-001",
@@ -1064,7 +1064,7 @@
       "waiting_on": null,
       "verification": "pending",
       "updated_at": "2026-10-16T23:59:00-06:00",
-      "notes": "GitHub JSON register covers all 314 current Elementor containers/widgets including images and buttons; fields include search intent, SERP role, YMYL review, E-E-A-T evidence, AEO/AIO goals, schema eligibility and image filename/title/alt/caption/licensing status. Validate each rendered element and schema on the live page before marking approved. All 314 node IDs/element mappings are tracked; root-route cache validation remains pending."
+      "notes": "GitHub JSON register covers all 314 current Elementor containers/widgets including images and buttons; fields include search intent, SERP role, YMYL review, E-E-A-T evidence, AEO/AIO goals, schema eligibility and image filename/title/alt/caption/licensing status. Validate each rendered element and schema on the live page before marking approved. All 314 node IDs/element mappings are tracked;  Verified on the normal canonical homepage URL https://www.createlocalmarketing.com/ in a clean browser render on 2026-10-16. Current versioned header assets load. The 29-county/10-state counts remain planned scope, not published pages. URL-by-URL target keywords and unique local page rows are tracked separately in task clm-url-keyword-matrix-001; this family blueprint is not a complete URL inventory."
     },
     {
       "id": "clm-utah-state-page-matrix-001",

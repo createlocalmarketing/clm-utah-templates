@@ -987,12 +987,12 @@
       "project_id": "create-local-marketing-website",
       "section": "P0 · Trust and imagery",
       "title": "Remove client and lead portraits from the homepage",
-      "status": "awaiting_approval",
+      "status": "in_process",
       "owner": "ChatGPT",
-      "waiting_on": "Jay",
-      "verification": "pass",
-      "updated_at": "2026-10-15T22:53:00-06:00",
-      "notes": "Removed Stout Team and dental client personal photos and captions from the carousel and People Before Platforms section; replaced them with original, diverse CLM illustrations. GitHub issue #10."
+      "waiting_on": null,
+      "verification": "fail",
+      "updated_at": "2026-10-16T22:58:00-06:00",
+      "notes": "The user rejected the custom SVG illustrations as finger-painting style. Remove the SVGs from public cards; use only approved brand/project media or licensed Envato assets. Envato tool currently returns watermarked previews and the asset page requires sign-in for download; do not hotlink previews or publish unlicensed assets. GitHub issue #10."
     },
     {
       "id": "clm-logo-family-001",
@@ -1015,8 +1015,32 @@
       "owner": "ChatGPT",
       "waiting_on": null,
       "verification": "pending",
-      "updated_at": "2026-10-15T22:53:00-06:00",
-      "notes": "Reconcile CLM Master documents, @marketing-audit, and website-design-master-checklist; include every service, industry, state, county, and city page with target keywords and SEO/SERP/YMYL/E-E-A-T/AEO/AIO/schema mapping, plus project/client directories, Inside Marketing/news, education, SaaS, partnerships, commerce, and local brands. Track in this GitHub project; do not use Excel as the PM board. GitHub issue #10."
+      "updated_at": "2026-10-16T22:58:00-06:00",
+      "notes": "Reconcile CLM Master documents, @marketing-audit, and website-design-master-checklist; include every service, industry, state, county, and city page with target keywords and SEO/SERP/YMYL/E-E-A-T/AEO/AIO/schema mapping, plus project/client directories, Inside Marketing/news, education, SaaS, partnerships, commerce, and local brands. Track in this GitHub project; do not use Excel as the PM board. GitHub issue #10. Homepage box-level inventory is now tracked at Full list: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-homepage-content-box-inventory.md."
+    },
+    {
+      "id": "clm-homepage-box-inventory-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Homepage content model",
+      "title": "Track every homepage content box in GitHub",
+      "status": "in_process",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T22:58:00-06:00",
+      "notes": "Inventory of 34 boxes: 6 carousel banners, 9 service cards, 3 packages, 4 connected solutions, 4 process steps, 5 client/project listings, and 3 editorial cards. Every item must have licensed/relevant image, image metadata, title, subtitle, description, button, destination, and SEO mapping. Full list: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-homepage-content-box-inventory.md"
+    },
+    {
+      "id": "clm-homepage-card-rebuild-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Homepage visual system",
+      "title": "Replace icon-only boxes and rejected illustrations",
+      "status": "in_process",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T22:58:00-06:00",
+      "notes": "Current homepage has text/icon-only service, package, connected-solution, process, portfolio, and editorial cards. The original SVG community illustrations were rejected. Build real image-led boxes with all five required content fields. Do not use client/lead portraits or Envato watermarked previews. See the box-by-box acceptance list: Full list: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-homepage-content-box-inventory.md"
     }
   ]
 }

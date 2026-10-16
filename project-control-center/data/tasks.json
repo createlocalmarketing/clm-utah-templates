@@ -1052,7 +1052,7 @@
       "waiting_on": null,
       "verification": "pending",
       "updated_at": "2026-10-16T23:59:00-06:00",
-      "notes": "Header and menus are rebuilt in the current production asset bundle and verified on a cache-busted live render. The standard homepage URL still returns stale cached JS/CSS and an older header, so the header task remains in process until the canonical / route reflects the current bundle. Current design: icon-led local/nationwide utility strip without email; linked dark/light logo variants; Services/Industries/Our work/Resources/Local platforms; cart then icon-only theme control; grouped mega menus with View All and rotating Q promo."
+      "notes": "Verified on the normal canonical homepage URL https://www.createlocalmarketing.com/ in a clean browser render on 2026-10-16. Current header bundle is live: icon-led local/nationwide utility strip with weather/date/time/location/phone/sign-in and no email; linked logo; Services/Industries/Our work/Resources/Local platforms; cart then icon-only mode switch; grouped mega menus. Header remains in process for final interaction/accessibility review and user approval."
     },
     {
       "id": "clm-element-seo-registry-001",
@@ -1107,12 +1107,24 @@
       "project_id": "create-local-marketing-website",
       "section": "P0 · Production QA",
       "title": "Purge stale canonical homepage asset cache",
-      "status": "in_process",
+      "status": "awaiting_approval",
       "owner": "ChatGPT",
       "waiting_on": null,
+      "verification": "pass",
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "Verified on the normal canonical homepage URL https://www.createlocalmarketing.com/ in a clean browser render on 2026-10-16: the current versioned header CSS/JS loads. Current header shows the utility strip, clickable brand logo, grouped nav, cart, and icon-only mode switch. Awaiting Jay's approval of the header. This closes the stale-edge-cache blocker; it does not close the remaining homepage content/image/video work."
+    },
+    {
+      "id": "clm-url-keyword-matrix-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P1 · Site architecture and SEO",
+      "title": "Expand page-family plan into URL and keyword rows",
+      "status": "in_process",
+      "owner": "ChatGPT",
+      "waiting_on": "Jay",
       "verification": "pending",
       "updated_at": "2026-10-16T23:59:00-06:00",
-      "notes": "The root homepage fetch continues to return stale script/style versions and old menu UI even after Elementor/WP object cache clears. Cache-busted production previews load the new utility bar, linked logo, cart, theme icon and grouped mega menus. Find and invalidate the canonical / response/edge cache, then recheck the homepage at its normal URL in a clean browser session."
+      "notes": "The current master register links page families and scope counts; it is not yet a row-by-row list of every URL and researched target keyword. Build the operational matrix for all services, Utah county/city/office markets, then launch states, industries and product/platform pages. Include URL, primary/secondary query targets, intent/SERP role, unique local proof, internal links, page owner/status, YMYL/E-E-A-T/AEO/AIO/schema checks. Do not mark planned rows as live. Source family register: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-site-map-and-page-family-register.md. Track in GitHub; no spreadsheet."
     }
   ]
 }

@@ -243,6 +243,20 @@
       "last_action": "Captured QAI cross-context meeting intelligence, collaborative review, universal capabilities, communications and real SaaS runtime architecture.",
       "next_action": "Implement durable database/auth/API-backed Kanban review intake and co-manager/tag verification; all implementation work requires tests and user approval.",
       "updated_at": "2026-10-10"
+    },
+    {
+      "id": "create-local-marketing-website",
+      "group": "0-websites",
+      "title": "Create Local Marketing website rebuild",
+      "chat_name": "CLM website blueprint + build",
+      "status": "active",
+      "current_phase": "Production corrections + page-by-page blueprint",
+      "repository": "createlocalmarketing/clm-utah-templates",
+      "website": "https://www.createlocalmarketing.com/",
+      "audit_path": "project-audits/create-local-marketing-website.md",
+      "last_action": "Removed client portraits from homepage, replaced them with original CLM community illustrations, and implemented dark/light logo states.",
+      "next_action": "Reconcile the master page list and per-page SEO/SERP/YMYL/E-E-A-T/AEO/AIO/schema map in GitHub.",
+      "updated_at": "2026-10-15T22:53:00-06:00"
     }
   ]
 }

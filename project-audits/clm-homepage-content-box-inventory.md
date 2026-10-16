@@ -107,3 +107,11 @@ Populate these from actual WordPress posts and categories; do not leave blank im
 ## Completion gate
 
 Do not mark a card complete until its image is present in the Media Library, metadata and copy are populated, the button resolves, the section renders consistently at desktop/mobile widths, and its target page is linked in the master SEO map.
+
+
+## Sitewide element and page-family registers
+- [Homepage element-level SEO/schema register](clm-element-level-seo-schema-register.json): records every one of the 314 current Elementor nodes in document 268, including container/widget/image/button IDs, target query, SERP role, YMYL review, E-E-A-T evidence, AEO/AIO target, schema eligibility and image filename/title/alt/caption/rights status.
+- [Site map and page-family register](clm-site-map-and-page-family-register.md): Utah county/service matrix (29 counties × 12 clusters = 348 planned rows), three deeper office hubs, Utah city/service pages, 10 initial states × 12 clusters (120 planned rows), industry/service families, products, partnerships, learning and editorial.
+- The page counts are planned scope, not published-page counts. Every row must pass unique local proof/content and page QA before publication.
+- Video production is a current service route, but homepage/video proof, social video feed and education video experiences remain missing.
+- Header/utility and mega-menu fixes are verified in the current cache-busted production render. The canonical homepage URL still returns stale bundle references, so canonical-route cache verification remains open.

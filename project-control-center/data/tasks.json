@@ -1016,7 +1016,7 @@
       "waiting_on": null,
       "verification": "pending",
       "updated_at": "2026-10-16T22:58:00-06:00",
-      "notes": "Page-family plan and launch matrix are now committed in GitHub: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-site-map-and-page-family-register.md. It specifies 29 Utah counties × 12 core service clusters (348 planned county/service rows), plus city/service pages, deeper Salt Lake City/Park City/St. George office hubs, and 10 initial state markets × 12 clusters (120 planned state/service rows). All rows remain planned until unique local proof, human review, and page QA pass. Homepage element registry: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-element-level-seo-schema-register.json."
+      "notes": "Page-family plan and launch matrix are now committed in GitHub: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-site-map-and-page-family-register.md. It specifies 29 Utah counties × 12 core service clusters (348 planned county/service rows), plus city/service pages, deeper Salt Lake City/Park City/St. George office hubs, and 10 initial state markets × 12 clusters (120 planned state/service rows). All rows remain planned until unique local proof, human review, and page QA pass. Homepage element registry: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-element-level-seo-schema-register.json. The live canonical homepage cache still needs a purge/refresh after source edits; do not count the current query-busted validation view as proof that the root cache is refreshed."
     },
     {
       "id": "clm-homepage-box-inventory-001",
@@ -1047,12 +1047,12 @@
       "project_id": "create-local-marketing-website",
       "section": "P0 · Header and navigation",
       "title": "Repair utility bar, logo links, mega menus, cart, and theme control",
-      "status": "awaiting_approval",
+      "status": "in_process",
       "owner": "ChatGPT",
       "waiting_on": null,
       "verification": "pending",
       "updated_at": "2026-10-16T23:59:00-06:00",
-      "notes": "Live WordPress header corrected: icon-led utility strip with live weather/date/Mountain time, St. George location, phone and sign-in; removed email and utility-bar cart; made four brand logo widgets home links; preserved separate dark/light assets; moved cart before icon-only theme switch; rebuilt five accessible mega menus with grouped services, industries, technology/AI, local platforms and resources, View All links and rotating in-house Q promo. Verify desktop/mobile, hover, keyboard, links, and tooltip on live site."
+      "notes": "Header and menus are rebuilt in the current production asset bundle and verified on a cache-busted live render. The standard homepage URL still returns stale cached JS/CSS and an older header, so the header task remains in process until the canonical / route reflects the current bundle. Current design: icon-led local/nationwide utility strip without email; linked dark/light logo variants; Services/Industries/Our work/Resources/Local platforms; cart then icon-only theme control; grouped mega menus with View All and rotating Q promo."
     },
     {
       "id": "clm-element-seo-registry-001",
@@ -1064,7 +1064,7 @@
       "waiting_on": null,
       "verification": "pending",
       "updated_at": "2026-10-16T23:59:00-06:00",
-      "notes": "GitHub JSON register covers all 314 current Elementor containers/widgets including images and buttons; fields include search intent, SERP role, YMYL review, E-E-A-T evidence, AEO/AIO goals, schema eligibility and image filename/title/alt/caption/licensing status. Validate each rendered element and schema on the live page before marking approved."
+      "notes": "GitHub JSON register covers all 314 current Elementor containers/widgets including images and buttons; fields include search intent, SERP role, YMYL review, E-E-A-T evidence, AEO/AIO goals, schema eligibility and image filename/title/alt/caption/licensing status. Validate each rendered element and schema on the live page before marking approved. All 314 node IDs/element mappings are tracked; root-route cache validation remains pending."
     },
     {
       "id": "clm-utah-state-page-matrix-001",
@@ -1101,6 +1101,18 @@
       "verification": "pending",
       "updated_at": "2026-10-16T23:59:00-06:00",
       "notes": "Navigation groups now surface AI/AEO/AIO/YMYL/E-E-A-T, content and design, partnerships, PBX, SMS/MMS, review apps, CRM, workflows, live chat, reputation, ecommerce, directories and deals. Dedicated SEO landing pages and product detail pages remain planned under the master page register."
+    },
+    {
+      "id": "clm-canonical-cache-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Production QA",
+      "title": "Purge stale canonical homepage asset cache",
+      "status": "in_process",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "The root homepage fetch continues to return stale script/style versions and old menu UI even after Elementor/WP object cache clears. Cache-busted production previews load the new utility bar, linked logo, cart, theme icon and grouped mega menus. Find and invalidate the canonical / response/edge cache, then recheck the homepage at its normal URL in a clean browser session."
     }
   ]
 }

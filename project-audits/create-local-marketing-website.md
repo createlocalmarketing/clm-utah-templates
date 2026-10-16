@@ -7,15 +7,19 @@
 - Last updated: October 15, 2026 (America/Denver)
 
 ## User correction and action
-The homepage used identifiable Stout Team and dental client photographs in the hero carousel and the “People before platforms” section. The user said those are lead/client photos and must not be used as generic agency imagery.
 
-### Completed and live
-- Replaced identifiable client/lead photos and person-name captions on homepage with original Create Local community illustrations showing varied ages and ethnicities.
-- Kept the homepage two-column carousel and Q as the Create Local/Quality MCP guide.
-- Implemented the provided dark wordmark as the default desktop logo and the provided light wordmark on dark hover/focus.
-- Implemented a compact heart-chat mark on mobile with dark default and light rollover variant.
-- Aligned theme version numbers, bumped the stylesheet cache version, and cleared Elementor/WP object caches.
-- Verified the homepage renders successfully and no longer contains the removed personal photo URLs.
+The user rejected the custom SVG community illustrations as hand-drawn/finger-painting style and said the homepage content boxes must use real, relevant imagery. Those illustrations are not accepted and must be removed from the live page. Client/lead/patient portraits must not be used as agency imagery.
+
+### Homepage content inventory and project board
+- The box-by-box inventory is in [clm-homepage-content-box-inventory.md](clm-homepage-content-box-inventory.md), with 34 individual homepage boxes and image/copy/CTA/SEO acceptance fields.
+- The live GitHub project manager lists the inventory and rebuild tasks: [Create Local Marketing website project](https://createlocalmarketing.github.io/clm-utah-templates/project-control-center/#/project/create-local-marketing-website).
+- GitHub issue: [CLM website rebuild #10](https://github.com/createlocalmarketing/clm-utah-templates/issues/10).
+
+### Live homepage state
+- The uploaded SVG illustrations remain in the homepage Elementor document and are not approved.
+- Current text/icon-only service, package, connected-solution, process, portfolio, and editorial cards still do not meet the required image + title + subtitle + description + button pattern.
+- The existing Envato connector returns watermarked preview images; the Envato item page is signed out and requires an account to download licensed files. Do not use or hotlink watermarked previews.
+- The provided dark/light logo family remains in the theme; the logo work can be reviewed separately from the rejected image/card work.
 
 ## Active blueprint work
 - Use GitHub Project Control Center as the task ledger. The earlier Excel workbook was the wrong place for project management.

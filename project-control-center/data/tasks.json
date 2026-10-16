@@ -1016,7 +1016,7 @@
       "waiting_on": null,
       "verification": "pending",
       "updated_at": "2026-10-16T22:58:00-06:00",
-      "notes": "Reconcile CLM Master documents, @marketing-audit, and website-design-master-checklist; include every service, industry, state, county, and city page with target keywords and SEO/SERP/YMYL/E-E-A-T/AEO/AIO/schema mapping, plus project/client directories, Inside Marketing/news, education, SaaS, partnerships, commerce, and local brands. Track in this GitHub project; do not use Excel as the PM board. GitHub issue #10. Homepage box-level inventory is now tracked at Full list: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-homepage-content-box-inventory.md."
+      "notes": "Page-family plan and launch matrix are now committed in GitHub: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-site-map-and-page-family-register.md. It specifies 29 Utah counties × 12 core service clusters (348 planned county/service rows), plus city/service pages, deeper Salt Lake City/Park City/St. George office hubs, and 10 initial state markets × 12 clusters (120 planned state/service rows). All rows remain planned until unique local proof, human review, and page QA pass. Homepage element registry: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-element-level-seo-schema-register.json."
     },
     {
       "id": "clm-homepage-box-inventory-001",
@@ -1028,7 +1028,7 @@
       "waiting_on": null,
       "verification": "pending",
       "updated_at": "2026-10-16T22:58:00-06:00",
-      "notes": "Inventory of 34 boxes: 6 carousel banners, 9 service cards, 3 packages, 4 connected solutions, 4 process steps, 5 client/project listings, and 3 editorial cards. Every item must have licensed/relevant image, image metadata, title, subtitle, description, button, destination, and SEO mapping. Full list: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-homepage-content-box-inventory.md"
+      "notes": "34 content boxes are tracked in the homepage inventory. The expanded registry now maps all 314 current Elementor nodes on document 268, including container/widget IDs, SERP intent, YMYL review, E-E-A-T evidence, AEO/AIO targets, schema eligibility, and per-image filename/title/alt/caption/rights status: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-element-level-seo-schema-register.json."
     },
     {
       "id": "clm-homepage-card-rebuild-001",
@@ -1041,6 +1041,66 @@
       "verification": "pending",
       "updated_at": "2026-10-16T22:58:00-06:00",
       "notes": "Current homepage has text/icon-only service, package, connected-solution, process, portfolio, and editorial cards. The original SVG community illustrations were rejected. Build real image-led boxes with all five required content fields. Do not use client/lead portraits or Envato watermarked previews. See the box-by-box acceptance list: Full list: https://github.com/createlocalmarketing/clm-utah-templates/blob/main/project-audits/clm-homepage-content-box-inventory.md"
+    },
+    {
+      "id": "clm-header-nav-function-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Header and navigation",
+      "title": "Repair utility bar, logo links, mega menus, cart, and theme control",
+      "status": "awaiting_approval",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "Live WordPress header corrected: icon-led utility strip with live weather/date/Mountain time, St. George location, phone and sign-in; removed email and utility-bar cart; made four brand logo widgets home links; preserved separate dark/light assets; moved cart before icon-only theme switch; rebuilt five accessible mega menus with grouped services, industries, technology/AI, local platforms and resources, View All links and rotating in-house Q promo. Verify desktop/mobile, hover, keyboard, links, and tooltip on live site."
+    },
+    {
+      "id": "clm-element-seo-registry-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P1 · Site architecture and SEO",
+      "title": "Map SEO and schema for every homepage Elementor node",
+      "status": "awaiting_approval",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "GitHub JSON register covers all 314 current Elementor containers/widgets including images and buttons; fields include search intent, SERP role, YMYL review, E-E-A-T evidence, AEO/AIO goals, schema eligibility and image filename/title/alt/caption/licensing status. Validate each rendered element and schema on the live page before marking approved."
+    },
+    {
+      "id": "clm-utah-state-page-matrix-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P1 · Site architecture and SEO",
+      "title": "Build Utah county, city, office and state/service page matrix",
+      "status": "awaiting_approval",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "Blueprint committed: 29 counties × 12 core service families (348 planned rows), 3 office hubs with deeper local service pages, major city × service matrix, and 10 starter states × 12 clusters (120 planned rows). All pages require unique local intent/proof, links, review and publication QA; they are planned, not falsely reported live. See project-audits/clm-site-map-and-page-family-register.md."
+    },
+    {
+      "id": "clm-video-proof-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Homepage content and proof",
+      "title": "Add real video production proof and working video experiences",
+      "status": "in_process",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "Video production service route exists; homepage video proof, social video feeds, production examples and education video experiences are still missing. Populate only with approved, licensed, working media/embed assets; verify playback, mobile layout, captions, poster image metadata and page schema."
+    },
+    {
+      "id": "clm-topics-missing-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Header and navigation",
+      "title": "Complete service taxonomy for AI, AEO, YMYL, AIO, E-E-A-T and customer systems",
+      "status": "awaiting_approval",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-16T23:59:00-06:00",
+      "notes": "Navigation groups now surface AI/AEO/AIO/YMYL/E-E-A-T, content and design, partnerships, PBX, SMS/MMS, review apps, CRM, workflows, live chat, reputation, ecommerce, directories and deals. Dedicated SEO landing pages and product detail pages remain planned under the master page register."
     }
   ]
 }

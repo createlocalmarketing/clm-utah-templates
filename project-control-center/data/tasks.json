@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-10-16",
   "policy": {
     "stages": [
       "pending",
@@ -981,6 +981,42 @@
       "verification": "not_started",
       "updated_at": "2026-10-11",
       "notes": "SRC-15 narrative handoff; 8 historical stamp subjects, 9 claimed SVG exports (NOT independently located), and documented layout/vector problems. Later user-approved people-first Rockwell-inspired imagery is current, without stamp frames on websites. New 12 candidate rows QAI-IDEA-093..104 and checklist project-control-center/context-intake/2026-10-11/stamp-art-handoff/. Do not claim art delivered or production ready."
+    },
+    {
+      "id": "clm-home-photos-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Trust and imagery",
+      "title": "Remove client and lead portraits from the homepage",
+      "status": "awaiting_approval",
+      "owner": "ChatGPT",
+      "waiting_on": "Jay",
+      "verification": "pass",
+      "updated_at": "2026-10-15T22:53:00-06:00",
+      "notes": "Removed Stout Team and dental client personal photos and captions from the carousel and People Before Platforms section; replaced them with original, diverse CLM illustrations. GitHub issue #10."
+    },
+    {
+      "id": "clm-logo-family-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P0 · Brand system",
+      "title": "Implement dark/light logo family across desktop and mobile",
+      "status": "awaiting_approval",
+      "owner": "ChatGPT",
+      "waiting_on": "Jay",
+      "verification": "pass",
+      "updated_at": "2026-10-15T22:53:00-06:00",
+      "notes": "Dark supplied wordmark is default; supplied light wordmark is shown on dark hover. Mobile uses a compact heart-chat icon, with dark and light variants. Theme/cache version bumped and Elementor cache cleared. GitHub issue #10."
+    },
+    {
+      "id": "clm-page-blueprint-001",
+      "project_id": "create-local-marketing-website",
+      "section": "P1 · Site architecture and SEO",
+      "title": "Build the complete page-by-page CLM master blueprint",
+      "status": "in_process",
+      "owner": "ChatGPT",
+      "waiting_on": null,
+      "verification": "pending",
+      "updated_at": "2026-10-15T22:53:00-06:00",
+      "notes": "Reconcile CLM Master documents, @marketing-audit, and website-design-master-checklist; include every service, industry, state, county, and city page with target keywords and SEO/SERP/YMYL/E-E-A-T/AEO/AIO/schema mapping, plus project/client directories, Inside Marketing/news, education, SaaS, partnerships, commerce, and local brands. Track in this GitHub project; do not use Excel as the PM board. GitHub issue #10."
     }
   ]
 }

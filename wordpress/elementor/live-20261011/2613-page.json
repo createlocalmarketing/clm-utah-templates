@@ -1,0 +1,815 @@
+{
+  "version": "0.4",
+  "title": "National Parks Adventure Passport | Visit, Remember, Protect",
+  "status": "publish",
+  "site": "https://www.nationalparksguide.co/",
+  "source_post_id": 2613,
+  "type": "wp-page",
+  "conditions": "",
+  "page_settings": {
+    "template": "default",
+    "post_title": "National Parks Adventure Passport | Visit, Remember, Protect",
+    "post_status": "publish",
+    "post_featured_image": {
+      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Court20of20the20Patriarchs2C20Zion20National20Park.jpg",
+      "id": false,
+      "size": ""
+    },
+    "menu_order": 0,
+    "comment_status": "closed",
+    "hide_title": "",
+    "margin": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "padding": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "background_background": "",
+    "background_color": "",
+    "background_color_stop": {
+      "unit": "%",
+      "size": 0,
+      "sizes": []
+    },
+    "background_color_b": "#f2295b",
+    "background_color_b_stop": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_gradient_type": "linear",
+    "background_gradient_angle": {
+      "unit": "deg",
+      "size": 180,
+      "sizes": []
+    },
+    "background_gradient_position": "center center",
+    "background_image": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_position": "",
+    "background_xpos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_ypos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_attachment": "",
+    "background_repeat": "",
+    "background_size": "",
+    "background_bg_width": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_video_link": "",
+    "background_video_start": "",
+    "background_video_end": "",
+    "background_play_once": "",
+    "background_play_on_mobile": "",
+    "background_privacy_mode": "",
+    "background_video_fallback": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_slideshow_gallery": [],
+    "background_slideshow_loop": "yes",
+    "background_slideshow_slide_duration": 5000,
+    "background_slideshow_slide_transition": "fade",
+    "background_slideshow_transition_duration": 500,
+    "background_slideshow_background_size": "",
+    "background_slideshow_background_position": "",
+    "background_slideshow_lazyload": "",
+    "background_slideshow_ken_burns": "",
+    "background_slideshow_ken_burns_zoom_direction": "in",
+    "custom_css": "",
+    "scroll_snap": "",
+    "scroll_snap_position": "",
+    "scroll_snap_padding": {
+      "unit": "px",
+      "size": "",
+      "sizes": []
+    },
+    "force_stop": ""
+  },
+  "content": [
+    {
+      "id": "00000025",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "full"
+      },
+      "elements": [
+        {
+          "id": "0000000a",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "background_background": "classic",
+            "background_color": "#F0F4EB"
+          },
+          "elements": [
+            {
+              "id": "00000002",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 54
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000001",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2548,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Court20of20the20Patriarchs2C20Zion20National20Park.jpg",
+                      "alt": "The Court of the Patriarchs peaks inside Zion National Park — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 470
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000009",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 46
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 46,
+                  "right": 40,
+                  "bottom": 46,
+                  "left": 40,
+                  "isLinked": false
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "00000003",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "ADVENTURE PASSPORT PROGRAM",
+                    "header_size": "span",
+                    "title_color": "#A57941",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000004",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "Collect the memories. Protect the places.",
+                    "header_size": "h1",
+                    "title_color": "#214632",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 49
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000005",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "The National Parks Guide adventure passport is a developing experience focused on discovering the 63 national parks. Authentic GPS check-ins, earned rewards and redeemable offers are not activated until their backend and partner verification are complete.",
+                    "text_color": "#536E5B",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "00000008",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "row",
+                    "content_width": "full",
+                    "flex_direction_mobile": "column",
+                    "flex_wrap": "wrap",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 17
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000006",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Browse the 63 parks",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173929"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    },
+                    {
+                      "id": "00000007",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Zion experiences",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173929"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "00000024",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "flex_direction": "column",
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1370
+        },
+        "padding": {
+          "unit": "px",
+          "top": 58,
+          "right": 26,
+          "bottom": 58,
+          "left": 26,
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F3F6F0",
+        "flex_gap": {
+          "unit": "px",
+          "size": 21
+        }
+      },
+      "elements": [
+        {
+          "id": "00000020",
+          "elType": "widget",
+          "settings": {
+            "title": "01 / EXPLORE THE EXPERIENCE",
+            "header_size": "span",
+            "title_color": "#A57941",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000021",
+          "elType": "widget",
+          "settings": {
+            "title": "Your next adventure starts with discovery",
+            "header_size": "h2",
+            "title_color": "#214632",
+            "typography_typography": "custom",
+            "typography_font_family": "Outfit",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "00000022",
+          "elType": "widget",
+          "settings": {
+            "editor": "This is a visitor preview, not an active GPS rewards or redemption system.",
+            "text_color": "#536E5B",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        },
+        {
+          "id": "00000023",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "flex_direction": "row",
+            "content_width": "full",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 17
+            }
+          },
+          "elements": [
+            {
+              "id": "00000011",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "0000000b",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2488,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Lake_McDonald_284477222795529.jpg",
+                      "alt": "Glacier National Park landscape photograph — attribution and licensing approval pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 260
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000010",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 20,
+                      "bottom": 25,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000000c",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ADVENTURE PASSPORT PROGRAM",
+                        "header_size": "span",
+                        "title_color": "#A57941",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000000d",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Discover",
+                        "header_size": "h3",
+                        "title_color": "#214632",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 27
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000000e",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Choose the parks that matter to you",
+                        "text_color": "#536E5B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000000f",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore details",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/national-parks/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173929"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00000018",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000012",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2548,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Court20of20the20Patriarchs2C20Zion20National20Park.jpg",
+                      "alt": "The Court of the Patriarchs peaks inside Zion National Park — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 260
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "00000017",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 20,
+                      "bottom": 25,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "00000013",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ADVENTURE PASSPORT PROGRAM",
+                        "header_size": "span",
+                        "title_color": "#A57941",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000014",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Remember",
+                        "header_size": "h3",
+                        "title_color": "#214632",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 27
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00000015",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Capture what makes each place unforgettable",
+                        "text_color": "#536E5B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "00000016",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore details",
+                        "link": {
+                          "url": "https://www.nationalparksguide.co/zion-experiences/",
+                          "is_external": ""
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173929"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0000001f",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "px",
+                  "size": 100
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF"
+              },
+              "elements": [
+                {
+                  "id": "00000019",
+                  "elType": "widget",
+                  "settings": {
+                    "image": {
+                      "id": 2555,
+                      "url": "https://www.nationalparksguide.co/wp-content/uploads/2026/10/Shuttle20bus20stop20at20Zion20Canyon20National20Park.jpg",
+                      "alt": "Zion Canyon shuttle stop in Zion National Park — Zion National Park, attribution and reuse verification pending",
+                      "source": "library"
+                    },
+                    "image_size": "full",
+                    "height": {
+                      "unit": "px",
+                      "size": 260
+                    },
+                    "object-fit": "cover"
+                  },
+                  "elements": [],
+                  "widgetType": "image"
+                },
+                {
+                  "id": "0000001e",
+                  "elType": "container",
+                  "settings": {
+                    "container_type": "flex",
+                    "flex_direction": "column",
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": 14,
+                      "right": 20,
+                      "bottom": 25,
+                      "left": 20,
+                      "isLinked": false
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0000001a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "ADVENTURE PASSPORT PROGRAM",
+                        "header_size": "span",
+                        "title_color": "#A57941",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000001b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Protect",
+                        "header_size": "h3",
+                        "title_color": "#214632",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Outfit",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 27
+                        },
+                        "typography_font_weight": "800"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "0000001c",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "Keep visitor safety and park stewardship at the center",
+                        "text_color": "#536E5B",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "0000001d",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "Explore details",
+                        "link": {
+                          "url": "https://www.nps.gov/subjects/leave-no-trace/index.htm",
+                          "is_external": "on"
+                        },
+                        "button_background_color": "#B89A62",
+                        "button_text_color": "#173929"
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ]
+}

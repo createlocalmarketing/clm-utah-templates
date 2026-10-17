@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "slug": "forest",
+          "name": "National Parks Forest",
+          "color": "#183F31"
+        },
+        {
+          "slug": "deep-forest",
+          "name": "Deep Forest",
+          "color": "#102E24"
+        },
+        {
+          "slug": "canyon-gold",
+          "name": "Canyon Gold",
+          "color": "#B89A62"
+        },
+        {
+          "slug": "canyon-rust",
+          "name": "Canyon Rust",
+          "color": "#AE7448"
+        },
+        {
+          "slug": "cream",
+          "name": "Cream",
+          "color": "#F6F7F1"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#FFFFFF"
+        },
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#243D30"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1360px"
+    },
+    "spacing": {
+      "units": [
+        "px",
+        "rem",
+        "em",
+        "%",
+        "vw"
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'Outfit',system-ui,sans-serif",
+          "name": "Outfit",
+          "slug": "outfit"
+        },
+        {
+          "fontFamily": "'DM Sans',system-ui,sans-serif",
+          "name": "DM Sans",
+          "slug": "dm-sans"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#F6F7F1",
+      "text": "#243D30"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--dm-sans)",
+      "fontSize": "16px",
+      "lineHeight": "1.65"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "#B89A62",
+          "text": "#173629"
+        }
+      }
+    }
+  }
+}

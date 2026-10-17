@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": { "contentSize": "760px", "wideSize": "1200px" },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "clm-charcoal", "name": "Create Local Charcoal", "color": "#242629" },
+        { "slug": "clm-sage", "name": "Create Local Sage", "color": "#78b581" },
+        { "slug": "clm-sage-dark", "name": "Create Local Forest", "color": "#39734a" },
+        { "slug": "clm-paper", "name": "Create Local Paper", "color": "#f6f7f7" },
+        { "slug": "clm-white", "name": "White", "color": "#ffffff" }
+      ]
+    },
+    "spacing": { "units": [ "px", "rem", "vw", "%" ] },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        { "fontFamily": "-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', sans-serif", "name": "System Sans", "slug": "clm-system-sans" }
+      ]
+    }
+  },
+  "styles": {
+    "color": { "background": "#ffffff", "text": "#242629" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--clm-system-sans)", "lineHeight": "1.65" },
+    "elements": {
+      "link": { "color": { "text": "#39734a" }, "typography": { "textDecoration": "underline" } },
+      "button": { "border": { "radius": "999px" }, "typography": { "fontWeight": "600" } }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Svenson Sportfishing + Ketchikan — Proposed Site Map
 
-> **Scale target:** thousands of useful, individually populated URLs across Svenson's fishing content and the Ketchikan / Southeast Alaska visitor directory. The current static review build is only 210 pages, including 27 business profiles; it is not the completed site. The final count grows from verified directory, place, event, offer, and editorial records. Keyword variants and empty filter combinations are not standalone indexable pages.
+> **Scale target:** thousands of useful, individually populated URLs across Svenson's fishing content, Dealiciously Local offers, Alaska/Ketchikan history, and the Ketchikan / Southeast Alaska visitor directory. The current static review build is only 210 pages, including 27 business profiles; it is not the completed site. The final count grows from verified directory, place, event, offer, editorial, and reviewed guide records. Keyword variants and empty filter combinations are not standalone indexable pages.
 
 ## URL convention
 
@@ -125,11 +125,34 @@ This is the production URL contract. Fixed pages are listed below; record famili
 /
 ├── fishing-charters/
 │   ├── salmon/
+│   │   ├── chinook-king-salmon/
+│   │   ├── coho-silver-salmon/
+│   │   ├── sockeye-red-salmon/
+│   │   ├── pink-humpy-salmon/
+│   │   └── chum-dog-salmon/
 │   ├── halibut/
+│   ├── rockfish/
+│   ├── lingcod/
 │   ├── combo-trips/
 │   ├── all-day/
 │   ├── half-day/                         [only if currently offered]
 │   └── cruise-guests/
+├── fishing-by-month/{month}/              [publish only with distinct local season content]
+├── fishing-methods/{method-slug}/         [only methods Svenson confirms]
+├── fishing-areas/{area-slug}/             [verified locations; do not disclose sensitive sites]
+├── alaska-fishing-guide/species/
+│   ├── pacific-salmon/{species-slug}/
+│   ├── pacific-halibut/
+│   ├── rockfish/{species-slug}/
+│   ├── lingcod/
+│   └── other-local-species/{species-slug}/ [include only relevant, sourced species]
+├── alaska-fishing-guide/fish-identification/{species-slug}/
+├── alaska-fishing-guide/fish-care/
+│   ├── bleeding-and-icing/
+│   ├── cleaning-and-storage/
+│   ├── regulations-and-evidence/
+│   ├── packing-for-travel/
+│   └── shipping-fish-home/
 ├── rates-availability/
 ├── fleet-captain/
 │   ├── boats/{boat-slug}/                [one page per verified vessel]
@@ -142,11 +165,17 @@ This is the production URL contract. Fixed pages are listed below; record famili
 │   ├── licenses/
 │   ├── stamps-tags-recording/
 │   ├── southeast-regulations/
+│   ├── ketchikan-area-regulations/
 │   ├── emergency-orders/
+│   ├── charter-angler-rules/
+│   ├── fish-identification/
 │   ├── salmon/{species-slug}/
 │   ├── halibut/
 │   ├── rockfish/{species-slug}/
 │   ├── lingcod/
+│   ├── fishing-methods/{method-slug}/
+│   ├── fishing-by-month/{month}/
+│   ├── fishing-by-area/{area-slug}/
 │   ├── catch-care/
 │   └── processing-shipping/
 ├── about-svenson/
@@ -157,7 +186,37 @@ This is the production URL contract. Fixed pages are listed below; record famili
 └── policies/{policy-slug}/
 ```
 
-**Page-level content:** direct answer and unique trip intent; the Adam Griffee two-column image/copy carousel with full-width video background where approved; trip/species details verified with Svenson; suitable photo/video; trip inclusions and exclusions; current rate/policy source; safety and accessibility notes; booking CTA; visible questions; author/reviewer/source/date; breadcrumb and accurate structured data. No unsupported catch guarantees, rates, seasons, credentials, or vessel claims.
+**Page-level content:** direct answer and unique trip intent; the Adam Griffee two-column image/copy carousel with full-width video background where approved; species biology and identification; local availability and methods only when confirmed by Svenson and official sources; trip inclusions/exclusions, season context, and logistics; current regulations linked to Alaska Department of Fish and Game (ADF&G) and federal authority as applicable; catch handling/processing; trip-suited photo/video; safety/accessibility notes; booking CTA; visible FAQs; named author/reviewer/source/date; breadcrumb and accurate structured data. No unsupported catch guarantees, rates, seasons, methods, credentials, or vessel claims. Regulation summaries show area/species/date scope and last-checked date and link to current primary rules and emergency orders.
+
+### 1A. Fishing knowledge architecture (not a thin “fish species” page)
+
+```text
+/alaska-fishing-guide/
+├── species/
+│   ├── pacific-salmon/
+│   │   ├── chinook-king-salmon/
+│   │   ├── sockeye-red-salmon/
+│   │   ├── coho-silver-salmon/
+│   │   ├── pink-humpy-salmon/
+│   │   └── chum-dog-salmon/
+│   ├── pacific-halibut/
+│   ├── rockfish/
+│   │   ├── black-rockfish/
+│   │   ├── yelloweye-rockfish/
+│   │   ├── dusky-rockfish/
+│   │   └── identification-and-release/
+│   ├── lingcod/
+│   └── other-locally-relevant-species/{species-slug}/
+├── seasons/{month-or-season}/
+├── techniques/{technique-slug}/
+├── waters/{management-area-or-waterbody}/
+├── regulations/{species-or-topic}/
+├── fish-care/{care-topic}/
+├── processing-and-shipping/{service-or-topic}/
+└── fishing-reports/{dated-report-slug}/
+```
+
+Species pages answer what the fish is, identification features, habitat/range, life cycle, conservation/management context, Ketchikan/Southeast relevance, likely trip context, handling/release guidance where official sources provide it, and applicable current rules. Separate charter pages explain what Svenson actually offers. Season pages use local evidence and current reports, distinguish historical patterns from current conditions, and do not promise a catch. Method pages publish only after operator confirmation. Every regulated topic names its authority, management area, effective date/last checked, and links to emergency orders. ADF&G and NOAA are primary sources for Alaska species and rules; scientific/cultural interpretation is attributed and reviewed.
 
 ### 2. Ketchikan and Southeast Alaska destination guides
 
@@ -302,13 +361,75 @@ Each experience archive has its own useful introduction and selection criteria, 
 
 ```text
 /deals/
-├── stay/  food/  tours/  outdoors/  shopping/  services/
-├── coupons/
-├── events-and-specials/
-└── {offer-slug}/                         [one page per approved, active offer]
+├── active/
+├── stay/                                  [lodging, cabins, campgrounds]
+├── food/                                  [restaurants, cafes, food shops]
+├── fishing-and-tours/                     [charters, excursions, guided tours]
+├── outdoors-and-rentals/                  [gear, rentals, outdoor activities]
+├── shopping/                              [gifts, galleries, local makers]
+├── transportation/
+├── services/
+├── coupons/                               [code or printable offers]
+├── packages/                              [multi-provider bundles with clear terms]
+├── seasonal/{season-or-holiday}/
+├── business/{provider-slug}/              [offers attached to a verified profile]
+├── submit-an-offer/                       [business submission; not indexable]
+└── {offer-slug}/                          [one page per owner-approved offer]
 ```
 
-Offer detail includes provider, exact benefit, full terms/exclusions, redemption action, valid dates, source/owner approval, sponsorship label, related business profile, structured data only when eligible, and a defined expired/archived/redirect behavior. No placeholder promotions or invented discounts.
+The Dealiciously Local archive uses category filters, active-date controls, card/photo, subtitle, offer title, savings/value description, deadline badge, and a clear **Get Deal / Redeem Coupon / Book Offer** button. Detail pages include verified provider and profile link, exact dollar/percent/value benefit, baseline price where needed to substantiate savings, eligibility, blackout dates, capacity/inventory, booking code/URL, redemption steps, exclusions, validity dates/timezone, owner approval and source, sponsorship disclosure, cancellation/stacking rules, and expiry behavior. Expired offers are removed from active feeds and sitemap; archive only if the page has continuing informational value. A business profile can show deals, coupons, packages, events, services, photos, and video as its own modules; each approved offer gets its own URL when the terms and user intent merit a complete page. Never invent an offer, savings amount, urgency, or inventory.
+
+### 6A. Alaska and Ketchikan history library
+
+```text
+/alaska-history/
+├── timeline/
+│   ├── before-contact-and-ancient-alaska/
+│   ├── russian-america/
+│   ├── alaska-purchase-and-transfer/
+│   ├── territorial-alaska/
+│   ├── gold-rushes/{region-or-rush}/
+│   ├── world-war-ii-and-the-aleutian-campaign/
+│   ├── statehood/
+│   ├── alaska-native-claims-settlement-act/
+│   └── contemporary-alaska/
+├── alaska-native-peoples/
+│   ├── southeast-alaska/{nation-or-community}/
+│   ├── tlingit-history/
+│   ├── haida-history/
+│   ├── tsimshian-history/
+│   ├── iñupiaq-history/
+│   ├── yupik-history/
+│   ├── unangan-history/
+│   └── athabascan-peoples/
+├── industries/
+│   ├── salmon-fisheries-and-canneries/
+│   ├── commercial-fishing/{fishery-or-region}/
+│   ├── mining-and-gold/
+│   ├── timber-and-forestry/
+│   ├── maritime-and-bush-aviation/
+│   ├── military-history/
+│   └── oil-and-pipeline/
+├── regions/{region-slug}/
+├── historic-places/{place-slug}/
+├── people/{person-slug}/                    [only with reliable sourced biography]
+└── sources-and-corrections/
+
+/inside-ketchikan/history/
+├── kichxáan-and-the-tlingit-fish-camp/
+├── ketchikan-creek-and-salmon/
+├── first-cannery-and-fishing-industry/
+├── gold-copper-and-the-port-town/
+├── canneries-and-fishing-families/
+├── sprucemills-timber-and-world-war-ii/
+├── ward-cove-pulp-mill-and-closure/
+├── creek-street-and-stedman-thomas/
+├── saxman-totem-heritage-center/
+├── ketchikan-through-photographs/{story-slug}/
+└── oral-histories/{interview-slug}/          [with participant consent]
+```
+
+The history hub covers Alaska's Indigenous histories and living nations, Russian America and colonial impacts, U.S. purchase/transfer, territorial government, gold rushes, fisheries/canneries, maritime trade, mining, timber, World War II, statehood, ANCSA, oil/pipeline, and contemporary Alaska—with separate regional chapters and source-led place pages. Ketchikan chapters cover the Tlingit fish-camp history at Kichxáan, salmon and commercial fisheries, canneries, mining/supply-port growth, timber/mills, wartime activity, Creek Street and historic districts, and community change. Every article has original writing, byline, publish/update date, primary/authoritative sources, image rights/captions, correction route, and respectful attribution. Alaska Native histories and cultural knowledge require Indigenous/community-approved sources and review; no invented oral history, pan-Indigenous generalization, or scraped/rephrased tourism copy.
 
 ### 7. Events and calendar
 
@@ -394,12 +515,13 @@ Language selector displays only languages with complete translated page content.
 The production inventory is generated from the page records, not guessed from keyword counts:
 
 ```text
-Indexable URLs = curated evergreen guides
+Indexable URLs = curated evergreen fishing and history guides
                 + complete verified business profiles
                 + complete trail/place/attraction records
                 + current/archived valuable event records
-                + approved active offers and useful archives
-                + original Inside Ketchikan articles
+                + owner-approved active offers and useful archives
+                + original Inside Ketchikan / Inside Alaska articles
+                + reviewed species, season, method, area, and fish-care guides
                 + fully reviewed translated equivalents
 ```
 

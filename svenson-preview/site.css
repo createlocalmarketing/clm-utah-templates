@@ -51,3 +51,7 @@ h1,h2,h3,h4,.slide-copy h1,.slide-copy h2,.pagehead h1,.nav-panel-head h2,.secti
 @media(max-width:700px){.utility .wrap{align-items:center!important}.utility .meta:nth-child(2){order:3;flex-basis:100%}.utility .meta:first-child{flex-basis:100%}.utility .meta:last-child{order:2}.utility .meta a,.utility .meta>span,.utility label{font-size:12px!important}.utility .meta:last-child>a{padding:0 11px!important}.utility .meta:last-child>a.utility-deals{padding:0 14px!important}}
 
 @media(max-width:1450px){.utility-address{display:none!important}.utility .meta:nth-child(2){padding:0 12px!important;gap:14px!important}.utility .wrap{padding-left:22px!important;padding-right:22px!important}}
+
+/* Refresh: prevent duplicate legacy pseudo-icons and keep the long address from crowding the utility strip on laptop widths. */
+.utility .meta:last-child a[href*="/shop/"]:before,.utility label:before{display:none!important}
+@media(max-width:1450px){.utility-address{display:none!important}}

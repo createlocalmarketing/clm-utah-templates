@@ -55,3 +55,5 @@ h1,h2,h3,h4,.slide-copy h1,.slide-copy h2,.pagehead h1,.nav-panel-head h2,.secti
 /* Refresh: prevent duplicate legacy pseudo-icons and keep the long address from crowding the utility strip on laptop widths. */
 .utility .meta:last-child a[href*="/shop/"]:before,.utility label:before{display:none!important}
 @media(max-width:1450px){.utility-address{display:none!important}}
+
+@media(max-width:1450px){.utility .meta a.utility-address{display:none!important}}

@@ -1,6 +1,6 @@
 # Svenson Sportfishing + Ketchikan — Full Site Review Build
 
-This branch-path contains **210 page files**, including the Svenson charter/booking cluster, Ketchikan visitor and directory categories, Safety & Survival / offline guide, Alaska fishing and hunting resources, policies, and 27 individual business profile drafts. The generated review site is on GitHub Pages at `https://createlocalmarketing.github.io/clm-utah-templates/svenson-preview/`.
+This branch-path contains **263 page files**, including the Svenson charter/booking cluster, Ketchikan visitor and directory categories, Safety & Survival / offline guide, Alaska fishing and hunting resources, policies, and 27 individual business profile drafts. The generated review site is on GitHub Pages at `https://createlocalmarketing.github.io/clm-utah-templates/svenson-preview/`.
 
 Every page has an individual title, meta description, canonical target, visible direct answer, internal links, source/verification note, page-family content blocks, visible FAQs, and applicable JSON-LD. The review build is noindex and is not a replacement for the requested Elementor-native WordPress build.
 

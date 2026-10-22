@@ -60,3 +60,11 @@ h1,h2,h3,h4,.slide-copy h1,.slide-copy h2,.pagehead h1,.nav-panel-head h2,.secti
 
 /* Preserve the complete top-bar NAP at laptop widths while keeping every control visible. */
 @media(max-width:1450px){.utility .meta:nth-child(2){gap:8px!important;padding:0 10px!important}.utility .meta a.utility-address{display:flex!important}.utility .meta a,.utility .meta>span,.utility label{font-size:12px!important;gap:6px!important}.utility .meta svg{width:15px;height:15px;flex-basis:15px}}
+
+/* Placement-only top bar: restore Svenson's original black, white, and cyan treatment. */
+.utility{background:#050505!important;color:#f4f7f4!important;border-top:0!important;font-family:Lato,Arial,sans-serif!important}
+.utility .meta a,.utility .meta>span,.utility label{color:#f4f7f4!important;font-family:Lato,Arial,sans-serif!important}
+.utility .meta svg{color:#1cadeb!important}
+.utility .meta:last-child>a.utility-deals{background:#1cadeb!important;color:#fff!important;border-radius:0!important}
+.utility .meta:last-child>a.utility-deals svg{color:#fff!important}
+.utility .meta a:hover,.utility label:hover{color:#78d8ff!important}

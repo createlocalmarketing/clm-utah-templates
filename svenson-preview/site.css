@@ -70,19 +70,17 @@ h1,h2,h3,h4,.slide-copy h1,.slide-copy h2,.pagehead h1,.nav-panel-head h2,.secti
 .utility .meta a:hover,.utility label:hover{color:#78d8ff!important}
 
 /* Balanced Svenson navigation: compact, centered groups with the logo on a stable center column. */
-@media(min-width:1101px){
+@media(min-width:1201px){
 .nav{grid-template-columns:minmax(0,1fr) 190px minmax(0,1fr)!important;gap:clamp(14px,1.5vw,24px)!important}
 .navlinks{justify-content:center!important;gap:clamp(14px,1.45vw,26px)!important;white-space:nowrap}
 .navlinks-left,.navlinks-right{min-width:0}
 .navlinks .button{white-space:nowrap}
 }
-@media(min-width:1101px) and (max-width:1380px){
-.navlinks{font-size:11px!important;letter-spacing:.025em!important;gap:14px!important}
-.navlinks .button{padding:11px 13px!important;font-size:10px!important}
-.brand img{width:170px!important}
+@media(min-width:1201px) and (max-width:1380px){
 .nav{grid-template-columns:minmax(0,1fr) 170px minmax(0,1fr)!important;gap:12px!important}
+.brand img{width:170px!important}
 }
-@media(max-width:1100px){
+@media(max-width:1200px){
 .nav{display:flex!important;flex-wrap:wrap!important;justify-content:space-between!important;gap:8px 16px!important;padding:8px 0!important;min-height:74px!important}
 .brand{grid-column:auto!important;grid-row:auto!important;order:0!important}
 .brand img{width:150px!important;max-height:72px!important}

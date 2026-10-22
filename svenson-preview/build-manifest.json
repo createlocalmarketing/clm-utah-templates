@@ -1,0 +1,23 @@
+{
+  "project": "Svenson Sportfishing + Ketchikan local guide",
+  "build_type": "complete content review build for GitHub Pages",
+  "build_date": "2026-10-22",
+  "site_pages": 210,
+  "business_profiles": 27,
+  "page_families": [
+    "charter",
+    "directory",
+    "fishing-guide",
+    "governance",
+    "home",
+    "hunting-guide",
+    "outdoors",
+    "safety",
+    "visitor"
+  ],
+  "production_target": "https://dev.createlocalmarketing.com/svenson",
+  "production_status": "review build; staging pages remain drafts",
+  "indexing": "noindex; GitHub preview is not the production canonical",
+  "directory_coverage": "Research seed for Elementor directory templates. This is not an exhaustive directory. Listings require source re-check and owner/media verification before publication.",
+  "route_inventory": "See /site-map/ and /sitemap.xml"
+}

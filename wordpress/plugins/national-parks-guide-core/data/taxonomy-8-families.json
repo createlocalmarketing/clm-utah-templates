@@ -1,0 +1,271 @@
+{
+  "version": "2026-10-11",
+  "kind": "npg_topic",
+  "source": "engine/parks.data.js",
+  "families": [
+    {
+      "slug": "plan",
+      "name": "Plan Your Visit",
+      "children": [
+        {
+          "slug": "visitor-guide",
+          "name": "First-Time Visitor Guide"
+        },
+        {
+          "slug": "maps-directions",
+          "name": "Maps & Entrances"
+        },
+        {
+          "slug": "fees-permits",
+          "name": "Fees, Passes & Permits"
+        },
+        {
+          "slug": "weather-seasons",
+          "name": "Weather & Seasons"
+        },
+        {
+          "slug": "shuttles-parking",
+          "name": "Shuttles & Parking"
+        },
+        {
+          "slug": "accessibility",
+          "name": "Accessibility"
+        },
+        {
+          "slug": "safety-alerts",
+          "name": "Safety & Alerts"
+        },
+        {
+          "slug": "itineraries",
+          "name": "Trip Itineraries"
+        }
+      ]
+    },
+    {
+      "slug": "things-to-do",
+      "name": "Things To Do",
+      "children": [
+        {
+          "slug": "hikes-trails",
+          "name": "Hikes & Trails"
+        },
+        {
+          "slug": "iconic-photo-spots",
+          "name": "Iconic Photo Spots"
+        },
+        {
+          "slug": "family-activities",
+          "name": "Family Adventures"
+        },
+        {
+          "slug": "scenic-drives",
+          "name": "Scenic Drives"
+        },
+        {
+          "slug": "wildlife",
+          "name": "Wildlife Watching"
+        },
+        {
+          "slug": "history-culture",
+          "name": "History, Heritage & Geology"
+        },
+        {
+          "slug": "ranger-programs",
+          "name": "Ranger Programs"
+        },
+        {
+          "slug": "guided-experiences",
+          "name": "Guided Experiences"
+        }
+      ]
+    },
+    {
+      "slug": "stay",
+      "name": "Places To Stay",
+      "children": [
+        {
+          "slug": "hotels",
+          "name": "Hotels & Lodges"
+        },
+        {
+          "slug": "campgrounds",
+          "name": "Campgrounds"
+        },
+        {
+          "slug": "cabins",
+          "name": "Cabins & Rentals"
+        },
+        {
+          "slug": "glamping",
+          "name": "Glamping"
+        },
+        {
+          "slug": "rv-campgrounds",
+          "name": "RV Parks"
+        }
+      ]
+    },
+    {
+      "slug": "eat",
+      "name": "Places To Eat",
+      "children": [
+        {
+          "slug": "restaurants",
+          "name": "Restaurants"
+        },
+        {
+          "slug": "breakfast-coffee",
+          "name": "Breakfast & Coffee"
+        },
+        {
+          "slug": "family-dining",
+          "name": "Family Dining"
+        },
+        {
+          "slug": "groceries",
+          "name": "Groceries & Picnic Provisions"
+        },
+        {
+          "slug": "local-specialties",
+          "name": "Local Specialties"
+        }
+      ]
+    },
+    {
+      "slug": "businesses",
+      "name": "Local Businesses",
+      "children": [
+        {
+          "slug": "tour-guides",
+          "name": "Tours & Guides"
+        },
+        {
+          "slug": "outfitters",
+          "name": "Outdoor Outfitters"
+        },
+        {
+          "slug": "gear-rentals",
+          "name": "Equipment Rentals"
+        },
+        {
+          "slug": "photographers",
+          "name": "Photographers"
+        },
+        {
+          "slug": "transportation",
+          "name": "Transportation"
+        },
+        {
+          "slug": "souvenir-shops",
+          "name": "Souvenirs & Gifts"
+        },
+        {
+          "slug": "local-services",
+          "name": "Local Services"
+        },
+        {
+          "slug": "wellness",
+          "name": "Wellness & Recovery"
+        }
+      ]
+    },
+    {
+      "slug": "events",
+      "name": "Events & News",
+      "children": [
+        {
+          "slug": "events-calendar",
+          "name": "Events Calendar"
+        },
+        {
+          "slug": "festivals",
+          "name": "Local Festivals"
+        },
+        {
+          "slug": "organizers",
+          "name": "Event Organizers"
+        },
+        {
+          "slug": "sponsors",
+          "name": "Sponsors"
+        },
+        {
+          "slug": "park-news",
+          "name": "Park News"
+        },
+        {
+          "slug": "community-stories",
+          "name": "Community Stories"
+        }
+      ]
+    },
+    {
+      "slug": "deals",
+      "name": "Deals & Rewards",
+      "children": [
+        {
+          "slug": "local-deals",
+          "name": "Local Offers"
+        },
+        {
+          "slug": "dining-deals",
+          "name": "Dining Offers"
+        },
+        {
+          "slug": "stay-deals",
+          "name": "Lodging Offers"
+        },
+        {
+          "slug": "tour-deals",
+          "name": "Tour Discounts"
+        },
+        {
+          "slug": "rewards",
+          "name": "Adventure Rewards"
+        },
+        {
+          "slug": "collectibles",
+          "name": "Collectibles"
+        }
+      ]
+    },
+    {
+      "slug": "shop",
+      "name": "Gift Shop",
+      "children": [
+        {
+          "slug": "souvenirs",
+          "name": "Park Souvenirs"
+        },
+        {
+          "slug": "stickers",
+          "name": "Stickers & Decals"
+        },
+        {
+          "slug": "patches",
+          "name": "Patches"
+        },
+        {
+          "slug": "pins",
+          "name": "Enamel Pins"
+        },
+        {
+          "slug": "posters",
+          "name": "Art Prints"
+        },
+        {
+          "slug": "apparel",
+          "name": "Apparel"
+        },
+        {
+          "slug": "mugs",
+          "name": "Drinkware"
+        },
+        {
+          "slug": "field-guides",
+          "name": "Field Guides"
+        }
+      ]
+    }
+  ]
+}

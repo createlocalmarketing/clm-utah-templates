@@ -1,0 +1,292 @@
+{
+  "title": "National Parks Guide — Global Header",
+  "type": "elementor_library",
+  "version": "0.4",
+  "page_settings": {
+    "post_title": "National Parks Guide — Global Header",
+    "post_status": "publish",
+    "content_wrapper_html_tag": "header",
+    "preview_type": "",
+    "preview_id": "",
+    "preview_search_term": "",
+    "margin": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "hidden_header_footer_style_control": "hidden_control",
+    "padding": {
+      "unit": "px",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+    },
+    "background_background": "",
+    "background_color": "",
+    "background_color_stop": {
+      "unit": "%",
+      "size": 0,
+      "sizes": []
+    },
+    "background_color_b": "#f2295b",
+    "background_color_b_stop": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_gradient_type": "linear",
+    "background_gradient_angle": {
+      "unit": "deg",
+      "size": 180,
+      "sizes": []
+    },
+    "background_gradient_position": "center center",
+    "background_image": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_position": "",
+    "background_xpos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_ypos": {
+      "unit": "px",
+      "size": 0,
+      "sizes": []
+    },
+    "background_attachment": "",
+    "background_repeat": "",
+    "background_size": "",
+    "background_bg_width": {
+      "unit": "%",
+      "size": 100,
+      "sizes": []
+    },
+    "background_video_link": "",
+    "background_video_start": "",
+    "background_video_end": "",
+    "background_play_once": "",
+    "background_play_on_mobile": "",
+    "background_privacy_mode": "",
+    "background_video_fallback": {
+      "url": "",
+      "id": "",
+      "size": ""
+    },
+    "background_slideshow_gallery": [],
+    "background_slideshow_loop": "yes",
+    "background_slideshow_slide_duration": 5000,
+    "background_slideshow_slide_transition": "fade",
+    "background_slideshow_transition_duration": 500,
+    "background_slideshow_background_size": "",
+    "background_slideshow_background_position": "",
+    "background_slideshow_lazyload": "",
+    "background_slideshow_ken_burns": "",
+    "background_slideshow_ken_burns_zoom_direction": "in",
+    "custom_css": ""
+  },
+  "content": [
+    {
+      "id": "00000008",
+      "elType": "container",
+      "settings": {
+        "container_type": "flex",
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1490
+        },
+        "flex_direction_tablet": "column",
+        "flex_direction_mobile": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 14
+        },
+        "padding": {
+          "unit": "px",
+          "top": 9,
+          "right": 26,
+          "bottom": 9,
+          "left": 26,
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "00000005",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "row",
+            "width": {
+              "unit": "px",
+              "size": 31
+            },
+            "width_mobile": {
+              "unit": "px",
+              "size": 100
+            },
+            "flex_justify_content": "start",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 13
+            }
+          },
+          "elements": [
+            {
+              "id": "00000001",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "id": 0,
+                  "url": "https://www.nationalparksguide.co/wp-content/themes/national-parks-guide/assets/brand/npg-symbol.svg",
+                  "alt": "National Parks Guide mountain and river emblem",
+                  "source": "library"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 54
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 54
+                },
+                "object-fit": "contain",
+                "link": {
+                  "url": "https://www.nationalparksguide.co/"
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "00000004",
+              "elType": "container",
+              "settings": {
+                "container_type": "flex",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 4
+                }
+              },
+              "elements": [
+                {
+                  "id": "00000002",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "NATIONAL PARKS GUIDE",
+                    "header_size": "span",
+                    "title_color": "#193F30",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Outfit",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 19
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                },
+                {
+                  "id": "00000003",
+                  "elType": "widget",
+                  "settings": {
+                    "title": "EXPLORE AMERICA'S NATIONAL PARKS",
+                    "header_size": "span",
+                    "title_color": "#A67643",
+                    "typography_typography": "custom",
+                    "typography_font_family": "DM Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 9
+                    },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "widgetType": "heading"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "00000007",
+          "elType": "container",
+          "settings": {
+            "container_type": "flex",
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+              "unit": "px",
+              "size": 69
+            },
+            "width_mobile": {
+              "unit": "px",
+              "size": 100
+            },
+            "flex_justify_content": "end",
+            "flex_align_items": "end"
+          },
+          "elements": [
+            {
+              "id": "00000006",
+              "elType": "widget",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "align_items": "end",
+                "pointer": "underline",
+                "toggle": "burger",
+                "breakpoint": "tablet",
+                "color_menu_item": "#244B37",
+                "color_menu_item_hover": "#B89A62",
+                "color_menu_item_active": "#B89A62",
+                "text_align": "start",
+                "full_width": "stretch",
+                "menu_typography_typography": "custom",
+                "menu_typography_font_family": "DM Sans",
+                "menu_typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "menu_typography_font_weight": "700",
+                "item_padding": {
+                  "unit": "px",
+                  "top": 10,
+                  "right": 11,
+                  "bottom": 10,
+                  "left": 11,
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "nav-menu"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

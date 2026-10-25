@@ -1,0 +1,24 @@
+name: NPG Native Elementor Validation
+on:
+  pull_request:
+    paths:
+      - 'wordpress/elementor/native-templates/**'
+      - 'wordpress/elementor/validate-native-templates.mjs'
+      - '.github/workflows/npg-native-elementor.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'wordpress/elementor/native-templates/**'
+      - 'wordpress/elementor/validate-native-templates.mjs'
+jobs:
+  native-elementor-no-html:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reject HTML widgets and invalid Elementor JSON
+        run: node wordpress/elementor/validate-native-templates.mjs

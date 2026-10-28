@@ -1,6 +1,6 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028g';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028h';
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],
@@ -61,9 +61,13 @@
       link(base+'/deals/index.html','Deals / Offers','tag','utility-deals'),
       link(base+'/shop/index.html','Shop','shop')
     );
-    const language=document.createElement('label');language.className='utility-item utility-language';language.append(svg('globe'));
-    const lang=document.createElement('span');lang.textContent='Language';language.append(lang);
-    const select=document.createElement('select');select.setAttribute('aria-label','Language selector');const en=document.createElement('option');en.value='en';en.textContent='English';select.append(en);language.append(select);meta.append(language);
+    const language=document.createElement('details');language.className='utility-item utility-language';
+    const trigger=document.createElement('summary');trigger.className='language-trigger';trigger.setAttribute('aria-label','Choose language');
+    const flag=document.createElement('span');flag.className='language-flag';flag.setAttribute('aria-hidden','true');flag.textContent='🇺🇸';trigger.append(flag);language.append(trigger);
+    const menu=document.createElement('div');menu.className='language-menu';menu.setAttribute('aria-label','Language options');
+    const title=document.createElement('strong');title.textContent='Choose a language';menu.append(title);
+    [['🇺🇸','English','Current language',true],['🇪🇸','Español','Coming soon',false],['🇫🇷','Français','Coming soon',false],['🇩🇪','Deutsch','Coming soon',false],['🇯🇵','日本語','Coming soon',false]].forEach(([emoji,name,status,current])=>{const row=document.createElement('div');row.className='language-choice'+(current?' current':'');const mark=document.createElement('span');mark.className='language-choice-flag';mark.textContent=emoji;const label=document.createElement('span');label.className='language-choice-name';label.textContent=name;const state=document.createElement('span');state.className='language-choice-state';state.textContent=status;row.append(mark,label,state);menu.append(row)});
+    language.append(menu);meta.append(language);
     wrap.replaceChildren(meta);updateClock();setInterval(updateClock,60000)
   }
   const brandLogo=document.querySelector('header .brand');if(brandLogo){brandLogo.querySelector('span')?.remove();const mark=brandLogo.querySelector('img');if(mark){mark.src=base+'/assets/svenson-logo-v2.png';mark.alt='Svenson Sportfishing'}}

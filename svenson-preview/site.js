@@ -1,6 +1,6 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261027b';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261027c';
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],

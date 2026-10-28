@@ -1,6 +1,6 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028l';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028m';
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],
@@ -114,7 +114,7 @@
       const label=card.querySelector('.eyebrow');if(label){const e=document.createElement('div');e.className='eyebrow';e.textContent=label.textContent.trim();c.appendChild(e)}
       const title=card.querySelector('h3,h2'),h=document.createElement('h2');h.textContent=title?.textContent.trim()||'Explore this guide';c.appendChild(h);
       const subtitle=card.querySelector('.sub'),sub=document.createElement('p');sub.className='slide-subtitle';sub.textContent=subtitle?.textContent.trim()||'Local details and planning information';c.appendChild(sub);
-      const para=card.querySelector('.cardcopy p,.listing-copy p,p'),desc=document.createElement('p');desc.textContent=para?.textContent.trim()||'Review the details and confirm current information directly with the provider.';c.appendChild(desc);
+      const para=card.querySelector('.cardcopy p:not(.sub),.listing-copy p:not(.sub),p:not(.sub)'),desc=document.createElement('p');desc.textContent=para?.textContent.trim()||'Review the details and confirm current information directly with the provider.';c.appendChild(desc);
       const sourceLink=card.querySelector('a.button,a[href]'),actions=document.createElement('div');actions.className='actions';const button=document.createElement('a');button.className='button';button.href=sourceLink?.href||base+'/site-map/index.html';button.textContent=sourceLink?.textContent.trim()||'Explore details';actions.appendChild(button);c.appendChild(actions);return c
     };
     const picks=cards.slice(0,3);

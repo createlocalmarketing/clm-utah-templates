@@ -71,6 +71,48 @@
   const mobile=document.querySelector('.mobile-menu'),links=[...document.querySelectorAll('.navlinks')];
   if(mobile&&links.length)mobile.addEventListener('click',()=>{const open=links.some(x=>x.classList.contains('mobile-open'));links.forEach(x=>x.classList.toggle('mobile-open',!open));mobile.setAttribute('aria-expanded',String(!open))});
   document.querySelectorAll('.nav-dropdown').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)document.querySelectorAll('.nav-dropdown').forEach(x=>{if(x!==d)x.open=false})}));
+  function buildTopicHero(){
+    if(document.querySelector('.hero .carousel'))return;
+    const pagehead=document.querySelector('.pagehead'),pageTitle=pagehead&&pagehead.querySelector('h1');
+    const cards=[...document.querySelectorAll('main article.card,main .listing-card')].filter(card=>card.querySelector('img')&&card.querySelector('h3,h2'));
+    if(!pagehead||!pageTitle||cards.length<2)return;
+    const hero=document.createElement('section');hero.className='hero topic-hero';
+    const video=document.createElement('video');video.autoplay=true;video.muted=true;video.loop=true;video.playsInline=true;video.setAttribute('aria-hidden','true');video.poster=base+'/assets/hero-poster.webp';
+    const source=document.createElement('source');source.src=base+'/assets/svenson-hero-background.mp4';source.type='video/mp4';video.appendChild(source);hero.appendChild(video);
+    const wrap=document.createElement('div');wrap.className='wrap';const carousel=document.createElement('div');carousel.className='carousel';
+    const media=document.createElement('div');media.className='slide-media';
+    const copyFirst=()=>{
+      const c=document.createElement('div');c.className='slide-copy';c.setAttribute('data-slide-copy','');
+      const label=pagehead.querySelector('.eyebrow');if(label){const e=document.createElement('div');e.className='eyebrow';e.textContent=label.textContent.trim();c.appendChild(e)}
+      c.appendChild(pageTitle);
+      const sub=pagehead.querySelector('p:not(.trust)');if(sub){const s=document.createElement('h2');s.className='slide-subtitle';s.textContent=sub.textContent.trim();c.appendChild(s)}
+      const answer=pagehead.querySelector('.answer'),firstDesc=cards[0].querySelector('.cardcopy p,.listing-copy p,p');
+      const desc=document.createElement('p');desc.textContent=(answer||firstDesc)?.textContent.trim()||'Browse this guide and confirm current details with the listed business or official source.';c.appendChild(desc);
+      const sourceLink=cards[0].querySelector('a.button,a[href]'),actions=document.createElement('div');actions.className='actions';const button=document.createElement('a');button.className='button';button.href=sourceLink?.href||base+'/site-map/index.html';button.textContent=sourceLink?.textContent.trim()||'Explore this guide';actions.appendChild(button);c.appendChild(actions);return c
+    };
+    const copyCard=(card)=>{
+      const c=document.createElement('div');c.className='slide-copy';c.setAttribute('data-slide-copy','');
+      const label=card.querySelector('.eyebrow');if(label){const e=document.createElement('div');e.className='eyebrow';e.textContent=label.textContent.trim();c.appendChild(e)}
+      const title=card.querySelector('h3,h2'),h=document.createElement('h2');h.textContent=title?.textContent.trim()||'Explore this guide';c.appendChild(h);
+      const subtitle=card.querySelector('.sub'),sub=document.createElement('p');sub.className='slide-subtitle';sub.textContent=subtitle?.textContent.trim()||'Local details and planning information';c.appendChild(sub);
+      const para=card.querySelector('.cardcopy p,.listing-copy p,p'),desc=document.createElement('p');desc.textContent=para?.textContent.trim()||'Review the details and confirm current information directly with the provider.';c.appendChild(desc);
+      const sourceLink=card.querySelector('a.button,a[href]'),actions=document.createElement('div');actions.className='actions';const button=document.createElement('a');button.className='button';button.href=sourceLink?.href||base+'/site-map/index.html';button.textContent=sourceLink?.textContent.trim()||'Explore details';actions.appendChild(button);c.appendChild(actions);return c
+    };
+    const picks=cards.slice(0,3);
+    picks.forEach((card,i)=>{
+      const sourceImage=card.querySelector('img'),frame=document.createElement('div');frame.setAttribute('data-slide','');if(i)frame.hidden=true;
+      const img=document.createElement('img');img.src=sourceImage.currentSrc||sourceImage.src;img.alt=sourceImage.alt||pageTitle.textContent.trim();img.loading=i?'lazy':'eager';frame.appendChild(img);media.appendChild(frame);
+      carousel.appendChild(i?copyCard(cards[i-1]):copyFirst());
+    });
+    carousel.insertBefore(media,carousel.firstChild);wrap.appendChild(carousel);hero.appendChild(wrap);
+    const controls=document.createElement('div');controls.className='carousel-ctrl';
+    const prev=document.createElement('button');prev.type='button';prev.setAttribute('data-prev','');prev.setAttribute('aria-label','Previous slide');prev.textContent='‹';controls.appendChild(prev);
+    const dots=document.createElement('span');dots.className='dots';
+    picks.forEach((_,i)=>{const dot=document.createElement('button');dot.type='button';dot.setAttribute('aria-label','Slide '+(i+1));if(!i){dot.className='active';dot.setAttribute('aria-current','true')}dots.appendChild(dot)});
+    controls.appendChild(dots);const next=document.createElement('button');next.type='button';next.setAttribute('data-next','');next.setAttribute('aria-label','Next slide');next.textContent='›';controls.appendChild(next);hero.appendChild(controls);
+    pagehead.parentNode.insertBefore(hero,pagehead);
+  }
+  buildTopicHero();
   const slides=[...document.querySelectorAll('.carousel [data-slide]')],copySlides=[...document.querySelectorAll('.carousel [data-slide-copy]')],dots=[...document.querySelectorAll('.carousel-ctrl .dots button')];let cur=0;
   function show(i){if(!slides.length)return;cur=(i+slides.length)%slides.length;slides.forEach((s,n)=>s.hidden=n!==cur);copySlides.forEach((s,n)=>s.hidden=n!==cur);dots.forEach((b,n)=>{b.classList.toggle('active',n===cur);if(n===cur)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}
   document.querySelectorAll('[data-prev]').forEach(b=>b.onclick=()=>show(cur-1));document.querySelectorAll('[data-next]').forEach(b=>b.onclick=()=>show(cur+1));dots.forEach((b,n)=>b.onclick=()=>show(n));

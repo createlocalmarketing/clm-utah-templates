@@ -71,9 +71,9 @@
   const mobile=document.querySelector('.mobile-menu'),links=[...document.querySelectorAll('.navlinks')];
   if(mobile&&links.length)mobile.addEventListener('click',()=>{const open=links.some(x=>x.classList.contains('mobile-open'));links.forEach(x=>x.classList.toggle('mobile-open',!open));mobile.setAttribute('aria-expanded',String(!open))});
   document.querySelectorAll('.nav-dropdown').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)document.querySelectorAll('.nav-dropdown').forEach(x=>{if(x!==d)x.open=false})}));
-  const slides=[...document.querySelectorAll('[data-slide]')];let cur=0;
-  function show(i){if(!slides.length)return;cur=(i+slides.length)%slides.length;slides.forEach((s,n)=>s.hidden=n!==cur);document.querySelectorAll('.dots button').forEach((b,n)=>b.classList.toggle('active',n===cur))}
-  document.querySelectorAll('[data-prev]').forEach(b=>b.onclick=()=>show(cur-1));document.querySelectorAll('[data-next]').forEach(b=>b.onclick=()=>show(cur+1));document.querySelectorAll('.dots button').forEach((b,n)=>b.onclick=()=>show(n));
+  const slides=[...document.querySelectorAll('.carousel [data-slide]')],copySlides=[...document.querySelectorAll('.carousel [data-slide-copy]')],dots=[...document.querySelectorAll('.carousel-ctrl .dots button')];let cur=0;
+  function show(i){if(!slides.length)return;cur=(i+slides.length)%slides.length;slides.forEach((s,n)=>s.hidden=n!==cur);copySlides.forEach((s,n)=>s.hidden=n!==cur);dots.forEach((b,n)=>{b.classList.toggle('active',n===cur);if(n===cur)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}
+  document.querySelectorAll('[data-prev]').forEach(b=>b.onclick=()=>show(cur-1));document.querySelectorAll('[data-next]').forEach(b=>b.onclick=()=>show(cur+1));dots.forEach((b,n)=>b.onclick=()=>show(n));
   const q=document.getElementById('directory-search'),cat=document.getElementById('directory-category'),cards=[...document.querySelectorAll('.listing-card')],empty=document.getElementById('directory-empty');
   function filter(){let shown=0;cards.forEach(c=>{const matchText=!q||c.dataset.search.toLowerCase().includes(q.value.toLowerCase()),matchCat=!cat||!cat.value||c.dataset.category.split(' / ')[0]===cat.value;c.hidden=!(matchText&&matchCat);if(!c.hidden)shown++});if(empty)empty.hidden=shown>0}
   if(q)q.addEventListener('input',filter);if(cat)cat.addEventListener('change',filter)

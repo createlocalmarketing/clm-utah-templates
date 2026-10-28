@@ -239,3 +239,5 @@ header{background:#0b3443!important;color:#fff!important;border-bottom:2px solid
  .utility .meta.utility-items>.utility-item{min-height:28px!important}
  .utility .meta.utility-items>.utility-deals{min-height:38px!important;margin:0!important;border-radius:0 0 5px 5px!important}
 }
+
+@media(max-width:1800px){.utility .meta.utility-items{flex-wrap:wrap!important}}

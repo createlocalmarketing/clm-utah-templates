@@ -126,3 +126,92 @@ h1,h2,h3,h4,h5,h6,.eyebrow,.navlinks,.navlinks a,.nav-dropdown>summary,.button,.
 @media(max-width:1600px){.utility .wrap{width:calc(100% - 32px)!important}.utility .meta.utility-items{gap:10px!important}.utility .meta.utility-items>.utility-item{font-size:12px!important;gap:6px!important}.utility .meta.utility-items>.utility-item svg{width:18px!important;height:18px!important;flex-basis:18px!important}}
 @media(max-width:1320px){.utility .wrap{min-height:0!important;padding:8px 0!important}.utility .meta.utility-items{justify-content:flex-start!important;flex-wrap:wrap!important;gap:12px 22px!important}.utility .meta.utility-items>.utility-item{min-height:30px!important}.utility .meta.utility-items>.utility-deals{min-height:42px!important;margin:0!important;border-radius:0 0 8px 8px!important}}
 @media(max-width:760px){.utility .wrap{width:calc(100% - 28px)!important}.utility .meta.utility-items{gap:8px 16px!important}.utility .meta.utility-items>.utility-item{font-size:12px!important}.utility .meta.utility-items>.utility-address{display:none!important}.utility .meta.utility-items>.utility-deals{min-height:38px!important;padding:0 13px!important}}
+
+
+/* Svenson design correction: restore the Fjalla One + Lato pairing, the teal/orange palette, and a more open image-led layout. */
+:root{--sv-deep:#0b3443;--sv-night:#071f2a;--sv-blue:#12627a;--sv-teal:#168c91;--sv-orange:#e76d40;--sv-paper:#f5f7f5;--sv-ink:#183037}
+html,body{font-family:Lato,Arial,sans-serif!important;color:var(--sv-ink)!important;background:var(--sv-paper)!important}
+body,button,input,select,textarea,.utility,.utility-item,.slide-copy p,.nav-panel p,.cardcopy p{font-family:Lato,Arial,sans-serif!important}
+h1,h2,h3,h4,h5,h6,.eyebrow,.navlinks,.navlinks a,.nav-dropdown>summary,.button,.section-title,.cardcopy h3,.footgrid h3,.profile-summary h1,.profile-section h2,.profile-facts h2,.profile-facts h3{font-family:'Fjalla One',Impact,sans-serif!important;font-weight:400!important;letter-spacing:.015em}
+.utility{background:#071f2a!important;color:#fff!important;border-top:0!important;border-bottom:1px solid #168c91!important}
+.utility .wrap{min-height:58px!important}
+.utility .meta.utility-items>.utility-deals{background:#e76d40!important}
+header{background:#0b3443!important;color:#fff!important;border-bottom:2px solid #12627a!important}
+.nav{min-height:104px}
+.navlinks a:hover,.nav-dropdown>summary:hover{color:#70c9c8!important}
+.nav-dropdown>summary i,.nav-dropdown>summary:after{color:#36a69d!important}
+.nav-dropdown>summary:after{border-color:#36a69d!important}
+.button{background:#e76d40!important;border-color:#e76d40!important;color:#fff!important}
+.button:hover{background:#168c91!important;border-color:#168c91!important}
+.button.secondary{background:transparent!important;border-color:#168c91!important;color:#183037!important}
+.eyebrow{color:#d65c35!important;letter-spacing:.08em!important}
+.nav-panel{background:#f5f7f5!important;color:#183037!important;border-bottom:4px solid #e76d40!important;padding-top:30px!important;padding-bottom:30px!important}
+.nav-panel-head{gap:36px!important;margin-bottom:24px!important}
+.nav-panel-head h2{font:400 32px/1.12 'Fjalla One',Impact,sans-serif!important;color:#183037!important;margin:5px 0 8px!important}
+.nav-panel-head p{font:400 15px/1.55 Lato,Arial,sans-serif!important;color:#52666a!important;white-space:normal!important;max-width:720px!important}
+.nav-cardgrid{gap:20px!important}
+.nav-cardgrid .card{border:0!important;box-shadow:0 5px 18px #18303712!important;background:#fff!important;overflow:hidden}
+.nav-cardgrid .card img{height:160px!important;min-height:160px!important;object-fit:cover!important;background:#dfe9e5!important}
+.nav-cardgrid .cardcopy{padding:16px!important}
+.nav-cardgrid .cardcopy h3{font-size:20px!important;line-height:1.16!important}
+.nav-cardgrid .cardcopy p{font:400 13px/1.55 Lato,Arial,sans-serif!important;min-height:0!important;white-space:normal!important;overflow-wrap:anywhere!important;margin:7px 0 14px!important}
+.nav-cardgrid .cardcopy .button{font-size:10px!important;padding:10px 13px!important}
+.mega-links{gap:14px 22px!important;margin-top:24px!important;padding-top:20px!important}
+.mega-links a{padding:4px 0!important;background:transparent!important;border:0!important;border-bottom:1px solid #bdd0cb!important;color:#0b3443!important;font:400 15px/1.4 Lato,Arial,sans-serif!important}
+.mega-links a:hover{border-color:#e76d40!important;color:#c84d25!important}
+.hero{display:block!important;min-height:0!important;padding:22px 0 0!important;background:#071f2a!important;color:#fff!important}
+.hero:after{background:linear-gradient(90deg,#071f2ab8,#071f2a70 55%,#071f2a9e)!important}
+.hero video{filter:brightness(.42)!important}
+.hero>.wrap{position:relative!important;z-index:2!important}
+.hero .carousel{width:min(1200px,calc(100% - 40px))!important;max-width:1200px!important;grid-template-columns:minmax(0,56%) minmax(0,44%)!important;min-height:480px!important;margin:26px auto 16px!important;overflow:hidden!important;background:#fff!important;color:#183037!important;border-radius:3px!important;box-shadow:0 18px 46px #061f2a44!important}
+.hero .slide-media{height:480px!important;min-height:0!important;max-height:none!important;position:relative!important;overflow:hidden!important;background:#c9d8d6!important}
+.hero .slide-media>[data-slide]{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;overflow:hidden!important}
+.hero .slide-media>[data-slide][hidden]{display:none!important}
+.hero .slide-media img{display:block!important;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;object-fit:cover!important;object-position:center!important;background:transparent!important}
+.hero .slide-copy{min-width:0!important;padding:clamp(30px,4vw,58px)!important;justify-content:center!important;color:#183037!important}
+.hero .slide-copy[hidden]{display:none!important}
+.hero .slide-copy .eyebrow{font:400 12px/1.4 'Fjalla One',Impact,sans-serif!important;color:#d65c35!important;letter-spacing:.1em!important}
+.hero .slide-copy h1,.hero .slide-copy h2{font-family:'Fjalla One',Impact,sans-serif!important;font-weight:400!important;color:#0b3443!important;letter-spacing:.01em!important}
+.hero .slide-copy h1{font-size:clamp(34px,4.4vw,58px)!important;line-height:1.03!important;margin:10px 0 8px!important}
+.hero .slide-copy h2{font-size:clamp(26px,3.2vw,39px)!important;line-height:1.08!important;margin:10px 0!important}
+.hero .slide-copy .slide-subtitle{font:700 19px/1.4 Lato,Arial,sans-serif!important;color:#12627a!important;margin:0 0 12px!important}
+.hero .slide-copy p{font:400 16px/1.65 Lato,Arial,sans-serif!important;color:#30494e!important;margin:0 0 18px!important;max-width:52ch!important}
+.hero .slide-copy .actions{gap:12px!important;margin-top:4px!important}
+.hero .carousel-ctrl{position:relative!important;left:auto!important;right:auto!important;bottom:auto!important;transform:none!important;width:min(1200px,calc(100% - 40px))!important;margin:0 auto 24px!important;display:flex!important;justify-content:center!important;align-items:center!important;gap:14px!important}
+.hero .carousel-ctrl>[data-prev],.hero .carousel-ctrl>[data-next]{width:38px!important;height:38px!important;border:1px solid #e76d40!important;background:#0b3443dd!important;color:#fff!important;border-radius:50%!important;font-size:23px!important;line-height:1!important}
+.hero .carousel-ctrl .dots{display:flex!important;align-items:center!important;gap:5px!important;padding:0 4px!important}
+.hero .carousel-ctrl .dots button{display:grid!important;place-items:center!important;width:30px!important;height:30px!important;border:0!important;border-radius:50%!important;background:transparent!important;padding:0!important;cursor:pointer!important}
+.hero .carousel-ctrl .dots button:before{content:'';display:block;width:9px;height:9px;border:1px solid #e76d40;border-radius:50%;background:transparent;transition:transform .18s,background .18s}
+.hero .carousel-ctrl .dots button.active:before{background:#e76d40;transform:scale(1.22)}
+.pagehead{background:#e9f0ed!important}
+.cardgrid{gap:28px!important}
+.card{box-shadow:0 5px 18px #1830370e!important}
+.card img{object-fit:cover!important;background:#dfe9e5!important}
+.cardcopy{padding:22px 24px!important}
+.cardcopy h3{font:400 25px/1.15 'Fjalla One',Impact,sans-serif!important;color:#0b3443!important}
+.cardcopy p{font:400 15px/1.6 Lato,Arial,sans-serif!important;color:#30494e!important}
+@media(max-width:1200px){
+ .utility .wrap{min-height:0!important;padding:8px 0!important}
+ .utility .meta.utility-items{justify-content:flex-start!important;flex-wrap:wrap!important;gap:8px 18px!important}
+ .utility .meta.utility-items>.utility-item{min-height:28px!important}
+ .hero .carousel{grid-template-columns:minmax(0,54%) minmax(0,46%)!important}
+}
+@media(max-width:900px){
+ .hero{padding-top:14px!important}
+ .hero .carousel{grid-template-columns:1fr!important;max-width:720px!important;margin-top:14px!important}
+ .hero .slide-media{height:clamp(250px,55vw,370px)!important}
+ .hero .slide-copy{padding:28px!important}
+ .hero .slide-copy h1{font-size:clamp(34px,9vw,48px)!important}
+ .hero .slide-copy h2{font-size:clamp(27px,7vw,38px)!important}
+ .hero .carousel-ctrl{margin-bottom:18px!important}
+}
+@media(max-width:560px){
+ .hero .carousel{width:calc(100% - 28px)!important}
+ .hero .slide-media{height:250px!important}
+ .hero .slide-copy{padding:24px!important}
+ .hero .slide-copy .slide-subtitle{font-size:17px!important}
+ .hero .slide-copy p{font-size:15px!important}
+ .hero .carousel-ctrl{width:calc(100% - 28px)!important}
+ .nav-panel{padding:18px!important}
+ .nav-cardgrid .card img{height:126px!important;min-height:126px!important}
+}

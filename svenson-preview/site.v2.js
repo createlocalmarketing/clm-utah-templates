@@ -1,6 +1,6 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261027d';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261027e';
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],
@@ -65,6 +65,7 @@
     const select=document.createElement('select');select.setAttribute('aria-label','Language selector');const en=document.createElement('option');en.value='en';en.textContent='English';select.append(en);language.append(select);meta.append(language);
     wrap.replaceChildren(meta);updateClock();setInterval(updateClock,60000)
   }
+  const brandLogo=document.querySelector('header .brand');if(brandLogo){brandLogo.querySelector('span')?.remove();const mark=brandLogo.querySelector('img');if(mark){mark.src=base+'/assets/svenson-logo-v2.png';mark.alt='Svenson Sportfishing'}}
   const navwrap=document.querySelector('header .nav'),oldnav=navwrap?.querySelector('nav.navlinks:not(.navlinks-left):not(.navlinks-right)'),brand=navwrap?.querySelector('.brand');
   if(navwrap&&oldnav&&brand){const items=[...oldnav.children],left=document.createElement('nav'),right=document.createElement('nav'),book=navwrap.querySelector(':scope > .button');left.className='navlinks navlinks-left';right.className='navlinks navlinks-right';left.append(...items.slice(0,2));right.append(...items.slice(2));if(book)right.append(book);brand.before(left);brand.after(right);oldnav.remove()}
   utilityBar();
@@ -86,9 +87,12 @@
       const c=document.createElement('div');c.className='slide-copy';c.setAttribute('data-slide-copy','');
       const label=pagehead.querySelector('.eyebrow');if(label){const e=document.createElement('div');e.className='eyebrow';e.textContent=label.textContent.trim();c.appendChild(e)}
       c.appendChild(pageTitle);
-      const sub=pagehead.querySelector('p:not(.trust)');if(sub){const s=document.createElement('h2');s.className='slide-subtitle';s.textContent=sub.textContent.trim();c.appendChild(s)}
-      const answer=pagehead.querySelector('.answer'),firstDesc=cards[0].querySelector('.cardcopy p,.listing-copy p,p');
-      const desc=document.createElement('p');desc.textContent=(answer||firstDesc)?.textContent.trim()||'Browse this guide and confirm current details with the listed business or official source.';c.appendChild(desc);
+      const answer=pagehead.querySelector('.answer'),candidateSub=pagehead.querySelector('p:not(.trust)');
+      let subText=candidateSub?.textContent.trim()||'';
+      if(!subText||subText.toLowerCase()===pageTitle.textContent.trim().toLowerCase())subText=answer?.textContent.replace(/^Quick answer:\\s*/i,'').trim()||'Explore this topic using the source notes and local details below.';
+      const sub=document.createElement('h2');sub.className='slide-subtitle';sub.textContent=subText;c.appendChild(sub);
+      const firstDesc=cards[0].querySelector('.cardcopy p,.listing-copy p,p');
+      const desc=document.createElement('p');desc.textContent=firstDesc?.textContent.trim()||'Browse this guide and confirm current details with the listed business or official source.';c.appendChild(desc);
       const sourceLink=cards[0].querySelector('a.button,a[href]'),actions=document.createElement('div');actions.className='actions';const button=document.createElement('a');button.className='button';button.href=sourceLink?.href||base+'/site-map/index.html';button.textContent=sourceLink?.textContent.trim()||'Explore this guide';actions.appendChild(button);c.appendChild(actions);return c
     };
     const copyCard=(card)=>{

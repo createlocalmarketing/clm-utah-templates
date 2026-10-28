@@ -364,3 +364,8 @@ header{background:#0b3443!important;border-bottom:3px solid #168c91!important}
 
 /* Preserve the flag SVG fill colors against the utility icon stroke rules. */
 .utility .meta.utility-items .language-flag svg,.utility .meta.utility-items .language-choice-flag svg{display:block!important;width:100%!important;height:100%!important;flex:0 0 auto!important;fill:revert!important;stroke:revert!important;stroke-width:revert!important;}
+
+/* Crop the inset directory image exports to the actual photograph area. */
+.directory-page .hero .slide-media img,
+.directory-page main .card img,
+.directory-page .nav-panel .card img{transform:scale(1.9);transform-origin:center;}

@@ -1,6 +1,6 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028f';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028g';
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],
@@ -47,7 +47,8 @@
   function utilityBar(){
     const wrap=document.querySelector('.utility .wrap');if(!wrap)return;
     const map='https://maps.google.com/?q=708+North+Point+Higgins+Road,+Ketchikan,+AK+99901';
-    const meta=document.createElement('div');meta.className='meta utility-items';meta.style.cssText='width:100%;max-width:100%;min-width:0;display:flex;flex:0 1 100%;flex-wrap:wrap;justify-content:flex-start;align-items:center;gap:7px 18px;box-sizing:border-box';wrap.style.cssText='width:100%;max-width:none;min-height:0;display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:center;padding:8px clamp(14px,2vw,32px);gap:5px 14px;box-sizing:border-box';
+    const meta=document.createElement('div');meta.className='meta utility-items';meta.style.cssText='width:100%;max-width:100%;min-width:0;display:flex;flex:0 1 100%;flex-wrap:wrap!important;justify-content:flex-start;align-items:center;gap:7px 18px;box-sizing:border-box;white-space:normal!important';wrap.style.cssText='width:100%;max-width:none;min-height:0;display:flex;flex-wrap:wrap!important;justify-content:flex-start;align-items:center;padding:8px clamp(14px,2vw,32px);gap:5px 14px;box-sizing:border-box';
+    meta.style.setProperty('flex-wrap','wrap','important');meta.style.setProperty('white-space','normal','important');wrap.style.setProperty('flex-wrap','wrap','important');
     meta.append(
       link('https://www.svensonsportfishing.com/','About Svenson','info'),
       link(map,'Ketchikan, AK','pin','',true),
@@ -118,6 +119,7 @@
     pagehead.parentNode.insertBefore(hero,pagehead);
   }
   buildTopicHero();
+  document.querySelectorAll('.carousel').forEach(carousel=>{const slides=carousel.querySelectorAll('.slide-media [data-slide]'),dots=carousel.closest('.hero')?.querySelector('.carousel-ctrl .dots');if(!dots)return;while(dots.children.length>slides.length)dots.lastElementChild.remove();while(dots.children.length<slides.length){const dot=document.createElement('button');dot.type='button';dots.appendChild(dot)}[...dots.children].forEach((dot,i)=>{dot.setAttribute('aria-label','Slide '+(i+1));dot.type='button'})});
   const slides=[...document.querySelectorAll('.carousel [data-slide]')],copySlides=[...document.querySelectorAll('.carousel [data-slide-copy]')],dots=[...document.querySelectorAll('.carousel-ctrl .dots button')];let cur=0;
   function show(i){if(!slides.length)return;cur=(i+slides.length)%slides.length;slides.forEach((s,n)=>s.hidden=n!==cur);copySlides.forEach((s,n)=>s.hidden=n!==cur);dots.forEach((b,n)=>{b.classList.toggle('active',n===cur);if(n===cur)b.setAttribute('aria-current','true');else b.removeAttribute('aria-current')})}
   document.querySelectorAll('[data-prev]').forEach(b=>b.onclick=()=>show(cur-1));document.querySelectorAll('[data-next]').forEach(b=>b.onclick=()=>show(cur+1));dots.forEach((b,n)=>b.onclick=()=>show(n));

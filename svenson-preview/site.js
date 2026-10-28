@@ -1,6 +1,6 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028i';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028j';
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],
@@ -93,8 +93,10 @@
       const label=pagehead.querySelector('.eyebrow');if(label){const e=document.createElement('div');e.className='eyebrow';e.textContent=label.textContent.trim();c.appendChild(e)}
       c.appendChild(pageTitle);
       const answer=pagehead.querySelector('.answer'),candidateSub=pagehead.querySelector('p:not(.trust)');
-      let subText=candidateSub?.textContent.trim()||'';
-      if(!subText||subText.toLowerCase()===pageTitle.textContent.trim().toLowerCase())subText=answer?.textContent.replace(/^Quick answer:\\s*/i,'').trim()||'Explore this topic using the source notes and local details below.';
+      let subText=(candidateSub?.textContent.trim()||'').replace(/^Quick answer:\\s*/i,'').trim();
+      if(!subText||subText.toLowerCase()===pageTitle.textContent.trim().toLowerCase())subText=answer?.textContent.replace(/^Quick answer:\\s*/i,'').trim()||'Explore this topic using the local details below.';
+      subText=subText.split(/[.;]\\s+/)[0].trim();
+      if(subText.length>92)subText=subText.slice(0,89).replace(/\\s+\\S*$/,'')+'…';
       const sub=document.createElement('h2');sub.className='slide-subtitle';sub.textContent=subText;c.appendChild(sub);
       const firstDesc=cards[0].querySelector('.cardcopy p,.listing-copy p,p');
       const desc=document.createElement('p');desc.textContent=firstDesc?.textContent.trim()||'Browse this guide and confirm current details with the listed business or official source.';c.appendChild(desc);
@@ -121,6 +123,9 @@
     picks.forEach((_,i)=>{const dot=document.createElement('button');dot.type='button';dot.setAttribute('aria-label','Slide '+(i+1));if(!i){dot.className='active';dot.setAttribute('aria-current','true')}dots.appendChild(dot)});
     controls.appendChild(dots);const next=document.createElement('button');next.type='button';next.setAttribute('data-next','');next.setAttribute('aria-label','Next slide');next.textContent='›';controls.appendChild(next);hero.appendChild(controls);
     pagehead.parentNode.insertBefore(hero,pagehead);
+    const breadcrumb=pagehead.querySelector('.breadcrumb');
+    if(breadcrumb){breadcrumb.classList.add('wrap','topic-breadcrumb');hero.after(breadcrumb)}
+    pagehead.remove();
   }
   buildTopicHero();
   document.querySelectorAll('.carousel').forEach(carousel=>{const slides=carousel.querySelectorAll('.slide-media [data-slide]'),dots=carousel.closest('.hero')?.querySelector('.carousel-ctrl .dots');if(!dots)return;while(dots.children.length>slides.length)dots.lastElementChild.remove();while(dots.children.length<slides.length){const dot=document.createElement('button');dot.type='button';dots.appendChild(dot)}[...dots.children].forEach((dot,i)=>{dot.setAttribute('aria-label','Slide '+(i+1));dot.type='button'})});

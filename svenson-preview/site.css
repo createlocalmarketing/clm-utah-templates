@@ -215,3 +215,19 @@ header{background:#0b3443!important;color:#fff!important;border-bottom:2px solid
  .nav-panel{padding:18px!important}
  .nav-cardgrid .card img{height:126px!important;min-height:126px!important}
 }
+
+
+/* Laptop utility navigation wraps cleanly instead of pushing the document wider than the viewport. */
+.utility{background:#061d27!important;border-bottom:2px solid #e76d40!important}
+@media(max-width:1540px){
+ .utility .wrap{width:calc(100% - 36px)!important;max-width:none!important;min-height:0!important;flex-wrap:wrap!important;justify-content:flex-start!important;gap:5px 14px!important;padding:8px 0!important}
+ .utility .meta{flex-wrap:wrap!important;justify-content:flex-start!important;gap:7px 15px!important}
+ .utility .meta.utility-items{flex:1 1 100%!important;min-width:0!important}
+ .utility .meta.utility-items>.utility-item{min-height:28px!important}
+ .utility .meta.utility-items>.utility-deals{min-height:38px!important;margin:0!important;border-radius:0 0 5px 5px!important}
+}
+@media(max-width:760px){
+ .utility .wrap{width:calc(100% - 28px)!important}
+ .utility .meta.utility-items{gap:7px 13px!important}
+ .utility .meta.utility-items>.utility-item{font-size:12px!important}
+}

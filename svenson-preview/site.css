@@ -345,3 +345,16 @@ header{background:#0b3443!important;border-bottom:3px solid #168c91!important}
  .section-dark{padding:34px 0!important}
  .page-intro h2{font-size:34px!important}
 }
+
+
+/* Airy image-led reader feature used on main topic pages. */
+.topic-feature{padding-top:36px!important;padding-bottom:42px!important}
+.topic-feature-grid{display:grid;grid-template-columns:minmax(0, .9fr) minmax(0, 1.1fr);gap:clamp(26px,4vw,62px);align-items:center}
+.topic-feature-grid figure{margin:0;min-width:0}
+.topic-feature-grid figure img{display:block;width:100%;height:clamp(310px,38vw,470px);object-fit:cover;object-position:center;background:#dfe9e5}
+.topic-feature-copy{min-width:0;max-width:650px}
+.topic-feature-copy>.eyebrow{font:400 12px/1.4 'Fjalla One',Impact,sans-serif!important;color:#d65c35!important;letter-spacing:.12em!important;text-transform:uppercase}
+.topic-feature-copy h2{font:400 clamp(30px,3.2vw,44px)/1.08 'Fjalla One',Impact,sans-serif!important;color:#0b3443!important;margin:8px 0 12px}
+.topic-feature-copy .topic-subtitle{font:700 19px/1.45 Lato,Arial,sans-serif!important;color:#12627a!important;margin:0 0 12px;max-width:52ch}
+.topic-feature-copy>p:not(.topic-subtitle){font:400 16px/1.7 Lato,Arial,sans-serif!important;color:#30494e!important;margin:0 0 18px;max-width:58ch}
+@media(max-width:780px){.topic-feature-grid{grid-template-columns:1fr;gap:18px}.topic-feature-grid figure img{height:clamp(240px,58vw,360px)}.topic-feature{padding-top:26px!important;padding-bottom:30px!important}}

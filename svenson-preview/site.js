@@ -1,6 +1,6 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261028n';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261030a';
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],
@@ -32,7 +32,7 @@
   function link(href,label,kind,cls='',external=false){
     const a=document.createElement('a');a.href=href;a.className='utility-item '+cls;
     if(external)a.rel='noopener';
-    a.append(svg(kind));const text=document.createElement('span');text.textContent=label;a.append(text);return a
+    a.append(svg(kind));const text=document.createElement('span');text.textContent=label;if(kind==='weather')text.id='ketchikan-weather';a.append(text);return a
   }
   function value(id,label,kind){
     const node=document.createElement('span');node.className='utility-item';node.append(svg(kind));
@@ -44,17 +44,26 @@
     if(d)d.textContent=new Intl.DateTimeFormat('en-US',{timeZone:zone,month:'short',day:'numeric'}).format(now);
     if(t)t.textContent=new Intl.DateTimeFormat('en-US',{timeZone:zone,hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(now)
   }
+  const weatherText={0:'Clear',1:'Mostly clear',2:'Partly cloudy',3:'Cloudy',45:'Fog',48:'Freezing fog',51:'Light drizzle',53:'Drizzle',55:'Heavy drizzle',61:'Light rain',63:'Rain',65:'Heavy rain',71:'Light snow',73:'Snow',75:'Heavy snow',80:'Rain showers',81:'Showers',82:'Heavy showers',95:'Thunderstorm'};
+  async function updateWeather(){
+    const node=document.getElementById('ketchikan-weather');if(!node)return;
+    try{
+      const url='https://api.open-meteo.com/v1/forecast?latitude=55.3422&longitude=-131.6461&current=temperature_2m,weather_code&temperature_unit=fahrenheit&timezone=America%2FAnchorage';
+      const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('weather');
+      const data=await response.json(),temp=Math.round(data.current.temperature_2m),description=weatherText[data.current.weather_code]||'Current conditions';
+      node.textContent=`${temp}°F · ${description}`;node.parentElement.setAttribute('aria-label',`Ketchikan current weather: ${temp} degrees Fahrenheit, ${description}`);
+    }catch(error){node.textContent='Weather unavailable';node.parentElement.setAttribute('aria-label','Ketchikan current weather unavailable')}
+  }
   function utilityBar(){
     const wrap=document.querySelector('.utility .wrap');if(!wrap)return;
     const map='https://maps.google.com/?q=708+North+Point+Higgins+Road,+Ketchikan,+AK+99901';
-    const meta=document.createElement('div');meta.className='meta utility-items';meta.style.cssText='width:100%;max-width:100%;min-width:0;display:flex;flex:0 1 100%;flex-wrap:wrap!important;justify-content:flex-start;align-items:center;gap:7px 18px;box-sizing:border-box;white-space:normal!important';wrap.style.cssText='width:100%;max-width:none;min-height:0;display:flex;flex-wrap:wrap!important;justify-content:flex-start;align-items:center;padding:8px clamp(14px,2vw,32px);gap:5px 14px;box-sizing:border-box';
-    meta.style.setProperty('flex-wrap','wrap','important');meta.style.setProperty('white-space','normal','important');wrap.style.setProperty('flex-wrap','wrap','important');
+    const meta=document.createElement('div');meta.className='meta utility-items';meta.style.cssText='width:auto;max-width:100%;min-width:0;display:flex;flex:1 1 auto;flex-wrap:wrap;justify-content:flex-start;align-items:center;gap:7px 12px;box-sizing:border-box;white-space:normal';wrap.style.cssText='width:100%;max-width:none;min-height:0;display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:center;padding:8px clamp(14px,2vw,32px);gap:5px 12px;box-sizing:border-box';
     meta.append(
       link('https://www.svensonsportfishing.com/','About Svenson','info'),
       link(map,'Ketchikan, AK','pin','',true),
       value('ketchikan-date','Ketchikan date','calendar'),
       value('ketchikan-time','Ketchikan local time','clock'),
-      link('https://forecast.weather.gov/MapClick.php?lat=55.3422&lon=-131.6461','Ketchikan Weather / NWS','weather','',true),
+      link('https://forecast.weather.gov/MapClick.php?lat=55.3422&lon=-131.6461','Loading Ketchikan weather…','weather','',true),
       link('tel:+19076177465','(907) 617-7465','phone'),
       link(map,'708 N Point Higgins Rd','pin','utility-address',true),
       link(base+'/directory/submit-a-business/index.html','List Your Business','business'),
@@ -75,7 +84,7 @@
     const title=document.createElement('strong');title.textContent='Choose a language';menu.append(title);
     [['us','English','Current language',true],['es','Español','Coming soon',false],['fr','Français','Coming soon',false],['de','Deutsch','Coming soon',false],['ja','日本語','Coming soon',false]].forEach(([code,name,status,current])=>{const row=document.createElement('div');row.className='language-choice'+(current?' current':'');const mark=document.createElement('span');mark.className='language-choice-flag';mark.innerHTML=flagSvg(code);const label=document.createElement('span');label.className='language-choice-name';label.textContent=name;const state=document.createElement('span');state.className='language-choice-state';state.textContent=status;row.append(mark,label,state);menu.append(row)});
     language.append(menu);meta.append(language);
-    wrap.replaceChildren(meta);updateClock();setInterval(updateClock,60000)
+    wrap.replaceChildren(meta);updateClock();setInterval(updateClock,60000);updateWeather();setInterval(updateWeather,600000)
   }
   const brandLogo=document.querySelector('header .brand');if(brandLogo){brandLogo.querySelector('span')?.remove();const mark=brandLogo.querySelector('img');if(mark){mark.src=base+'/assets/svenson-logo-v2.png';mark.alt='Svenson Sportfishing'}}
   const navwrap=document.querySelector('header .nav'),oldnav=navwrap?.querySelector('nav.navlinks:not(.navlinks-left):not(.navlinks-right)'),brand=navwrap?.querySelector('.brand');

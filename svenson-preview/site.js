@@ -1,6 +1,20 @@
 (()=> {
   const base=location.origin+'/clm-utah-templates/svenson-preview';
-  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261030a';
+  const sharedStyle=document.querySelector('link[rel="stylesheet"][href*="site.css"]');if(sharedStyle)sharedStyle.href=base+'/site.css?svenson-redesign-20261030b';
+  const svensonStyle=document.createElement('style');
+  svensonStyle.textContent=`
+    body .slide-copy h1,body .pagehead h1,body .page-intro h2,body .topic-feature-copy h2{font-family:Georgia,'Times New Roman',serif!important;font-weight:500!important;letter-spacing:-.035em!important;line-height:1.02!important}
+    body .slide-copy h1{font-size:clamp(42px,4.8vw,64px)!important;color:#0b3443!important}
+    body .button{font-family:Lato,Arial,sans-serif!important;font-weight:800!important;letter-spacing:.075em!important;border-radius:2px!important;padding:14px 20px!important}
+    body .button:not(.secondary){background:#e76d40!important;border-color:#e76d40!important;color:#fff!important}
+    body .actions .button.secondary{background:transparent!important;border:1px solid #647b80!important;color:#183037!important}
+    body .hero .actions .button.secondary{border-color:#ffffffa8!important;color:#fff!important;background:#ffffff0d!important}
+    .utility{background:#373b3f!important;border-bottom:2px solid #168c91!important}
+    .hero .slide-media,.directory-page .hero .slide-media{background:transparent!important}
+    .hero .slide-media img,.directory-page .hero .slide-media img{width:100%!important;height:100%!important;min-height:0!important;object-fit:cover!important;object-position:center center!important;transform:none!important;background:transparent!important}
+    .nav-panel .card img,.nav-cardgrid .card img,.directory-page main .card img{object-fit:cover!important;object-position:center center!important;transform:none!important;background:transparent!important}
+  `;
+  document.head.appendChild(svensonStyle);
   const iconParts={
     info:['circle:12,12,9','path:M12 11v5M12 7h.01'],
     pin:['path:M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z','circle:12,10,2.5'],

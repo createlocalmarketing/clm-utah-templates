@@ -365,7 +365,43 @@ header{background:#0b3443!important;border-bottom:3px solid #168c91!important}
 /* Preserve the flag SVG fill colors against the utility icon stroke rules. */
 .utility .meta.utility-items .language-flag svg,.utility .meta.utility-items .language-choice-flag svg{display:block!important;width:100%!important;height:100%!important;flex:0 0 auto!important;fill:revert!important;stroke:revert!important;stroke-width:revert!important;}
 
-/* Crop the inset directory image exports to the actual photograph area. */
-.directory-page .hero .slide-media img,
-.directory-page main .card img,
-.directory-page .nav-panel .card img{transform:scale(1.9);transform-origin:center;}
+
+
+/* Svenson review corrections: typography, image containment, controls and utility bar. */
+:root{--svenson-charcoal:#373b3f;--svenson-teal:#168c91;--svenson-deep-teal:#0b3443;--svenson-orange:#e76d40;--svenson-white:#fff}
+.utility{background:var(--svenson-charcoal)!important;color:#f8faf9!important;border-bottom:2px solid var(--svenson-teal)!important}
+.utility .meta.utility-items{gap:6px 10px!important;align-items:center!important}
+.utility .meta.utility-items>.utility-item{white-space:nowrap!important}
+.utility .utility-deals{background:var(--svenson-orange)!important}
+.utility-language{margin-left:0!important}
+.nav{border-bottom:2px solid var(--svenson-teal)!important}
+.navlinks a:hover,.nav-dropdown>summary:hover,.nav-dropdown>summary:after{color:var(--svenson-teal)!important;border-color:var(--svenson-teal)!important}
+.hero .slide-media{background:transparent!important}
+.hero .slide-media img{width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;object-fit:cover!important;object-position:center center!important;transform:none!important;background:transparent!important}
+.directory-page .hero .slide-media img{object-fit:cover!important;object-position:center center!important;transform:none!important;background:transparent!important}
+.directory-page main .card img,.directory-page .nav-panel .card img{transform:none!important;object-fit:cover!important;object-position:center center!important;background:transparent!important}
+.nav-panel .card img,.nav-cardgrid .card img{object-fit:cover!important;object-position:center center!important;transform:none!important;background:transparent!important}
+.slide-copy h1,.pagehead h1,.page-intro h2,.nav-panel-head h2,.topic-feature-copy h2{font-family:Georgia,'Times New Roman',serif!important;font-weight:500!important;letter-spacing:-.035em!important;line-height:1.02!important}
+.slide-copy h1{font-size:clamp(42px,4.8vw,64px)!important;color:#0b3443!important}
+.pagehead h1,.page-intro h2,.topic-feature-copy h2{color:#0b3443!important}
+.button{font-family:Lato,Arial,sans-serif!important;font-weight:800!important;letter-spacing:.075em!important;border-radius:2px!important;padding:14px 20px!important;transition:transform .2s,background-color .2s,border-color .2s!important}
+.button:hover{transform:translateY(-1px)!important}
+.button:not(.secondary){background:var(--svenson-orange)!important;border-color:var(--svenson-orange)!important;color:#fff!important}
+.button:not(.secondary):hover{background:#d94d22!important;border-color:#d94d22!important}
+.actions .button.secondary{background:transparent!important;border:1px solid #647b80!important;color:#183037!important}
+.hero .actions .button.secondary{border-color:#ffffffa8!important;color:#fff!important;background:#ffffff0d!important}
+@media(min-width:1250px){
+ .utility .wrap{flex-wrap:nowrap!important;gap:8px!important;padding-left:clamp(14px,1.4vw,28px)!important;padding-right:clamp(14px,1.4vw,28px)!important;min-height:44px!important}
+ .utility .meta.utility-items{width:auto!important;max-width:none!important;flex:1 1 auto!important;flex-wrap:nowrap!important;gap:6px 10px!important;overflow:hidden!important;white-space:nowrap!important}
+ .utility .meta.utility-items>.utility-item{font-size:10px!important;gap:5px!important}
+ .utility .meta.utility-items>.utility-item svg{width:15px!important;height:15px!important;flex:0 0 15px!important}
+ .utility-language{flex:0 0 38px!important}
+}
+@media(max-width:1249px){
+ .utility .meta.utility-items{flex-wrap:wrap!important;gap:6px 12px!important}
+ .utility-language{margin-left:auto!important}
+}
+@media(max-width:760px){
+ .slide-copy h1{font-size:clamp(38px,9vw,52px)!important}
+ .button{min-height:46px!important}
+}

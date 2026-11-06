@@ -558,3 +558,17 @@ When work spans chats, branches or assistants:
 | 1.0 | 2026-10-11 | Consolidated universal Build Website system, architecture, audit, SEO, design meeting, WordPress/Elementor, media, page production, compliance, vertical-specific exceptions and operational acceptance | Master draft, awaiting owner acceptance |
 
 **Next revision protocol:** when a new site/vertical supplies a broadly reusable improvement, update the master standard by GitHub PR/change card, identify whether it is `Universal`, `Vertical-specific` or `Brand-specific`, preserve historical requirements, test against at least two sites before platform-wide rollout and record owner approval. Do not modify the universal baseline silently.
+
+---
+
+## 2026-11-06 — Quality SERP Optimizer mandatory preflight (additive)
+
+The Quality Data SERP intelligence module is a **required source and audit checkpoint** for all CLM website builds, including Utah Real Estate Directory, local real-estate sites, dental directory/practice sites, National Parks Guide, DOTSTG, fishing/travel, and future markets. This requirement applies to **every planned indexable URL and relevant actual business category**; it must never be reduced to a homepage-only SEO checklist.
+
+**Canonical research data:** private `createlocalmarketing/clm-platform/quality-data/serp-panels/`. The source catalog has 4,053 named GCID records and a complete 4,053 × 45 = 182,385 **rule-derived research** category-feature matrix. The public category explorer is https://quality-serp-optimizer-4z7sq.kinsta.page/. Search aliases (e.g. Realtor → Real estate agent) are discovery aids, not official category names. Google Business Profile API attributes/service types and observed live SERP panels still require separate authentication/evidence; never mark them verified from candidate mappings.
+
+**Builder integration boundary:** `clm/get-serp-category-audit` and enhanced `clm/get-page-template-spec` now provide research and a native Elementor execution contract in the CLM backend. Quality MCP staged 0.9.18 contains a read-only Q Builder SERP preflight; it is **not published or installed**. The generator cannot receive a PASS merely because the preflight exists. Actual Q Builder page/template creation must make every visible component independently editable in native Elementor/Elementor Pro, respect Theme Builder/ACF/approved page-family design, attach per-URL evidence, run `@marketing-audit` and industry audits, and inspect the rendered staging frontend on all three viewports.
+
+**Acceptance ledger per URL:** exact business model (operator vs directory vs publisher), GCID if eligible, primary query + provenance, source/geo/date, intended SERP surface and its conditions, schema/GBP/feed requirements, unique original article/page content, legal/medical/financial review when relevant, approved licensed media/WebP and component IDs, actual Elementor document ID, dynamic entity fields, front-end form/CTA tests, responsive screenshots, validated schema, review/approval, published and observed state. Treat official capability validation, page implementation, and live search visibility as separate milestones.
+
+**Execution statuses:** SOURCE_ONLY → Q_BUILDER_PREFLIGHT → TEMPLATE_NATIVE_DRAFT → POPULATED_ORIGINAL → MEDIA_APPROVED → LIVE_QA_PASSED → HUMAN_APPROVED → PUBLISHED → SEARCH_OBSERVED. Fail closed or preserve NOT_VERIFIED where evidence is absent. This is a master governance contract; it does not by itself activate a site plugin or guarantee search placement.
